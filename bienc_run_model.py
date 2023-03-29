@@ -432,7 +432,8 @@ def test_best_model(config):
 
 if __name__ == "__main__":
 
-    set_seed(12345)
+    # set_seed(12345)
+    set_seed(1)
 
     parser = argparse.ArgumentParser(description="Biencoder Concept Property Model")
 
@@ -451,7 +452,78 @@ if __name__ == "__main__":
     print(f"Input Config File")
     pprint(config, sort_dicts=False)
 
-    train(config)
+    hp_tuning = config["training_params"]["hp_tuning"]
 
-    # We are not testing the model yet..We will test it on McRae Testset after finetuning
-    # test_best_model(config)
+    if not hp_tuning:
+        train(config)
+
+        # We are not testing the model yet..We will test it on McRae Testset after finetuning
+        # test_best_model(config)
+
+    else:
+
+        log.info("Doing Hyperparameter Search With Grid Search")
+
+        max_epochs = [4, 6, 8, 10, 14]
+        batch_size = [8]
+        warmup_ratio = [0, 0.6, 0.1, 0.15]
+        weight_decay = [0.1]
+
+        lr = [2e-6]
+        hidden_dropout_prob = [0.1]
+
+        log.info(f"max_epochs : {max_epochs}")
+        log.info(f"batch_size : {batch_size}")
+        log.info(f"warmup_ratio : {warmup_ratio}")
+        log.info(f"weight_decay : {weight_decay}")
+
+        log.info(f"lr : {lr}")
+        log.info(f"hidden_dropout_prob : {hidden_dropout_prob}")
+
+        hf_checkpoint_name = config["model_params"]["hf_checkpoint_name"]
+
+        for me in max_epochs:
+            for bs in batch_size:
+                for wr in warmup_ratio:
+                    for wd in weight_decay:
+                        for l in lr:
+                            for do in hidden_dropout_prob:
+
+                                discription_str = (
+                                    f"ep{me}_bs{bs}_wr{wr}_wd{wd}_lr{l}_do{do}"
+                                )
+
+                                config["training_params"]["max_epochs"] = me
+                                config["dataset_params"]["loader_params"][
+                                    "batch_size"
+                                ] = bs
+                                config["training_params"]["warmup_ratio"] = wr
+                                config["training_params"]["weight_decay"] = wd
+
+                                config["training_params"]["lr"] = l
+                                config["model_params"]["hidden_dropout_prob"] = do
+
+                                config["model_params"]["model_name"] = (
+                                    "contastive_bienc_cnetp_pretrain_"
+                                    + hf_checkpoint_name.replace("-", "_")
+                                    + "_"
+                                    + discription_str
+                                    + ".pt"
+                                )
+
+                                log.info("\n")
+                                log.info("*" * 50)
+
+                                log.info(f"discription_str : {discription_str}")
+
+                                log.info(
+                                    f"new_model_run : max_epochs: {me}, batch_size: {bs}, warmup_ratio : {wr}, weight_decay : {wd}, lr: {lr}, dropout: {do}"
+                                )
+                                log.info(
+                                    f"model_name: {config['model_params']['model_name']}"
+                                )
+                                log.info(f"new_config_file")
+                                log.info(config)
+
+                                train(config)
+
