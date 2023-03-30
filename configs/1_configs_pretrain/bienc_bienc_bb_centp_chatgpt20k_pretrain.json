@@ -1,5 +1,5 @@
 {
-    "experiment_name": "bienc_bb_centp_chatgpt20k_pretrain",
+    "experiment_name": "bienc_bb_cnetp_chatgpt20k_pretrain",
     "log_dirctory": "chatgpt_pretrain",
     "dataset_params": {
         "dataset_name": "cnetp_chatgpt20k",
@@ -19,7 +19,7 @@
         }
     },
     "model_params": {
-        "model_name": "bienc_bb_centp_chatgpt20k_pretrain.pt",
+        "model_name": "bienc_bb_cnetp_chatgpt20k_pretrain.pt",
         "hf_checkpoint_name": "bert-base-uncased",
         "hf_model_path": "/scratch/c.scmag3/conceptEmbeddingModel/bertBaseUncasedPreTrained",
         "vector_strategy": "mask_token"

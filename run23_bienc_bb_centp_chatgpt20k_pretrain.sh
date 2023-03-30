@@ -2,8 +2,8 @@
 
 #SBATCH --job-name=chatCnet1Run
 
-#SBATCH --output=logs/chatgpt_pretrain/out_bienc_bb_centp_chatgpt20k_pretrain.txt
-#SBATCH --error=logs/chatgpt_pretrain/err_bienc_bb_centp_chatgpt20k_pretrain.txt
+#SBATCH --output=logs/chatgpt_pretrain/out_bienc_bb_cnetp_chatgpt20k_pretrain.txt
+#SBATCH --error=logs/chatgpt_pretrain/err_bienc_bb_cnetp_chatgpt20k_pretrain.txt
 
 #SBATCH --tasks-per-node=5
 #SBATCH --ntasks=5
@@ -14,7 +14,7 @@
 ##SBATCH --gres=gpu:1
 #SBATCH --mem=10G
 
-#SBATCH --time 0-01:00:00
+#SBATCH --time 2-00:00:00
 
 conda activate venv
 
