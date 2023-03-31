@@ -1,6 +1,6 @@
 {
     "experiment_name": "bienc_grid_search_bb_cnetp_chatgpt20k_pretrain",
-    "log_dirctory": "chatgpt_pretrain",
+    "log_dirctory": "cnetp_chatgpt_pretrain",
     "dataset_params": {
         "dataset_name": "cnetp_chatgpt20",
         "train_file_path": "data/train_data/chatgpt/cnetp_chatgpt20k_train.tsv",
@@ -32,7 +32,7 @@
         "num_warmup_steps": 0,
         "max_epochs": 0,
         "early_stopping_patience": 5,
-        "export_path": "trained_models/chatgpt_pretrain",
+        "export_path": "trained_models/cnetp_chatgpt_pretrain",
         "lr_policy": "warmup",
         "weight_decay": 0.0
     }

@@ -503,7 +503,7 @@ if __name__ == "__main__":
                                 config["model_params"]["hidden_dropout_prob"] = do
 
                                 config["model_params"]["model_name"] = (
-                                    "bienc2_chatgpt20k_pretrain_"
+                                    "bienc_cnetp_chatgpt20k_pretrain_"
                                     + hf_checkpoint_name.replace("-", "_")
                                     + "_"
                                     + discription_str
