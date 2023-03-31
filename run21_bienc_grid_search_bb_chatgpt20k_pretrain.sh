@@ -2,15 +2,14 @@
 
 #SBATCH --job-name=chatGrid
 
-#SBATCH --output=logs/chatgpt_pretrain/out_bienc_grid_search_bb_chatgpt20k_pretrain.txt
-#SBATCH --error=logs/chatgpt_pretrain/err_bienc_grid_search_bb_chatgpt20k_pretrain.txt
+#SBATCH --output=logs/chatgpt_pretrain/out_bienc2_grid_search_bb_chatgpt20k_pretrain.txt
+#SBATCH --error=logs/chatgpt_pretrain/err_bienc2_grid_search_bb_chatgpt20k_pretrain.txt
 
 #SBATCH --tasks-per-node=5
 #SBATCH --ntasks=5
 #SBATCH --account scw1858
 
 #SBATCH --partition gpu_v100,gpu
-##SBATCH --qos="gpu7d"
 #SBATCH --gres=gpu:1
 #SBATCH --mem=10G
 

@@ -1,10 +1,10 @@
 {
-    "experiment_name": "bienc2_grid_search_bb_chatgpt20k_pretrain",
+    "experiment_name": "bienc_grid_search_bb_cnetp_chatgpt20k_pretrain",
     "log_dirctory": "chatgpt_pretrain",
     "dataset_params": {
-        "dataset_name": "cnetp",
-        "train_file_path": "data/train_data/chatgpt/chatgpt_20k_train.tsv",
-        "val_file_path": "data/train_data/chatgpt/chatgpt_20_val.tsv",
+        "dataset_name": "cnetp_chatgpt20",
+        "train_file_path": "data/train_data/chatgpt/cnetp_chatgpt20k_train.tsv",
+        "val_file_path": "data/train_data/chatgpt/cnetp_chatgpt20k_val.tsv",
         "test_file_path": null,
         "hf_tokenizer_name": "bert-base-uncased",
         "hf_tokenizer_path": "/scratch/c.scmag3/hf_pretrained_models/bert_base_uncased/tokenizer",

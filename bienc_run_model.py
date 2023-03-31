@@ -243,29 +243,28 @@ def train(config):
 
     loss_fn = nn.BCEWithLogitsLoss()
 
-    optimizer = AdamW(
-        model.parameters(),
-        lr=config["training_params"]["lr"],
-        weight_decay=weight_decay,
-    )
+    lr = config["training_params"]["lr"]
+    weight_decay = config["training_params"]["weight_decay"]
+
+    optimizer = AdamW(model.parameters(), lr=lr, weight_decay=weight_decay,)
 
     total_training_steps = len(train_dataloader) * config["training_params"].get(
         "max_epochs"
     )
 
-    num_epochs = config["training_params"]["max_epochs"]
-    num_warmup_steps = config["training_params"]["num_warmup_steps"]
-
     if config["training_params"]["lr_policy"] == "warmup":
-        warmup_steps = math.ceil(len(train_dataloader) * num_epochs * num_warmup_steps)
-    else:
-        warmup_steps = 0
 
-    log.info(f"Warmup-steps: {warmup_steps}")
+        warmup_ratio = config["training_params"]["warmup_ratio"]
+        num_warmup_steps = math.ceil(total_training_steps * warmup_ratio)
+
+    else:
+        num_warmup_steps = 0
+
+    log.info(f"Warmup-steps: {num_warmup_steps}")
 
     scheduler = get_linear_schedule_with_warmup(
         optimizer,
-        num_warmup_steps=warmup_steps,
+        num_warmup_steps=num_warmup_steps,
         num_training_steps=total_training_steps,
     )
 
@@ -464,7 +463,7 @@ if __name__ == "__main__":
 
         log.info("Doing Hyperparameter Search With Grid Search")
 
-        max_epochs = [15]
+        max_epochs = [18]
         batch_size = [8]
         warmup_ratio = [0, 0.6, 0.1, 0.15]
         weight_decay = [0.1, 0.01, 0.2]
@@ -504,7 +503,7 @@ if __name__ == "__main__":
                                 config["model_params"]["hidden_dropout_prob"] = do
 
                                 config["model_params"]["model_name"] = (
-                                    "contastive_bienc_cnetp_pretrain_"
+                                    "bienc2_chatgpt20k_pretrain_"
                                     + hf_checkpoint_name.replace("-", "_")
                                     + "_"
                                     + discription_str

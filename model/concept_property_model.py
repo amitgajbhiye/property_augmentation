@@ -32,15 +32,18 @@ class ConceptPropertyModel(nn.Module):
         # )
 
         self.hf_checkpoint_name = model_params.get("hf_checkpoint_name")
+        self.hidden_dropout_prob = model_params.get("self.hidden_dropout_prob", 0.1)
 
         self.model_class, self.mask_token_id = MODEL_CLASS.get(self.hf_checkpoint_name)
 
         self._concept_encoder = self.model_class.from_pretrained(
-            model_params.get("hf_model_path")
+            model_params.get("hf_model_path"),
+            hidden_dropout_prob=self.hidden_dropout_prob,
         )
 
         self._property_encoder = self.model_class.from_pretrained(
-            model_params.get("hf_model_path")
+            model_params.get("hf_model_path"),
+            hidden_dropout_prob=self.hidden_dropout_prob,
         )
 
         self.dropout_prob = model_params.get("dropout_prob")
