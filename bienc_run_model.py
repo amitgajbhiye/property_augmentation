@@ -464,13 +464,13 @@ if __name__ == "__main__":
 
         log.info("Doing Hyperparameter Search With Grid Search")
 
-        max_epochs = [4, 6, 8, 10, 14]
+        max_epochs = [15]
         batch_size = [8]
         warmup_ratio = [0, 0.6, 0.1, 0.15]
-        weight_decay = [0.1]
+        weight_decay = [0.1, 0.01, 0.2]
 
         lr = [2e-6]
-        hidden_dropout_prob = [0.1]
+        hidden_dropout_prob = [0.1, 0.3]
 
         log.info(f"max_epochs : {max_epochs}")
         log.info(f"batch_size : {batch_size}")
