@@ -361,14 +361,14 @@ def calculate_loss(
     return loss_pos_concept + loss_neg_concept, batch_logits, batch_labels
 
 
-def load_pretrained_model(config):
+def load_pretrained_model(config, device=None):
 
     model = create_model(config.get("model_params"))
     pretrained_model_path = config["model_params"]["pretrained_model_path"]
 
     log.info(f"Loading the pretrained model loaded from : {pretrained_model_path}")
 
-    model.load_state_dict(torch.load(pretrained_model_path))
+    model.load_state_dict(torch.load(pretrained_model_path, map_location=device))
 
     log.info(f"The pretrained model is loaded : {pretrained_model_path}")
 

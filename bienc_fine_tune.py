@@ -437,7 +437,7 @@ def model_selection_cross_validation(config, concept_property_df, label_df):
         log.info(f"Initialising training for fold : {fold_num + 1}")
 
         log.info(f"Loading the fresh model for fold : {fold_num + 1}")
-        model = load_pretrained_model(config)
+        model = load_pretrained_model(config, device=device)
 
         # log.info(f"The pretrained model that is loaded is :")
         # log.info(model)
@@ -515,7 +515,7 @@ def model_evaluation_property_cross_validation(config):
         if load_pretrained:
             log.info(f"load_pretrained is : {load_pretrained}")
             log.info(f"Loading Pretrained Model ...")
-            model = load_pretrained_model(config)
+            model = load_pretrained_model(config, device=device)
         else:
             # Untrained LM is Loaded  - for baselines results
             log.info(f"load_pretrained is : {load_pretrained}")
@@ -657,7 +657,7 @@ def model_evaluation_concept_property_cross_validation(config):
         if load_pretrained:
             log.info(f"load_pretrained is : {load_pretrained}")
             log.info(f"Loading Pretrained Model ...")
-            model = load_pretrained_model(config)
+            model = load_pretrained_model(config, device=device)
         else:
             # Untrained LM is Loaded  - for baselines results
             log.info(f"load_pretrained is : {load_pretrained}")
@@ -869,7 +869,7 @@ if __name__ == "__main__":
             if load_pretrained:
                 log.info(f"load_pretrained is : {load_pretrained}")
                 log.info(f"Loading Pretrained Model ...")
-                model = load_pretrained_model(config)
+                model = load_pretrained_model(config, device=device)
             else:
                 # Untrained LM is Loaded  - for baselines results
                 log.info(f"load_pretrained is : {load_pretrained}")
@@ -1035,7 +1035,9 @@ if __name__ == "__main__":
                                             f"load_pretrained is : {load_pretrained}"
                                         )
                                         log.info(f"Loading Pretrained Model ...")
-                                        model = load_pretrained_model(config)
+                                        model = load_pretrained_model(
+                                            config, device=device
+                                        )
                                     else:
                                         # Untrained LM is Loaded  - for baselines results
                                         log.info(
