@@ -1,5 +1,5 @@
 {
-    "experiment_name": "bienc_grid2_bestmodel_bb_mcrae_pcv_cnetp_chatgpt20k_finetune_config",
+    "experiment_name": "bienc_wd_grid2_bestmodel_bb_mcrae_pcv_cnetp_chatgpt20k_finetune_config",
     "log_dirctory": "chatgpt_finetune",
     "dataset_params": {
         "dataset_name": "property_split_mcrae_chatgpt",
@@ -42,7 +42,7 @@
         "load_checkpoint": -1,
         "lr_policy": "warmup",
         "lr_decay_iters": 15,
-        "weight_decay": 0.0
+        "weight_decay": 0.1
     },
     "visualization_params": {
         "name": "None"
