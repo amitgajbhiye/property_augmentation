@@ -453,6 +453,7 @@ if __name__ == "__main__":
         # test_best_model(config)
 
     else:
+        # bienc_chatgpt20k_pretrain_bert_base_uncased_ep14_bs8_wr0_wd0.1_lr2e-06_do0.1.pt
         log.info("Doing Hyperparameter Search With Grid Search")
 
         max_epochs = [18]
