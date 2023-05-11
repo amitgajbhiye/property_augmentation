@@ -28,6 +28,7 @@
         "vector_strategy": "mask_token"
     },
     "training_params": {
+        "hp_tuning":false,
         "do_cv": true,
         "cv_type": "model_evaluation_property_split",
         "lr": 2e-6,
