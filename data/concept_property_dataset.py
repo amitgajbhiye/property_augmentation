@@ -20,7 +20,6 @@ TOKENIZER_CLASS = {
 
 class ConceptPropertyDataset(Dataset):
     def __init__(self, dataset_params, dataset_type):
-
         if dataset_type == "train":
             self.data_df = pd.read_csv(
                 dataset_params.get("train_file_path"),
@@ -78,7 +77,6 @@ class ConceptPropertyDataset(Dataset):
         log.info(f"Context Num : {self.context_num}")
 
     def create_concept_idx_dicts(self):
-
         unique_concepts = self.data_df["concept"].unique()
 
         item2idx, idx2item = {}, {}
@@ -90,7 +88,6 @@ class ConceptPropertyDataset(Dataset):
         return item2idx, idx2item
 
     def create_property_idx_dicts(self):
-
         unique_properties = self.data_df["property"].unique()
 
         item2idx, idx2item = {}, {}
@@ -102,7 +99,6 @@ class ConceptPropertyDataset(Dataset):
         return item2idx, idx2item
 
     def populate_dict(self):
-
         concept_property_dict, property_concept_dict = {}, {}
 
         unique_concepts = self.data_df["concept"].unique()
@@ -111,7 +107,6 @@ class ConceptPropertyDataset(Dataset):
         self.data_df.set_index("concept", inplace=True)
 
         for concept in unique_concepts:
-
             concept_id = self.concept2idx[concept]
 
             property_list = self.data_df.loc[concept].values.flatten()
@@ -124,7 +119,6 @@ class ConceptPropertyDataset(Dataset):
         self.data_df.set_index("property", inplace=True)
 
         for prop in unique_properties:
-
             property_id = self.property2idx[prop]
 
             concept_list = self.data_df.loc[prop].values.flatten()
@@ -137,18 +131,14 @@ class ConceptPropertyDataset(Dataset):
         return concept_property_dict, property_concept_dict
 
     def __len__(self):
-
         return len(self.data_df)
 
     def __getitem__(self, idx):
-
         return self.data_df["concept"][idx], self.data_df["property"][idx]
 
     def add_context(self, batch):
-
         ############### The Following Input Template uses Mean Strategy ###############
         if self.context_num == 1:
-
             concept_context = "Concept : "
             property_context = "Property : "
 
@@ -156,7 +146,6 @@ class ConceptPropertyDataset(Dataset):
             property_batch = [property_context + x + "." for x in batch[1]]
 
         elif self.context_num == 2:
-
             concept_context = "The notion we are modelling is "
             property_context = "The notion we are modelling is "
 
@@ -164,7 +153,6 @@ class ConceptPropertyDataset(Dataset):
             property_batch = [property_context + x + "." for x in batch[1]]
 
         elif self.context_num == 3:
-
             prefix_num = 5
             suffix_num = 4
 
@@ -180,7 +168,6 @@ class ConceptPropertyDataset(Dataset):
                 for prop in batch[1]
             ]
         elif self.context_num == 4:
-
             concept_context = "Yesterday, I saw another "
             property_context = "Yesterday, I saw a thing which is "
 
@@ -188,7 +175,6 @@ class ConceptPropertyDataset(Dataset):
             property_batch = [property_context + x + "." for x in batch[1]]
 
         elif self.context_num == 5:
-
             concept_context = "The notion we are modelling is called "
             property_context = "The notion we are modelling is called "
 
@@ -198,7 +184,6 @@ class ConceptPropertyDataset(Dataset):
         ############### The Following Input Template uses Mask Strategy ###############
 
         elif self.context_num == 6:
-
             # [CLS] CONCEPT means [MASK] [SEP]
             # context = " means [MASK]"
             context = " means " + self.mask_token
@@ -211,14 +196,12 @@ class ConceptPropertyDataset(Dataset):
             ]
 
         elif self.context_num == 7:
-
             # [CLS] CONCEPT [SEP] [MASK] [SEP]
 
             concepts_batch = [x for x in batch[0]]
             property_batch = [x for x in batch[1]]
 
         elif self.context_num == 8:
-
             # [CLS] The notion we are modelling is CONCEPT. [SEP] [MASK] [SEP]
 
             context = "The notion we are modelling is "
@@ -227,7 +210,6 @@ class ConceptPropertyDataset(Dataset):
             property_batch = [context + x + "." for x in batch[1]]
 
         elif self.context_num == 9:
-
             # [CLS] The spaceship we are modelling is CONCEPT. [SEP] [MASK] [SEP]
 
             context = "The spaceship we are modelling is "
@@ -236,7 +218,6 @@ class ConceptPropertyDataset(Dataset):
             property_batch = [context + x + "." for x in batch[1]]
 
         elif self.context_num == 10:
-
             # [CLS] We are modelling CONCEPT.[SEP] [MASK] [SEP]
 
             context = "We are modelling "
@@ -245,7 +226,6 @@ class ConceptPropertyDataset(Dataset):
             property_batch = [context + x + "." for x in batch[1]]
 
         elif self.context_num == 11:
-
             # [CLS] The notion we are modelling this morning is CONCEPT.[SEP][MASK][SEP]
 
             context = "The notion we are modelling this morning is "
@@ -254,7 +234,6 @@ class ConceptPropertyDataset(Dataset):
             property_batch = [context + x + "." for x in batch[1]]
 
         elif self.context_num == 12:
-
             # [CLS] As I have mentioned earlier, the notion we are modelling this morning is CONCEPT.[SEP][MASK][SEP]
 
             context = "As I have mentioned earlier, the notion we are modelling this morning is "
@@ -267,7 +246,6 @@ class ConceptPropertyDataset(Dataset):
     def tokenize(
         self, concept_batch, property_batch, concept_max_len=256, property_max_len=510
     ):
-
         # if self.context_num in (1, 2, 3, 4, 5, 6):
 
         concept_ids = self.tokenizer(
@@ -360,7 +338,6 @@ class ConceptPropertyDataset(Dataset):
         # print("*" * 50, flush=True)
 
         if self.hf_tokenizer_name in ("roberta-base", "roberta-large"):
-
             return {
                 "concept_inp_id": concept_ids.get("input_ids"),
                 "concept_atten_mask": concept_ids.get("attention_mask"),
@@ -369,7 +346,6 @@ class ConceptPropertyDataset(Dataset):
             }
 
         else:
-
             return {
                 "concept_inp_id": concept_ids.get("input_ids"),
                 "concept_atten_mask": concept_ids.get("attention_mask"),
@@ -382,7 +358,6 @@ class ConceptPropertyDataset(Dataset):
 
 class TestDataset(ConceptPropertyDataset):
     def __init__(self, dataset_params):
-
         self.data_df = pd.read_csv(
             dataset_params.get("test_file_path"),
             sep="\t",

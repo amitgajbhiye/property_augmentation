@@ -473,6 +473,7 @@ if __name__ == "__main__":
         log.info(f"hidden_dropout_prob : {hidden_dropout_prob}")
 
         hf_checkpoint_name = config["model_params"]["hf_checkpoint_name"]
+        model_prefix = config["model_params"]["model_name"]
 
         for me in max_epochs:
             for bs in batch_size:
@@ -495,7 +496,8 @@ if __name__ == "__main__":
                                 config["model_params"]["hidden_dropout_prob"] = do
 
                                 config["model_params"]["model_name"] = (
-                                    "bienc_cnetp_chatgpt20k_pretrain_"
+                                    model_prefix
+                                    + "_"
                                     + hf_checkpoint_name.replace("-", "_")
                                     + "_"
                                     + discription_str
