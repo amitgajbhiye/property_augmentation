@@ -76,7 +76,6 @@ CLASSES = {
 
 
 def set_logger(config):
-
     log_file_name = os.path.join(
         "logs",
         config.get("log_dirctory"),
@@ -110,15 +109,16 @@ context_templates = {
         "The concept is <con>.",
         "The concept <con> can be can be described as <predict_prop>.",
     ],
-    5: ["can <con> be described as <predict_prop>?", "<[MASK]>.",],
+    5: [
+        "can <con> be described as <predict_prop>?",
+        "<[MASK]>.",
+    ],
 }
 
 
 class DatasetConceptPropertyJoint(Dataset):
     def __init__(self, concept_property_file, dataset_params):
-
         if isinstance(concept_property_file, pd.DataFrame):
-
             self.data_df = concept_property_file
             log.info(
                 f"Supplied Concept Property File is a Dataframe : {self.data_df.shape}",
@@ -133,11 +133,14 @@ class DatasetConceptPropertyJoint(Dataset):
             )
 
             self.data_df = self.data_df.astype(
-                {"concept": str, "predict_prop": str, "labels": int,},
+                {
+                    "concept": str,
+                    "predict_prop": str,
+                    "labels": int,
+                },
             )
 
         elif os.path.isfile(concept_property_file):
-
             log.info(
                 f"Supplied Concept Property File is a Path : {concept_property_file}"
             )
@@ -148,7 +151,11 @@ class DatasetConceptPropertyJoint(Dataset):
                 sep="\t",
                 header=None,
                 names=["concept", "predict_prop", "labels"],
-                dtype={"concept": str, "predict_prop": str, "labels": float,},
+                dtype={
+                    "concept": str,
+                    "predict_prop": str,
+                    "labels": float,
+                },
                 on_bad_lines="skip",
             )
 
@@ -190,24 +197,24 @@ class DatasetConceptPropertyJoint(Dataset):
         self.print_freq = 0
 
     def __len__(self):
-
         return len(self.data_df)
 
     def __getitem__(self, idx):
-
         concept = self.data_df["concept"][idx].replace(".", "").strip()
         predict_prop = self.data_df["predict_prop"][idx].replace(".", "").strip()
         labels = self.data_df["labels"][idx]
 
         if self.context_id in (1, 5):
-
             # MLM Formulation
             # sent_1 = concept <con> can be described as <predict_prop>?
             # sent_2 = <[MASK]>.
 
             # 5: ["can <con> can be described as <predict_prop>?", "<[MASK]>.",]
 
-            predict_prop_template, mask_template, = context_templates[self.context_id]
+            (
+                predict_prop_template,
+                mask_template,
+            ) = context_templates[self.context_id]
 
             sent_1 = predict_prop_template.replace("<con>", concept).replace(
                 "<predict_prop>", predict_prop
@@ -231,7 +238,6 @@ class DatasetConceptPropertyJoint(Dataset):
             )
 
         elif self.context_id in (2, 3, 4):
-
             # NLI Formulation
             # 2: ["The concept is <con>.", "It can be can be described as <predict_prop>."]
             # 3: ["The concept is <con>.", "The concept can be can be described as <predict_prop>."]
@@ -301,7 +307,6 @@ class ModelConceptPropertyJoint(nn.Module):
         self.classifier = nn.Linear(self.encoder.config.hidden_size, 1)
 
     def forward(self, input_ids, token_type_ids, attention_mask, labels=None):
-
         # input_ids = input_ids.squeeze()
         # attention_mask = attention_mask.squeeze()
 
@@ -323,7 +328,6 @@ class ModelConceptPropertyJoint(nn.Module):
         print(f"hidden_states : {hidden_states.shape}", flush=True)
 
         def get_mask_token_embeddings(last_layer_hidden_states):
-
             _, mask_token_index = (
                 input_ids == torch.tensor(self.mask_token_id)
             ).nonzero(as_tuple=True)
@@ -364,7 +368,12 @@ class ModelSeqClassificationConPropJoint(nn.Module):
         self.num_labels = model_params["num_labels"]
         self.context_id = model_params["context_id"]
 
-        _, seq_model_class, _, _, = CLASSES[self.hf_checkpoint_name]
+        (
+            _,
+            seq_model_class,
+            _,
+            _,
+        ) = CLASSES[self.hf_checkpoint_name]
 
         log.info(f"model_class : {seq_model_class}")
 
@@ -375,7 +384,6 @@ class ModelSeqClassificationConPropJoint(nn.Module):
         assert self.encoder.config.num_labels == 2
 
     def forward(self, input_ids, token_type_ids, attention_mask, labels=None):
-
         # print(f"input_ids : {input_ids.shape}", flush=True)
         # print(f"token_type_ids : {token_type_ids.shape}", flush=True)
         # print(f"attention_mask : {attention_mask.shape}", flush=True)
@@ -414,7 +422,6 @@ class ModelAnyNumberLabel(nn.Module):
         self.classifier = nn.Linear(self.encoder.config.hidden_size, 1)
 
     def forward(self, input_ids, token_type_ids, attention_mask, labels=None):
-
         loss_fct = nn.BCEWithLogitsLoss()
 
         output = self.encoder(
@@ -439,9 +446,11 @@ class ModelAnyNumberLabel(nn.Module):
 
 
 def prepare_data_and_models(
-    config, train_file, valid_file=None, test_file=None,
+    config,
+    train_file,
+    valid_file=None,
+    test_file=None,
 ):
-
     training_params = config["training_params"]
 
     load_pretrained = training_params["load_pretrained"]
@@ -535,7 +544,6 @@ def prepare_data_and_models(
         model = ModelAnyNumberLabel(model_params)
 
     if load_pretrained:
-
         log.info(f"load_pretrained is {load_pretrained}")
         log.info(f"Loading Pretrained Model Weights From : {pretrained_model_path}")
         model.load_state_dict(torch.load(pretrained_model_path))
@@ -583,13 +591,11 @@ def prepare_data_and_models(
 
 
 def evaluate(model, dataloader):
-
     model.eval()
 
     val_losses, val_preds, val_labels = [], [], []
 
     for step, batch in enumerate(dataloader):
-
         input_ids = batch["input_ids"].squeeze().to(device)
         token_type_ids = batch["token_type_ids"].squeeze().to(device)
         attention_mask = batch["attention_mask"].squeeze().to(device)
@@ -597,7 +603,6 @@ def evaluate(model, dataloader):
         labels = batch["labels"].to(device)
 
         with torch.no_grad():
-
             outputs = model(
                 input_ids=input_ids,
                 token_type_ids=token_type_ids,
@@ -640,7 +645,6 @@ def train(
     test_dataloader=None,
     fold=None,
 ):
-
     max_epochs = training_params["max_epochs"]
     model_name = training_params["model_name"]
     save_dir = training_params["save_dir"]
@@ -651,17 +655,21 @@ def train(
     patience_counter = 0
     start_epoch = 1
     epoch_train_losses, epoch_valid_losses = [], []
-    best_model_to_test, best_model_path, = None, None
+    (
+        best_model_to_test,
+        best_model_path,
+    ) = (
+        None,
+        None,
+    )
 
     for epoch in range(start_epoch, max_epochs + 1):
-
         log.info("Epoch {:} of {:}".format(epoch, max_epochs))
 
         step_train_losses = []
 
         model.train()
         for step, batch in enumerate(train_dataloader):
-
             model.zero_grad()
 
             input_ids = batch["input_ids"].squeeze().to(device)
@@ -682,12 +690,6 @@ def train(
                 attention_mask=attention_mask,
                 labels=labels,
             )
-
-            # if model.context_id == 1:
-            #     loss, logits, mask_vectors = outputs
-
-            # elif model.context_id in (2, 3, 4):
-            #     loss, logits = outputs
 
             if isinstance(model, ModelConceptPropertyJoint) or isinstance(
                 model, ModelAnyNumberLabel
@@ -716,7 +718,6 @@ def train(
         log.info("Average Train Loss :", avg_train_loss)
 
         if (val_dataloader is not None) and (fold is None):
-
             log.info(f"Running Validation ....")
             log.info(f"Model Class : {model.__class__.__name__}")
 
@@ -774,7 +775,6 @@ def train(
                 log.info(f" {key} :  {value}")
 
             if patience_counter >= patience_early_stopping:
-
                 log.info(f"Train Losses :", epoch_train_losses)
                 log.info(f"Validation Losses: ", epoch_valid_losses)
 
@@ -788,9 +788,7 @@ def train(
 
     # if (test_dataloader is not None) and (fold is not None):
     if test_dataloader is not None:
-
         if fold is not None:
-
             # For finetuning - Property Split and concept_property split.
             # Fold will not be None
 
@@ -802,7 +800,6 @@ def train(
             log.info(f"The model for fold {fold} is saved at : {best_model_path}")
 
         else:
-
             # For pretraining for the datasets with a test set available;
             # For pretraining the fold will be None
 
@@ -842,7 +839,6 @@ def train(
 
 
 def do_cv(config):
-
     training_params = config["training_params"]
 
     cv_type = training_params["cv_type"]
@@ -893,15 +889,12 @@ def do_cv(config):
     #     )
 
     elif cv_type in ("property_split", "concept_property_split"):
-
         if cv_type == "property_split":
-
             num_fold = 5
             train_file_base_name = "train_prop_split_con_prop.pkl"
             test_file_base_name = "test_prop_split_con_prop.pkl"
 
         elif cv_type == "concept_property_split":
-
             num_fold = 9
             train_file_base_name = "--------------"
             test_file_base_name = "--------------"
@@ -918,7 +911,6 @@ def do_cv(config):
 
         all_folds_test_preds, all_folds_test_labels = [], []
         for fold in range(num_fold):
-
             log.info("*" * 50)
             log.info(f"Training the model on Fold : {fold} of {num_fold}")
             log.info("*" * 50)
@@ -929,7 +921,6 @@ def do_cv(config):
             with open(train_file_name, "rb") as train_pkl, open(
                 test_file_name, "rb"
             ) as test_pkl:
-
                 train_df = pickle.load(train_pkl)
                 test_df = pickle.load(test_pkl)
 
@@ -944,7 +935,10 @@ def do_cv(config):
                 val_dataloader,
                 test_dataloader,
             ) = prepare_data_and_models(
-                config=config, train_file=train_df, valid_file=None, test_file=test_df,
+                config=config,
+                train_file=train_df,
+                valid_file=None,
+                test_file=test_df,
             )
 
             assert (
@@ -989,13 +983,15 @@ def do_cv(config):
 
 
 if __name__ == "__main__":
-
     set_seed(1)
 
     parser = ArgumentParser(description="Joint Encoder Concept Property Model")
 
     parser.add_argument(
-        "-c", "--config_file", required=True, help="path to the configuration file",
+        "-c",
+        "--config_file",
+        required=True,
+        help="path to the configuration file",
     )
 
     args = parser.parse_args()
@@ -1018,7 +1014,6 @@ if __name__ == "__main__":
     hp_tuning = training_params["hp_tuning"]
 
     if pretrain:
-
         train_file = training_params["train_file_path"]
         valid_file = training_params["val_file_path"]
         test_file = training_params["test_file_path"]
@@ -1028,7 +1023,6 @@ if __name__ == "__main__":
         log.info(f"Test File : {test_file}")
 
         if not hp_tuning:
-
             (
                 model,
                 scheduler,
@@ -1058,7 +1052,6 @@ if __name__ == "__main__":
                 fold=None,
             )
         else:
-
             log.info("Pretraining Grid Search - Hyperparameter Tuning")
 
             max_epochs = [8, 10]
@@ -1077,7 +1070,6 @@ if __name__ == "__main__":
                 for bs in batch_size:
                     for wr in warmup_ratio:
                         for wd in weight_decay:
-
                             discription_str = f"me{me}_bs{bs}_wr{wr}_wd{wd}"
 
                             config["training_params"]["max_epochs"] = me
@@ -1136,13 +1128,10 @@ if __name__ == "__main__":
                             )
 
     elif finetune:
-
         if not hp_tuning:
-
             all_folds_scores = do_cv(config=config)
 
         else:
-
             log.info("Grid Search - Hyperparameter Tuning")
 
             epochs = [8, 10, 12]
@@ -1164,7 +1153,6 @@ if __name__ == "__main__":
                     for lr in learning_rate:
                         for wr in warmup_ratio:
                             for wd in weight_decay:
-
                                 log.info("*" * 60)
                                 log.info(
                                     f"New Run : Epoch: {ep}, Batch Size: {bs}, LR: {lr}, warmup_ratio: {wr}, weight_decay: {wd}"
@@ -1215,4 +1203,3 @@ if __name__ == "__main__":
                                     f"Epoch: {ep}, Batch Size: {bs}, LR: {lr}"
                                 )
                                 all_folds_scores_lists.append(all_folds_scores)
-
