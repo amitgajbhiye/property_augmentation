@@ -21,4 +21,4 @@ conda activate venv
 
 python3 get_property_similar_concepts.py --config_file configs/2_configs_get_embeds_and_train_data/ufet/ufet_ufet_contrastive_bert_base_get_property_similar_50concepts.json
 
-echo 'Job Finished!'
+echo 'Job Finished !!!'
