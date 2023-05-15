@@ -347,7 +347,7 @@ def get_property_similar_concepts(
     # file_name = os.path.join(save_dir, "test_property_similar_concepts") + ".tsv"
 
     prop_similar_concepts_save_file_name = os.path.join(
-        save_dir, dataset_params["dataset_name"], "property_similar_concepts.tsv"
+        save_dir, f"{dataset_params['dataset_name']}.tsv"
     )
 
     total_sim_cons = 0
