@@ -299,8 +299,8 @@ def get_property_similar_concepts(
         con_dict = pickle.load(con_pkl_file)
         prop_dict = pickle.load(prop_pkl_file)
 
-    concepts = list(con_dict.keys())[0:20]
-    con_embeds = list(con_dict.values())[0:20]
+    concepts = list(con_dict.keys())[0:100]
+    con_embeds = list(con_dict.values())[0:100]
 
     zero_con_embeds = np.array([np.insert(l, 0, float(0)) for l in con_embeds])
     transformed_con_embeds = np.array(transform(con_embeds))
@@ -312,8 +312,8 @@ def get_property_similar_concepts(
     log.info(f"Shape of zero_con_embeds: {zero_con_embeds.shape}")
     log.info(f"Shape of transformed_con_embeds : {transformed_con_embeds.shape}")
 
-    properties = list(prop_dict.keys())[0:30]
-    prop_embeds = list(prop_dict.values())[0:30]
+    properties = list(prop_dict.keys())[0:200]
+    prop_embeds = list(prop_dict.values())[0:200]
 
     zero_prop_embeds = np.array([np.insert(l, 0, 0) for l in prop_embeds])
     transformed_prop_embeds = np.array(transform(prop_embeds))

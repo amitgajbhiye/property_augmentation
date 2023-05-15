@@ -34,7 +34,7 @@
         "save_dir": "data/ufet/contrastive_complete_clusters",
         "get_con_sim_vocab_properties": false,
         "get_props_sim_concepts": true,
-        "num_nearest_neighbours": 50,
+        "num_nearest_neighbours": 10,
         "concept_embed_pkl": null,
         "get_predict_prop_similar_props": false,
         "num_prop_conjuct": null,
