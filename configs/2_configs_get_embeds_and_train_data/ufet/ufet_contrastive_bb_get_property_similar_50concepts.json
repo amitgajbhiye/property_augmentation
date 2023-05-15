@@ -1,8 +1,8 @@
 {
-    "experiment_name": "ufet_contrastive_bb_get_property_similar_50concepts",
+    "experiment_name": "ufet_contrastive_bert_base__get_property_similar_50concepts",
     "log_dirctory": "ufet_exp",
     "dataset_params": {
-        "dataset_name": "propfix_contrastive_bb_property_similar_concepts",
+        "dataset_name": "propfix_contrastive_bert_base_property_similar_concepts",
         "train_file_path": null,
         "val_file_path": null,
         "test_file_path": null,
@@ -34,7 +34,7 @@
         "save_dir": "data/ufet/contrastive_complete_clusters",
         "get_con_sim_vocab_properties": false,
         "get_props_sim_concepts": true,
-        "num_nearest_neighbours": 10,
+        "num_nearest_neighbours": 50,
         "concept_embed_pkl": null,
         "get_predict_prop_similar_props": false,
         "num_prop_conjuct": null,

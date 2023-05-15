@@ -2,8 +2,8 @@
 
 #SBATCH --job-name=ufetPropSimilar50Cons
 
-#SBATCH --output=logs/ufet_exp/out_ufet_contrastive_bb_get_property_similar_50concepts.txt
-#SBATCH --error=logs/ufet_exp/err_ufet_contrastive_bb_get_property_similar_50concepts.txt
+#SBATCH --output=logs/ufet_exp/out_ufet_contrastive_bert_base__get_property_similar_50concepts.txt
+#SBATCH --error=logs/ufet_exp/err_ufet_contrastive_bert_base__get_property_similar_50concepts.txt
 
 #SBATCH --tasks-per-node=5
 #SBATCH --ntasks=5
