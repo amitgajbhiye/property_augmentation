@@ -1,5 +1,5 @@
 {
-    "experiment_name": "ufet_contrastive_bert_base__get_property_similar_50concepts",
+    "experiment_name": "ufet_contrastive_bert_base_get_property_similar_50concepts",
     "log_dirctory": "ufet_exp",
     "dataset_params": {
         "dataset_name": "propfix_contrastive_bert_base_property_similar_concepts",
@@ -13,7 +13,7 @@
         "add_context": true,
         "context_num": 6,
         "loader_params": {
-            "batch_size": 1024,
+            "batch_size": 2000,
             "num_workers": 4,
             "pin_memory": true
         }

@@ -410,6 +410,7 @@ def get_concept_similar_vocab_properties(
 
     properties = list(prop_dict.keys())
     prop_embeds = list(prop_dict.values())
+
     zero_prop_embeds = np.array([np.insert(l, 0, 0) for l in prop_embeds])
     transformed_prop_embeds = np.array(transform(prop_embeds))
 
