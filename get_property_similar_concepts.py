@@ -88,11 +88,14 @@ def preprocess_get_embedding_data(config):
         data_df["concept"] = "dummy_concept"
         data_df["label"] = int(0)
 
-    elif input_data_type == "concept_and_property" and num_columns == 3:
+    elif input_data_type == "concept_and_property" and num_columns == 2:
         log.info("Generating Embeddings for Concepts and Properties")
         log.info(f"Number of records : {data_df.shape[0]}")
+        data_df["label"] = int(0)
 
         data_df.rename(columns={0: "concept", 1: "property", 2: "label"}, inplace=True)
+        log.info(f"Input Df")
+        log.info(data_df.head(n=100))
 
     else:
         raise Exception(
@@ -103,7 +106,7 @@ def preprocess_get_embedding_data(config):
     data_df = data_df[["concept", "property", "label"]]
 
     log.info(f"Final Data Df")
-    log.info(data_df.head(n=20))
+    log.info(data_df.head(n=50))
 
     return data_df
 
@@ -200,6 +203,7 @@ def generate_embeddings(config):
                 # else:
                 # log.info(f"Property : {prop} is already in dictionary !!")
 
+    # con_prop_embed_save_prefix = inference_params["con_prop_embed_save_prefix"]
     save_dir = inference_params["save_dir"]
 
     if input_data_type == "concept":
@@ -270,6 +274,107 @@ def match_multi_words(word1, word2):
     word2 = " ".join([lemmatizer.lemmatize(word) for word in word2.split()])
 
     return word1 == word2
+
+
+def get_property_similar_concepts(
+    config,
+    concept_embed_pkl,
+    vocab_property_embed_pkl,
+):
+    log.info(f"Getting Property Similar Concepts ....")
+    log.info(f"concept_embed_pkl : {concept_embed_pkl}")
+    log.info(f"vocab_property_embed_pkl : {vocab_property_embed_pkl}")
+
+    inference_params = config.get("inference_params")
+
+    input_data_type = inference_params["input_data_type"]
+    log.info(f"Input Data Type : {input_data_type}")
+
+    dataset_params = config.get("dataset_params")
+    save_dir = inference_params["save_dir"]
+
+    with open(concept_embed_pkl, "rb") as con_pkl_file, open(
+        vocab_property_embed_pkl, "rb"
+    ) as prop_pkl_file:
+        con_dict = pickle.load(con_pkl_file)
+        prop_dict = pickle.load(prop_pkl_file)
+
+    concepts = list(con_dict.keys())[0:20]
+    con_embeds = list(con_dict.values())[0:20]
+
+    zero_con_embeds = np.array([np.insert(l, 0, float(0)) for l in con_embeds])
+    transformed_con_embeds = np.array(transform(con_embeds))
+
+    log.info(f"******* In get_property_similar_concepts function *******")
+    log.info(f"******* Input Concept Embedding Details **********")
+    log.info(f"Number of Concepts : {len(concepts)}")
+    log.info(f"Length of Concepts Embeddings : {len(con_embeds)}")
+    log.info(f"Shape of zero_con_embeds: {zero_con_embeds.shape}")
+    log.info(f"Shape of transformed_con_embeds : {transformed_con_embeds.shape}")
+
+    properties = list(prop_dict.keys())[0:30]
+    prop_embeds = list(prop_dict.values())[0:30]
+
+    zero_prop_embeds = np.array([np.insert(l, 0, 0) for l in prop_embeds])
+    transformed_prop_embeds = np.array(transform(prop_embeds))
+
+    log.info(f"******* Vocab Property Embedding Details **********")
+    log.info(f"Number of Vocab Properties : {len(properties)}")
+    log.info(f"Length of Vocab Properties Embeddings : {len(prop_embeds)}")
+    log.info(f"Shape of zero_prop_embeds: {zero_prop_embeds.shape}")
+    log.info(f"Shape of transformed_prop_embeds : {transformed_prop_embeds.shape}")
+
+    # Learning Nearest Neighbours
+    # num_nearest_neighbours = 5
+
+    num_nearest_neighbours = inference_params["num_nearest_neighbours"]
+
+    print(f"Learning {num_nearest_neighbours} neighbours !!")
+
+    property_similar_concepts = NearestNeighbors(
+        n_neighbors=num_nearest_neighbours, algorithm="brute"
+    ).fit(np.array(transformed_con_embeds))
+
+    prop_distances, prop_indices = property_similar_concepts.kneighbors(
+        np.array(zero_prop_embeds)
+    )
+    log.info(f"num_concepts : {concepts}")
+    log.info(f"num_properties : {properties}")
+
+    log.info(f"prop_distances : {prop_distances.shape}")
+    log.info(f"prop_indices : {prop_indices.shape}")
+
+    # file_name = os.path.join(save_dir, "test_property_similar_concepts") + ".tsv"
+
+    prop_similar_concepts_save_file_name = os.path.join(
+        save_dir, dataset_params["dataset_name"], "property_similar_concepts.tsv"
+    )
+
+    total_sim_cons = 0
+
+    with open(prop_similar_concepts_save_file_name, "w") as file:
+        for prop_idx, con_idx in enumerate(prop_indices):
+            prop = properties[prop_idx]
+            similar_concepts = [concepts[idx] for idx in con_idx]
+
+            print(f"num_similar_concepts : {len(similar_concepts)}", flush=True)
+            print(f"prop:sim_concepts: {prop}\t{similar_concepts}")
+
+            con_prop_list = [(sim_con, prop) for sim_con in similar_concepts]
+            print(f"con_prop_list : {con_prop_list}\n")
+
+            total_sim_cons += len(similar_concepts)
+
+            for sim_con in similar_concepts:
+                line = sim_con + "\t" + prop + "\n"
+                file.write(line)
+
+    log.info(f"Total Number of input concepts : {len(concepts)}")
+    log.info(f"Total Sim Properties Generated : {total_sim_cons}")
+    log.info(f"Finished getting similar properties")
+    log.info(
+        f"properties_similar_to_concepts_file: {prop_similar_concepts_save_file_name}"
+    )
 
 
 def get_concept_similar_vocab_properties(
@@ -367,348 +472,6 @@ def get_concept_similar_vocab_properties(
     log.info(f"Finished getting similar properties")
 
 
-def get_predict_prop_similar_properties(
-    input_file,
-    con_similar_prop,
-    prop_vocab_embed_pkl,
-    predict_prop_embed_pkl,
-    save_file,
-    num_prop_conjuct=5,
-):
-    # je_filtered_con_prop_file = "siamese_concept_property/data/train_data/joint_encoder_property_conjuction_data/je_filtered_con_similar_vocab_properties.txt"
-    # je_filtered_prop_embed_pkl = "/home/amitgajbhiye/cardiff_work/concept_property_embeddings/prop_vocab_500k_mscg_embeds_property_embeddings.pkl"
-    # predict_prop_embed_pkl = "/home/amitgajbhiye/cardiff_work/concept_property_embeddings/predict_property_embeds_cnet_premium_property_embeddings.pkl"
-
-    file_name, file_ext = os.path.splitext(input_file)
-
-    print(f"Input File Extension : {file_ext}")
-    log.info(f"Input File Extension : {file_ext}")
-
-    if file_ext in (".txt", ".tsv"):
-        input_df = pd.read_csv(
-            input_file, sep="\t", names=["concept", "property", "label"]
-        )
-    elif file_ext == ".pkl":
-        with open(input_file, "rb") as pkl_file:
-            input_df = pickle.load(pkl_file)
-
-    elif isinstance(input_file, pd.DataFrame):
-        input_df = input_file
-    else:
-        print((f"Input File Extension is not correct."))
-        log.info(f"Input File Extension is not correct.")
-
-    input_df.rename(
-        columns={
-            "concept": "concept",
-            "property": "predict_property",
-            "label": "label",
-        },
-        inplace=True,
-    )
-
-    print("*" * 50)
-    print(input_df.head(n=20))
-    print("*" * 50)
-
-    log.info("*" * 50)
-    log.info(input_df.head(n=20))
-    log.info("*" * 50)
-
-    input_concepts = input_df["concept"].unique()
-    input_predict_props = input_df["predict_property"].unique()
-
-    num_input_concepts = len(input_concepts)
-    num_input_predict_props = len(input_predict_props)
-
-    je_filtered_con_prop_df = pd.read_csv(
-        con_similar_prop, sep="\t", names=["concept", "similar_property"]
-    )
-
-    je_filtered_concepts = je_filtered_con_prop_df["concept"].unique().tolist()
-
-    ######## Concepts that do not have similar properties ########
-
-    no_similar_prop_concept = set(input_concepts).difference(set(je_filtered_concepts))
-
-    print(
-        f"Concepts with no similar properties : {len(no_similar_prop_concept)} , {no_similar_prop_concept}"
-    )
-    log.info(
-        f"Concepts with no similar properties : {len(no_similar_prop_concept)} , {no_similar_prop_concept}"
-    )
-
-    with open(prop_vocab_embed_pkl, "rb") as prop_vocab_pkl:
-        prop_vocab_embeds_dict = pickle.load(prop_vocab_pkl)
-
-    with open(predict_prop_embed_pkl, "rb") as predict_prop_pkl:
-        predict_prop_embeds_dict = pickle.load(predict_prop_pkl)
-
-    print(
-        f"JE Filtered Concept Similar Properties DF Shape: {je_filtered_con_prop_df.shape}",
-        flush=True,
-    )
-    print(
-        f"Number of Unique Concept in je_filtered_con_prop_df : {len(je_filtered_concepts)}"
-    )
-
-    print(
-        f"Unique Properties in JE Filtered Con Prop Df : {len(je_filtered_con_prop_df['similar_property'].unique())}",
-        flush=True,
-    )
-
-    print(
-        f"Property Vocab Embeddings : {len(prop_vocab_embeds_dict.keys())}",
-        flush=True,
-    )
-
-    print()
-    print(f"Input DF Shape : {input_df.shape}", flush=True)
-    print(f"#Unique input concepts : {num_input_concepts}", flush=True)
-    print(f"#Unique input predict properties : {num_input_predict_props}", flush=True)
-
-    all_data, concepts_with_no_similar_props = [], []
-    concepts_with_one_similar_prop = 0
-    for idx, (concept, predict_property, label) in enumerate(
-        zip(input_df["concept"], input_df["predict_property"], input_df["label"])
-    ):
-        print(f"Processing Concept : {concept}, {idx+1} / {input_df.shape[0]}")
-        print(
-            f"Concept, Predict Property, Label : {(concept, predict_property, label)}"
-        )
-
-        if concept not in set((je_filtered_concepts)):
-            concepts_with_no_similar_props.append(concept)
-            print(f"Concept : {concept}, has no similar properties")
-            conjuct_similar_props = "no_similar_property"
-            all_data.append(
-                [concept, conjuct_similar_props, predict_property, int(label)]
-            )
-            continue
-
-        else:
-            similar_props = (
-                je_filtered_con_prop_df[je_filtered_con_prop_df["concept"] == concept][
-                    "similar_property"
-                ]
-                .unique()
-                .tolist()
-            )
-
-            similar_props = [
-                prop
-                for prop in similar_props
-                if not match_multi_words(predict_property, prop)
-            ]
-
-            print(f"similar_props 0 : {similar_props}")
-
-            if len(similar_props) != 0:
-                print(f"similar_props 1 : {similar_props}")
-
-                embed_predict_prop = predict_prop_embeds_dict[predict_property]
-                embed_similar_prop = [
-                    prop_vocab_embeds_dict[prop] for prop in similar_props
-                ]
-
-                zero_embed_predict_prop = np.array(
-                    np.insert(embed_predict_prop, 0, float(0))
-                ).reshape(1, -1)
-                transformed_embed_similar_prop = np.array(transform(embed_similar_prop))
-
-                if len(similar_props) >= num_prop_conjuct:
-                    num_nearest_neighbours = num_prop_conjuct
-                else:
-                    num_nearest_neighbours = len(similar_props)
-
-                predict_prop_similar_props = NearestNeighbors(
-                    n_neighbors=num_nearest_neighbours, algorithm="brute"
-                ).fit(transformed_embed_similar_prop)
-
-                (
-                    similar_prop_distances,
-                    similar_prop_indices,
-                ) = predict_prop_similar_props.kneighbors(zero_embed_predict_prop)
-
-                if similar_prop_indices.shape[1] != 1:
-                    similar_prop_indices = np.squeeze(similar_prop_indices)
-                else:
-                    concepts_with_one_similar_prop += 1
-                    print(f"similar_props : {similar_props}")
-                    similar_prop_indices = similar_prop_indices[0]
-
-                similar_properties = [
-                    similar_props[idx] for idx in similar_prop_indices
-                ]
-
-                conjuct_similar_props = ", ".join(similar_properties)
-
-                print(f"Concept : {concept}", flush=True)
-                print(f"Predict Property : {predict_property}", flush=True)
-                print(f"Predict Property Similar Properties", flush=True)
-                print(similar_properties, flush=True)
-                print(f"Conjuct Similar Props", flush=True)
-                print(conjuct_similar_props, flush=True)
-                print("*" * 30, flush=True)
-                print(flush=True)
-
-                all_data.append(
-                    [concept, conjuct_similar_props, predict_property, int(label)]
-                )
-            else:
-                concepts_with_no_similar_props.append(concept)
-                print(f"Concept : {concept}, has no similar properties")
-                conjuct_similar_props = "no_similar_property"
-                all_data.append(
-                    [concept, conjuct_similar_props, predict_property, int(label)]
-                )
-
-    df_all_data = pd.DataFrame.from_records(all_data)
-    df_all_data.to_csv(save_file, sep="\t", header=None, index=None)
-
-    print(f"concepts_with_one_similar_prop : {concepts_with_one_similar_prop}")
-    print(
-        f"Concepts With No Similar Properties: {concepts_with_no_similar_props}",
-        flush=True,
-    )
-
-
-def create_con_only_similar_data(
-    input_file,
-    con_similar_file,
-    top_k_sim_props,
-    save_file,
-):
-    if isinstance(input_file, pd.DataFrame):
-        inp_df = input_file
-
-    else:
-        file_name, file_ext = os.path.splitext(input_file)
-
-        log.info(f"Input File Extension : {file_ext}")
-
-        if file_ext in (".txt", ".tsv"):
-            inp_df = pd.read_csv(
-                input_file,
-                sep="\t",
-                names=["concept", "property", "label"],
-                dtype={"concept": str, "property": str, "label": int},
-            )
-        elif file_ext == ".pkl":
-            with open(input_file, "rb") as pkl_file:
-                inp_df = pickle.load(pkl_file)
-
-        else:
-            print((f"Input File Extension is not correct."))
-            log.info(f"Input File Extension is not correct.")
-
-    inp_df.rename(
-        columns={
-            "concept": "concept",
-            "property": "predict_property",
-            "label": "label",
-        },
-        inplace=True,
-    )
-
-    inp_concepts = inp_df["concept"].unique()
-    num_inp_concepts = len(inp_concepts)
-
-    print(flush=True)
-    print("*" * 50)
-    print(f"Input File : {input_file}")
-    print(inp_df.shape)
-    print(f"num_inp_concepts : {num_inp_concepts}", flush=True)
-    print(inp_df.head(n=20))
-    print("*" * 50)
-    print(flush=True)
-
-    log.info("*" * 50)
-    log.info(inp_df.shape)
-    log.info(f"num_inp_concepts : {num_inp_concepts}")
-    log.info(inp_df.head(n=20))
-    log.info("*" * 50)
-
-    #############################
-
-    con_similar_data = pd.read_csv(
-        con_similar_file, sep="\t", names=["concept", "similar_property"]
-    )
-    con_similar_concepts = con_similar_data["concept"].unique()
-    num_con_similar_concepts = len(con_similar_concepts)
-
-    print(flush=True)
-    print("*" * 50, flush=True)
-    print(f"Concept Similar Property File : {con_similar_file}", flush=True)
-    print(con_similar_data, flush=True)
-    print(f"num_con_similar_concepts : {num_con_similar_concepts}", flush=True)
-    print("*" * 50)
-
-    all_prop_augmented_data, concepts_with_no_similar_props = [], []
-
-    for idx, (concept, predict_property, label) in enumerate(
-        zip(inp_df["concept"], inp_df["predict_property"], inp_df["label"])
-    ):
-        print(f"Processing concept : {idx} / {len(inp_df)}", flush=True)
-        print(
-            f"concept, predict_property, label : {concept, predict_property, label}",
-            flush=True,
-        )
-
-        if concept not in set(con_similar_concepts):
-            similar_props = "no_similar_property"
-            concepts_with_no_similar_props.append(concept)
-
-            print(f"Concept : {concept}, has no similar properties", flush=True)
-            print(
-                f"Augmented Data : {(concept, similar_props, predict_property, label)}",
-                flush=True,
-            )
-            print(flush=True)
-
-            all_prop_augmented_data.append(
-                (concept, similar_props, predict_property, label)
-            )
-
-            continue
-        else:
-            similar_props = (
-                con_similar_data[con_similar_data["concept"] == concept][
-                    "similar_property"
-                ]
-                .unique()
-                .tolist()
-            )
-
-            similar_props = similar_props[0:top_k_sim_props]
-
-            similar_props = ", ".join(similar_props)
-
-            all_prop_augmented_data.append(
-                (concept, similar_props, predict_property, label)
-            )
-
-            print(
-                f"Augmented Data : {(concept, similar_props, predict_property, label)}",
-                flush=True,
-            )
-            print(flush=True)
-
-    df = pd.DataFrame.from_records(all_prop_augmented_data)
-
-    print(f"Data After Augmentation : {df.shape}", flush=True)
-    print(df, flush=True)
-
-    df.to_csv(save_file, sep="\t", index=None, header=None)
-
-    print(
-        f"num concepts_with_no_similar_props : {len(set(concepts_with_no_similar_props))}"
-    )
-    print(f"concepts_with_no_similar_props : {set(concepts_with_no_similar_props)}")
-    print(f"Only Concept Augmented Data Saved in  {save_file}", flush=True)
-    log.info(f"Only Concept Augmented Data Saved in  {save_file}")
-
-
 if __name__ == "__main__":
     log.info(f"\n {'*' * 50}")
     log.info(f"Generating the Concept Property Embeddings")
@@ -739,9 +502,11 @@ if __name__ == "__main__":
     get_con_sim_vocab_properties = inference_params["get_con_sim_vocab_properties"]
     get_predict_prop_similar_props = inference_params["get_predict_prop_similar_props"]
     get_con_only_similar_data = inference_params["con_only_similar_data"]
+    get_props_sim_concepts = inference_params["get_props_sim_concepts"]
 
     ######################### Important Flags #########################
 
+    log.info("*" * 60)
     log.info(
         f"Get Concept, Property or Concept and Property Embedings : {get_con_prop_embeds}"
     )
@@ -752,6 +517,9 @@ if __name__ == "__main__":
     log.info(
         f"Get Concept Only Similar Property Conjuction Data : {get_con_only_similar_data}"
     )
+    log.info(f"Get Property Similar Concepts : {get_props_sim_concepts}")
+
+    log.info("*" * 60)
 
     if get_con_prop_embeds:
         input_data_type = inference_params["input_data_type"]
@@ -780,6 +548,14 @@ if __name__ == "__main__":
             config,
             concept_embed_pkl=concept_embed_pkl,
             vocab_property_embed_pkl=vocab_property_embed_pkl,
+        )
+
+    if get_props_sim_concepts:
+        log.info(f"in_flag : {get_props_sim_concepts}")
+        get_property_similar_concepts(
+            config=config,
+            concept_embed_pkl=concept_pkl_file,
+            vocab_property_embed_pkl=property_pkl_file,
         )
 
     if get_predict_prop_similar_props:
