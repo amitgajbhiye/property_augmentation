@@ -22,7 +22,6 @@ from model.lm_con_prop import (
 
 
 def set_logger(config):
-
     log_file_name = os.path.join(
         "logs",
         config.get("log_dirctory"),
@@ -58,14 +57,12 @@ device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cp
 
 
 def predict(model, dataloader):
-
     model.eval()
     model.to(device)
 
     test_loss, test_preds, test_logits = [], [], []
 
     for step, batch in enumerate(dataloader):
-
         log.info(f"Processing batch: {step} of {len(dataloader)}")
 
         input_ids = batch["input_ids"].squeeze().to(device)
@@ -75,7 +72,6 @@ def predict(model, dataloader):
         labels = batch["labels"].to(device)
 
         with torch.no_grad():
-
             outputs = model(
                 input_ids=input_ids,
                 token_type_ids=token_type_ids,
@@ -115,47 +111,7 @@ def predict(model, dataloader):
     return loss, test_preds, test_logits
 
 
-# def predict(model, test_dataloader):
-
-#     model.eval()
-#     model.to(device)
-
-#     test_loss, test_accuracy, test_preds, test_logits = [], [], [], []
-
-#     for step, batch in enumerate(test_dataloader):
-
-#         input_ids = batch["input_ids"].squeeze().to(device)
-#         token_type_ids = batch["token_type_ids"].squeeze().to(device)
-#         attention_mask = batch["attention_mask"].squeeze().to(device)
-
-#         labels = batch["labels"].to(device)
-
-#         with torch.no_grad():
-#             loss, logits = model(
-#                 input_ids=input_ids,
-#                 token_type_ids=token_type_ids,
-#                 attention_mask=attention_mask,
-#                 labels=labels,
-#             )
-#         test_loss.append(loss.item())
-
-#         batch_preds = torch.argmax(logits, dim=1).flatten()
-
-#         batch_accuracy = (labels == batch_preds).cpu().numpy().mean() * 100
-
-#         test_accuracy.append(batch_accuracy)
-#         test_preds.extend(batch_preds.cpu().detach().numpy())
-
-#         test_logits.extend(torch.sigmoid(logits).cpu().detach().numpy())
-
-#     loss = np.mean(test_loss)
-#     accuracy = np.mean(test_accuracy)
-
-#     return loss, accuracy, test_preds, test_logits
-
-
 if __name__ == "__main__":
-
     set_seed(1)
 
     parser = ArgumentParser()
@@ -190,9 +146,11 @@ if __name__ == "__main__":
     log.info(f"Pretrained Model Path : {pretrained_model_path}")
 
     if pretrained_model_to_use == "je_con_prop":
-
         test_df = pd.read_csv(
-            test_file, sep="\t", header=None, names=["concept", "property", "label"],
+            test_file,
+            sep="\t",
+            header=None,
+            names=["concept", "property", "label"],
         )
 
         log.info(f"Test Df")
@@ -260,7 +218,6 @@ if __name__ == "__main__":
         log.info(df_with_threshold.head(n=20))
 
     elif pretrained_model_to_use == "nli":
-
         nli_tokenizer_path = training_params["nli_tokenizer_path"]
         nli_model_path = training_params["nli_model_path"]
         batch_size = training_params["batch_size"]
@@ -271,7 +228,10 @@ if __name__ == "__main__":
         )
 
         test_df = pd.read_csv(
-            test_file, sep="\t", header=None, names=["concept", "property"],
+            test_file,
+            sep="\t",
+            header=None,
+            names=["concept", "property"],
         )
 
         log.info(f"Test Df")
@@ -298,9 +258,7 @@ if __name__ == "__main__":
         with open(all_data_filename, "w") as all_file, open(
             filtered_data_filename, "w"
         ) as entailed_file:
-
             for idx in range(0, len(test_df), batch_size):
-
                 log.info(
                     f"Processing Batch : {batch_counter} / {ceil(len(test_df) / batch_size)}"
                 )
@@ -333,13 +291,11 @@ if __name__ == "__main__":
                 ]
 
                 for item in line_data:
-
                     line_to_write = "\t".join(item)
                     all_file.write("{0}\n".format(line_to_write))
                     print(line_to_write, flush=True)
 
                     if item[3] == "entailment":
-
                         con_prop_entailed = item[0:2]
                         con_prop_entailed = "\t".join(con_prop_entailed)
 
@@ -350,36 +306,3 @@ if __name__ == "__main__":
 
         log.info(f"All data with NLI classes saved in : {all_data_filename}")
         log.info(f"Entailed data saved in : {filtered_data_filename}")
-
-        # for i, (concept, property) in enumerate(
-        #     zip(test_df["concept"], test_df["property"])
-        # ):
-
-        #     input = tokenizer(
-        #         concept, property, truncation=True, return_tensors="pt"
-        #     )
-
-        #     output = model(input["input_ids"].to(device))
-
-        #     prediction = torch.softmax(output["logits"][0], -1).tolist()
-        #     prediction = [round(float(pred) * 100, 1) for pred in prediction]
-
-        #     predicted_class = id2label[np.argmax(prediction, axis=0)]
-
-        #     prediction_dict = {
-        #         name: pred for pred, name in zip(prediction, label_names)
-        #     }
-
-        #     all_file.write(
-        #         "{0}\t{1}\t{2}\t{3}{4}".format(
-        #             concept, property, prediction_dict, predicted_class, "\n"
-        #         )
-        #     )
-
-        #     print(
-        #         i, concept, property, prediction_dict, predicted_class, flush=True
-        #     )
-
-        #     if predicted_class == "entailment":
-        #         entailed_file.write("{0}\t{1}{2}".format(concept, property, "\n"))
-
