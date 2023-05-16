@@ -1,8 +1,8 @@
 {
-    "experiment_name": "ufet_bert_large_get_property_similar_50concepts",
+    "experiment_name": "ufet_get_cnetp_prop_vocab_embed_bert_large_cnetp_chatgpt100k_pretrained_model",
     "log_dirctory": "ufet_exp",
     "dataset_params": {
-        "dataset_name": "bert_large_property_similar_50concepts",
+        "dataset_name": "ufet_cnetp_prop_vocab_embed_bert_large_cnetp_chatgpt100k_pretrained_model",
         "train_file_path": null,
         "val_file_path": null,
         "test_file_path": null,
@@ -25,16 +25,16 @@
         "vector_strategy": "mask_token"
     },
     "inference_params": {
-        "pretrained_model_path": null,
-        "get_con_prop_embeds": false,
-        "input_data_type": null,
-        "concept_file": null,
+        "pretrained_model_path": "trained_models/cnetp_chatgpt_pretrain/bienc_bert_large_cnetp_chatgpt100k_pretrain_new_data.pt",
+        "get_con_prop_embeds": true,
+        "input_data_type": "property",
+        "concept_file": "data/prop_vocab/prop_vocab_cnetp_clean.txt",
         "property_file": null,
         "concept_property_file": null,
         "save_dir": "data/ufet/embeddings",
-        "get_con_sim_vocab_properties": true,
-        "num_nearest_neighbours": 50,
-        "concept_embed_pkl": "data/ufet/embeddings/bert_large_ufet_types_concept_embeddings.pkl",
+        "get_con_sim_vocab_properties": false,
+        "num_nearest_neighbours": 0,
+        "concept_embed_pkl": null,
         "get_predict_prop_similar_props": false,
         "num_prop_conjuct": null,
         "pretrain_data": false,
@@ -45,7 +45,7 @@
         "split_type": null,
         "fold_file_base_path": null,
         "concept_similar_prop_file": null,
-        "vocab_property_embed_pkl": "data/ufet/embeddings/bert_large_cnet_vocab_property_embeddings.pkl",
+        "vocab_property_embed_pkl": null,
         "predict_property_embed_pkl": null,
         "con_only_similar_data": false,
         "top_k_sim_props": null
