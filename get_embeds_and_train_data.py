@@ -345,11 +345,11 @@ def get_concept_similar_vocab_properties(
             concept = concepts[con_idx]
             similar_properties = [properties[idx] for idx in prop_idx]
 
-            similar_properties = [
-                prop
-                for prop in similar_properties
-                if not match_multi_words(concept, prop)
-            ]
+            # similar_properties = [
+            #     prop
+            #     for prop in similar_properties
+            #     if not match_multi_words(concept, prop)
+            # ]
 
             con_similar_prop_dict[concept] = similar_properties
 
