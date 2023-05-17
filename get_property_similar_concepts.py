@@ -1,24 +1,21 @@
-import os
 import argparse
-
-
 import logging
 import os
 import pickle
-import pandas as pd
-import numpy as np
-
-import torch
 
 import nltk
+import numpy as np
+import pandas as pd
+import torch
 from nltk.stem import WordNetLemmatizer
+from sklearn.neighbors import NearestNeighbors
+
 from utils.functions import (
     create_model,
+    mcrae_dataset_and_dataloader,
     read_config,
     to_cpu,
-    mcrae_dataset_and_dataloader,
 )
-from sklearn.neighbors import NearestNeighbors
 
 log = logging.getLogger(__name__)
 
@@ -76,6 +73,13 @@ def preprocess_get_embedding_data(config):
         data_df["property"] = "dummy_property"
         data_df["label"] = int(0)
 
+        data_df = data_df[["concept", "property", "label"]]
+
+        log.info(f"Final Df")
+        log.info(data_df.head(n=100))
+
+        return data_df
+
     elif input_data_type == "property" and num_columns == 1:
         log.info("Generating Embeddings for Properties")
         log.info(f"Number of records : {data_df.shape[0]}")
@@ -88,27 +92,34 @@ def preprocess_get_embedding_data(config):
         data_df["concept"] = "dummy_concept"
         data_df["label"] = int(0)
 
-    elif input_data_type == "concept_and_property" and num_columns == 2:
+        data_df = data_df[["concept", "property", "label"]]
+        log.info(f"Final Df")
+        log.info(data_df.head(n=100))
+
+        return data_df
+
+    elif input_data_type == "concept_and_property" and num_columns in (2, 4):
         log.info("Generating Embeddings for Concepts and Properties")
         log.info(f"Number of records : {data_df.shape[0]}")
-        data_df["label"] = int(0)
 
-        data_df.rename(columns={0: "concept", 1: "property", 2: "label"}, inplace=True)
         log.info(f"Input Df")
         log.info(data_df.head(n=100))
+        data_df["label"] = int(0)
+
+        df3col = data_df.rename(columns={0: "concept", 1: "property"}, inplace=False)
+
+        df3col = df3col[["concept", "property", "label"]]
+
+        log.info(f"Final Df")
+        log.info(df3col.head(n=100))
+
+        return df3col
 
     else:
         raise Exception(
             f"Please Enter a Valid Input data type from: 'concept', 'property' or conncept_and_property. \
             Current 'input_data_type' is: {input_data_type}"
         )
-
-    data_df = data_df[["concept", "property", "label"]]
-
-    log.info(f"Final Data Df")
-    log.info(data_df.head(n=50))
-
-    return data_df
 
 
 def generate_embeddings(config):
