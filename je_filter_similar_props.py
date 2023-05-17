@@ -146,18 +146,40 @@ if __name__ == "__main__":
     log.info(f"Pretrained Model Path : {pretrained_model_path}")
 
     if pretrained_model_to_use == "je_con_prop":
-        test_df = pd.read_csv(
-            test_file,
-            sep="\t",
-            header=None,
-            names=["concept", "property", "label"],
-        )
+        test_df = pd.read_csv(test_file, sep="\t", header=None)
 
-        log.info(f"Test Df")
-        log.info(test_df)
+        num_columns = len(test_df.columns)
+        log.info(f"Number of columns in input file : {num_columns}")
+
+        if num_columns == 2:
+            log.info(f"Input DF")
+            log.info(test_df)
+
+            test_df["label"] = int(0)
+
+            test_df.rename(columns={0: "concept", 1: "property"}, inplace=True)
+
+            test_df = test_df[["concept", "property", "label"]]
+
+        elif num_columns == 3:
+            test_df = pd.read_csv(
+                test_file,
+                sep="\t",
+                header=None,
+                names=["concept", "property", "label"],
+            )
+
+            test_df = test_df[["concept", "property", "label"]]
+
+            log.info(f"Input DF")
+            log.info(test_df)
+
+        # model, test_dataloader = prepare_data_and_models(
+        #     config=config, train_file=None, valid_file=None, test_file=test_file
+        # )
 
         model, test_dataloader = prepare_data_and_models(
-            config=config, train_file=None, valid_file=None, test_file=test_file
+            config=config, train_file=None, valid_file=None, test_file=test_df
         )
 
         loss, predictions, logit = predict(model=model, dataloader=test_dataloader)
