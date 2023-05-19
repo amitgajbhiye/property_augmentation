@@ -2,8 +2,8 @@
 
 #SBATCH --job-name=ufetCcVOcab_type_prop_similatdata
 
-#SBATCH --output=logs/ufet_exp/entropy_ccvocab/out_ccvocab_ufet_bert_large_get_type_propvocab_embeds and_con_similar_50cnetchatgpt_vocab_props.txt
-#SBATCH --error=logs/ufet_exp/entropy_ccvocab/err_ccvocab_ufet_bert_large_get_type_propvocab_embeds and_con_similar_50cnetchatgpt_vocab_props.txt
+#SBATCH --output=logs/ufet_exp/entropy_ccvocab/out_ccvocab_ufet_bert_large_get_type_propvocab_embeds_and_con_similar_50cnetchatgpt_vocab_props.txt
+#SBATCH --error=logs/ufet_exp/entropy_ccvocab/err_ccvocab_ufet_bert_large_get_type_propvocab_embeds_and_con_similar_50cnetchatgpt_vocab_props.txt
 
 #SBATCH --tasks-per-node=5
 #SBATCH --ntasks=5
