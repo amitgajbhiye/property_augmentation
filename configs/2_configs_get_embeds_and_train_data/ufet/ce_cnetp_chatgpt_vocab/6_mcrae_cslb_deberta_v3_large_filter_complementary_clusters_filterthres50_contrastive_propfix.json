@@ -22,7 +22,7 @@
         "max_epochs": 0,
         "warmup_ratio": 0,
         "patience_early_stopping": 0,
-        "save_dir": "ufet/embeddings/entropy_ccvocab",
+        "save_dir": "data/ufet/embeddings/entropy_ccvocab",
         "model_name": null,
         "lr_policy": null,
         "lr_decay_iters": null,
