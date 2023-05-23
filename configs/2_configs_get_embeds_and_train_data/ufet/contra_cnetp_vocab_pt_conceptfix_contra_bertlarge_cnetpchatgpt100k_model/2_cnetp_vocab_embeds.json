@@ -1,5 +1,5 @@
 {
-    "experiment_name": "2_cnetpvocab_cnetp_vocab_embeds_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model",
+    "experiment_name": "2_cnetp_vocab_embeds_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model",
     "log_dirctory": "ufet_exp/contra_cnetp_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model",
     "dataset_params": {
         "dataset_name": "cnetpvocab_embeds",
