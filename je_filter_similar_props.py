@@ -41,20 +41,6 @@ def set_logger(config):
 
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 
-# test_file = "data/generate_embeddding_data/mcrae_related_data/dummy.txt"
-# test_file = "data/train_data/joint_encoder_property_conjuction_data/false_label_con_similar_50_vocab_props.txt"
-
-# test_file = (
-#     "data/redo_prop_conj_exp/with_false_labels_cnetp_con_similar_50_prop_vocab.tsv"
-# )
-
-
-# model_name = (
-#     "joint_encoder_concept_property_gkbcnet_cnethasprop_step2_pretrained_model.pt"
-# )
-# model_name = "je_con_prop_cnet_premium_10negdata_pretrained_model.pt"
-# model_name = "je_con_prop_cnet_premium_20negdata_pretrained_model.pt"
-
 
 def predict(model, dataloader):
     model.eval()
@@ -111,6 +97,65 @@ def predict(model, dataloader):
     return loss, test_preds, test_logits
 
 
+# ++++++++++++++++++++++++++++++++++++++++++++++++
+# def make_clusters(file_name, prop_filter_threshold = 0.50, prop_applies_to_k_concepts = 2):
+
+#     log.info(f"Creating Cluster of Filtered File")
+#     log.info(f"Input File Name : {file_name}")
+#     log.info(f"prop_applies_to_k_concepts : {prop_applies_to_k_concepts}")
+
+#     if isinstance(file_name. pd.DataFrame):
+#         inp_df = file_name
+#         inp_df.rename(mapper = {})
+
+#     else:
+#         inp_df = pd.read_csv(file_name, sep="\t", names=["concept", "property", "logit"])
+
+#     unique_inp_concepts = inp_df["concept"].unique()
+#     num_unique_concepts = unique_inp_concepts.shape[0]
+
+#     # print (f"unique_inp_concepts : {type(unique_inp_concepts)}")
+#     print (f"num_unique_concepts : {num_unique_concepts}")
+#     # print (inp_df)
+
+#     filtered_df = inp_df[inp_df['logit'] >= prop_filter_threshold]
+
+#     filter_unique_inp_concepts = filtered_df["concept"].unique()
+#     filter_num_unique_concepts = filtered_df["concept"].unique().shape[0]
+
+
+#     print (f"After Threshold Filtering")
+#     print (f"num_unique_concepts : {filter_num_unique_concepts}")
+
+#     # print (filtered_df)
+
+#     # Count the number of properties
+
+#     filtered_df["prop_count"] = filtered_df.groupby('property')['property'].transform('count')
+
+#     # print ("+++++++++++")
+#     # print (filtered_df)
+#     # print ("+++++++++++")
+
+#     new_df = filtered_df[filtered_df["prop_count"] >= 2]
+
+#     # print ("+++++++++++")
+#     # print (new_df)
+#     # print ("+++++++++++")
+
+#     final_df = new_df.sort_values(by=["property"], ascending=True, inplace=False)
+
+#     print (final_df)
+
+#     # save_file = f"property_augmentation/data/ufet/propfix_contra_mcrae_cslb_debv3l_{prop_filter_threshold}thresh_filter_clustered_file.txt"
+
+#     save_file = f"property_augmentation/data/ufet/ce_cnetp_chatgpt_vocab/propfix_contra_1stcluster_filterthresh75_deb3l_mcrae_cslb_ctx5_{prop_filter_threshold}filtered_data_contarstive_propfix_complementary_2ncluster.tsv"
+#     final_df.to_csv(save_file, sep="\t", index=None, header=False)
+
+
+#     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 if __name__ == "__main__":
     set_seed(1)
 
@@ -138,12 +183,14 @@ if __name__ == "__main__":
     pretrained_model_num_neg = training_params["pretrained_model_num_neg"]
     dataset_name = training_params["dataset_name"]
     pretrained_model_to_use = training_params["pretrained_model_to_use"]
+    create_complete_clusters = training_params["create_complete_clusters"]
 
     log.info(f"Test File : {test_file}")
     log.info(f"Filtering Threshold : {type(thresholds)}, {thresholds}")
     log.info(f"Save Dir : {save_dir}")
     log.info(f"pretrained_model_num_neg : {pretrained_model_num_neg}")
     log.info(f"Pretrained Model Path : {pretrained_model_path}")
+    log.info(f"create_complete_clusters : {create_complete_clusters}")
 
     if pretrained_model_to_use == "je_con_prop":
         test_df = pd.read_csv(test_file, sep="\t", header=None)
@@ -228,6 +275,9 @@ if __name__ == "__main__":
 
             log.info(f"Threshold {thresh} Data - Dataframe With Logits")
             log.info(df_with_threshold.head(n=20))
+
+            # def make_clusters(file_name, prop_filter_threshold = 0.50, prop_applies_to_k_concepts = 2):
+            # if create_complete_clusters:
 
             # df_with_threshold.drop(labels="logit", axis=1, inplace=True)
 
