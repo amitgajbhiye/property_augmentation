@@ -1,5 +1,5 @@
 {
-    "experiment_name": "6_mcrae_cslb_deb3l_filter_prop_sim_50cons_filterthresh75",
+    "experiment_name": "6_mcrae_cslb_deb3l_filter_prop_sim_50cons_filterthresh50",
     "log_dirctory": "ufet_exp/contra_cnetp_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model",
     "training_params": {
         "pretrained_model_to_use": "je_con_prop",
@@ -9,12 +9,12 @@
         "pretrain": false,
         "train_file_path": null,
         "val_file_path": null,
-        "test_file_path": "data/ufet/embeddings/contra_cnetp_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model/complementary_cluster_prop_similar50con_filterthresh75.tsv",
+        "test_file_path": "data/ufet/embeddings/contra_cnetp_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model/complementary_cluster_prop_similar50con_filterthresh50.tsv",
         "finetune": null,
         "load_pretrained": true,
         "pretrained_model_path": "trained_models/je_mcrae_cslb_pretrained/val_score_0.8314_je_mcrae_cslb5neg_pretrain_deberta_v3_large_mask_id_ctx5_con_prop.pt",
-        "pretrained_model_num_neg": "deb3l_mcrae_cslb_ctx5_complementary_cluster_filterthresh75",
-        "thresholds": [0.75],
+        "pretrained_model_num_neg": "deb3l_mcrae_cslb_ctx5_complementary_cluster_filterthresh50",
+        "thresholds": [0.50],
         "cv_type": null,
         "data_dir": null,
         "batch_size": 1024,
