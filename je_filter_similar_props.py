@@ -97,65 +97,6 @@ def predict(model, dataloader):
     return loss, test_preds, test_logits
 
 
-# ++++++++++++++++++++++++++++++++++++++++++++++++
-# def make_clusters(file_name, prop_filter_threshold = 0.50, prop_applies_to_k_concepts = 2):
-
-#     log.info(f"Creating Cluster of Filtered File")
-#     log.info(f"Input File Name : {file_name}")
-#     log.info(f"prop_applies_to_k_concepts : {prop_applies_to_k_concepts}")
-
-#     if isinstance(file_name. pd.DataFrame):
-#         inp_df = file_name
-#         inp_df.rename(mapper = {})
-
-#     else:
-#         inp_df = pd.read_csv(file_name, sep="\t", names=["concept", "property", "logit"])
-
-#     unique_inp_concepts = inp_df["concept"].unique()
-#     num_unique_concepts = unique_inp_concepts.shape[0]
-
-#     # print (f"unique_inp_concepts : {type(unique_inp_concepts)}")
-#     print (f"num_unique_concepts : {num_unique_concepts}")
-#     # print (inp_df)
-
-#     filtered_df = inp_df[inp_df['logit'] >= prop_filter_threshold]
-
-#     filter_unique_inp_concepts = filtered_df["concept"].unique()
-#     filter_num_unique_concepts = filtered_df["concept"].unique().shape[0]
-
-
-#     print (f"After Threshold Filtering")
-#     print (f"num_unique_concepts : {filter_num_unique_concepts}")
-
-#     # print (filtered_df)
-
-#     # Count the number of properties
-
-#     filtered_df["prop_count"] = filtered_df.groupby('property')['property'].transform('count')
-
-#     # print ("+++++++++++")
-#     # print (filtered_df)
-#     # print ("+++++++++++")
-
-#     new_df = filtered_df[filtered_df["prop_count"] >= 2]
-
-#     # print ("+++++++++++")
-#     # print (new_df)
-#     # print ("+++++++++++")
-
-#     final_df = new_df.sort_values(by=["property"], ascending=True, inplace=False)
-
-#     print (final_df)
-
-#     # save_file = f"property_augmentation/data/ufet/propfix_contra_mcrae_cslb_debv3l_{prop_filter_threshold}thresh_filter_clustered_file.txt"
-
-#     save_file = f"property_augmentation/data/ufet/ce_cnetp_chatgpt_vocab/propfix_contra_1stcluster_filterthresh75_deb3l_mcrae_cslb_ctx5_{prop_filter_threshold}filtered_data_contarstive_propfix_complementary_2ncluster.tsv"
-#     final_df.to_csv(save_file, sep="\t", index=None, header=False)
-
-
-#     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
 if __name__ == "__main__":
     set_seed(1)
 
@@ -183,6 +124,7 @@ if __name__ == "__main__":
     pretrained_model_num_neg = training_params["pretrained_model_num_neg"]
     dataset_name = training_params["dataset_name"]
     pretrained_model_to_use = training_params["pretrained_model_to_use"]
+    prop_applies_to_concepts = training_params["prop_applies_to_concepts"]
     create_complete_clusters = training_params["create_complete_clusters"]
 
     log.info(f"Test File : {test_file}")
@@ -208,30 +150,30 @@ if __name__ == "__main__":
 
             test_df = test_df[["concept", "property", "label"]]
 
-        elif num_columns == 3:
-            test_df = pd.read_csv(
+        elif num_columns == 4 and create_complete_clusters:
+            clustered_1_file = pd.read_csv(
                 test_file,
                 sep="\t",
                 header=None,
-                names=["concept", "property", "label"],
+                names=["concept", "property", "logit", "prop_count"],
             )
 
-            test_df = test_df[["concept", "property", "label"]]
+            test_df = clustered_1_file[["concept", "property"]]
 
-            log.info(f"Input DF")
+            test_df["label"] = int(0)
+
+            log.info(f"clustered_1_file for generating complete clusters")
+            log.info(clustered_1_file)
+
+            log.info(f"test_df")
             log.info(test_df)
-
-        # model, test_dataloader = prepare_data_and_models(
-        #     config=config, train_file=None, valid_file=None, test_file=test_file
-        # )
+        else:
+            raise Exception(f"Check input file: {test_file}")
 
         model, test_dataloader = prepare_data_and_models(
             config=config, train_file=None, valid_file=None, test_file=test_df
         )
-
         loss, predictions, logit = predict(model=model, dataloader=test_dataloader)
-
-        # positive_class_logits = [l[1] for l in logit]
 
         log.info(f"Number of Logits : {len(logit)}")
 
@@ -254,41 +196,72 @@ if __name__ == "__main__":
             all_logit_filename, sep="\t", index=None, header=None, float_format="%.5f"
         )
 
-        log.info(f"All Data - Dataframe With Logits")
+        log.info(f"all_data - Dataframe With Logits")
         log.info(new_test_dataframe.head(n=20))
 
         for thresh in thresholds:
-            df_with_threshold = new_test_dataframe[new_test_dataframe["logit"] > thresh]
+            df_with_filter_thres = new_test_dataframe[
+                new_test_dataframe["logit"] >= thresh
+            ]
 
-            with_threshold_logit_filename = os.path.join(
-                save_dir,
-                f"{pretrained_model_num_neg}_filterthres{thresh}_filtered_{dataset_name}.tsv",
+            df_with_filter_thres["prop_count"] = df_with_filter_thres.groupby(
+                "property"
+            )["property"].transform("count")
+
+            df_with_prop_thres = df_with_filter_thres[
+                df_with_filter_thres["prop_count"] >= prop_applies_to_concepts
+            ]
+            clustered_df = df_with_prop_thres.sort_values(
+                by=["property"], ascending=True, inplace=False
             )
 
-            df_with_threshold.to_csv(
-                with_threshold_logit_filename,
+            log.info(f"Clustered DF")
+            log.info(clustered_df)
+
+            clustered_filename = os.path.join(
+                save_dir,
+                f"{pretrained_model_num_neg}_filterthres{thresh}_{dataset_name}_clustered_file.tsv",
+            )
+
+            clustered_df.to_csv(
+                clustered_filename,
                 sep="\t",
                 index=None,
                 header=None,
                 float_format="%.5f",
             )
 
-            log.info(f"Threshold {thresh} Data - Dataframe With Logits")
-            log.info(df_with_threshold.head(n=20))
+            log.info(f"Clustered file is saved at : {clustered_filename}")
 
-            # def make_clusters(file_name, prop_filter_threshold = 0.50, prop_applies_to_k_concepts = 2):
-            # if create_complete_clusters:
+            if create_complete_clusters:
+                log.info(f"Creating complete clusters...")
 
-            # df_with_threshold.drop(labels="logit", axis=1, inplace=True)
+                clustered_1_file["add_status"] = "already"
+                clustered_df["add_status"] = "added"
 
-            # logit_filename = os.path.join(
-            #     save_dir,
-            #     f"{pretrained_model_num_neg}_{thresh}thres_filtered_without_logits_conprop_{dataset_name}.tsv",
-            # )
-            # df_with_threshold.to_csv(logit_filename, sep="\t", index=None, header=None)
+                complete_clusters = pd.concat(
+                    [clustered_1_file, clustered_df], axis=0, ignore_index=True
+                )[["concept", "property", "add_status", "je_thresh", "prop_count"]]
 
-            # log.info(f"Data after logit column is dropped")
-            # log.info(df_with_threshold.head(n=20))
+                complete_clusters.drop_duplicates(
+                    subset=["concept", "property"],
+                    keep="first",
+                    inplace=True,
+                    ignore_index=True,
+                )
+
+                complete_clusters = complete_clusters.sort_values(
+                    by=["property"], ascending=True
+                )
+
+                complete_clusters_filename = os.path.join(
+                    save_dir,
+                    f"{pretrained_model_num_neg}_filterthres{thresh}_{dataset_name}_complete_clustered_file.tsv",
+                )
+
+                complete_clusters.to_csv(
+                    complete_clusters_filename, sep="\t", heade=False, index=False
+                )
 
     elif pretrained_model_to_use == "nli":
         nli_tokenizer_path = training_params["nli_tokenizer_path"]

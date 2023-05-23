@@ -27,6 +27,7 @@
         "lr_policy": null,
         "lr_decay_iters": null,
         "weight_decay": 0.01,
+        "prop_applies_to_concepts":2,
         "create_complete_clusters": true
     },
     "dataset_params": {
