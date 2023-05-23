@@ -1,6 +1,6 @@
 {
     "experiment_name": "6_mcrae_cslb_deb3l_filter_prop_sim_50cons_filterthresh50",
-    "log_dirctory": "ufet_exp/contra_cnetp_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model",
+    "log_dirctory": "ufet_exp/contra_cnetpchatgpt100k_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model",
     "training_params": {
         "pretrained_model_to_use": "je_con_prop",
         "nli_tokenizer_path": null,
@@ -9,7 +9,7 @@
         "pretrain": false,
         "train_file_path": null,
         "val_file_path": null,
-        "test_file_path": "data/ufet/embeddings/contra_cnetp_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model/complementary_cluster_prop_similar50con_filterthresh50.tsv",
+        "test_file_path": "data/ufet/embeddings/contra_cnetpchatgpt100k_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model/complementary_cluster_prop_similar50con_filterthresh50.tsv",
         "finetune": null,
         "load_pretrained": true,
         "pretrained_model_path": "trained_models/je_mcrae_cslb_pretrained/val_score_0.8314_je_mcrae_cslb5neg_pretrain_deberta_v3_large_mask_id_ctx5_con_prop.pt",
@@ -22,7 +22,7 @@
         "max_epochs": 0,
         "warmup_ratio": 0,
         "patience_early_stopping": 0,
-        "save_dir": "data/ufet/embeddings/contra_cnetp_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model",
+        "save_dir": "data/ufet/embeddings/contra_cnetpchatgpt100k_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model",
         "model_name": null,
         "lr_policy": null,
         "lr_decay_iters": null,

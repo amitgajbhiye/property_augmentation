@@ -1,6 +1,6 @@
 {
     "experiment_name": "5_complementary_clusters_debv3l_filterthresh50",
-    "log_dirctory": "ufet_exp/contra_cnetp_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model",
+    "log_dirctory": "ufet_exp/contra_cnetpchatgpt100k_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model",
     "dataset_params": {
         "dataset_name": "complementary_cluster_prop_similar50con_filterthresh50",
         "train_file_path": null,
@@ -30,8 +30,8 @@
         "input_data_type": "concept_and_property",
         "concept_file": null,
         "property_file": null,
-        "concept_property_file": "data/ufet/embeddings/contra_cnetp_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model/deb3l_mcrae_cslb_ctx5_filterthres0.5_con_similar_50cnetp_vocabprops_clustered_file.tsv",
-        "save_dir": "data/ufet/embeddings/contra_cnetp_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model",
+        "concept_property_file": "data/ufet/embeddings/contra_cnetpchatgpt100k_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model/deb3l_mcrae_cslb_ctx5_filterthres0.5_con_similar_50cnetpchatgpt100k_vocabprops_clustered_file.tsv",
+        "save_dir": "data/ufet/embeddings/contra_cnetpchatgpt100k_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model",
         "get_con_sim_vocab_properties": false,
         "get_props_sim_concepts": true,
         "num_nearest_neighbours": 50,

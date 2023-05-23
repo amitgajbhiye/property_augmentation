@@ -34,7 +34,7 @@
         "save_dir": "data/ufet/embeddings/contra_cnetpchatgpt100k_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model",
         "get_con_sim_vocab_properties": true,
         "num_nearest_neighbours": 50,
-        "concept_embed_pkl": "data/ufet/embeddings/contra_cnetp_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model/ufet_type_concept_embeddings.pkl",
+        "concept_embed_pkl": "data/ufet/embeddings/contra_cnetpchatgpt100k_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model/ufet_type_concept_embeddings.pkl",
         "get_predict_prop_similar_props": false,
         "num_prop_conjuct": null,
         "pretrain_data": false,
@@ -45,7 +45,7 @@
         "split_type": null,
         "fold_file_base_path": null,
         "concept_similar_prop_file": null, 
-        "vocab_property_embed_pkl": "data/ufet/embeddings/contra_cnetp_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model/cnetpchatgpt100k_vocab_property_embeddings.pkl",
+        "vocab_property_embed_pkl": "data/ufet/embeddings/contra_cnetpchatgpt100k_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model/cnetpchatgpt100k_vocab_property_embeddings.pkl",
         "predict_property_embed_pkl": null,
         "con_only_similar_data": false,
         "top_k_sim_props": null

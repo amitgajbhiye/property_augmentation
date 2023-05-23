@@ -215,9 +215,6 @@ if __name__ == "__main__":
                 by=["property"], ascending=True, inplace=False
             )
 
-            log.info(f"Clustered DF")
-            log.info(clustered_df)
-
             clustered_filename = os.path.join(
                 save_dir,
                 f"{pretrained_model_num_neg}_filterthres{thresh}_{dataset_name}_clustered_file.tsv",
@@ -232,6 +229,8 @@ if __name__ == "__main__":
             )
 
             log.info(f"Clustered file is saved at : {clustered_filename}")
+            log.info(f"Clustered DF")
+            log.info(clustered_df)
 
             if create_complete_clusters:
                 log.info(f"Creating complete clusters...")
@@ -262,6 +261,13 @@ if __name__ == "__main__":
                 complete_clusters.to_csv(
                     complete_clusters_filename, sep="\t", heade=False, index=False
                 )
+
+                log.info(
+                    f"complete_clusters files saved to :{complete_clusters_filename}"
+                )
+                log.info(f"complete_clusters")
+                log.info(complete_clusters)
+                log.info(f"Finished creating complete clusters.")
 
     elif pretrained_model_to_use == "nli":
         nli_tokenizer_path = training_params["nli_tokenizer_path"]
