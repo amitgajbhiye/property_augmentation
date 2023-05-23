@@ -132,7 +132,7 @@ if __name__ == "__main__":
     training_params = config["training_params"]
 
     test_file = training_params["test_file_path"]
-    threshold = training_params["threshold"]
+    thresholds = list(training_params["thresholds"])
     save_dir = training_params["save_dir"]
     pretrained_model_path = training_params["pretrained_model_path"]
     pretrained_model_num_neg = training_params["pretrained_model_num_neg"]
@@ -140,7 +140,7 @@ if __name__ == "__main__":
     pretrained_model_to_use = training_params["pretrained_model_to_use"]
 
     log.info(f"Test File : {test_file}")
-    log.info(f"Filtering Threshold : {threshold}")
+    log.info(f"Filtering Threshold : {type(thresholds)}, {thresholds}")
     log.info(f"Save Dir : {save_dir}")
     log.info(f"pretrained_model_num_neg : {pretrained_model_num_neg}")
     log.info(f"Pretrained Model Path : {pretrained_model_path}")
@@ -210,34 +210,35 @@ if __name__ == "__main__":
         log.info(f"All Data - Dataframe With Logits")
         log.info(new_test_dataframe.head(n=20))
 
-        df_with_threshold = new_test_dataframe[new_test_dataframe["logit"] > threshold]
+        for thresh in thresholds:
+            df_with_threshold = new_test_dataframe[new_test_dataframe["logit"] > thresh]
 
-        with_threshold_logit_filename = os.path.join(
-            save_dir,
-            f"{pretrained_model_num_neg}_{threshold}thres_filtered_with_logits_{dataset_name}.tsv",
-        )
+            with_threshold_logit_filename = os.path.join(
+                save_dir,
+                f"{pretrained_model_num_neg}_filterthres{thresh}_filtered_{dataset_name}.tsv",
+            )
 
-        df_with_threshold.to_csv(
-            with_threshold_logit_filename,
-            sep="\t",
-            index=None,
-            header=None,
-            float_format="%.5f",
-        )
+            df_with_threshold.to_csv(
+                with_threshold_logit_filename,
+                sep="\t",
+                index=None,
+                header=None,
+                float_format="%.5f",
+            )
 
-        log.info(f"Threshold {threshold} Data - Dataframe With Logits")
-        log.info(df_with_threshold.head(n=20))
+            log.info(f"Threshold {thresh} Data - Dataframe With Logits")
+            log.info(df_with_threshold.head(n=20))
 
-        df_with_threshold.drop(labels="logit", axis=1, inplace=True)
+            # df_with_threshold.drop(labels="logit", axis=1, inplace=True)
 
-        logit_filename = os.path.join(
-            save_dir,
-            f"{pretrained_model_num_neg}_{threshold}thres_filtered_without_logits_conprop_{dataset_name}.tsv",
-        )
-        df_with_threshold.to_csv(logit_filename, sep="\t", index=None, header=None)
+            # logit_filename = os.path.join(
+            #     save_dir,
+            #     f"{pretrained_model_num_neg}_{thresh}thres_filtered_without_logits_conprop_{dataset_name}.tsv",
+            # )
+            # df_with_threshold.to_csv(logit_filename, sep="\t", index=None, header=None)
 
-        log.info(f"Data after logit column is dropped")
-        log.info(df_with_threshold.head(n=20))
+            # log.info(f"Data after logit column is dropped")
+            # log.info(df_with_threshold.head(n=20))
 
     elif pretrained_model_to_use == "nli":
         nli_tokenizer_path = training_params["nli_tokenizer_path"]

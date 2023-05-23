@@ -204,6 +204,7 @@ def generate_embeddings(config):
 
     if input_data_type == "concept":
         file_name = dataset_params["dataset_name"] + "_concept_embeddings.pkl"
+
         embedding_save_file_name = os.path.join(save_dir, file_name)
 
         with open(embedding_save_file_name, "wb") as pkl_file:
@@ -337,7 +338,10 @@ def get_concept_similar_vocab_properties(
     log.info(f"con_indices shape : {con_indices.shape}")
 
     con_similar_prop_dict = {}
+
+    #################
     file_name = os.path.join(save_dir, dataset_params["dataset_name"]) + ".tsv"
+    #################
 
     total_sim_props = 0
     with open(file_name, "w") as file:
