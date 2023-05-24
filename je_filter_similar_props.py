@@ -241,7 +241,7 @@ if __name__ == "__main__":
 
                 complete_clusters = pd.concat(
                     [main_cluster_df, clustered_df], axis=0, ignore_index=True
-                )[["concept", "property", "add_status", "je_thresh", "prop_count"]]
+                )[["concept", "property", "add_status", "logit", "prop_count"]]
 
                 complete_clusters.drop_duplicates(
                     subset=["concept", "property"],

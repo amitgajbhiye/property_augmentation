@@ -45,7 +45,7 @@
         "split_type": null,
         "fold_file_base_path": null,
         "concept_similar_prop_file": null, 
-        "vocab_property_embed_pkl": "data/ufet/embeddings/contra_cnetp_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model/cnetpvocab_embeds_property_embeddings.pkl",
+        "vocab_property_embed_pkl": "data/ufet/embeddings/contra_cnetp_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model/cnetpvocab_property_embeddings.pkl",
         "predict_property_embed_pkl": null,
         "con_only_similar_data": false,
         "top_k_sim_props": null

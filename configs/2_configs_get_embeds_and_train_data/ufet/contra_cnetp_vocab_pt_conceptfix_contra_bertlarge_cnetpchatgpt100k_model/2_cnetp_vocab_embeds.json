@@ -2,7 +2,7 @@
     "experiment_name": "2_cnetp_vocab_embeds_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model",
     "log_dirctory": "ufet_exp/contra_cnetp_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model",
     "dataset_params": {
-        "dataset_name": "cnetpvocab_embeds",
+        "dataset_name": "cnetpvocab",
         "train_file_path": null,
         "val_file_path": null,
         "test_file_path": null,
