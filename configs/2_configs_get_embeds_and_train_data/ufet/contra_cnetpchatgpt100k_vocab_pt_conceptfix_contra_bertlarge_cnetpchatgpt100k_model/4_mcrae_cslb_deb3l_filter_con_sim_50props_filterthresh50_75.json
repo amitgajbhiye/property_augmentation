@@ -5,15 +5,15 @@
         "pretrained_model_to_use": "je_con_prop",
         "nli_tokenizer_path": null,
         "nli_model_path": null,
-        "dataset_name": "con_similar_50cnetpchatgpt100k_vocabprops",
+        "dataset_name": "con_similar_50cnetp_vocabprops",
         "pretrain": false,
         "train_file_path": null,
         "val_file_path": null,
-        "test_file_path": "data/ufet/embeddings/contra_cnetpchatgpt100k_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model/ufet_type_similar_50cnetpchatgpt100k_props.tsv",
+        "test_file_path": "data/ufet/embeddings/contra_cnetpchatgpt100k_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model/ufet_type_similar_50cnetpchatgpt100k.tsv",
         "finetune": null,
         "load_pretrained": true,
         "pretrained_model_path": "trained_models/je_mcrae_cslb_pretrained/val_score_0.8314_je_mcrae_cslb5neg_pretrain_deberta_v3_large_mask_id_ctx5_con_prop.pt",
-        "pretrained_model_num_neg": "deb3l_mcrae_cslb_ctx5",
+        "pretrained_model_num_neg": "main_cluster",
         "thresholds": [0.50, 0.75],
         "cv_type": null,
         "data_dir": null,
@@ -28,8 +28,8 @@
         "lr_decay_iters": null,
         "weight_decay": 0.01,
         "prop_applies_to_concepts":2,
-        "create_complete_clusters": false
-
+        "create_complete_clusters": false,
+        "main_cluster_file": null
     },
     "dataset_params": {
         "hf_tokenizer_name": "deberta-v3-large",

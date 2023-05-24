@@ -1,6 +1,6 @@
 #!/bin/bash --login
 
-#SBATCH --job-name=ufetCnetpContraExp
+#SBATCH --job-name=ufetC_ContraExp
 
 #SBATCH --output=logs/ufet_exp/contra_cnetp_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model/out_exp_contra_bert_large_cnetp_vocab.txt
 #SBATCH --error=logs/ufet_exp/contra_cnetp_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model/err_exp_contra_bert_large_cnetp_vocab.txt

@@ -1,8 +1,8 @@
 {
-    "experiment_name": "3_ufet_type_similar_50cnetpchatgpt100k_props",
+    "experiment_name": "3_ufet_type_similar_50cnetpprops",
     "log_dirctory": "ufet_exp/contra_cnetpchatgpt100k_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model",
     "dataset_params": {
-        "dataset_name": "ufet_type_similar_50cnetpchatgpt100k_props",
+        "dataset_name": "ufet_type_similar_50cnetpchatgpt100k",
         "train_file_path": null,
         "val_file_path": null,
         "test_file_path": null,
@@ -45,7 +45,7 @@
         "split_type": null,
         "fold_file_base_path": null,
         "concept_similar_prop_file": null, 
-        "vocab_property_embed_pkl": "data/ufet/embeddings/contra_cnetpchatgpt100k_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model/cnetpchatgpt100k_vocab_property_embeddings.pkl",
+        "vocab_property_embed_pkl": "data/ufet/embeddings/contra_cnetpchatgpt100k_vocab_pt_conceptfix_contra_bertlarge_cnetpchatgpt100k_model/cnetpchatgpt100k_property_embeddings.pkl",
         "predict_property_embed_pkl": null,
         "con_only_similar_data": false,
         "top_k_sim_props": null
