@@ -141,34 +141,14 @@ if __name__ == "__main__":
         log.info(f"Number of columns in input file : {num_columns}")
 
         if num_columns == 2:
-            log.info(f"Input DF")
+            log.info(f"input_df")
             log.info(test_df)
 
             test_df["label"] = int(0)
-
             test_df.rename(columns={0: "concept", 1: "property"}, inplace=True)
-
             test_df = test_df[["concept", "property", "label"]]
-
-        elif num_columns == 4 and create_complete_clusters:
-            clustered_1_file = pd.read_csv(
-                test_file,
-                sep="\t",
-                header=None,
-                names=["concept", "property", "logit", "prop_count"],
-            )
-
-            test_df = clustered_1_file[["concept", "property"]]
-
-            test_df["label"] = int(0)
-
-            log.info(f"clustered_1_file for generating complete clusters")
-            log.info(clustered_1_file)
-
-            log.info(f"test_df")
-            log.info(test_df)
         else:
-            raise Exception(f"Check input file: {test_file}")
+            raise Exception(f"check_input_file: {test_file}")
 
         model, test_dataloader = prepare_data_and_models(
             config=config, train_file=None, valid_file=None, test_file=test_df
@@ -190,8 +170,9 @@ if __name__ == "__main__":
 
         all_logit_filename = os.path.join(
             save_dir,
-            f"{pretrained_model_num_neg}_with_logits_all_data_{dataset_name}.tsv",
+            f"{pretrained_model_num_neg}_all_data_with_logits.tsv",
         )
+
         new_test_dataframe.to_csv(
             all_logit_filename, sep="\t", index=None, header=None, float_format="%.5f"
         )
@@ -200,6 +181,8 @@ if __name__ == "__main__":
         log.info(new_test_dataframe.head(n=20))
 
         for thresh in thresholds:
+            log.info(f"creating_clusters ...")
+
             df_with_filter_thres = new_test_dataframe[
                 new_test_dataframe["logit"] >= thresh
             ]
@@ -215,31 +198,49 @@ if __name__ == "__main__":
                 by=["property"], ascending=True, inplace=False
             )
 
-            clustered_filename = os.path.join(
+            ############################
+            clustered_df_fname = os.path.join(
                 save_dir,
-                f"{pretrained_model_num_neg}_filterthres{thresh}_{dataset_name}_clustered_file.tsv",
+                f"{pretrained_model_num_neg}_filterthresh{thresh}.tsv",
             )
+            ############################
 
             clustered_df.to_csv(
-                clustered_filename,
+                clustered_df_fname,
                 sep="\t",
                 index=None,
                 header=None,
                 float_format="%.5f",
             )
 
-            log.info(f"Clustered file is saved at : {clustered_filename}")
+            log.info(f"clustered_df saved at : {clustered_df_fname}")
             log.info(f"Clustered DF")
             log.info(clustered_df)
 
             if create_complete_clusters:
                 log.info(f"Creating complete clusters...")
 
-                clustered_1_file["add_status"] = "already"
+                main_cluster_file = training_params["main_cluster_file"]
+                assert (
+                    main_cluster_file is not None
+                ), "main_cluster_file is Null, provide main_cluster_file file to create complete clusters.."
+
+                log.info(f"main_cluster_file : {main_cluster_file}")
+                main_cluster_df = pd.read_csv(
+                    main_cluster_file,
+                    sep="\t",
+                    header=None,
+                    names=["concept", "property", "logit", "prop_count"],
+                )
+
+                main_cluster_df["add_status"] = "already"
                 clustered_df["add_status"] = "added"
 
+                log.info(f"main_cluster_df : ", main_cluster_df)
+                log.info(f"complementary_cluster_df : ", clustered_df)
+
                 complete_clusters = pd.concat(
-                    [clustered_1_file, clustered_df], axis=0, ignore_index=True
+                    [main_cluster_df, clustered_df], axis=0, ignore_index=True
                 )[["concept", "property", "add_status", "je_thresh", "prop_count"]]
 
                 complete_clusters.drop_duplicates(
@@ -253,10 +254,12 @@ if __name__ == "__main__":
                     by=["property"], ascending=True
                 )
 
+                ############################
                 complete_clusters_filename = os.path.join(
                     save_dir,
-                    f"{pretrained_model_num_neg}_filterthres{thresh}_{dataset_name}_complete_clustered_file.tsv",
+                    f"complete_cluster_filterthres{thresh}.tsv",
                 )
+                ############################
 
                 complete_clusters.to_csv(
                     complete_clusters_filename, sep="\t", heade=False, index=False

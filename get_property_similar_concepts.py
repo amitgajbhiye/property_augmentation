@@ -102,7 +102,7 @@ def preprocess_get_embedding_data(config):
         log.info("Generating Embeddings for Concepts and Properties")
         log.info(f"Number of records : {data_df.shape[0]}")
 
-        log.info(f"Input Df")
+        log.info(f"Input Df - get_property_similar_concepts module")
         log.info(data_df.head(n=100))
         data_df["label"] = int(0)
 
@@ -357,9 +357,11 @@ def get_property_similar_concepts(
 
     # file_name = os.path.join(save_dir, "test_property_similar_concepts") + ".tsv"
 
+    #########################################
     prop_similar_concepts_save_file_name = os.path.join(
         save_dir, f"{dataset_params['dataset_name']}.tsv"
     )
+    #########################################
 
     total_sim_cons = 0
 
