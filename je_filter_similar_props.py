@@ -262,7 +262,7 @@ if __name__ == "__main__":
                 ############################
 
                 complete_clusters.to_csv(
-                    complete_clusters_filename, sep="\t", heade=False, index=False
+                    complete_clusters_filename, sep="\t", header=False, index=False
                 )
 
                 log.info(
