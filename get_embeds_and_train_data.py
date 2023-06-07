@@ -206,8 +206,8 @@ def generate_embeddings(config):
 
             get_con_prop_logit = True
             if get_con_prop_logit:
-                logits_batch = np.round(
-                    torch.flatten(torch.sigmoid(logits)).cpu().numpy(), decimals=4
+                logits_batch = (
+                    torch.flatten(torch.sigmoid(logits)).cpu().numpy().tolist()
                 )
 
                 print(f"logits_batch : {logits_batch}", flush=True)
@@ -265,9 +265,10 @@ def generate_embeddings(config):
         with open(prop_embedding_save_file_name, "wb") as pkl_file:
             pickle.dump(prop_embedding, pkl_file, protocol=pickle.DEFAULT_PROTOCOL)
 
+        logits_list = [round(l, 5) for l in logits_list]
         with open(logits_save_file_name, "w") as logit_file:
-            for con, prop, l in logits_list:
-                logit_file.write(f"{con}\t{prop}\t{l}\n")
+            for con, prop, logit in logits_list:
+                logit_file.write("{c}\t{p}\t{l:.5f}\n.format(con=con, p=prop, l=logit)")
 
         log.info(f"{'*' * 20} Finished {'*' * 20}")
         log.info("Finished Generating the Concept and Property Embeddings and logits")
