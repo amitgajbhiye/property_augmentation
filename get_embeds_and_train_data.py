@@ -268,7 +268,7 @@ def generate_embeddings(config):
         logits_list = [round(l, 5) for l in logits_list]
         with open(logits_save_file_name, "w") as logit_file:
             for con, prop, logit in logits_list:
-                logit_file.write("{c}\t{p}\t{l:.5f}\n.format(con=con, p=prop, l=logit)")
+                logit_file.write("{c}\t{p}\t{l:.5f}\n".format(c=con, p=prop, l=logit))
 
         log.info(f"{'*' * 20} Finished {'*' * 20}")
         log.info("Finished Generating the Concept and Property Embeddings and logits")
