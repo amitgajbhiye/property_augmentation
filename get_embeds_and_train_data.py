@@ -265,10 +265,21 @@ def generate_embeddings(config):
         with open(prop_embedding_save_file_name, "wb") as pkl_file:
             pickle.dump(prop_embedding, pkl_file, protocol=pickle.DEFAULT_PROTOCOL)
 
-        logits_list = [round(l, 5) for l in logits_list]
-        with open(logits_save_file_name, "w") as logit_file:
-            for con, prop, logit in logits_list:
-                logit_file.write("{c}\t{p}\t{l:.5f}\n".format(c=con, p=prop, l=logit))
+        logit_df = pd.DataFrame.from_records(logits_list)
+        print()
+
+        logit_df.to_csv(
+            logits_save_file_name,
+            sep="\t",
+            index=None,
+            header=None,
+            float_format="%.5f",
+        )
+
+        # logits_list = [round(l, 5) for l in logits_list]
+        # with open(logits_save_file_name, "w") as logit_file:
+        #     for con, prop, logit in logits_list:
+        #         logit_file.write("{c}\t{p}\t{l:.5f}\n".format(c=con, p=prop, l=logit))
 
         log.info(f"{'*' * 20} Finished {'*' * 20}")
         log.info("Finished Generating the Concept and Property Embeddings and logits")
