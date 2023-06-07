@@ -13,7 +13,7 @@
         "finetune": null,
         "load_pretrained": true,
         "pretrained_model_path": "trained_models/je_mcrae_cslb_pretrained/val_score_0.8314_je_mcrae_cslb5neg_pretrain_deberta_v3_large_mask_id_ctx5_con_prop.pt",
-        "pretrained_model_num_neg": "food_adjective_taste",
+        "pretrained_model_num_neg": "deb3l_je_food_adjective_taste",
         "thresholds": [0.00],
         "cv_type": null,
         "data_dir": null,
