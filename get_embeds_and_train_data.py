@@ -88,9 +88,12 @@ def preprocess_get_embedding_data(config):
         data_df["concept"] = "dummy_concept"
         data_df["label"] = int(0)
 
-    elif input_data_type == "concept_and_property" and num_columns == 3:
+    elif input_data_type == "concept_and_property" and num_columns in (2, 3):
         log.info("Generating Embeddings for Concepts and Properties")
         log.info(f"Number of records : {data_df.shape[0]}")
+
+        if num_columns == 2:
+            data_df["label"] = int(0)
 
         data_df.rename(columns={0: "concept", 1: "property", 2: "label"}, inplace=True)
 
@@ -139,6 +142,7 @@ def generate_embeddings(config):
     )
 
     con_embedding, prop_embedding = {}, {}
+    logits_list = []
 
     for step, batch in enumerate(dataloader):
         concepts_batch, property_batch = dataset.add_context(batch)
@@ -200,6 +204,20 @@ def generate_embeddings(config):
                 # else:
                 # log.info(f"Property : {prop} is already in dictionary !!")
 
+            get_con_prop_logit = True
+            if get_con_prop_logit:
+                print(f"logits_batch : {logits_batch}")
+                logits_batch = torch.sigmoid(logits).reshape(-1, 1).cpu().numpy()
+
+                logits_list.extend(
+                    [
+                        (con, prop, lgts)
+                        for con, prop, lgts in zip(
+                            concepts_batch, property_batch, logits_batch
+                        )
+                    ]
+                )
+
     save_dir = inference_params["save_dir"]
 
     if input_data_type == "concept":
@@ -234,9 +252,11 @@ def generate_embeddings(config):
     if input_data_type == "concept_and_property":
         con_file_name = dataset_params["dataset_name"] + "_concept_embeddings.pkl"
         prop_file_name = dataset_params["dataset_name"] + "_property_embeddings.pkl"
+        logits_file_name = dataset_params["dataset_name"] + "_logits.tsv"
 
         con_embedding_save_file_name = os.path.join(save_dir, con_file_name)
         prop_embedding_save_file_name = os.path.join(save_dir, prop_file_name)
+        logits_save_file_name = os.path.join(save_dir, logits_file_name)
 
         with open(con_embedding_save_file_name, "wb") as pkl_file:
             pickle.dump(con_embedding, pkl_file, protocol=pickle.DEFAULT_PROTOCOL)
@@ -244,10 +264,15 @@ def generate_embeddings(config):
         with open(prop_embedding_save_file_name, "wb") as pkl_file:
             pickle.dump(prop_embedding, pkl_file, protocol=pickle.DEFAULT_PROTOCOL)
 
+        with open(logits_save_file_name, "w") as logit_file:
+            for con, prop, logit in logits_list:
+                logit_file.write(f"{con}\t{prop}\t{logit}")
+
         log.info(f"{'*' * 20} Finished {'*' * 20}")
-        log.info("Finished Generating the Concept and Property Embeddings")
+        log.info("Finished Generating the Concept and Property Embeddings and logits")
         log.info(f"Concept Embeddings are saved in : {con_embedding_save_file_name}")
         log.info(f"Property Embeddings are saved in : {prop_embedding_save_file_name}")
+        log.info(f"Concept Property Logits are saved in : {logits_save_file_name}")
         log.info(f"{'*' * 40}")
 
         return con_embedding_save_file_name, prop_embedding_save_file_name
