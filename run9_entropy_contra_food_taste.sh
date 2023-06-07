@@ -1,9 +1,9 @@
 #!/bin/bash --login
 
-#SBATCH --job-name=entFoodTaste
+#SBATCH --job-name=entContra
 
-#SBATCH --output=logs/food_taste/entropy_food_taste.txt
-#SBATCH --error=logs/food_taste/entropy_food_taste.txt
+#SBATCH --output=logs/food_taste/out_entropy_contra_food_taste.txt
+#SBATCH --error=logs/food_taste/err_entropy_contra_food_taste.txt
 
 #SBATCH --tasks-per-node=5
 #SBATCH --ntasks=5
@@ -20,5 +20,7 @@ conda activate venv
 python3 get_embeds_and_train_data.py --config_file configs/food_taste/3_bienc_entropy_bert_large_cnetpchatgpt.json
 python3 get_embeds_and_train_data.py --config_file configs/food_taste/4_food_adj_taste_bienc_entropy_bert_large_cnetpchatgpt.json
 
+python3 get_embeds_and_train_data.py --config_file configs/food_taste/5_bienc_contra_bert_large_cnetpchatgpt.json
+python3 get_embeds_and_train_data.py --config_file configs/food_taste/6_food_adj_taste_bienc_contra_bert_large_cnetpchatgpt.json
 
 echo 'Job Finished !!!'
