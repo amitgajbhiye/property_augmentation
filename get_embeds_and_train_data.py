@@ -264,6 +264,7 @@ def generate_embeddings(config):
             pickle.dump(prop_embedding, pkl_file, protocol=pickle.DEFAULT_PROTOCOL)
 
         with open(logits_save_file_name, "w") as logit_file:
+            logits_list = np.round(np.array(logits_list), decimals=5)
             print(f"logits_list: {logits_list}", flush=True)
             for con, prop, logit in logits_list:
                 logit_file.write(f"{con}\t{prop}\t{round(logit, 5)}\n")
