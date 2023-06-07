@@ -206,11 +206,8 @@ def generate_embeddings(config):
 
             get_con_prop_logit = True
             if get_con_prop_logit:
-                logits_batch = (
-                    torch.round(torch.flatten(torch.sigmoid(logits)), decimals=5)
-                    .cpu()
-                    .numpy()
-                )
+                logits_batch = torch.flatten(torch.sigmoid(logits)).cpu().numpy()
+                logits_batch = [round(lgt, 5) for lgt in logits_batch]
 
                 print(f"logits_batch : {logits_batch}", flush=True)
 
