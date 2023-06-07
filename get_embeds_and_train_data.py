@@ -207,7 +207,6 @@ def generate_embeddings(config):
             get_con_prop_logit = True
             if get_con_prop_logit:
                 logits_batch = torch.flatten(torch.sigmoid(logits)).cpu().numpy()
-                logits_batch = [round(lgt, 5) for lgt in logits_batch]
 
                 print(f"logits_batch : {logits_batch}", flush=True)
 
@@ -266,7 +265,7 @@ def generate_embeddings(config):
 
         with open(logits_save_file_name, "w") as logit_file:
             for con, prop, logit in logits_list:
-                logit_file.write(f"{con}\t{prop}\t{logit}\n")
+                logit_file.write(f"{con}\t{prop}\t{round(logit, 5)}\n")
 
         log.info(f"{'*' * 20} Finished {'*' * 20}")
         log.info("Finished Generating the Concept and Property Embeddings and logits")
