@@ -514,8 +514,8 @@ if __name__ == "__main__":
 
     get_con_prop_embeds = inference_params["get_con_prop_embeds"]
     get_con_sim_vocab_properties = inference_params["get_con_sim_vocab_properties"]
-    get_predict_prop_similar_props = inference_params["get_predict_prop_similar_props"]
-    get_con_only_similar_data = inference_params["con_only_similar_data"]
+    # get_predict_prop_similar_props = inference_params["get_predict_prop_similar_props"]
+    # get_con_only_similar_data = inference_params["con_only_similar_data"]
     get_props_sim_concepts = inference_params["get_props_sim_concepts"]
 
     ######################### Important Flags #########################
@@ -525,12 +525,7 @@ if __name__ == "__main__":
         f"Get Concept, Property or Concept and Property Embedings : {get_con_prop_embeds}"
     )
     log.info(f"Get Concept Similar Vocab Properties  : {get_con_sim_vocab_properties} ")
-    log.info(
-        f"Get Predict Similar JE Filtered Properties  : {get_predict_prop_similar_props} "
-    )
-    log.info(
-        f"Get Concept Only Similar Property Conjuction Data : {get_con_only_similar_data}"
-    )
+
     log.info(f"Get Property Similar Concepts : {get_props_sim_concepts}")
 
     log.info("*" * 60)

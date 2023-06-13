@@ -1,0 +1,54 @@
+{
+    "experiment_name": "5_get_prop_similar50types_filterthresh50",
+    "log_dirctory": "ufet_exp/chatgpt100k_vocab_chatgpt100k_bienc",
+    "dataset_params": {
+        "dataset_name": "prop_similar50types_filterthresh50",
+        "train_file_path": null,
+        "val_file_path": null,
+        "test_file_path": null,
+        "hf_tokenizer_name": "bert-large-uncased",
+        "hf_tokenizer_path": "/scratch/c.scmag3/hf_pretrained_models/bert_large_uncased/tokenizer",
+        "concept_max_len": 20,
+        "property_max_len": 20,
+        "add_context": true,
+        "context_num": 6,
+        "loader_params": {
+            "batch_size": 1024,
+            "num_workers": 4,
+            "pin_memory": true
+        }
+    },
+    "model_params": {
+        "model_name": null,
+        "hf_checkpoint_name": "bert-large-uncased",
+        "hf_model_path": "/scratch/c.scmag3/hf_pretrained_models/bert_large_uncased/model",
+        "vector_strategy": "mask_token"
+    },
+    "inference_params": {
+        "pretrained_model_path": "trained_models/chatgpt_pretrain/bienc_bert_large_chatgpt100k_pretrain_new_data.pt",
+        "get_con_prop_embeds": true,
+        "input_data_type": "concept_and_property",
+        "concept_file": null,
+        "property_file": null,
+        "concept_property_file": "data/ufet/embeddings/chatgpt100k_vocab_chatgpt100k_bienc/main_cluster_filterthresh0.5.tsv",
+        "save_dir": "data/ufet/embeddings/chatgpt100k_vocab_chatgpt100k_bienc",
+        "get_con_sim_vocab_properties": false,
+        "get_props_sim_concepts": true,
+        "num_nearest_neighbours": 50,
+        "concept_embed_pkl": null,
+        "get_predict_prop_similar_props": false,
+        "num_prop_conjuct": null,
+        "pretrain_data": false,
+        "pretrain_train_file": null,
+        "pretrain_valid_file": null,
+        "save_prefix": null,
+        "finetune_data": false,
+        "split_type": null,
+        "fold_file_base_path": null,
+        "concept_similar_prop_file": null,
+        "vocab_property_embed_pkl": null,
+        "predict_property_embed_pkl": null,
+        "con_only_similar_data": false,
+        "top_k_sim_props": null
+    }
+}

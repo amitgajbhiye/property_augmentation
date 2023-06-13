@@ -181,7 +181,9 @@ if __name__ == "__main__":
         log.info(new_test_dataframe.head(n=20))
 
         for thresh in thresholds:
-            log.info(f"creating_clusters ...")
+            log.info(
+                f"creating_clusters with filtering thresh {thresh} and prop count thresh {prop_applies_to_concepts}."
+            )
 
             df_with_filter_thres = new_test_dataframe[
                 new_test_dataframe["logit"] >= thresh
