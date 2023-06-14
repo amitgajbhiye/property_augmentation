@@ -2,7 +2,7 @@
     "experiment_name": "8_for_definition_encoder_get_con_vocab_embed_entropy_bert_large_cnetp_chatgpt100k_pt_model",
     "log_dirctory": "definition_encoder",
     "dataset_params": {
-        "dataset_name": "definition_enc_wordnet_codwoe_con_vocabembed_entropy_bert_large_cnetpchatgpt100k_entropy_model",
+        "dataset_name": "definition_enc_wordnetcodwoe_con_embeds_ent_bertlarge_cnetpchatgpt100",
         "train_file_path": null,
         "val_file_path": null,
         "test_file_path": null,
@@ -13,7 +13,7 @@
         "add_context": true,
         "context_num": 6,
         "loader_params": {
-            "batch_size": 32,
+            "batch_size": 1024,
             "num_workers": 4,
             "pin_memory": true
         }
