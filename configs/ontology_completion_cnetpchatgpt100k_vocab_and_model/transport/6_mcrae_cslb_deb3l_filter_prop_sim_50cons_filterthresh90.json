@@ -1,0 +1,48 @@
+{
+    "experiment_name": "6_mcrae_cslb_deb3l_filter_prop_sim_50cons_filterthresh90",
+    "log_dirctory": "ontology_completion/transport",
+    "training_params": {
+        "pretrained_model_to_use": "je_con_prop",
+        "nli_tokenizer_path": null,
+        "nli_model_path": null,
+        "dataset_name": "prop_similar50cons_filterthresh90",
+        "pretrain": false,
+        "train_file_path": null,
+        "val_file_path": null,
+        "test_file_path": "data/ontology_completion/transport/prop_similar50cons_filterthresh90.tsv",
+        "finetune": null,
+        "load_pretrained": true,
+        "pretrained_model_path": "trained_models/je_mcrae_cslb_pretrained/val_score_0.8314_je_mcrae_cslb5neg_pretrain_deberta_v3_large_mask_id_ctx5_con_prop.pt",
+        "pretrained_model_num_neg": "complementary_cluster_filterthresh90",
+        "thresholds": [0.90],
+        "cv_type": null,
+        "data_dir": null,
+        "batch_size": 1024,
+        "lr": null,
+        "max_epochs": 0,
+        "warmup_ratio": 0,
+        "patience_early_stopping": 0,
+        "save_dir": "data/ontology_completion/transport",
+        "model_name": null,
+        "lr_policy": null,
+        "lr_decay_iters": null,
+        "weight_decay": 0.01,
+        "prop_applies_to_concepts":2,        
+        "create_complete_clusters": true,
+        "main_cluster_file": "data/ontology_completion/transport/main_cluster_filterthresh0.9.tsv"
+    },
+    "dataset_params": {
+        "hf_tokenizer_name": "deberta-v3-large",
+        "hf_tokenizer_path": "/scratch/c.scmag3/hf_pretrained_models/deberta_v3_large/tokenizer",
+        "max_len": 40,
+        "context_id": 5,
+        "dataset_name": "prop_similar50cons_filterthresh90"
+    },
+    "model_params": {
+        "hf_checkpoint_name": "deberta-v3-large",
+        "hf_model_path": "/scratch/c.scmag3/hf_pretrained_models/deberta_v3_large/model",
+        "num_labels": 0,
+        "context_id": 5,
+        "remove_classifier_layer": false
+    }
+}
