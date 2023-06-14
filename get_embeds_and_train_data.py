@@ -148,8 +148,12 @@ def generate_embeddings(config):
         concepts_batch, property_batch = dataset.add_context(batch)
 
         print(
-            f"concepts_batch : {concepts_batch}", flush=True
+            f"concepts_batch : {len(concepts_batch),}{concepts_batch}", flush=True
         )  # Printing For Definition Encoder
+        print(
+            f"property_batch : {len(property_batch),}{property_batch}", flush=True
+        )  # Printing For Definition Encoder
+
         print(flush=True)
 
         ids_dict = dataset.tokenize(concepts_batch, property_batch)
