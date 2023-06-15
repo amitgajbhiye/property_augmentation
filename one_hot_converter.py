@@ -14,11 +14,11 @@ def one_hot_encoder(dir_path):
     inp_files = [
         fname
         for fname in listdir(dir_path)
-        if (fname.startswith("main_cluster_filterthresh"))
+        if (fname.startswith("main_cluster_filter"))
         or (fname.startswith("complete_cluster_filter"))
     ]
 
-    print(f"inp_files: {inp_files}")
+    print(f"inp_files: {inp_files}", flush=True)
 
     for inp_file in inp_files:
         abs_path = os.path.join(dir_path, inp_file)
@@ -40,7 +40,7 @@ def one_hot_encoder(dir_path):
 
         out_file_name = os.path.join(out_dir_path, inp_file)
 
-        print(final_df)
+        print(final_df, flush=True)
 
         assert final_df.shape[0] == df.shape[0]
 
