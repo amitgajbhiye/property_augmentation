@@ -9,7 +9,7 @@
 #SBATCH --ntasks=5
 #SBATCH -A scw1858
 
-#SBATCH -p highmem
+#SBATCH -p compute,highmem
 
 #SBATCH --mem=100G
 #SBATCH -t 0-12:00:00
