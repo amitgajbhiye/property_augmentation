@@ -50,57 +50,39 @@ def one_hot_encoder(inp_dir_path, out_dir_path):
 
 
 if __name__ == "__main__":
-    inp_dir_path = str(sys.argv[1])
-    out_dir_path = str(sys.argv[2])
+    task_name = "ontology_completion_except_sumo"
 
-    print(flush=True)
-    print(f"input_arguments", flush=True)
-    print(f"inp_dir_path", flush=True)
-    print(f"out_dir_path", flush=True)
-    print(flush=True)
+    if task_name == "ontology_completion_except_sumo":
+        inp_dir_paths = [
+            "data/ontology_completion/transport",
+            "data/ontology_completion/wine",
+            "data/ontology_completion/olympics",
+            "data/ontology_completion/economy",
+        ]
 
-    one_hot_encoder(inp_dir_path=inp_dir_path, out_dir_path=out_dir_path)
+        out_dir_paths = [
+            "data/ontology_completion/transport/onehot_encodings",
+            "data/ontology_completion/wine/onehot_encodings",
+            "data/ontology_completion/olympics/onehot_encodings",
+            "data/ontology_completion/economy/onehot_encodings",
+        ]
 
-# def one_hot_encoder(dir_path):
-#     # inp_files =  listdir(dir_path)
+        for inp_dir, out_dir in zip(inp_dir_paths, out_dir_paths):
+            print(flush=True)
+            print(f"inp_dir_path", flush=True)
+            print(f"out_dir_path", flush=True)
+            print(flush=True)
 
-#     inp_files = [
-#         fname
-#         for fname in listdir(dir_path)
-#         if (fname.startswith("main_cluster_filterthresh"))
-#         or (fname.startswith("complete_cluster_filter"))
-#     ]
-#     print(f"inp_files: {inp_files}")
+            one_hot_encoder(inp_dir_path=inp_dir, out_dir_path=out_dir)
 
-#     for inp_file in inp_files:
-#         abs_path = os.path.join(dir_path, inp_file)
-#         # print (inp_file)
-#         # print (abs_path)
+    else:
+        inp_dir_path = str(sys.argv[1])
+        out_dir_path = str(sys.argv[2])
 
-#         df = pd.read_csv(abs_path, sep="\t")
-#         df_new = df.iloc[:, [0, 1]]
-#         df_new.columns = ["concept", "property"]
-#         df_new["property"] = df_new["property"].astype("category")
-#         df_new["property_new"] = df_new["property"].cat.codes
+        print(flush=True)
+        print(f"input_arguments", flush=True)
+        print(f"inp_dir_path", flush=True)
+        print(f"out_dir_path", flush=True)
+        print(flush=True)
 
-#         enc = OneHotEncoder()
-
-#         enc_data = pd.DataFrame(
-#             enc.fit_transform(df_new[["property_new"]]).toarray(), dtype=int
-#         )
-#         final_df = df_new[["concept", "property"]].join(enc_data)
-
-#         out_file_name = os.path.join(out_dir_path, inp_file)
-
-#         print(final_df)
-
-#         assert final_df.shape[0] == df.shape[0]
-
-#         with open(out_file_name, "w") as f:
-#             for row in final_df.values:
-#                 embedding_str = " ".join(["{:d}".format(item) for item in row[2:]])
-#                 f.write(f"{row[0]}\t{row[1]}\t{embedding_str}\n")
-
-
-# if __name__ == "__main__":
-#     one_hot_encoder(dir_path=inp_dir_path)
+        one_hot_encoder(inp_dir_path=inp_dir_path, out_dir_path=out_dir_path)
