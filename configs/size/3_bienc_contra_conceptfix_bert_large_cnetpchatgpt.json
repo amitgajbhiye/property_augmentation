@@ -1,0 +1,53 @@
+{
+    "experiment_name": "3_bienc_contra_conceptfix_bert_large_cnetpchatgpt",
+    "log_dirctory": "size",
+    "dataset_params": {
+        "dataset_name": "bienc_contra_conceptfix_bert_large_cnetpchatgpt_size",
+        "train_file_path": null,
+        "val_file_path": null,
+        "test_file_path": null,
+        "hf_tokenizer_name": "bert-large-uncased",
+        "hf_tokenizer_path": "/scratch/c.scmag3/hf_pretrained_models/bert_large_uncased/tokenizer",
+        "concept_max_len": 20,
+        "property_max_len": 20,
+        "add_context": true,
+        "context_num": 6,
+        "loader_params": {
+            "batch_size": 1024,
+            "num_workers": 4,
+            "pin_memory": true
+        }
+    },
+    "model_params": {
+        "model_name": null,
+        "hf_checkpoint_name": "bert-large-uncased",
+        "hf_model_path": "/scratch/c.scmag3/hf_pretrained_models/bert_large_uncased/model",
+        "vector_strategy": "mask_token"
+    },
+    "inference_params": {
+        "pretrained_model_path": "/scratch/c.scmag3/contrastive_biencoder/trained_models/cnetp_chatgpt100k_bert_large_pretrain_grid_search/infonce_cnetp_chatgpt100k_conceptfix_bert_large_uncased_ep25_bs32_wr0.1_wd0.1_tau0.07_lr2e-06_do0.3.pt",
+        "get_con_prop_embeds": true,
+        "input_data_type": "concept_and_property",
+        "concept_file": null,
+        "property_file": null,
+        "concept_property_file": "data/size/size.tsv",
+        "save_dir": "trained_models/size",
+        "get_con_sim_vocab_properties": false,
+        "num_nearest_neighbours": 0,
+        "concept_embed_pkl": null,
+        "get_predict_prop_similar_props": false,
+        "num_prop_conjuct": null,
+        "pretrain_data": false,
+        "pretrain_train_file": null,
+        "pretrain_valid_file": null,
+        "save_prefix": null,
+        "finetune_data": false,
+        "split_type": null,
+        "fold_file_base_path": null,
+        "concept_similar_prop_file": null,
+        "vocab_property_embed_pkl": null,
+        "predict_property_embed_pkl": null,
+        "con_only_similar_data": false,
+        "top_k_sim_props": null
+    }
+}
