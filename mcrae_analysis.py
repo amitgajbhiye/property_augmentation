@@ -42,23 +42,29 @@ def cluster_overlap():
                 cc_cluster[cc_cluster["property"] == cc_prop]["concept"]
             )
             mc_con_cluster = set(
-                mc_train_test[mc_train_test["property"] == mc_prop]["concept"]
+                mc_train_test[
+                    (mc_train_test["property"] == mc_prop)
+                    & (mc_train_test["label"] == 1)
+                ]["concept"]
             )
 
             concept_overlap = cc_con_cluster.intersection(mc_con_cluster)
 
             if concept_overlap:
-                print(f"cnetp_chatgpt_prop, mc_prop : {cc_prop}, {mc_prop}", flush=True)
+                print("*" * 80, flush=True)
                 print(
-                    f"cnetp_chatgpt_prop_con_cluster : {len(cc_con_cluster)} {cc_con_cluster}",
+                    f"***cnetp_chatgpt_prop, mc_prop : {cc_prop, mc_prop}", flush=True
+                )
+                print(
+                    f"***cnetp_chatgpt_prop_con_cluster : {len(cc_con_cluster)} {cc_con_cluster}",
                     flush=True,
                 )
                 print(
-                    f"mc_prop_con_cluster : {len(mc_con_cluster)}, {mc_con_cluster}",
+                    f"***mc_prop_con_cluster : {len(mc_con_cluster)}, {mc_con_cluster}",
                     flush=True,
                 )
                 print(
-                    f"concept_overlap : {len(concept_overlap)}, {concept_overlap}",
+                    f"***concept_overlap : {len(concept_overlap)}, {concept_overlap}",
                     flush=True,
                 )
                 print(flush=True)
