@@ -1,0 +1,84 @@
+# McRae Analysis finding the commonality in concepts based on Cnetp+ChatGPT properties
+
+import pandas as pd
+import pickle
+
+
+def cluster_overlap():
+    mcrae_main_cluster = (
+        "data/mcrae_analysis/con_similar_analysis/main_cluster_filterthresh0.75.tsv"
+    )
+    cc_cluster = pd.read_csv(
+        mcrae_main_cluster,
+        sep="\t",
+        header=None,
+        names=["concept", "property", "filter_thresh", "concept2count"],
+    )
+    cc_cluster = cc_cluster[["concept", "property"]]
+    cnetchat_num_clusters = cc_cluster["property"].nunique()
+    print("Clustered Df", flush=True)
+    print(cc_cluster, flush=True)
+
+    print(flush=True)
+    print(f"cnetchat_num_clusters : {cnetchat_num_clusters}", flush=True)
+
+    all_train_test_file = "data/mcrae_analysis/mcrae_train_test_data.tsv"
+    mc_train_test = pd.read_csv(
+        all_train_test_file, sep="\t", names=["concept", "property", "label"]
+    )
+    print(f"McRae All train Test Dataset", flush=True)
+    print(mc_train_test, flush=True)
+
+    mcrae_num_clusters = mc_train_test["property"].nunique()
+    print(flush=True)
+    print(f"mcrae_num_clusters : {mcrae_num_clusters}", flush=True)
+
+    con_overlap_dict = {}
+    no_overlap_prop_pair = []
+
+    for cc_prop in cc_cluster["property"].unique():
+        for mc_prop in mc_train_test["property"].unique():
+            cc_con_cluster = set(
+                cc_cluster[cc_cluster["property"] == cc_prop]["concept"]
+            )
+            mc_con_cluster = set(
+                mc_train_test[mc_train_test["property"] == mc_prop]["concept"]
+            )
+
+            concept_overlap = cc_con_cluster.intersection(mc_con_cluster)
+
+            if concept_overlap:
+                print(f"cnetp_chatgpt_prop, mc_prop : {cc_prop}, {mc_prop}", flush=True)
+                print(
+                    f"cnetp_chatgpt_prop_con_cluster : {len(cc_con_cluster)} {cc_con_cluster}",
+                    flush=True,
+                )
+                print(
+                    f"mc_prop_con_cluster : {len(mc_con_cluster)}, {mc_con_cluster}",
+                    flush=True,
+                )
+                print(
+                    f"concept_overlap : {len(concept_overlap)}, {concept_overlap}",
+                    flush=True,
+                )
+                print(flush=True)
+
+                con_overlap_dict[(cc_prop, mc_prop)] = len(concept_overlap)
+            else:
+                no_overlap_prop_pair.append((cc_prop, mc_prop))
+
+    return con_overlap_dict, no_overlap_prop_pair
+
+
+con_overlap_dict, no_overlap_prop_pair = cluster_overlap()
+
+sorted_con_overlap_dict = sorted(con_overlap_dict.items(), key=lambda x: x[1])
+
+out_file_name = "trained_models/mcrae_analysis_exp/con_similar_analysis/con_overlap_between_cnetpchatpclusters_mcrae_prop_cluster_dict.pkl"
+
+with open(out_file_name, "wb") as pkl_file:
+    pickle.dump(con_overlap_dict, pkl_file, protocol=pickle.DEFAULT_PROTOCOL)
+
+print(f"count_dict_saved_to : {out_file_name}")
+
+print(dict(sorted_con_overlap_dict[0:100]), flush=True)
