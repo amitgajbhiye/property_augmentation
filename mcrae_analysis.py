@@ -86,13 +86,21 @@ def cluster_overlap():
 
 con_overlap_dict, no_overlap_prop_pair = cluster_overlap()
 
-sorted_con_overlap_dict = sorted(con_overlap_dict.items(), key=lambda x: x[1])
+sorted_con_overlap_dict = dict(
+    sorted(con_overlap_dict.items(), key=lambda x: x[1], reverse=True)
+)
 
 out_file_name = "trained_models/mcrae_analysis_exp/con_similar_analysis/con_overlap_between_cnetpchatpclusters_mcrae_prop_cluster_dict.pkl"
-
 with open(out_file_name, "wb") as pkl_file:
-    pickle.dump(con_overlap_dict, pkl_file, protocol=pickle.DEFAULT_PROTOCOL)
+    pickle.dump(sorted_con_overlap_dict, pkl_file, protocol=pickle.DEFAULT_PROTOCOL)
 
 print(f"count_dict_saved_to : {out_file_name}")
+print("sorted_con_overlap_dict", flush=True)
+print(sorted_con_overlap_dict, flush=True)
 
-print(dict(sorted_con_overlap_dict[0:100]), flush=True)
+no_overlap_prop_pair_file = "trained_models/mcrae_analysis_exp/con_similar_analysis/no_overlap_prop_pair_list.pkl"
+
+with open(no_overlap_prop_pair_file, "wb") as pkl_file:
+    pickle.dump(no_overlap_prop_pair, pkl_file, protocol=pickle.DEFAULT_PROTOCOL)
+
+print(f"no_overlap_prop_pair_file : {no_overlap_prop_pair_file}", flush=True)
