@@ -15,6 +15,10 @@ def cluster_overlap():
         names=["concept", "property", "filter_thresh", "concept2count"],
     )
     cc_cluster = cc_cluster[["concept", "property"]]
+
+    cc_cluster["property"] = cc_cluster["property"].apply(str.lower)
+    cc_cluster["concept"] = cc_cluster["concept"].apply(str.lower)
+
     cnetchat_num_clusters = cc_cluster["property"].nunique()
     print("Clustered Df", flush=True)
     print(cc_cluster, flush=True)
@@ -26,6 +30,10 @@ def cluster_overlap():
     mc_train_test = pd.read_csv(
         all_train_test_file, sep="\t", names=["concept", "property", "label"]
     )
+
+    mc_train_test["property"] = mc_train_test["property"].apply(str.lower)
+    mc_train_test["concept"] = mc_train_test["concept"].apply(str.lower)
+
     print(f"McRae All train Test Dataset", flush=True)
     print(mc_train_test, flush=True)
 
