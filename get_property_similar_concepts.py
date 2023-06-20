@@ -563,8 +563,8 @@ if __name__ == "__main__":
         log.info(f"in_flag : {get_props_sim_concepts}")
 
         # Temporary for McRae Analysis Paper 1
-        concept_pkl_file = "trained_models/mcrae_analysis_exp/prop_similar_analysis/mcrae_train_test_concept_embeddings.pkl"
-        property_pkl_file = "trained_models/mcrae_analysis_exp/prop_similar_analysis/mcrae_train_test_property_embeddings.pkl"
+        # concept_pkl_file = "trained_models/mcrae_analysis_exp/prop_similar_analysis/mcrae_train_test_concept_embeddings.pkl"
+        # property_pkl_file = "trained_models/mcrae_analysis_exp/prop_similar_analysis/mcrae_train_test_property_embeddings.pkl"
 
         get_property_similar_concepts(
             config=config,
