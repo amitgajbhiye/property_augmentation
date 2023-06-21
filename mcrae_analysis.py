@@ -100,11 +100,11 @@ def cluster_overlap():
         con_overlap_dict.items(), key=lambda x: x[1][0], reverse=True
     )
 
-    top_100_clusters = sorted_con_overlap_list[0:200]
+    top_200_clusters = sorted_con_overlap_list[0:200]
 
-    print(f"top_100_clusters : {top_100_clusters}", flush=True)
+    print(f"top_100_clusters : {top_200_clusters}", flush=True)
 
-    top_cluster_file = "trained_models/mcrae_analysis_exp/con_similar_analysis/top_100_jscore_con_overlap_between_cnetpchatp_prop_clusters_mcrae_prop_cluster.txt"
+    top_cluster_file = "trained_models/mcrae_analysis_exp/con_similar_analysis/top_200_jscore_con_overlap_between_cnetpchatp_prop_clusters_mcrae_prop_cluster.txt"
 
     with open(top_cluster_file, "w") as outfile:
         for (cc_prop, mc_prop), (
@@ -112,7 +112,7 @@ def cluster_overlap():
             count,
             inclusion_cc_prop,
             inclusion_mc_prop,
-        ) in top_100_clusters:
+        ) in top_200_clusters:
             cc_con_cluster = set(
                 cc_cluster[cc_cluster["property"] == cc_prop]["concept"]
             )
