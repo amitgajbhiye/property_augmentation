@@ -107,8 +107,12 @@ def cluster_overlap():
             outfile.write(f'{"*" * 80}\n')
             outfile.write(f"***overlap_count: {count}\n")
             outfile.write(f"***cc_prop, mc_prop: {(cc_prop, mc_prop)}\n")
-            outfile.write(f"***cc_con_cluster: {cc_con_cluster}\n")
-            outfile.write(f"***mc_con_cluster: {mc_con_cluster}\n")
+            outfile.write(
+                f"***cc_con_cluster: {len(cc_con_cluster)}, {cc_con_cluster}\n"
+            )
+            outfile.write(
+                f"***mc_con_cluster: {len(mc_con_cluster)}, {mc_con_cluster}\n"
+            )
             outfile.write(f"***con_overlap: {len(con_overlap)}, {con_overlap}\n")
             outfile.write("\n")
 
