@@ -77,20 +77,42 @@ def cluster_overlap():
                 )
                 print(flush=True)
 
-                con_overlap_dict[(cc_prop, mc_prop)] = len(concept_overlap)
+                intersection_count = len(cc_con_cluster.intersection(mc_con_cluster))
+                union_count = len(cc_con_cluster.union(mc_con_cluster))
+
+                j_score = float(intersection_count) / union_count
+                inclusion_cc_prop = float(intersection_count) / len(cc_con_cluster)
+                inclusion_mc_prop = float(intersection_count) / len(mc_con_cluster)
+
+                # con_overlap_dict[(cc_prop, mc_prop)] = len(concept_overlap)
+
+                con_overlap_dict[(cc_prop, mc_prop)] = (
+                    j_score,
+                    len(concept_overlap),
+                    inclusion_cc_prop,
+                    inclusion_mc_prop,
+                )
+
             else:
                 no_overlap_prop_pair.append((cc_prop, mc_prop))
 
     sorted_con_overlap_list = sorted(
-        con_overlap_dict.items(), key=lambda x: x[1], reverse=True
+        con_overlap_dict.items(), key=lambda x: x[1][0], reverse=True
     )
 
     top_100_clusters = sorted_con_overlap_list[0:100]
 
-    top_cluster_file = "trained_models/mcrae_analysis_exp/con_similar_analysis/top_100_con_overlap_between_cnetpchatp_prop_clusters_mcrae_prop_cluster.txt"
+    print(f"top_100_clusters : {top_100_clusters}", flush=True)
+
+    top_cluster_file = "trained_models/mcrae_analysis_exp/con_similar_analysis/top_100_jscore_con_overlap_between_cnetpchatp_prop_clusters_mcrae_prop_cluster.txt"
 
     with open(top_cluster_file, "w") as outfile:
-        for (cc_prop, mc_prop), count in top_100_clusters:
+        for (cc_prop, mc_prop), (
+            j_score,
+            count,
+            inclusion_cc_prop,
+            inclusion_mc_prop,
+        ) in top_100_clusters:
             cc_con_cluster = set(
                 cc_cluster[cc_cluster["property"] == cc_prop]["concept"]
             )
@@ -109,7 +131,10 @@ def cluster_overlap():
             ]
 
             outfile.write(f'{"*" * 80}\n')
+            outfile.write(f"***j_score: {j_score}\n")
             outfile.write(f"***overlap_count: {count}\n")
+            outfile.write(f"***inclusion_cc_prop: {inclusion_cc_prop}\n")
+            outfile.write(f"***inclusion_mc_prop: {inclusion_mc_prop}\n")
             outfile.write(f"***cc_prop, mc_prop: {(cc_prop, mc_prop)}\n")
             outfile.write(
                 f"***cc_con_cluster: {len(cc_con_cluster)}, {cc_con_cluster}\n"
