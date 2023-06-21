@@ -31,7 +31,7 @@
         "concept_file": null,
         "property_file": null,
         "concept_property_file": null,
-        "save_dir": "trained_models/mcrae_analysis_exp",
+        "save_dir": "trained_models/mcrae_analysis_exp/filter_model_dberta_cslb",
         "get_con_sim_vocab_properties": true,
         "num_nearest_neighbours": 50,
         "concept_embed_pkl": "trained_models/mcrae_analysis_exp/filter_model_dberta_cslb/mcrae_train_test_concept_embeddings.pkl",
