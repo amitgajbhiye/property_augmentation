@@ -80,7 +80,7 @@ def cluster_overlap():
                 intersection_count = len(cc_con_cluster.intersection(mc_con_cluster))
                 union_count = len(cc_con_cluster.union(mc_con_cluster))
 
-                j_score = float(intersection_count) / union_count
+                j_score = round(float(intersection_count) / union_count, 5)
                 inclusion_cc_prop = float(intersection_count) / len(cc_con_cluster)
                 inclusion_mc_prop = float(intersection_count) / len(mc_con_cluster)
 
@@ -100,7 +100,7 @@ def cluster_overlap():
         con_overlap_dict.items(), key=lambda x: x[1][0], reverse=True
     )
 
-    top_100_clusters = sorted_con_overlap_list[0:100]
+    top_100_clusters = sorted_con_overlap_list[0:200]
 
     print(f"top_100_clusters : {top_100_clusters}", flush=True)
 
