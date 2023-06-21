@@ -105,7 +105,7 @@ def cluster_overlap():
             con_overlap = cc_con_cluster.intersection(mc_con_cluster)
 
             extra_cons_cc_prop_cluster = [
-                con for con in con_overlap if con not in mc_con_cluster
+                con for con in cc_con_cluster if con not in mc_con_cluster
             ]
 
             outfile.write(f'{"*" * 80}\n')
