@@ -81,26 +81,52 @@ def cluster_overlap():
             else:
                 no_overlap_prop_pair.append((cc_prop, mc_prop))
 
-    return con_overlap_dict, no_overlap_prop_pair
+    sorted_con_overlap_list = sorted(
+        con_overlap_dict.items(), key=lambda x: x[1], reverse=True
+    )
+
+    top_100_clusters = sorted_con_overlap_list[0:100]
+
+    top_cluster_file = "trained_models/mcrae_analysis_exp/con_similar_analysis/top_50_con_overlap_between_cnetpchatp_prop_clusters_mcrae_prop_cluster.txt"
+
+    with open(top_cluster_file, "w") as outfile:
+        for (cc_prop, mc_prop), count in top_100_clusters:
+            cc_con_cluster = set(
+                cc_cluster[cc_cluster["property"] == cc_prop]["concept"]
+            )
+
+            mc_con_cluster = set(
+                mc_train_test[
+                    (mc_train_test["property"] == mc_prop)
+                    & (mc_train_test["label"] == 1)
+                ]["concept"]
+            )
+
+            con_overlap = cc_con_cluster.intersection(mc_con_cluster)
+
+            outfile.write(f'{"*" * 80}\n')
+            outfile.write(f"***overlap_count: {count}\n")
+            outfile.write(f"***cc_prop, mc_prop: {(cc_prop, mc_prop)}\n")
+            outfile.write(f"***cc_con_cluster: {cc_con_cluster}\n")
+            outfile.write(f"***mc_con_cluster: {mc_con_cluster}\n")
+            outfile.write(f"***con_overlap: {len(con_overlap)}, {con_overlap}\n")
+            outfile.write("\n")
+
+    out_file_name = "trained_models/mcrae_analysis_exp/con_similar_analysis/con_overlap_between_cnetpchatpclusters_mcrae_prop_cluster_list.pkl"
+    with open(out_file_name, "wb") as pkl_file:
+        pickle.dump(sorted_con_overlap_list, pkl_file, protocol=pickle.DEFAULT_PROTOCOL)
+
+    print(f"count_dict_saved_to : {out_file_name}")
+    print("sorted_con_overlap_list", flush=True)
+    print(sorted_con_overlap_list, flush=True)
+
+    no_overlap_prop_pair_file = "trained_models/mcrae_analysis_exp/con_similar_analysis/no_overlap_prop_pair_list.pkl"
+
+    with open(no_overlap_prop_pair_file, "wb") as pkl_file:
+        pickle.dump(no_overlap_prop_pair, pkl_file, protocol=pickle.DEFAULT_PROTOCOL)
+
+    print(f"no_overlap_prop_pair_file : {no_overlap_prop_pair_file}", flush=True)
 
 
-con_overlap_dict, no_overlap_prop_pair = cluster_overlap()
-
-sorted_con_overlap_dict = dict(
-    sorted(con_overlap_dict.items(), key=lambda x: x[1], reverse=True)
-)
-
-out_file_name = "trained_models/mcrae_analysis_exp/con_similar_analysis/con_overlap_between_cnetpchatpclusters_mcrae_prop_cluster_dict.pkl"
-with open(out_file_name, "wb") as pkl_file:
-    pickle.dump(sorted_con_overlap_dict, pkl_file, protocol=pickle.DEFAULT_PROTOCOL)
-
-print(f"count_dict_saved_to : {out_file_name}")
-print("sorted_con_overlap_dict", flush=True)
-print(sorted_con_overlap_dict, flush=True)
-
-no_overlap_prop_pair_file = "trained_models/mcrae_analysis_exp/con_similar_analysis/no_overlap_prop_pair_list.pkl"
-
-with open(no_overlap_prop_pair_file, "wb") as pkl_file:
-    pickle.dump(no_overlap_prop_pair, pkl_file, protocol=pickle.DEFAULT_PROTOCOL)
-
-print(f"no_overlap_prop_pair_file : {no_overlap_prop_pair_file}", flush=True)
+if __name__ == "__main__":
+    cluster_overlap()
