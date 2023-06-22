@@ -72,7 +72,7 @@ def get_nearest_neighbours(embedding_file, output_file, num_nearest_neighbours):
             print(f"Number Similar Concepts : {len(similar_concepts)}", flush=True)
             print(line, flush=True)
             print(flush=True)
-            file.write(line)
+            file.write(f"{line}\n")
 
             total_sim_cons += len(similar_concepts)
 
@@ -85,7 +85,7 @@ if __name__ == "__main__":
     embedding_file = (
         "trained_models/taxonomic_analysis/ufet_type_concept_embeddings.pkl"
     )
-    output_file = "trained_models/taxonomic_analysis/ufet_type_similat_50_types.tsv"
+    output_file = "trained_models/taxonomic_analysis/ufet_type_similar_50_types.tsv"
     num_nearest_neighbours = 50
 
     get_nearest_neighbours(embedding_file, output_file, num_nearest_neighbours)
