@@ -2,8 +2,8 @@
 
 #SBATCH --job-name=McPropSimilarAnalysis
 
-#SBATCH --output=logs/mcrae_analysis_exp/con_similar_analysis/out_mcrae_analysis_overlap_count.txt
-#SBATCH --error=logs/mcrae_analysis_exp/con_similar_analysis/err_mcrae_analysis_overlap_count.txt
+#SBATCH --output=logs/mcrae_analysis_exp/con_similar_analysis/out_deberta_filter_mcrae_analysis_overlap_count.txt
+#SBATCH --error=logs/mcrae_analysis_exp/con_similar_analysis/err_deberta_filter_mcrae_analysis_overlap_count.txt
 
 #SBATCH --tasks-per-node=5
 #SBATCH --ntasks=5
