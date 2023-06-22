@@ -72,6 +72,7 @@ def get_nearest_neighbours(embedding_file, output_file, num_nearest_neighbours):
             print(f"Number Similar Concepts : {len(similar_concepts)}", flush=True)
             print(line, flush=True)
             print(flush=True)
+            file.write(line)
 
             total_sim_cons += len(similar_concepts)
 
