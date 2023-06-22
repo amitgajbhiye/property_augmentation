@@ -95,14 +95,14 @@ def cluster_overlap():
                 no_overlap_prop_pair.append((cc_prop, mc_prop))
 
     sorted_con_overlap_list = sorted(
-        con_overlap_dict.items(), key=lambda x: x[1][0], reverse=True
+        con_overlap_dict.items(), key=lambda x: x[1][1], reverse=True
     )
 
     top_200_clusters = sorted_con_overlap_list[0:200]
 
     print(f"top_200_clusters : {top_200_clusters}", flush=True)
 
-    top_cluster_file = "trained_models/mcrae_analysis_exp/filter_model_dberta_cslb/top_200_jaccard_score_con_overlap_between_cnetpchatp_prop_clusters_mcrae_prop_cluster.txt"
+    top_cluster_file = "trained_models/mcrae_analysis_exp/filter_model_dberta_cslb/top_200_overlap_count_con_overlap_between_cnetpchatp_prop_clusters_mcrae_prop_cluster.txt"
 
     with open(top_cluster_file, "w") as outfile:
         for (cc_prop, mc_prop), (
