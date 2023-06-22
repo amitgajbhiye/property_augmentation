@@ -5,9 +5,7 @@ import pickle
 
 
 def cluster_overlap():
-    mcrae_main_cluster = (
-        "data/mcrae_analysis/con_similar_analysis/main_cluster_filterthresh0.75.tsv"
-    )
+    mcrae_main_cluster = "trained_models/mcrae_analysis_exp/filter_model_dberta_cslb/main_cluster_deb_cslb_filtered_filterthresh0.75.tsv"
     cc_cluster = pd.read_csv(
         mcrae_main_cluster,
         sep="\t",
@@ -102,9 +100,9 @@ def cluster_overlap():
 
     top_200_clusters = sorted_con_overlap_list[0:200]
 
-    print(f"top_100_clusters : {top_200_clusters}", flush=True)
+    print(f"top_200_clusters : {top_200_clusters}", flush=True)
 
-    top_cluster_file = "trained_models/mcrae_analysis_exp/con_similar_analysis/top_200_jscore_con_overlap_between_cnetpchatp_prop_clusters_mcrae_prop_cluster.txt"
+    top_cluster_file = "trained_models/mcrae_analysis_exp/filter_model_dberta_cslb/top_200_jaccard_score_con_overlap_between_cnetpchatp_prop_clusters_mcrae_prop_cluster.txt"
 
     with open(top_cluster_file, "w") as outfile:
         for (cc_prop, mc_prop), (
@@ -148,7 +146,7 @@ def cluster_overlap():
             )
             outfile.write("\n")
 
-    out_file_name = "trained_models/mcrae_analysis_exp/con_similar_analysis/con_overlap_between_cnetpchatpclusters_mcrae_prop_cluster_list.pkl"
+    out_file_name = "trained_models/mcrae_analysis_exp/filter_model_dberta_cslb/con_overlap_between_cnetpchatpclusters_mcrae_prop_cluster_list.pkl"
     with open(out_file_name, "wb") as pkl_file:
         pickle.dump(sorted_con_overlap_list, pkl_file, protocol=pickle.DEFAULT_PROTOCOL)
 
@@ -156,7 +154,7 @@ def cluster_overlap():
     print("sorted_con_overlap_list", flush=True)
     print(sorted_con_overlap_list, flush=True)
 
-    no_overlap_prop_pair_file = "trained_models/mcrae_analysis_exp/con_similar_analysis/no_overlap_prop_pair_list.pkl"
+    no_overlap_prop_pair_file = "trained_models/mcrae_analysis_exp/filter_model_dberta_cslb/no_overlap_prop_pair_list.pkl"
 
     with open(no_overlap_prop_pair_file, "wb") as pkl_file:
         pickle.dump(no_overlap_prop_pair, pkl_file, protocol=pickle.DEFAULT_PROTOCOL)
