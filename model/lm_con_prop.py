@@ -209,7 +209,7 @@ class DatasetConceptPropertyJoint(Dataset):
             # sent_1 = concept <con> can be described as <predict_prop>?
             # sent_2 = <[MASK]>.
 
-            # 5: ["can <con> can be described as <predict_prop>?", "<[MASK]>.",]
+            # 5: ["can <con> be described as <predict_prop>?", "<[MASK]>.",]
 
             (
                 predict_prop_template,
