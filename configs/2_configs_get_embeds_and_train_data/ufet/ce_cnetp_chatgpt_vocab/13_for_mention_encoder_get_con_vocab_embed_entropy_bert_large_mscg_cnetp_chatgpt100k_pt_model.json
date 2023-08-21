@@ -28,7 +28,7 @@
         "pretrained_model_path": "trained_models/mscg_cnetp_chatgpt_pretrain/bienc_bert_large_mscg_cnetp_chatgpt100k_pretrain.pt",
         "get_con_prop_embeds": true,
         "input_data_type": "concept",
-        "concept_file": "/scratch/c.scmag3/mention_encoder/dataset/cnetpchatgpt/con_vocab_cnetchatgpt.txt",
+        "concept_file": "/scratch/c.scmag3/encoder_mentions/data/mention/cnetpchatgpt/con_vocab_cnetchatgpt.txt",
         "property_file": null,
         "concept_property_file": null,
         "save_dir": "trained_models/mention_encoder_embeddings",
