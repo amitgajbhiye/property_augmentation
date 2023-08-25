@@ -467,8 +467,8 @@ def prepare_data_and_models(
 
     if train_file is not None:
         train_data = DatasetConceptPropertyJoint(train_file, dataset_params)
-        # train_sampler = RandomSampler(train_data)
-        train_sampler = SequentialSampler(train_data)
+        train_sampler = RandomSampler(train_data)
+
         train_dataloader = DataLoader(
             train_data,
             batch_size=batch_size,
@@ -476,6 +476,7 @@ def prepare_data_and_models(
             collate_fn=None,
             num_workers=num_workers,
             pin_memory=True,
+            drop_last=True,
         )
 
         log.info(f"Train Data DF shape : {train_data.data_df.shape}")
