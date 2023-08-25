@@ -224,7 +224,7 @@ class DatasetConceptPropertyJoint(Dataset):
 
             sent = sent_1 + " " + sent_2
 
-            # print(f"Input Sent : {sent}")
+            print(f"Input Sent : {sent}")
 
             encoded_dict = self.tokenizer.encode_plus(
                 text=sent,
@@ -467,7 +467,8 @@ def prepare_data_and_models(
 
     if train_file is not None:
         train_data = DatasetConceptPropertyJoint(train_file, dataset_params)
-        train_sampler = RandomSampler(train_data)
+        # train_sampler = RandomSampler(train_data)
+        train_sampler = SequentialSampler(train_data)
         train_dataloader = DataLoader(
             train_data,
             batch_size=batch_size,
@@ -677,12 +678,12 @@ def train(
             attention_mask = batch["attention_mask"].squeeze().to(device)
             labels = batch["labels"].to(device)
 
-            # print(flush=True)
-            # print(f"In Step {step}", flush=True)
-            # print(f"input_ids.shape : {input_ids.shape}", flush=True)
-            # print(f"attention_mask.shape : {attention_mask.shape}", flush=True)
-            # print(f"labels.shape : {labels.shape}", flush=True)
-            # print(f"attention_mask : {attention_mask[0]}", flush=True)
+            print(flush=True)
+            print(f"In Step {step}", flush=True)
+            print(f"input_ids.shape : {input_ids.shape}", flush=True)
+            print(f"attention_mask.shape : {attention_mask.shape}", flush=True)
+            print(f"labels.shape : {labels.shape}", flush=True)
+            print(f"attention_mask : {attention_mask[0]}", flush=True)
 
             outputs = model(
                 input_ids=input_ids,
