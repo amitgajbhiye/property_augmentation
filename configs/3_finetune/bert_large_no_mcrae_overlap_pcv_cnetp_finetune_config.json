@@ -28,10 +28,13 @@
         "vector_strategy": "mask_token"
     },
     "training_params": {
+        "hp_tuning": false,
         "do_cv": true,
         "cv_type": "model_evaluation_property_split",
         "lr": 2e-6,
         "num_warmup_steps": 0,
+        "weight_decay": 0.1,
+        "warmup_ratio": 0.0,
         "max_epochs": 6,
         "early_stopping_patience": 20,
         "export_path": "trained_models/mcrae_finetune",
