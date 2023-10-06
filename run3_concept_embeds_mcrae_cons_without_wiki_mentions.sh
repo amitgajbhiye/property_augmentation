@@ -2,8 +2,8 @@
 
 #SBATCH --job-name=McRaeEmb
 
-#SBATCH --output=logs/get_embeddings/out_concept_embeds_mcrae_cons_without_wiki_mentions.txt
-#SBATCH --error=logs/get_embeddings/err_concept_embeds_mcrae_cons_without_wiki_mentions.txt
+#SBATCH --output=logs/mention_encoder/out_concept_embeds_mcrae_cons_without_wiki_mentions.txt
+#SBATCH --error=logs/mention_encoder/err_concept_embeds_mcrae_cons_without_wiki_mentions.txt
 
 #SBATCH --tasks-per-node=5
 #SBATCH --ntasks=5
