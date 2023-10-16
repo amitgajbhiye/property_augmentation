@@ -14,20 +14,16 @@ log = logging.getLogger(__name__)
 
 class McRaeConceptPropertyDataset(Dataset):
     def __init__(self, dataset_params, dataset_type, data_df=None):
-
         if dataset_type in ("train", "valid"):
-
             self.data_df = data_df
             self.data_df.drop_duplicates(inplace=True)
             self.data_df.dropna(inplace=True)
 
         elif dataset_type in ("test",):
             if data_df is not None:
-
                 log.info(f"Loading the data from supplied DF")
                 self.data_df = data_df
             else:
-
                 log.info(
                     f"*** Loading the Test Data from 'test_file_path', DF supplied is None ***"
                 )
@@ -67,11 +63,9 @@ class McRaeConceptPropertyDataset(Dataset):
         log.info(f"Context Num : {self.context_num}")
 
     def __len__(self):
-
         return len(self.data_df)
 
     def __getitem__(self, idx):
-
         return [
             self.data_df["concept"][idx],
             self.data_df["property"][idx],
@@ -79,10 +73,8 @@ class McRaeConceptPropertyDataset(Dataset):
         ]
 
     def add_context(self, batch):
-
         ############### The Following Input Template uses Mean Strategy ###############
         if self.context_num == 1:
-
             concept_context = "Concept : "
             property_context = "Property : "
 
@@ -90,7 +82,6 @@ class McRaeConceptPropertyDataset(Dataset):
             property_batch = [property_context + x + "." for x in batch[1]]
 
         elif self.context_num == 2:
-
             concept_context = "The notion we are modelling is "
             property_context = "The notion we are modelling is "
 
@@ -98,7 +89,6 @@ class McRaeConceptPropertyDataset(Dataset):
             property_batch = [property_context + x + "." for x in batch[1]]
 
         elif self.context_num == 3:
-
             prefix_num = 5
             suffix_num = 4
 
@@ -114,7 +104,6 @@ class McRaeConceptPropertyDataset(Dataset):
                 for prop in batch[1]
             ]
         elif self.context_num == 4:
-
             concept_context = "Yesterday, I saw another "
             property_context = "Yesterday, I saw a thing which is "
 
@@ -122,7 +111,6 @@ class McRaeConceptPropertyDataset(Dataset):
             property_batch = [property_context + x + "." for x in batch[1]]
 
         elif self.context_num == 5:
-
             concept_context = "The notion we are modelling is called "
             property_context = "The notion we are modelling is called "
 
@@ -132,7 +120,6 @@ class McRaeConceptPropertyDataset(Dataset):
         ############### The Following Input Template uses Mask Strategy ###############
 
         elif self.context_num == 6:
-
             # [CLS] CONCEPT means [MASK] [SEP]
             # context = " means [MASK]"
 
@@ -141,18 +128,19 @@ class McRaeConceptPropertyDataset(Dataset):
 
             context = " means " + self.mask_token
 
-            concepts_batch = [x.strip().replace(".", "") + context for x in batch[0]]
-            property_batch = [x.strip().replace(".", "") + context for x in batch[1]]
+            # concepts_batch = [x.strip().replace(".", "") + context for x in batch[0]]
+            # property_batch = [x.strip().replace(".", "") + context for x in batch[1]]
+
+            concepts_batch = [x.strip() + context for x in batch[0]]
+            property_batch = [x.strip() + context for x in batch[1]]
 
         elif self.context_num == 7:
-
             # [CLS] CONCEPT [SEP] [MASK] [SEP]
 
             concepts_batch = [x for x in batch[0]]
             property_batch = [x for x in batch[1]]
 
         elif self.context_num == 8:
-
             # [CLS] The notion we are modelling is CONCEPT. [SEP] [MASK] [SEP]
 
             context = "The notion we are modelling is "
@@ -161,7 +149,6 @@ class McRaeConceptPropertyDataset(Dataset):
             property_batch = [context + x + "." for x in batch[1]]
 
         elif self.context_num == 9:
-
             # [CLS] The spaceship we are modelling is CONCEPT. [SEP] [MASK] [SEP]
 
             context = "The spaceship we are modelling is "
@@ -170,7 +157,6 @@ class McRaeConceptPropertyDataset(Dataset):
             property_batch = [context + x + "." for x in batch[1]]
 
         elif self.context_num == 10:
-
             # [CLS] We are modelling CONCEPT.[SEP] [MASK] [SEP]
 
             context = "We are modelling "
@@ -179,7 +165,6 @@ class McRaeConceptPropertyDataset(Dataset):
             property_batch = [context + x + "." for x in batch[1]]
 
         elif self.context_num == 11:
-
             # [CLS] The notion we are modelling this morning is CONCEPT.[SEP][MASK][SEP]
 
             context = "The notion we are modelling this morning is "
@@ -188,7 +173,6 @@ class McRaeConceptPropertyDataset(Dataset):
             property_batch = [context + x + "." for x in batch[1]]
 
         elif self.context_num == 12:
-
             # [CLS] As I have mentioned earlier, the notion we are modelling this morning is CONCEPT.[SEP][MASK][SEP]
 
             context = "As I have mentioned earlier, the notion we are modelling this morning is "
@@ -201,7 +185,6 @@ class McRaeConceptPropertyDataset(Dataset):
     def tokenize(
         self, concept_batch, property_batch, concept_max_len=64, property_max_len=64
     ):
-
         # if self.context_num in (1, 2, 3, 4, 5, 6):
 
         # # Printing for debugging
@@ -300,7 +283,6 @@ class McRaeConceptPropertyDataset(Dataset):
         # print("*" * 50, flush=True)
 
         if self.hf_tokenizer_name in ("roberta-base", "roberta-large"):
-
             return {
                 "concept_inp_id": concept_ids.get("input_ids"),
                 "concept_atten_mask": concept_ids.get("attention_mask"),
@@ -308,7 +290,6 @@ class McRaeConceptPropertyDataset(Dataset):
                 "property_atten_mask": property_ids.get("attention_mask"),
             }
         else:
-
             return {
                 "concept_inp_id": concept_ids.get("input_ids"),
                 "concept_atten_mask": concept_ids.get("attention_mask"),
@@ -317,4 +298,3 @@ class McRaeConceptPropertyDataset(Dataset):
                 "property_atten_mask": property_ids.get("attention_mask"),
                 "property_token_type_id": property_ids.get("token_type_ids"),
             }
-
