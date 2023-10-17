@@ -2,7 +2,7 @@
     "experiment_name": "17_for_mention_encoder_get_mcrae_con_vocab_embed_entropy_bert_large_cnetp_chatgpt100k_pt_model",
     "log_dirctory": "mention_encoder",
     "dataset_params": {
-        "dataset_name": "mention_enc_con_vocabembed_entropy_bert_large_cnetpchatgpt100k_entropy_model",
+        "dataset_name": "setup1_bienc_mcrae",
         "train_file_path": null,
         "val_file_path": null,
         "test_file_path": null,
@@ -28,7 +28,7 @@
         "pretrained_model_path": "trained_models/cnetp_chatgpt_pretrain/bienc_bert_large_cnetp_chatgpt100k_pretrain_new_data.pt",
         "get_con_prop_embeds": true,
         "input_data_type": "concept",
-        "concept_file": "/scratch/c.scmag3/mention_encoder/dataset/cnetpchatgpt/con_vocab_cnetchatgpt.txt",
+        "concept_file": "data/evaluation_data/prop_conjuction/mcrae/clean_mcrae_train_test_concepts.txt",
         "property_file": null,
         "concept_property_file": null,
         "save_dir": "trained_models/mention_encoder_embeddings",
