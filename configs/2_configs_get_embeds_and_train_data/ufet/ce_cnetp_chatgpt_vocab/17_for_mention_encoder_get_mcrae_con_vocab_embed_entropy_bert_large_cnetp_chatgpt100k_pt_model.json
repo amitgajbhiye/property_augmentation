@@ -31,7 +31,7 @@
         "concept_file": "data/evaluation_data/prop_conjuction/mcrae/clean_mcrae_train_test_concepts.txt",
         "property_file": null,
         "concept_property_file": null,
-        "save_dir": "trained_models/mention_encoder_embeddings",
+        "save_dir": "trained_models/embeddings",
         "get_con_sim_vocab_properties": false,
         "num_nearest_neighbours": 0,
         "concept_embed_pkl": null,
