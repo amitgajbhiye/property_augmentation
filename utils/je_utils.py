@@ -24,7 +24,6 @@ def set_seed(seed):
 
 
 def read_config(config_file):
-
     if isinstance(config_file, str):
         with open(config_file, "r") as json_file:
             config_dict = json.load(json_file)
@@ -34,7 +33,6 @@ def read_config(config_file):
 
 
 def compute_scores(labels, preds):
-
     assert len(labels) == len(
         preds
     ), f"labels len: {len(labels)} is not equal to preds len {len(preds)}"
