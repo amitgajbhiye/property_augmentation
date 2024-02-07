@@ -356,7 +356,7 @@ if __name__ == "__main__":
         log.info(f"Processing file: {inp_file}, {i+1} / {len(input_files)}")
         log.info(f"File location: {inp_file_path}")
 
-        config[inference_params]["concept_property_file"] = inp_file_path
+        inference_params["concept_property_file"] = inp_file_path
         config["dataset_params"]["dataset_name"] = inp_file
 
         log.info(

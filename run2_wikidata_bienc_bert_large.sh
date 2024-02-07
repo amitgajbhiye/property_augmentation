@@ -3,7 +3,7 @@
 #SBATCH --job-name=wikidata_bienc_bert_large
 
 #SBATCH --output=logs/wikidata/out_wikidata_bienc_bert_large.txt
-#SBATCH --error=logs/height/err_wikidata_bienc_bert_large.txt
+#SBATCH --error=logs/wikidata/err_wikidata_bienc_bert_large.txt
 
 #SBATCH --tasks-per-node=5
 #SBATCH --ntasks=5
