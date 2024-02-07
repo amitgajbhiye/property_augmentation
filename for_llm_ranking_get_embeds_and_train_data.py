@@ -14,6 +14,7 @@ import torch
 import nltk
 from nltk.stem import WordNetLemmatizer
 from utils.functions import (
+    set_seed,
     create_model,
     read_config,
     to_cpu,
@@ -296,6 +297,9 @@ def generate_embeddings(config):
 
 
 if __name__ == "__main__":
+
+    set_seed(42)
+
     log.info(f"\n {'*' * 50}")
     log.info(f"Generating the Concept Property Embeddings")
 
