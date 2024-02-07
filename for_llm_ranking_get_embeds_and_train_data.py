@@ -360,7 +360,7 @@ if __name__ == "__main__":
         config["dataset_params"]["dataset_name"] = inp_file
 
         log.info(
-            f'Input file in config :{config[inference_params]["concept_property_file"]}'
+            f'Input file in config :{config["inference_params"]["concept_property_file"]}'
         )
 
         if get_con_prop_embeds:
