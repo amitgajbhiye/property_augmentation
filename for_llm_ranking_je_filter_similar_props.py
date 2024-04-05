@@ -4,7 +4,6 @@ import gc
 import time
 from argparse import ArgumentParser
 from pprint import pprint
-from math import ceil
 
 import numpy as np
 import pandas as pd
