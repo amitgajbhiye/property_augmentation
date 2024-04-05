@@ -185,7 +185,7 @@ if __name__ == "__main__":
         log.info(new_test_dataframe.head(n=20))
 
         all_logit_filename = os.path.join(
-            save_dir, f"{pretrained_model_num_neg}", f"{inp_file}"
+            save_dir, f"{pretrained_model_num_neg}_{inp_file}"
         )
 
         new_test_dataframe.to_csv(
@@ -206,94 +206,3 @@ if __name__ == "__main__":
         torch.cuda.empty_cache()
         gc.collect()
         gc.collect()
-
-    ###################################################
-    # for thresh in thresholds:
-    #     log.info(
-    #         f"creating_clusters with filtering thresh {thresh} and prop count thresh {prop_applies_to_concepts}."
-    #     )
-
-    #     df_with_filter_thres = new_test_dataframe[new_test_dataframe["logit"] >= thresh]
-
-    #     df_with_filter_thres["prop_count"] = df_with_filter_thres.groupby("property")[
-    #         "property"
-    #     ].transform("count")
-
-    #     df_with_prop_thres = df_with_filter_thres[
-    #         df_with_filter_thres["prop_count"] >= prop_applies_to_concepts
-    #     ]
-    #     clustered_df = df_with_prop_thres.sort_values(
-    #         by=["property"], ascending=True, inplace=False
-    #     )
-
-    #     ############################
-    #     clustered_df_fname = os.path.join(
-    #         save_dir,
-    #         f"{pretrained_model_num_neg}_filterthresh{thresh}.tsv",
-    #     )
-    #     ############################
-
-    #     clustered_df.to_csv(
-    #         clustered_df_fname,
-    #         sep="\t",
-    #         index=None,
-    #         header=None,
-    #         float_format="%.5f",
-    #     )
-
-    #     log.info(f"clustered_df saved at : {clustered_df_fname}")
-    #     log.info(f"Clustered DF")
-    #     log.info(clustered_df)
-
-    #     if create_complete_clusters:
-    #         log.info(f"Creating complete clusters...")
-
-    #         main_cluster_file = training_params["main_cluster_file"]
-    #         assert (
-    #             main_cluster_file is not None
-    #         ), "main_cluster_file is Null, provide main_cluster_file file to create complete clusters.."
-
-    #         log.info(f"main_cluster_file : {main_cluster_file}")
-    #         main_cluster_df = pd.read_csv(
-    #             main_cluster_file,
-    #             sep="\t",
-    #             header=None,
-    #             names=["concept", "property", "logit", "prop_count"],
-    #         )
-
-    #         main_cluster_df["add_status"] = "already"
-    #         clustered_df["add_status"] = "added"
-
-    #         log.info(f"main_cluster_df : ", main_cluster_df)
-    #         log.info(f"complementary_cluster_df : ", clustered_df)
-
-    #         complete_clusters = pd.concat(
-    #             [main_cluster_df, clustered_df], axis=0, ignore_index=True
-    #         )[["concept", "property", "add_status", "logit", "prop_count"]]
-
-    #         complete_clusters.drop_duplicates(
-    #             subset=["concept", "property"],
-    #             keep="first",
-    #             inplace=True,
-    #             ignore_index=True,
-    #         )
-
-    #         complete_clusters = complete_clusters.sort_values(
-    #             by=["property"], ascending=True
-    #         )
-
-    #         ############################
-    #         complete_clusters_filename = os.path.join(
-    #             save_dir,
-    #             f"complete_cluster_filterthres{thresh}.tsv",
-    #         )
-    #         ############################
-
-    #         complete_clusters.to_csv(
-    #             complete_clusters_filename, sep="\t", header=False, index=False
-    #         )
-
-    #         log.info(f"complete_clusters files saved to :{complete_clusters_filename}")
-    #         log.info(f"complete_clusters")
-    #         log.info(complete_clusters)
-    #         log.info(f"Finished creating complete clusters.")
