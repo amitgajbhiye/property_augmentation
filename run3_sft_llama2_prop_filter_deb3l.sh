@@ -1,6 +1,6 @@
 #!/bin/bash --login
 
-#SBATCH --job-name=sftllama2
+#SBATCH --job-name=sft_llama2
 
 #SBATCH --output=logs/commonality/out_sft_llama2_props.txt
 #SBATCH --error=logs/commonality/err_sft_llama2_props.txt
@@ -9,8 +9,9 @@
 #SBATCH --ntasks=5
 #SBATCH -A scw1858
 
-#SBATCH -p gpu_v100,gpu
+#SBATCH -p gpu_v100
 #SBATCH --gres=gpu:1
+##SBATCH --exclusive
 
 #SBATCH --mem=20G
 #SBATCH -t 0-02:00:00
