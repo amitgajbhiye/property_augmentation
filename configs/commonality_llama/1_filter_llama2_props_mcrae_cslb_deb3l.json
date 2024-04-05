@@ -34,7 +34,7 @@
     "dataset_params": {
         "hf_tokenizer_name": "deberta-v3-large",
         "hf_tokenizer_path": "/scratch/c.scmag3/hf_pretrained_models/deberta_v3_large/tokenizer",
-        "max_len": 128,
+        "max_len": 512,
         "context_id": 5,
         "dataset_name": "sft_llama2_props"
     },
