@@ -12,7 +12,6 @@ import torch
 from model.lm_con_prop import prepare_data_and_models
 from utils.je_utils import read_config, set_seed
 
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 from model.lm_con_prop import (
     ModelConceptPropertyJoint,
