@@ -12,12 +12,11 @@
 #SBATCH -p gpu_v100,gpu
 #SBATCH --gres=gpu:1
 
-#SBATCH --mem=20G
-#SBATCH -t 0-02:00:00
+#SBATCH --mem=12G
+#SBATCH -t 0-01:00:00
 
 conda activate venv
 
 python3 get_embeds_and_train_data.py --config_file configs/commonality_llama/llama3_facet_property_cnetp_chatgpt_enbeds.json
-
 
 echo 'Job Finished !!!'
