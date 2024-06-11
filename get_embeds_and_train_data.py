@@ -1,24 +1,21 @@
-import os
 import argparse
-
-
 import logging
 import os
 import pickle
-import pandas as pd
-import numpy as np
-
-import torch
 
 import nltk
+import numpy as np
+import pandas as pd
+import torch
 from nltk.stem import WordNetLemmatizer
+from sklearn.neighbors import NearestNeighbors
+
 from utils.functions import (
     create_model,
+    mcrae_dataset_and_dataloader,
     read_config,
     to_cpu,
-    mcrae_dataset_and_dataloader,
 )
-from sklearn.neighbors import NearestNeighbors
 
 log = logging.getLogger(__name__)
 

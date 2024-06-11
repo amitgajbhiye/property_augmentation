@@ -8,8 +8,8 @@
         "test_file_path": null,
         "hf_tokenizer_name": "bert-large-uncased",
         "hf_tokenizer_path": "/scratch/c.scmag3/hf_pretrained_models/bert_large_uncased/tokenizer",
-        "concept_max_len": 20,
-        "property_max_len": 20,
+        "concept_max_len": 64,
+        "property_max_len": 64,
         "add_context": true,
         "context_num": 6,
         "loader_params": {
