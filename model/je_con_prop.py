@@ -224,7 +224,10 @@ class ModelConceptProperty(nn.Module):
 
 
 def prepare_data_and_models(
-    config, train_file=None, valid_file=None, test_file=None,
+    config,
+    train_file=None,
+    valid_file=None,
+    test_file=None,
 ):
 
     training_params = config["training_params"]
@@ -676,7 +679,10 @@ if __name__ == "__main__":
     parser = ArgumentParser(description="Joint Encoder Property Augmentation Model")
 
     parser.add_argument(
-        "-c", "--config_file", required=True, help="path to the configuration file",
+        "-c",
+        "--config_file",
+        required=True,
+        help="path to the configuration file",
     )
 
     args = parser.parse_args()
