@@ -2,7 +2,7 @@
     "experiment_name": "2_llama3_wine_facet_property_bienc_entropy_bert_large_cnetpchatgpt",
     "log_dirctory": "embeds_for_commonalities",
     "dataset_params": {
-        "dataset_name": "llama3_wine_facet_property_bienc_entropy_bert_large_cnetpchatgpt",
+        "dataset_name": "bienc_entropy_bert_large_cnetpchatgpt_llama3_wine_facet_colon_",
         "train_file_path": null,
         "val_file_path": null,
         "test_file_path": null,
