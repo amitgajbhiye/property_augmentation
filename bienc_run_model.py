@@ -1,23 +1,22 @@
 import argparse
 import logging
-import os
 import math
-
+import os
+from pprint import pprint
 
 import numpy as np
 import torch
 import torch.nn as nn
 from tqdm.std import trange
-from pprint import pprint
 from transformers import AdamW, get_linear_schedule_with_warmup
 
 from utils.functions import (
+    calculate_loss,
     compute_scores,
     create_dataset_and_dataloader,
     create_model,
     read_config,
     set_seed,
-    calculate_loss,
 )
 
 log = logging.getLogger(__name__)
