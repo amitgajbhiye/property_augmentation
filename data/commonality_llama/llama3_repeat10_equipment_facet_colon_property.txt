@@ -1,0 +1,878 @@
+accuracy: highly accurate
+accuracy: high precision
+accuracy: precise
+accuracy: reliable
+accuracy: sensitive to particle size
+accuracy: precise measurement
+accuracy: high
+accuracy: millimeter level
+advantages: reduced errors
+advantages: improved accuracy
+advantages: wider field of view
+advantages: efficient
+advantages: increased resolution
+advantages: high concentration ratio
+advantages: energy efficient
+advantages: lightweight
+advantages: increased efficiency
+advantages: reduced labor costs
+advantages: cost-effective
+advantages: easy to maintain
+advantages: improved communication
+advantages: faster processing
+advantages: accurate results
+advantages: high resolution
+advantages: accurate observations
+advantages: wide field of view
+advantages: affordable
+alternative name: adjustable medical table
+alternative name: tilting examination table
+application: surveying
+application: mineralogy
+application: astronomy
+application: industrial quality control
+application: birdwatching
+application: space weather forecasting
+application: astrophysics research
+application: astronomy research
+application: hunting
+application: research
+application: construction
+application: geology
+application: scientific research
+application: packaging
+application: warehousing
+application: manufacturing
+application: wastewater treatment
+application: space exploration
+application: aviation
+application: food processing
+application: astrophysics
+application: chemical industry
+application: physics research
+application: material science
+applications: air quality monitoring
+applications: climate research
+applications: cloud physics
+architecture: 64-bit
+architecture: 7th generation
+architecture: x86-64
+associated with: french culture
+associated with: cycling history
+availability: hard to find
+availability: limited
+benefit: reduced eye strain
+benefit: better image quality
+benefits: improved inventory management
+benefits: increased storage capacity
+benefits: cost-effective
+benefits: reusable
+benefits: efficient
+brand: ebro
+brand: spanish
+brands: meade instruments
+budget: €50 million
+budget: €100 million
+category: telescope
+category: microprocessor
+category: chemistry tool
+category: optical instrument
+category: astronomy
+category: science equipment
+category: sports car
+category: measurement
+category: instrument
+category: cpus
+category: rare fruit
+category: type of fruit
+category: fruit
+category: healthy snack
+category: food
+category: scientific instrument
+category: microscope
+category: research tool
+category: astronomy tool
+category: car
+category: computer hardware
+category: weather
+category: electric vehicle
+certifications: niosh
+certifications: osha
+certifications: european standards
+challenges: complex design
+challenges: difficulty in construction
+challenges: high manufacturing costs
+characteristics: electronic
+characteristics: secure
+characteristics: machine-readable
+characteristics: standardized format
+characteristics: structured data
+characteristics: standardized
+characteristics: real-time
+collaboration: south africa
+collaboration: italy
+collaboration: european union
+collaboration: space agencies
+collaboration: european space agency
+collaboration: germany
+collaboration: england
+color: yellow
+color: green
+commonly found in: laboratory
+commonly found in: pharmacy
+commonly found in: kitchen
+component: neutron source
+component: magnetic coils
+component: receiver
+component: detector
+component: antenna
+component: transmitter
+components: drop counter
+components: velocity sensor
+components: hand controller
+components: mount
+components: optical tube assembly
+components: optical system
+components: rain gauge
+components: metallic sphere
+components: insulating material
+components: mirror
+components: vanes
+components: propellers
+components: cups
+components: pumps
+components: condenser
+components: heat exchanger
+components: conveyor belt
+components: air blower
+components: control system
+components: lens
+components: stage
+components: objective
+components: hairs or threads
+components: meter
+components: sensors
+components: magnetometers
+components: data analysis software
+components: scale
+components: pipette
+components: eyepiece
+components: glass tube
+components: indicator
+components: measuring scale
+components: buffer solution
+components: flame source
+construction: open
+construction: wooden
+construction: built in 1869
+context: space mission
+context: space exploration
+context: space station
+current status: no longer used for research
+current status: retired
+data analysis: software
+data analysis: algorithm
+definition: automated data transfer
+definition: digital exchange of business documents
+definition: instrument to measure electric charge
+definition: device to detect static electricity
+definition: digital data transfer
+definition: electronic exchange of business documents
+definition: instrument for measuring sound waves
+definition: shipping agent
+definition: measures precipitation
+definition: instrument
+definition: measures ph
+definition: scientific instrument
+definition: logistics company
+definition: freight forwarder
+definition: instrument for measuring fermentation
+definition: device for detecting yeast
+definition: measures
+definition: cloud condensation nuclei
+definition: measures acidity
+definition: device for detecting vibrations
+design: adjustable angle
+design: stable surface
+design: historical
+design: portable
+design: infinite axis adjustment
+design: adjustable height
+design: adjustable
+design: customizable
+design: ornate
+design: unique axis system
+design: customizable size
+design: unique
+design: waterproof
+design: ventilated
+design: shock-absorbing
+design: durable
+design: ballistic
+design: flat belt
+design: tubular
+design: linear
+design: aerodynamic
+design: aggressive
+design: unique axis
+design: reflective
+design: motorized
+design: pulley system
+design: no central axis
+designer: gerhard tauchmann
+designer: johann tauchmann
+device: navigation
+device: equipment
+device: instrument
+device type: scientific instrument
+device type: magnetometer
+device type: space weather monitoring
+diameter: 1.2 meters
+diameter: 120 inches
+diameter: 3 meters
+diameter: 50 meters
+disadvantages: high emissions
+disadvantages: limited capacity
+disadvantages: dust generation
+disadvantages: noise pollution
+disadvantages: low performance
+disadvantages: requires maintenance
+disadvantages: high maintenance cost
+disadvantages: complex design
+discoveries: asteroids
+discoveries: comets
+discoveries: many celestial objects
+display: numeric display
+display: graphing display
+domain: chemistry
+domain: science
+domain: physics
+era: 17th century
+era: baroque period
+era: early 20th century
+era: 1980s
+era: 19th century
+era: 1990s
+example of: scientific instrument
+example of: acoustics device
+feature: large refracting telescope
+feature: first achromatic telescope
+feature: invented by isaac newton
+features: polarized light
+features: adjustable arms
+features: all-wheel drive
+features: electric motor
+features: high-resolution optics
+features: trigonometric functions
+features: graphing
+features: high precision
+features: strong engines
+features: large capacity
+features: complex numbers
+features: computerized control system
+features: motorized altazimuth mount
+features: focal length of 12 meters
+features: large primary mirror
+features: adjustable
+features: heavy-duty suspension
+features: advanced optics
+features: large collecting area
+features: high-performance
+features: high magnification
+features: pressurized
+features: temperature controlled
+features: oxygen supply
+features: communication system
+features: eeg sensors
+features: accelerometer
+features: gyroscope
+features: manual altazimuth mount
+features: has a focal length
+features: waterproof
+features: uses concave mirror
+features: reflecting telescope
+features: nestable
+features: easy loading
+features: secure
+features: flexible
+features: stackable
+features: affordable
+features: integrated graphics
+features: recline function
+features: high-resolution imaging
+features: handrails
+features: state-of-the-art technology
+features: used for studying the stars
+features: cryogenic system
+features: low maintenance
+features: simple design
+features: uses mirrors
+features: wide field of view
+features: adaptive optics
+features: adjustable magnification
+features: foot pedals
+features: face shield
+features: ear protection
+features: unique design
+features: adjustable focus
+features: used for studying the solar system
+features: turbo boost
+features: chin strap
+features: hyper-threading
+field of study: microbiology
+field of study: space science
+field of study: biochemistry
+field of study: astrophysics
+found in: weather stations
+found in: laboratories
+found in: research centers
+fuel efficiency: low
+fuel efficiency: average
+function: measures acidity
+function: study universe
+function: calculate angle
+function: indicates ph level
+function: monitors sleep
+function: tracks physical activity
+function: tracks brain activity
+function: examines atomic structure
+function: transports materials
+function: detects solar activity
+function: determine location
+function: holding items
+function: shows navigation
+function: detecting yeast activity
+function: separate water from dissolved solids
+function: concentrate solutions
+function: measuring fermentation levels
+function: tracks solar activity
+function: quick service
+function: analyzes material properties
+function: detects sunspots
+function: measures magnetic fields
+function: transporting materials
+function: measures magnetic field
+function: conveying goods
+function: moves goods
+function: measure distance
+function: measuring weight
+function: measuring flammable liquids
+function: tracking
+function: predicting
+function: measuring frequency
+function: measuring amplitude
+function: indicates direction
+function: measure electric field
+function: storing pallets
+function: detect electric charge
+function: measuring
+function: weighing
+function: measuring liquids
+function: observe celestial objects
+function: study stars
+function: make precise measurements
+function: organizing inventory
+function: study distant stars
+function: measures wind speed
+function: study celestial bodies
+function: testing for combustibility
+function: observe distant stars
+function: measuring volume
+function: measuring magnetic fields
+function: handles customs clearance
+function: coordinates logistics
+function: arranges transportation
+function: studying solar activity
+function: shows course
+function: measures temperature
+function: measures air pressure
+function: detecting
+functionality: reduces shakiness
+functionality: clearer view
+functionality: measuring power
+functionality: measuring axis
+functionality: protects against space environment
+functionality: provides life support
+historical significance: important in the development of astronomy
+historical significance: used by benjamin franklin
+historical significance: invented by eustachio divini
+history: invented in the 19th century
+history: built in 1888
+history: used in professional astronomy
+history: named after james lick
+importance: essential in eye care
+importance: critical in lens manufacturing
+importance: contributed to our understanding of the universe
+importance: pioneer in astronomy
+industrial application: warehousing
+industrial application: manufacturing
+industries: healthcare
+industries: manufacturing
+industries: retail
+industry: supply chain
+industry: retail
+industry: manufacturing
+industry: shipping
+industry: healthcare
+industry: logistics
+industry: technology
+industry: gaming
+industry: transportation
+input: numeric
+input: alphanumeric
+installation: flight deck
+installation: cockpit
+instrument type: telescope
+instrument type: spectrograph
+instrumentation: laser
+instrumentation: pneumatically controlled
+instrumentation: photodiode
+invented by: physicist's name
+invented by: galileo galilei
+invented by: dutch scientist
+invented in: 17th century
+invented in: 1671
+inventor: unknown
+inventor: historical figure
+launch date: 2022
+launch date: 2023
+length: 880 yards
+length: half-mile
+located at: office
+located at: astronomy observatories
+located at: pharmacy
+located at: space agencies
+located at: cambridge university
+located at: isaac newton's laboratory
+located at: fruit bowl
+located at: fridge
+located at: research institutes
+located at: banana tree
+located at: opticks
+located at: laboratories
+located at: research institutions
+located at: lab
+located at: kitchen
+located at: supermarket
+location: gas station
+location: lick observatory
+location: university of california, santa cruz
+location: laboratory
+location: leiden
+location: eye clinic
+location: optical shop
+location: fast food restaurant
+location: netherlands
+location: germany
+location: terrestrial observatory
+location: astronomy observatory
+location: space mission
+location: atacama desert
+location: chile
+location: europe
+location: cockpit
+location: instrument panel
+location: spacecraft
+location: convenience store
+location: kunlun mountains
+location: china
+location: laboratories
+location: desert
+location: sutherland
+location: south africa
+location: research institution
+location: yerkes observatory
+location: wisconsin
+location: research institutions
+location: space observatories
+location: planetarium
+location: mountain top
+location: united states
+location: italy
+manufactured by: intel
+manufactured by: amd
+manufacturer: british
+manufacturer: morris
+material: aluminum
+material: steel
+material: lens
+material: kevlar
+material: glass
+material: metal
+material: plastic
+material: leather
+material: wood
+materials: lightweight
+materials: insulating
+materials: durable
+measurement: direction
+measurement: azimuth
+measurement range: particles per liter
+measurement range: micrograms per cubic meter
+measures: raindrop size distribution
+measures: raindrop velocity
+measures: precipitation rate
+model: c8
+number of cylinders: single
+number of cylinders: one
+nutritional content: high in sugar
+nutritional content: rich in potassium
+operated by: national radio astronomy observatory
+operated by: carnegie institution for science
+operation: uses vacuum
+operation: using compressed air
+operation: using vacuum
+operation: uses compressed air
+operational: functional
+operational: since 2006
+operator: scientist
+operator: researcher
+operator: geologist
+operators: kunlun dark universe survey team
+operators: chinese academy of sciences
+orbital location: geostationary
+orbital location: low earth orbit
+origin: west africa
+origin: central africa
+origin: france
+origin: history
+originated from: research institution
+originated from: scientific community
+output: vector maps
+output: magnetic field data
+output: data visualizations
+output: graphs
+output: magnetic field strength
+output: charts
+output: vector field
+performance: high-performance
+performance: fast processing
+performance: multi-core
+physical characteristics: long
+physical characteristics: made of metal
+physical characteristics: thin
+popularity: well-known brand
+popularity: reliable vehicles
+power output: moderate
+power output: small
+precision: precise
+precision: accurate
+preservation: private collection
+preservation: museum
+price range: $150,000
+price range: $100,000
+price range: high-end
+price range: professional
+price range: astronomy equipment
+principle: measures air flow
+principle: uses neutron beams
+principle: explores magnetic properties
+principle: counts cloud condensation nuclei
+principle: measures droplet size
+principle: measures light scattering
+principle: measures air resistance
+principle: vapor compression
+principle: heat transfer
+produced by: ebro trucks, s.a.
+produced by: spanish company
+properties: safe handling required
+properties: high precision
+properties: accurate measurements
+properties: sensitive to fermentation byproducts
+properties: can detect yeast presence
+purpose: convenient service
+purpose: tracking small objects
+purpose: monitoring space debris
+purpose: observe celestial bodies
+purpose: study the night sky
+purpose: holding items
+purpose: transporting materials
+purpose: enhance safety
+purpose: improved communication
+purpose: stargazing
+purpose: astronomy
+purpose: measuring precipitation intensity
+purpose: protective
+purpose: cycling
+purpose: reduced paperwork
+purpose: historical
+purpose: logistics
+purpose: construction
+purpose: research
+purpose: medical procedure
+purpose: study dark energy
+purpose: examining patient
+purpose: heavy hauling
+purpose: simplified business transactions
+purpose: studying weather patterns
+purpose: streamlining business processes
+purpose: reducing paperwork
+purpose: riot control
+purpose: measuring refractive power
+purpose: aid navigation
+purpose: emergency escape
+purpose: space travel
+purpose: increasing efficiency
+purpose: checking lens power
+purpose: studying universe
+purpose: law enforcement
+purpose: observe dark matter
+purpose: study dark universe
+purpose: moving goods
+purpose: astronomical research
+purpose: protective gear
+range: 250 miles
+rarity: rare
+rarity: collectible
+related concept: combustion reaction
+related concept: flammability test
+related to: music theory
+related to: physics
+related to: acoustics
+released date: 2017
+released date: 2019
+research focus: dark matter
+research focus: dark energy
+research focus: cosmology
+research focus: black holes
+research focus: galaxy evolution
+research focus: dark universe
+resolution: precise measurement
+resolution: high resolution
+resolution: detailed observations
+resolution: high-resolution images
+responsibilities: communicating with customers
+responsibilities: booking transportation
+responsibilities: tracking shipments
+scale type: digital
+scale type: analog
+scientific discovery: accurate distance measurements
+scientific discovery: new planetary discoveries
+sensors: optical
+sensors: infrared
+sensors: radar
+shape: bottle
+shape: cylinder
+shape: long
+shape: curved
+shape: container
+shape: horizontal
+significance: one of the first large telescopes in the united states
+significance: important for astronomical research in the 19th century
+significance: important for studying the universe
+significance: helped in understanding celestial mechanics
+similar to: pineapple
+similar to: mango
+similar to: ph meter
+similar to: acid-base indicator
+size: large
+size: 7-meter diameter
+size: 36 inches in diameter
+size: largest in the world at the time
+size: 9.2 meters
+size: various sizes
+size: small
+size: 3.3 meters in diameter
+size: large aperture
+size: standardized
+size: largest in southern hemisphere
+size: long
+size: adjustable
+skills: organizational
+skills: communicative
+skills: problem-solving
+standards: x12
+standards: edifact
+standards: xml schema
+status: still used today
+status: operational
+target audience: fitness enthusiasts
+target audience: people with sleep disorders
+target audience: researchers
+taste: sweet
+taste: tart
+technique: polarimetry
+technique: solar spectroscopy
+technology: accelerometers
+technology: satellite signal
+technology: optical
+technology: infrared
+technology: sensitive to faint light
+technology: inertial measurement
+technology: records vectorial data
+technology: gyroscopes
+technology: uses magnetometers
+technology: laser beam
+texture: soft
+texture: juicy
+top speed: 180 mph
+type: optical
+type: astronomical
+type: cup anemometer
+type: magnetic
+type: warehouse storage
+type: calculator
+type: scientific calculator
+type: texas instruments
+type: mechanical
+type: air-powered
+type: industrial equipment
+type: computerized
+type: telescope
+type: altazimuth
+type: vane anemometer
+type: internal combustion
+type: gasoline
+type: piston
+type: astronomical instrument
+type: go-to
+type: optical telescope
+type: reflecting telescope
+type: propeller anemometer
+type: gyroscopic
+type: material handling system
+type: horizontal
+type: vertical
+type: evaporation equipment
+type: gps receiver
+type: laser tracker
+type: theodolite
+type: inclined
+type: infrared
+type: astronomical observatory
+type: radio telescope
+type: scientific instrument
+type: laboratory tool
+type: gadget
+type: smart helmet
+type: trucks
+type: vehicles
+type: transportation
+type: mechanical device
+type: radio
+types: condensation
+types: faraday's electrostatic generator
+types: air freight forwarder
+types: xml
+types: ocean freight forwarder
+types: dry containers
+types: edi
+types: land freight forwarder
+types: electrical
+types: optical
+types: api
+types: reefer containers
+types: open-top containers
+types: wimshurst electrostatic generator
+unique feature: high-resolution imaging
+unique feature: uses larmor radiation
+usage: packaging
+usage: research
+usage: scientific experiment
+usage: laboratory
+usage: testing
+usage: manufacturing
+usage: warehousing
+usage: gaming
+usage: video editing
+usage: aviation
+usage: 3d modeling
+usage: aircraft
+use: studying minerals
+use: mathematics
+use: transporting goods
+use: engineering
+use: science
+use: shipping
+use: examining rocks
+use case: brain-computer interface
+use case: sleep monitoring
+use case: outdoors
+use case: wildlife observation
+use case: travel
+use case: fitness tracking
+used by: astronauts
+used by: ophthalmologists
+used by: optometrists
+used by: construction engineers
+used by: pilots
+used by: surveyors
+used by: space agencies
+used for: logistics and transportation
+used for: construction projects
+used for: orientation
+used for: studying astronomy
+used for: observing celestial bodies
+used for: navigating
+used for: music education
+used for: studying celestial objects
+used for: making observations
+used for: studying sun's magnetic field
+used for: measuring solids
+used for: monitoring solar activity
+used for: flying
+used for: scientific research
+used for: monitoring air pollution
+used for: understanding solar cycles
+used for: studying stars
+used for: measuring distances
+used for: measuring liquids
+used for: measuring chemicals
+used for: measuring medicine
+used for: studying sun's internal dynamics
+used for: industrial applications
+used for: detecting dark matter
+used for: searching for dark energy
+used for: studying universe
+used for: studying celestial bodies
+used for: studying distant galaxies
+used for: studying cloud formation
+used for: discovering new stars
+used for: astronomical observations
+used for: predicting space weather
+used for: atmospheric research
+used for: astronomical research
+used for: predicting solar flares
+used for: aviation
+used for: weather forecasting
+used for: making smoothie
+used for: making cakes
+used for: healthy snack
+used for: mixing chemicals
+used for: wind farm
+used for: making observations of the sky
+used in: meteorology
+used in: hydrology
+used in: environmental research
+used in: distribution centers
+used in: warehouses
+used in: food industry
+used in: hospital
+used in: clinic
+used in: research lab
+used in: winemaking
+used in: brewing
+used in: small cars
+used in: motorcycles
+used in: tractors
+used in: manufacturing facilities
+uses: law enforcement
+uses: crowd control
+uses: military
+uses: astronomical observations
+uses: stargazing
+uses: planetary imaging
+uses: studying celestial objects
+uses: observing planets
+uses: making astronomical measurements
+uses: eating fresh
+uses: making jams
+uses: medicinal purposes
+wavelength: millimeter range
+weight: heavy-duty
+weight: lightweight
+year invented: 1673
+year of construction: 1960
+year of invention: 1608
+year of invention: year of invention
+year of invention: 1610
