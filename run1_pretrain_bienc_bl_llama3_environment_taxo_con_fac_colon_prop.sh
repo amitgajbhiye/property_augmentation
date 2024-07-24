@@ -15,8 +15,8 @@
 
 #SBATCH --time 2-00:00:00
 
-conda activate venv
-
+conda activate venv_1
+    
 python3 bienc_run_model.py --config_file configs/commonality_bienc_eval_taxo/pretrain_bienc_bl_llama3_environment_taxo_con_fac_colon_prop.json
 
 echo 'Job Finished!'
