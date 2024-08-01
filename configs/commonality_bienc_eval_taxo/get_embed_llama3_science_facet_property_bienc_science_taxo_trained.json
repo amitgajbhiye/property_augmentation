@@ -29,7 +29,7 @@
         "get_con_prop_embeds": true,
         "input_data_type": "property",
         "concept_file": null,
-        "property_file": "data/commonality_llama/lama3_concept_facet_property_science_taxo_concepts_facet_colon_property.txt",
+        "property_file": "data/commonality_llama/llama3_repeat10_science_facet_colon_property.txt",
         "concept_property_file": null,
         "save_dir": "trained_models/embeds_for_commonalities",
         "get_con_sim_vocab_properties": false,
