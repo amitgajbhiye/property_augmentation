@@ -1,0 +1,43 @@
+{
+    "experiment_name": "6_get_embeds_mcrae_predict_property_similar_prop_vocab",
+    "log_dirctory": "get_con_pro_embeddings",
+    "dataset_params": {
+        "dataset_name": "mcrae_mcrae_predict_property_similar_prop_vocab",
+        "train_file_path": null,
+        "val_file_path": null,
+        "test_file_path": null,
+        "hf_tokenizer_name": "bert-base-uncased",
+        "hf_tokenizer_path": "/scratch/c.scmag3/conceptEmbeddingModel/bertBaseUncasedPreTrained/tokenizer",
+        "concept_max_len": 64,
+        "property_max_len": 64,
+        "add_context": true,
+        "context_num": 6,
+        "loader_params": {
+            "batch_size": 1024,
+            "num_workers": 4,
+            "pin_memory": true
+        }
+    },
+    "model_params": {
+        "model_name": null,
+        "hf_checkpoint_name": "bert-base-uncased",
+        "hf_model_path": "/scratch/c.scmag3/conceptEmbeddingModel/bertBaseUncasedPreTrained",
+        "vector_strategy": "mask_token"
+    },
+    "inference_params": {
+        "pretrained_model_path": null,
+        "get_con_prop_embeds": false,
+        "input_data_type": null,
+        "concept_file": null,
+        "property_file": null,
+        "concept_property_file": null,
+        "save_dir": "data/evaluation_data/mcrae_joint_encoder_prop_conjuction_fine_tune/property_split",
+        "get_concept_similar_properties": false,
+        "concept_embed_pkl": null,
+        "property_embed_pkl": null,
+        "get_predict_prop_similar_vocab_properties": true,
+        "predict_property_embed_pkl_file": "trained_models/con_pro_embeddings/mcrae_predict_property_embeds_property_embeddings.pkl",
+        "vocab_property_embed_pkl_file": "trained_models/con_pro_embeddings/prop_vocab_500k_mscg_embeds_property_embeddings.pkl",
+        "concept_similar_prop_file": "data/evaluation_data/mcrae_je_prop_conjuction/je_filtered_mcrae_con_similar_vocab_properties.txt"
+    }
+}

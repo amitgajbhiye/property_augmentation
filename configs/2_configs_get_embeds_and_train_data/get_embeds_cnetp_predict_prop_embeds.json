@@ -1,0 +1,53 @@
+{
+    "experiment_name": "get_embeds_cnetp_predict_prop_embeds",
+    "log_dirctory": "data_sampling",
+    "dataset_params": {
+        "dataset_name": "pretrain_cnetp_predict_prop_embeds",
+        "train_file_path": null,
+        "val_file_path": null,
+        "test_file_path": null,
+        "hf_tokenizer_name": "bert-base-uncased",
+        "hf_tokenizer_path": "/scratch/c.scmag3/conceptEmbeddingModel/bertBaseUncasedPreTrained/tokenizer",
+        "concept_max_len": 64,
+        "property_max_len": 64,
+        "add_context": true,
+        "context_num": 6,
+        "loader_params": {
+            "batch_size": 1024,
+            "num_workers": 4,
+            "pin_memory": true
+        }
+    },
+    "model_params": {
+        "model_name": null,
+        "hf_checkpoint_name": "bert-base-uncased",
+        "hf_model_path": "/scratch/c.scmag3/conceptEmbeddingModel/bertBaseUncasedPreTrained",
+        "vector_strategy": "mask_token"
+    },
+    "inference_params": {
+        "pretrained_model_path": "trained_models/bienc_cnetp_pretrained/bb_gkb_cnet_plus_cnet_has_property.pt",
+        "get_con_prop_embeds": true,
+        "input_data_type": "property",
+        "concept_file": null,
+        "property_file": "",
+        "concept_property_file": null,
+        "save_dir": "data/train_data/je_prop_conj/deberta_mask_prompt",
+        "get_con_sim_vocab_properties": false,
+        "num_nearest_neighbours": null,
+        "concept_embed_pkl": null,
+        "get_predict_prop_similar_props": true,
+        "num_prop_conjuct": 5,
+        "pretrain_data": true,
+        "pretrain_train_file": "data/train_data/je_con_prop/5_neg_train_cnet_premium.tsv",
+        "pretrain_valid_file": "data/train_data/je_con_prop/5_neg_valid_cnet_premium.tsv",
+        "save_prefix": "sim5_deberta_v3_large_predict_prop",
+        "finetune_data": false,
+        "split_type": null,
+        "fold_file_base_path": null,
+        "concept_similar_prop_file": "data/train_data/cnetp_con_similar_50_prop_vocab_deberta_v3_large_thresh_42.tsv",
+        "vocab_property_embed_pkl": "++++++++++++++++++++++++++",
+        "predict_property_embed_pkl": "+++++++++++++++++++++++++++",
+        "con_only_similar_data": false,
+        "top_k_sim_props": null
+    }
+}

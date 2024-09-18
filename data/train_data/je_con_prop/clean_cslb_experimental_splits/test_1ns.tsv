@@ -1,0 +1,6788 @@
+cymbal	can play different notes	1
+banjo	can play different notes	1
+castanets	can play different notes	1
+violin	can play different notes	1
+clarinet	can play different notes	1
+french_horn	can play different notes	1
+piano	can play different notes	1
+trombone	can play different notes	1
+cello	can play different notes	1
+tambourine	can play different notes	1
+guitar	can play different notes	1
+gong	can play different notes	1
+tuba	can play different notes	1
+accordion	can play different notes	1
+drum	can play different notes	1
+harmonica	can play different notes	1
+bagpipe	can play different notes	1
+saxophone	can play different notes	1
+harpsichord	can play different notes	1
+flute	can play different notes	1
+trumpet	can play different notes	1
+organ	can play different notes	1
+harp	can play different notes	1
+clamp	can play different notes	0
+typewriter	can play different notes	0
+clock	can play different notes	0
+spear	can play different notes	0
+colander	can play different notes	0
+arrow	can play different notes	0
+swing	can play different notes	0
+machete	can play different notes	0
+dagger	can play different notes	0
+peeler	can play different notes	0
+nail	can play different notes	0
+grenade	can play different notes	0
+spirit_level	can play different notes	0
+bow	can play different notes	0
+mirror	can play different notes	0
+strainer	can play different notes	0
+screw	can play different notes	0
+sword	can play different notes	0
+crossbow	can play different notes	0
+chainsaw	can play different notes	0
+gun	can play different notes	0
+bomb	can play different notes	0
+boomerang	can play different notes	0
+hummingbird	is streamlined	1
+robin	is streamlined	1
+buzzard	is streamlined	1
+wren	is streamlined	1
+emu	is streamlined	1
+owl	is streamlined	1
+peacock	is streamlined	1
+kayak	is streamlined	1
+duck	is streamlined	1
+wetsuit	is streamlined	1
+dove	is streamlined	1
+flamingo	is streamlined	1
+ostrich	is streamlined	1
+partridge	is streamlined	1
+goose	is streamlined	1
+budgie	is streamlined	1
+penguin	is streamlined	1
+crane	is streamlined	1
+swan	is streamlined	1
+turkey	is streamlined	1
+woodpecker	is streamlined	1
+falcon	is streamlined	1
+dolphin	is streamlined	1
+speedboat	is streamlined	1
+parakeet	is streamlined	1
+heron	is streamlined	1
+swimsuit	is streamlined	1
+kingfisher	is streamlined	1
+hawk	is streamlined	1
+cockerel	is streamlined	1
+canary	is streamlined	1
+sparrow	is streamlined	1
+chicken	is streamlined	1
+magpie	is streamlined	1
+pelican	is streamlined	1
+seagull	is streamlined	1
+raven	is streamlined	1
+starling	is streamlined	1
+nightingale	is streamlined	1
+seal	is streamlined	1
+pigeon	is streamlined	1
+boat	is streamlined	1
+rattlesnake	is streamlined	1
+eagle	is streamlined	1
+canoe	is streamlined	1
+frog	is streamlined	0
+walrus	is streamlined	0
+skunk	is streamlined	0
+wolf	is streamlined	0
+bear	is streamlined	0
+hyena	is streamlined	0
+otter	is streamlined	0
+alligator	is streamlined	0
+raisin	is streamlined	0
+monkey	is streamlined	0
+bat	is streamlined	0
+hippo	is streamlined	0
+scarf	is streamlined	0
+llama	is streamlined	0
+bolt	is streamlined	0
+veil	is streamlined	0
+rabbit	is streamlined	0
+lizard	is streamlined	0
+ferry	is streamlined	0
+squirrel	is streamlined	0
+camel	is streamlined	0
+houseboat	is streamlined	0
+elephant	is streamlined	0
+toad	is streamlined	0
+hamster	is streamlined	0
+porcupine	is streamlined	0
+chipmunk	is streamlined	0
+cat	is streamlined	0
+tugboat	is streamlined	0
+gerbil	is streamlined	0
+guinea_pig	is streamlined	0
+rat	is streamlined	0
+fox	is streamlined	0
+kangaroo	is streamlined	0
+barge	is streamlined	0
+shark	is streamlined	0
+platypus	is streamlined	0
+whale	is streamlined	0
+tortoise	is streamlined	0
+rhino	is streamlined	0
+mouse	is streamlined	0
+hedgehog	is streamlined	0
+turtle	is streamlined	0
+crocodile	is streamlined	0
+beaver	is streamlined	0
+tiger	has a mouth	1
+wolf	has a mouth	1
+lobster	has a mouth	1
+bear	has a mouth	1
+cow	has a mouth	1
+seahorse	has a mouth	1
+cockroach	has a mouth	1
+alligator	has a mouth	1
+calf	has a mouth	1
+iguana	has a mouth	1
+hippo	has a mouth	1
+crab	has a mouth	1
+cod	has a mouth	1
+rabbit	has a mouth	1
+grasshopper	has a mouth	1
+pig	has a mouth	1
+camel	has a mouth	1
+herring	has a mouth	1
+chipmunk	has a mouth	1
+toad	has a mouth	1
+goat	has a mouth	1
+fox	has a mouth	1
+caterpillar	has a mouth	1
+octopus	has a mouth	1
+platypus	has a mouth	1
+mussel	has a mouth	1
+tortoise	has a mouth	1
+rhino	has a mouth	1
+crocodile	has a mouth	1
+beaver	has a mouth	1
+walrus	has a mouth	1
+skunk	has a mouth	1
+trout	has a mouth	1
+scallop	has a mouth	1
+hyena	has a mouth	1
+worm	has a mouth	1
+lamb	has a mouth	1
+cricket	has a mouth	1
+bee	has a mouth	1
+slug	has a mouth	1
+zebra	has a mouth	1
+wasp	has a mouth	1
+locust	has a mouth	1
+giraffe	has a mouth	1
+centipede	has a mouth	1
+cheetah	has a mouth	1
+leopard	has a mouth	1
+scorpion	has a mouth	1
+elephant	has a mouth	1
+hamster	has a mouth	1
+porcupine	has a mouth	1
+carp	has a mouth	1
+termite	has a mouth	1
+donkey	has a mouth	1
+prawn	has a mouth	1
+seal	has a mouth	1
+dragonfly	has a mouth	1
+hedgehog	has a mouth	1
+mosquito	has a mouth	1
+turtle	has a mouth	1
+rattlesnake	has a mouth	1
+sardine	has a mouth	1
+otter	has a mouth	1
+flounder	has a mouth	1
+horse	has a mouth	1
+buffalo	has a mouth	1
+stick_insect	has a mouth	1
+bat	has a mouth	1
+pony	has a mouth	1
+hornet	has a mouth	1
+lion	has a mouth	1
+llama	has a mouth	1
+millipede	has a mouth	1
+lizard	has a mouth	1
+snail	has a mouth	1
+dolphin	has a mouth	1
+salmon	has a mouth	1
+sheep	has a mouth	1
+squid	has a mouth	1
+gerbil	has a mouth	1
+guinea_pig	has a mouth	1
+rat	has a mouth	1
+tarantula	has a mouth	1
+moose	has a mouth	1
+spider	has a mouth	1
+clam	has a mouth	1
+dog	has a mouth	1
+minnow	has a mouth	1
+goldfish	has a mouth	1
+housefly	has a mouth	1
+raccoon	has a mouth	1
+butterfly	has a mouth	1
+mouse	has a mouth	1
+moth	has a mouth	1
+frog	has a mouth	1
+mackerel	has a mouth	1
+oyster	has a mouth	1
+monkey	has a mouth	1
+beetle	has a mouth	1
+panther	has a mouth	1
+flea	has a mouth	1
+squirrel	has a mouth	1
+tuna	has a mouth	1
+crayfish	has a mouth	1
+cat	has a mouth	1
+gorilla	has a mouth	1
+jellyfish	has a mouth	1
+shrimp	has a mouth	1
+ladybird	has a mouth	1
+ant	has a mouth	1
+kangaroo	has a mouth	1
+eel	has a mouth	1
+shark	has a mouth	1
+ox	has a mouth	1
+whale	has a mouth	1
+deer	has a mouth	1
+hummingbird	has a mouth	0
+buttercup	has a mouth	0
+bread	has a mouth	0
+carnation	has a mouth	0
+ketchup	has a mouth	0
+finger	has a mouth	0
+buzzard	has a mouth	0
+chestnut	has a mouth	0
+wren	has a mouth	0
+cookie	has a mouth	0
+emu	has a mouth	0
+peacock	has a mouth	0
+dresser	has a mouth	0
+dove	has a mouth	0
+willow	has a mouth	0
+tambourine	has a mouth	0
+ostrich	has a mouth	0
+rocking_chair	has a mouth	0
+daffodil	has a mouth	0
+grater	has a mouth	0
+partridge	has a mouth	0
+rice	has a mouth	0
+pine	has a mouth	0
+goose	has a mouth	0
+budgie	has a mouth	0
+swan	has a mouth	0
+turkey	has a mouth	0
+woodpecker	has a mouth	0
+marigold	has a mouth	0
+parakeet	has a mouth	0
+tugboat	has a mouth	0
+sultana	has a mouth	0
+tulip	has a mouth	0
+yoyo	has a mouth	0
+heron	has a mouth	0
+kingfisher	has a mouth	0
+cradle	has a mouth	0
+dagger	has a mouth	0
+screwdriver	has a mouth	0
+throne	has a mouth	0
+chicken	has a mouth	0
+sycamore	has a mouth	0
+pelican	has a mouth	0
+hyacinth	has a mouth	0
+seagull	has a mouth	0
+sweater	has a mouth	0
+flute	has a mouth	0
+raven	has a mouth	0
+truck	has a mouth	0
+starling	has a mouth	0
+brussels_sprout	has a mouth	0
+sword	has a mouth	0
+crossbow	has a mouth	0
+boat	has a mouth	0
+avocado	has a mouth	0
+gun	has a mouth	0
+rose	has a mouth	0
+eagle	has a mouth	0
+zucchini	has a mouth	0
+colander	has a mouth	0
+pliers	has a mouth	0
+robin	has a mouth	0
+garlic	has a mouth	0
+box	has a mouth	0
+marble	has a mouth	0
+plum	has a mouth	0
+lamp	has a mouth	0
+piano	has a mouth	0
+coconut	has a mouth	0
+owl	has a mouth	0
+oak	has a mouth	0
+pansy	has a mouth	0
+eucalyptus	has a mouth	0
+sunflower	has a mouth	0
+duck	has a mouth	0
+armchair	has a mouth	0
+blender	has a mouth	0
+flamingo	has a mouth	0
+orchid	has a mouth	0
+daisy	has a mouth	0
+lily	has a mouth	0
+chisel	has a mouth	0
+penguin	has a mouth	0
+elm	has a mouth	0
+crane	has a mouth	0
+birch	has a mouth	0
+chandelier	has a mouth	0
+falcon	has a mouth	0
+geranium	has a mouth	0
+kite	has a mouth	0
+chopping_board	has a mouth	0
+hawk	has a mouth	0
+cockerel	has a mouth	0
+bicycle	has a mouth	0
+coffee_maker	has a mouth	0
+canary	has a mouth	0
+chocolate	has a mouth	0
+bikini	has a mouth	0
+bookcase	has a mouth	0
+sparrow	has a mouth	0
+magpie	has a mouth	0
+grape	has a mouth	0
+wallet	has a mouth	0
+cauliflower	has a mouth	0
+dandelion	has a mouth	0
+cabbage	has a mouth	0
+lettuce	has a mouth	0
+nightingale	has a mouth	0
+rake	has a mouth	0
+axe	has a mouth	0
+pigeon	has a mouth	0
+poppy	has a mouth	0
+chair	has a mouth	0
+hose	has a mouth	0
+bathtub	has a mouth	0
+mango	has a mouth	0
+hummingbird	can move	1
+tiger	can move	1
+wolf	can move	1
+tank	can move	1
+bear	can move	1
+tricycle	can move	1
+lobster	can move	1
+cow	can move	1
+finger	can move	1
+seahorse	can move	1
+cockroach	can move	1
+buzzard	can move	1
+alligator	can move	1
+calf	can move	1
+wren	can move	1
+swing	can move	1
+rocket	can move	1
+carriage	can move	1
+motorcycle	can move	1
+iguana	can move	1
+emu	can move	1
+hippo	can move	1
+kayak	can move	1
+crab	can move	1
+dove	can move	1
+cod	can move	1
+taxi	can move	1
+leg	can move	1
+partridge	can move	1
+rabbit	can move	1
+grasshopper	can move	1
+goose	can move	1
+pig	can move	1
+camel	can move	1
+sledge	can move	1
+ambulance	can move	1
+skateboard	can move	1
+herring	can move	1
+chipmunk	can move	1
+toad	can move	1
+thumb	can move	1
+goat	can move	1
+fox	can move	1
+tractor	can move	1
+caterpillar	can move	1
+octopus	can move	1
+tongue	can move	1
+chicken	can move	1
+platypus	can move	1
+pelican	can move	1
+seagull	can move	1
+mussel	can move	1
+starling	can move	1
+tortoise	can move	1
+rhino	can move	1
+crocodile	can move	1
+beaver	can move	1
+eagle	can move	1
+walrus	can move	1
+skunk	can move	1
+lorry	can move	1
+trout	can move	1
+yacht	can move	1
+hyena	can move	1
+worm	can move	1
+lamb	can move	1
+scallop	can move	1
+rollerskate	can move	1
+cricket	can move	1
+arm	can move	1
+cart	can move	1
+bee	can move	1
+slug	can move	1
+zebra	can move	1
+wasp	can move	1
+locust	can move	1
+giraffe	can move	1
+ferry	can move	1
+centipede	can move	1
+penguin	can move	1
+cheetah	can move	1
+leopard	can move	1
+speedboat	can move	1
+scorpion	can move	1
+helicopter	can move	1
+houseboat	can move	1
+elephant	can move	1
+hamster	can move	1
+porcupine	can move	1
+carp	can move	1
+termite	can move	1
+donkey	can move	1
+hawk	can move	1
+cockerel	can move	1
+canary	can move	1
+barge	can move	1
+lips	can move	1
+magpie	can move	1
+prawn	can move	1
+seal	can move	1
+dragonfly	can move	1
+pigeon	can move	1
+hedgehog	can move	1
+oil_tanker	can move	1
+mosquito	can move	1
+turtle	can move	1
+rattlesnake	can move	1
+canoe	can move	1
+trolley	can move	1
+wheelchair	can move	1
+sardine	can move	1
+limousine	can move	1
+otter	can move	1
+car	can move	1
+flounder	can move	1
+horse	can move	1
+balloon	can move	1
+buggy	can move	1
+buffalo	can move	1
+stick_insect	can move	1
+peacock	can move	1
+bat	can move	1
+unicycle	can move	1
+van	can move	1
+pony	can move	1
+ostrich	can move	1
+hornet	can move	1
+lion	can move	1
+llama	can move	1
+millipede	can move	1
+ship	can move	1
+lizard	can move	1
+budgie	can move	1
+swan	can move	1
+snail	can move	1
+turkey	can move	1
+woodpecker	can move	1
+dolphin	can move	1
+raft	can move	1
+salmon	can move	1
+tugboat	can move	1
+parakeet	can move	1
+sheep	can move	1
+squid	can move	1
+gerbil	can move	1
+guinea_pig	can move	1
+rat	can move	1
+wheelbarrow	can move	1
+tarantula	can move	1
+heron	can move	1
+kingfisher	can move	1
+moose	can move	1
+spider	can move	1
+clam	can move	1
+dog	can move	1
+minnow	can move	1
+raven	can move	1
+truck	can move	1
+airplane	can move	1
+eye	can move	1
+goldfish	can move	1
+housefly	can move	1
+raccoon	can move	1
+toe	can move	1
+butterfly	can move	1
+mouse	can move	1
+submarine	can move	1
+boat	can move	1
+moth	can move	1
+frog	can move	1
+mackerel	can move	1
+oyster	can move	1
+robin	can move	1
+owl	can move	1
+monkey	can move	1
+beetle	can move	1
+moped	can move	1
+duck	can move	1
+panther	can move	1
+flamingo	can move	1
+flea	can move	1
+squirrel	can move	1
+crane	can move	1
+tuna	can move	1
+falcon	can move	1
+crayfish	can move	1
+cat	can move	1
+gorilla	can move	1
+kite	can move	1
+jellyfish	can move	1
+glider	can move	1
+shrimp	can move	1
+ladybird	can move	1
+bicycle	can move	1
+ant	can move	1
+coach	can move	1
+kangaroo	can move	1
+eel	can move	1
+dinghy	can move	1
+sparrow	can move	1
+train	can move	1
+shark	can move	1
+ox	can move	1
+whale	can move	1
+deer	can move	1
+nightingale	can move	1
+caravan	can move	1
+bus	can move	1
+buttercup	can move	0
+carnation	can move	0
+ball	can move	0
+dice	can move	0
+basin	can move	0
+clock	can move	0
+chestnut	can move	0
+blueberry	can move	0
+cupboard	can move	0
+raisin	can move	0
+wine	can move	0
+desk	can move	0
+dishwasher	can move	0
+oven	can move	0
+dresser	can move	0
+scythe	can move	0
+bone	can move	0
+cannon	can move	0
+knickers	can move	0
+daffodil	can move	0
+screw	can move	0
+basket	can move	0
+pine	can move	0
+ladle	can move	0
+cage	can move	0
+mirror	can move	0
+stool	can move	0
+gloves	can move	0
+bucket	can move	0
+cider	can move	0
+jam	can move	0
+tulip	can move	0
+harmonica	can move	0
+eggplant	can move	0
+kettle	can move	0
+dressing_gown	can move	0
+chest_of_drawers	can move	0
+harpsichord	can move	0
+throne	can move	0
+bra	can move	0
+hyacinth	can move	0
+foot	can move	0
+beer	can move	0
+trumpet	can move	0
+blouse	can move	0
+crossbow	can move	0
+spatula	can move	0
+ashtray	can move	0
+avocado	can move	0
+dress	can move	0
+trouser	can move	0
+broom	can move	0
+pajama	can move	0
+ice_cream	can move	0
+scalpel	can move	0
+banjo	can move	0
+peach	can move	0
+sweet_potato	can move	0
+hair	can move	0
+clarinet	can move	0
+marble	can move	0
+hoe	can move	0
+lamp	can move	0
+leek	can move	0
+belt	can move	0
+sink	can move	0
+coconut	can move	0
+oak	can move	0
+trombone	can move	0
+sunflower	can move	0
+eucalyptus	can move	0
+sofa	can move	0
+cape	can move	0
+armchair	can move	0
+satsuma	can move	0
+bolt	can move	0
+orchid	can move	0
+can_opener	can move	0
+parka	can move	0
+daisy	can move	0
+bag	can move	0
+butter	can move	0
+elm	can move	0
+chandelier	can move	0
+lemon	can move	0
+puppet	can move	0
+accordion	can move	0
+knife	can move	0
+camera	can move	0
+geranium	can move	0
+table	can move	0
+barrel	can move	0
+turnip	can move	0
+cake	can move	0
+chocolate	can move	0
+bookcase	can move	0
+armor	can move	0
+bikini	can move	0
+nail	can move	0
+dandelion	can move	0
+stove	can move	0
+rake	can move	0
+tights	can move	0
+tea	can move	0
+doll	can move	0
+bathtub	can move	0
+tweezer	can move	0
+apricot	can move	0
+plow	can move	0
+coffee	can move	0
+bread	can move	0
+boomerang	can move	0
+currant	can move	0
+spanner	can move	0
+violin	can move	0
+ketchup	can move	0
+club	can move	0
+jar	can move	0
+tomato	can move	0
+apron	can move	0
+willow	can move	0
+pea	can move	0
+celery	can move	0
+banana	can move	0
+whisk	can move	0
+tray	can move	0
+yoghurt	can move	0
+catapult	can move	0
+shovel	can move	0
+harpoon	can move	0
+skirt	can move	0
+bin	can move	0
+sugar	can move	0
+television	can move	0
+marigold	can move	0
+bowl	can move	0
+sultana	can move	0
+cloak	can move	0
+drum	can move	0
+yoyo	can move	0
+earmuffs	can move	0
+pear	can move	0
+machete	can move	0
+bottle	can move	0
+dagger	can move	0
+rattle	can move	0
+sycamore	can move	0
+rhubarb	can move	0
+mayonnaise	can move	0
+jelly	can move	0
+brussels_sprout	can move	0
+fir	can move	0
+nose	can move	0
+washing_machine	can move	0
+champagne	can move	0
+lemonade	can move	0
+heart	can move	0
+rose	can move	0
+zucchini	can move	0
+colander	can move	0
+cymbal	can move	0
+bed	can move	0
+shawl	can move	0
+castanets	can move	0
+box	can move	0
+french_horn	can move	0
+ear	can move	0
+piano	can move	0
+pansy	can move	0
+brandy	can move	0
+stocking	can move	0
+cherry	can move	0
+peeler	can move	0
+hutch	can move	0
+blender	can move	0
+strainer	can move	0
+veil	can move	0
+bench	can move	0
+lily	can move	0
+birch	can move	0
+lime	can move	0
+bomb	can move	0
+toaster	can move	0
+hammer	can move	0
+clamp	can move	0
+donut	can move	0
+chopping_board	can move	0
+grapefruit	can move	0
+drill	can move	0
+corn	can move	0
+plate	can move	0
+melon	can move	0
+asparagus	can move	0
+flour	can move	0
+coffee_maker	can move	0
+crowbar	can move	0
+milk	can move	0
+carrot	can move	0
+grape	can move	0
+spirit_level	can move	0
+wallet	can move	0
+cabbage	can move	0
+saw	can move	0
+nectarine	can move	0
+cap	can move	0
+poppy	can move	0
+chisel	can move	0
+hose	can move	0
+buttercup	can be found in the wild	1
+hummingbird	can be found in the wild	1
+tiger	can be found in the wild	1
+wolf	can be found in the wild	1
+lobster	can be found in the wild	1
+bear	can be found in the wild	1
+cow	can be found in the wild	1
+seahorse	can be found in the wild	1
+cockroach	can be found in the wild	1
+buzzard	can be found in the wild	1
+alligator	can be found in the wild	1
+calf	can be found in the wild	1
+wren	can be found in the wild	1
+emu	can be found in the wild	1
+iguana	can be found in the wild	1
+hippo	can be found in the wild	1
+crab	can be found in the wild	1
+dove	can be found in the wild	1
+cod	can be found in the wild	1
+daffodil	can be found in the wild	1
+partridge	can be found in the wild	1
+rabbit	can be found in the wild	1
+goose	can be found in the wild	1
+grasshopper	can be found in the wild	1
+pig	can be found in the wild	1
+camel	can be found in the wild	1
+herring	can be found in the wild	1
+chipmunk	can be found in the wild	1
+toad	can be found in the wild	1
+goat	can be found in the wild	1
+fox	can be found in the wild	1
+caterpillar	can be found in the wild	1
+octopus	can be found in the wild	1
+chicken	can be found in the wild	1
+platypus	can be found in the wild	1
+pelican	can be found in the wild	1
+seagull	can be found in the wild	1
+mussel	can be found in the wild	1
+starling	can be found in the wild	1
+tortoise	can be found in the wild	1
+rhino	can be found in the wild	1
+crocodile	can be found in the wild	1
+beaver	can be found in the wild	1
+eagle	can be found in the wild	1
+walrus	can be found in the wild	1
+skunk	can be found in the wild	1
+trout	can be found in the wild	1
+scallop	can be found in the wild	1
+hyena	can be found in the wild	1
+worm	can be found in the wild	1
+lamb	can be found in the wild	1
+cricket	can be found in the wild	1
+bee	can be found in the wild	1
+slug	can be found in the wild	1
+zebra	can be found in the wild	1
+wasp	can be found in the wild	1
+orchid	can be found in the wild	1
+locust	can be found in the wild	1
+giraffe	can be found in the wild	1
+daisy	can be found in the wild	1
+centipede	can be found in the wild	1
+penguin	can be found in the wild	1
+cheetah	can be found in the wild	1
+leopard	can be found in the wild	1
+scorpion	can be found in the wild	1
+elephant	can be found in the wild	1
+hamster	can be found in the wild	1
+porcupine	can be found in the wild	1
+carp	can be found in the wild	1
+termite	can be found in the wild	1
+donkey	can be found in the wild	1
+hawk	can be found in the wild	1
+cockerel	can be found in the wild	1
+canary	can be found in the wild	1
+magpie	can be found in the wild	1
+prawn	can be found in the wild	1
+seal	can be found in the wild	1
+dragonfly	can be found in the wild	1
+pigeon	can be found in the wild	1
+hedgehog	can be found in the wild	1
+mosquito	can be found in the wild	1
+turtle	can be found in the wild	1
+rattlesnake	can be found in the wild	1
+sardine	can be found in the wild	1
+otter	can be found in the wild	1
+flounder	can be found in the wild	1
+horse	can be found in the wild	1
+buffalo	can be found in the wild	1
+stick_insect	can be found in the wild	1
+peacock	can be found in the wild	1
+bat	can be found in the wild	1
+pony	can be found in the wild	1
+ostrich	can be found in the wild	1
+hornet	can be found in the wild	1
+lion	can be found in the wild	1
+llama	can be found in the wild	1
+millipede	can be found in the wild	1
+lizard	can be found in the wild	1
+budgie	can be found in the wild	1
+swan	can be found in the wild	1
+turkey	can be found in the wild	1
+woodpecker	can be found in the wild	1
+snail	can be found in the wild	1
+dolphin	can be found in the wild	1
+parakeet	can be found in the wild	1
+salmon	can be found in the wild	1
+sheep	can be found in the wild	1
+heron	can be found in the wild	1
+gerbil	can be found in the wild	1
+guinea_pig	can be found in the wild	1
+rat	can be found in the wild	1
+kingfisher	can be found in the wild	1
+tarantula	can be found in the wild	1
+squid	can be found in the wild	1
+moose	can be found in the wild	1
+spider	can be found in the wild	1
+clam	can be found in the wild	1
+dog	can be found in the wild	1
+minnow	can be found in the wild	1
+raven	can be found in the wild	1
+goldfish	can be found in the wild	1
+housefly	can be found in the wild	1
+raccoon	can be found in the wild	1
+butterfly	can be found in the wild	1
+mouse	can be found in the wild	1
+moth	can be found in the wild	1
+frog	can be found in the wild	1
+mackerel	can be found in the wild	1
+oyster	can be found in the wild	1
+robin	can be found in the wild	1
+owl	can be found in the wild	1
+monkey	can be found in the wild	1
+beetle	can be found in the wild	1
+duck	can be found in the wild	1
+panther	can be found in the wild	1
+flamingo	can be found in the wild	1
+flea	can be found in the wild	1
+squirrel	can be found in the wild	1
+crane	can be found in the wild	1
+tuna	can be found in the wild	1
+falcon	can be found in the wild	1
+crayfish	can be found in the wild	1
+cat	can be found in the wild	1
+gorilla	can be found in the wild	1
+jellyfish	can be found in the wild	1
+shrimp	can be found in the wild	1
+mushroom	can be found in the wild	1
+ladybird	can be found in the wild	1
+ant	can be found in the wild	1
+kangaroo	can be found in the wild	1
+sparrow	can be found in the wild	1
+eel	can be found in the wild	1
+shark	can be found in the wild	1
+ox	can be found in the wild	1
+whale	can be found in the wild	1
+deer	can be found in the wild	1
+nightingale	can be found in the wild	1
+carnation	can be found in the wild	0
+ball	can be found in the wild	0
+dice	can be found in the wild	0
+radish	can be found in the wild	0
+tricycle	can be found in the wild	0
+basin	can be found in the wild	0
+finger	can be found in the wild	0
+chestnut	can be found in the wild	0
+cupboard	can be found in the wild	0
+wine	can be found in the wild	0
+oven	can be found in the wild	0
+rocket	can be found in the wild	0
+scythe	can be found in the wild	0
+rifle	can be found in the wild	0
+taxi	can be found in the wild	0
+leg	can be found in the wild	0
+knickers	can be found in the wild	0
+screw	can be found in the wild	0
+basket	can be found in the wild	0
+pine	can be found in the wild	0
+orange	can be found in the wild	0
+ladle	can be found in the wild	0
+shotgun	can be found in the wild	0
+sledge	can be found in the wild	0
+mirror	can be found in the wild	0
+gloves	can be found in the wild	0
+gin	can be found in the wild	0
+ham	can be found in the wild	0
+bucket	can be found in the wild	0
+prune	can be found in the wild	0
+jam	can be found in the wild	0
+tulip	can be found in the wild	0
+kettle	can be found in the wild	0
+chest_of_drawers	can be found in the wild	0
+bayonet	can be found in the wild	0
+tractor	can be found in the wild	0
+screwdriver	can be found in the wild	0
+hyacinth	can be found in the wild	0
+foot	can be found in the wild	0
+sweater	can be found in the wild	0
+flute	can be found in the wild	0
+beer	can be found in the wild	0
+blouse	can be found in the wild	0
+crossbow	can be found in the wild	0
+gun	can be found in the wild	0
+broom	can be found in the wild	0
+hair	can be found in the wild	0
+marble	can be found in the wild	0
+hoe	can be found in the wild	0
+leek	can be found in the wild	0
+sink	can be found in the wild	0
+oak	can be found in the wild	0
+sunflower	can be found in the wild	0
+eucalyptus	can be found in the wild	0
+nut	can be found in the wild	0
+radio	can be found in the wild	0
+rollerskate	can be found in the wild	0
+arm	can be found in the wild	0
+satsuma	can be found in the wild	0
+scarf	can be found in the wild	0
+bag	can be found in the wild	0
+elm	can be found in the wild	0
+chandelier	can be found in the wild	0
+puppet	can be found in the wild	0
+speedboat	can be found in the wild	0
+camera	can be found in the wild	0
+apple	can be found in the wild	0
+geranium	can be found in the wild	0
+barrel	can be found in the wild	0
+turnip	can be found in the wild	0
+saxophone	can be found in the wild	0
+cake	can be found in the wild	0
+jacket	can be found in the wild	0
+bookcase	can be found in the wild	0
+armor	can be found in the wild	0
+bikini	can be found in the wild	0
+lips	can be found in the wild	0
+dandelion	can be found in the wild	0
+gown	can be found in the wild	0
+broccoli	can be found in the wild	0
+rake	can be found in the wild	0
+oil_tanker	can be found in the wild	0
+sandwich	can be found in the wild	0
+chair	can be found in the wild	0
+doll	can be found in the wild	0
+bathtub	can be found in the wild	0
+plow	can be found in the wild	0
+canoe	can be found in the wild	0
+currant	can be found in the wild	0
+spanner	can be found in the wild	0
+wheelchair	can be found in the wild	0
+club	can be found in the wild	0
+car	can be found in the wild	0
+balloon	can be found in the wild	0
+cookie	can be found in the wild	0
+buggy	can be found in the wild	0
+jar	can be found in the wild	0
+willow	can be found in the wild	0
+mitten	can be found in the wild	0
+gherkin	can be found in the wild	0
+catapult	can be found in the wild	0
+gong	can be found in the wild	0
+harpoon	can be found in the wild	0
+skirt	can be found in the wild	0
+bin	can be found in the wild	0
+marigold	can be found in the wild	0
+raft	can be found in the wild	0
+sultana	can be found in the wild	0
+cloak	can be found in the wild	0
+yoyo	can be found in the wild	0
+earmuffs	can be found in the wild	0
+wheelbarrow	can be found in the wild	0
+spear	can be found in the wild	0
+cradle	can be found in the wild	0
+dagger	can be found in the wild	0
+rattle	can be found in the wild	0
+sycamore	can be found in the wild	0
+bow	can be found in the wild	0
+rhubarb	can be found in the wild	0
+watermelon	can be found in the wild	0
+truck	can be found in the wild	0
+brussels_sprout	can be found in the wild	0
+fir	can be found in the wild	0
+nose	can be found in the wild	0
+toe	can be found in the wild	0
+boat	can be found in the wild	0
+lemonade	can be found in the wild	0
+harp	can be found in the wild	0
+rose	can be found in the wild	0
+raspberry	can be found in the wild	0
+colander	can be found in the wild	0
+shawl	can be found in the wild	0
+cheese	can be found in the wild	0
+box	can be found in the wild	0
+pumpkin	can be found in the wild	0
+brandy	can be found in the wild	0
+pansy	can be found in the wild	0
+cherry	can be found in the wild	0
+peeler	can be found in the wild	0
+hutch	can be found in the wild	0
+strainer	can be found in the wild	0
+lily	can be found in the wild	0
+birch	can be found in the wild	0
+toaster	can be found in the wild	0
+clamp	can be found in the wild	0
+kite	can be found in the wild	0
+typewriter	can be found in the wild	0
+chopping_board	can be found in the wild	0
+drill	can be found in the wild	0
+flour	can be found in the wild	0
+coffee_maker	can be found in the wild	0
+coach	can be found in the wild	0
+dinghy	can be found in the wild	0
+axe	can be found in the wild	0
+cap	can be found in the wild	0
+poppy	can be found in the wild	0
+chisel	can be found in the wild	0
+hummingbird	has a head	1
+tiger	has a head	1
+wolf	has a head	1
+lobster	has a head	1
+bear	has a head	1
+cow	has a head	1
+seahorse	has a head	1
+cockroach	has a head	1
+buzzard	has a head	1
+alligator	has a head	1
+calf	has a head	1
+arrow	has a head	1
+wren	has a head	1
+emu	has a head	1
+iguana	has a head	1
+hippo	has a head	1
+crab	has a head	1
+dove	has a head	1
+cod	has a head	1
+screw	has a head	1
+partridge	has a head	1
+grasshopper	has a head	1
+rabbit	has a head	1
+goose	has a head	1
+pig	has a head	1
+camel	has a head	1
+herring	has a head	1
+chipmunk	has a head	1
+toad	has a head	1
+goat	has a head	1
+caterpillar	has a head	1
+fox	has a head	1
+octopus	has a head	1
+screwdriver	has a head	1
+chicken	has a head	1
+platypus	has a head	1
+pelican	has a head	1
+seagull	has a head	1
+starling	has a head	1
+tortoise	has a head	1
+rhino	has a head	1
+crocodile	has a head	1
+broom	has a head	1
+beaver	has a head	1
+eagle	has a head	1
+walrus	has a head	1
+skunk	has a head	1
+trout	has a head	1
+worm	has a head	1
+hyena	has a head	1
+hoe	has a head	1
+lamb	has a head	1
+cricket	has a head	1
+bee	has a head	1
+slug	has a head	1
+wasp	has a head	1
+zebra	has a head	1
+bolt	has a head	1
+locust	has a head	1
+centipede	has a head	1
+giraffe	has a head	1
+penguin	has a head	1
+cheetah	has a head	1
+leopard	has a head	1
+scorpion	has a head	1
+elephant	has a head	1
+hamster	has a head	1
+porcupine	has a head	1
+carp	has a head	1
+termite	has a head	1
+donkey	has a head	1
+hawk	has a head	1
+cockerel	has a head	1
+canary	has a head	1
+nail	has a head	1
+magpie	has a head	1
+hatchet	has a head	1
+broccoli	has a head	1
+prawn	has a head	1
+seal	has a head	1
+dragonfly	has a head	1
+rake	has a head	1
+pigeon	has a head	1
+hedgehog	has a head	1
+mosquito	has a head	1
+turtle	has a head	1
+doll	has a head	1
+rattlesnake	has a head	1
+trowel	has a head	1
+sardine	has a head	1
+otter	has a head	1
+flounder	has a head	1
+horse	has a head	1
+buffalo	has a head	1
+stick_insect	has a head	1
+peacock	has a head	1
+bat	has a head	1
+pony	has a head	1
+ostrich	has a head	1
+hornet	has a head	1
+lion	has a head	1
+llama	has a head	1
+millipede	has a head	1
+lizard	has a head	1
+budgie	has a head	1
+swan	has a head	1
+snail	has a head	1
+turkey	has a head	1
+woodpecker	has a head	1
+dolphin	has a head	1
+parakeet	has a head	1
+salmon	has a head	1
+sheep	has a head	1
+heron	has a head	1
+tarantula	has a head	1
+gerbil	has a head	1
+guinea_pig	has a head	1
+rat	has a head	1
+spear	has a head	1
+kingfisher	has a head	1
+squid	has a head	1
+spider	has a head	1
+moose	has a head	1
+rattle	has a head	1
+dog	has a head	1
+minnow	has a head	1
+raven	has a head	1
+goldfish	has a head	1
+housefly	has a head	1
+raccoon	has a head	1
+butterfly	has a head	1
+mouse	has a head	1
+moth	has a head	1
+frog	has a head	1
+mackerel	has a head	1
+robin	has a head	1
+owl	has a head	1
+monkey	has a head	1
+beetle	has a head	1
+duck	has a head	1
+panther	has a head	1
+flamingo	has a head	1
+flea	has a head	1
+squirrel	has a head	1
+crane	has a head	1
+tuna	has a head	1
+falcon	has a head	1
+hammer	has a head	1
+cat	has a head	1
+gorilla	has a head	1
+jellyfish	has a head	1
+shrimp	has a head	1
+ladybird	has a head	1
+asparagus	has a head	1
+ant	has a head	1
+kangaroo	has a head	1
+sparrow	has a head	1
+eel	has a head	1
+shark	has a head	1
+ox	has a head	1
+whale	has a head	1
+deer	has a head	1
+nightingale	has a head	1
+axe	has a head	1
+buttercup	has a head	0
+carnation	has a head	0
+dice	has a head	0
+chestnut	has a head	0
+blueberry	has a head	0
+cupboard	has a head	0
+desk	has a head	0
+raisin	has a head	0
+dishwasher	has a head	0
+motorcycle	has a head	0
+dresser	has a head	0
+tambourine	has a head	0
+leg	has a head	0
+daffodil	has a head	0
+basket	has a head	0
+pine	has a head	0
+orange	has a head	0
+shotgun	has a head	0
+sledge	has a head	0
+cage	has a head	0
+mirror	has a head	0
+skateboard	has a head	0
+gin	has a head	0
+ham	has a head	0
+bucket	has a head	0
+prune	has a head	0
+cider	has a head	0
+jam	has a head	0
+pie	has a head	0
+tulip	has a head	0
+harmonica	has a head	0
+pineapple	has a head	0
+chest_of_drawers	has a head	0
+harpsichord	has a head	0
+bayonet	has a head	0
+tractor	has a head	0
+football	has a head	0
+hyacinth	has a head	0
+beer	has a head	0
+mussel	has a head	0
+deckchair	has a head	0
+gun	has a head	0
+avocado	has a head	0
+ice_cream	has a head	0
+scalpel	has a head	0
+hair	has a head	0
+scallop	has a head	0
+garlic	has a head	0
+clarinet	has a head	0
+lamp	has a head	0
+leek	has a head	0
+helmet	has a head	0
+sink	has a head	0
+oak	has a head	0
+trombone	has a head	0
+sunflower	has a head	0
+eucalyptus	has a head	0
+nut	has a head	0
+radio	has a head	0
+arm	has a head	0
+satsuma	has a head	0
+orchid	has a head	0
+parka	has a head	0
+daisy	has a head	0
+ferry	has a head	0
+bag	has a head	0
+elm	has a head	0
+date	has a head	0
+chandelier	has a head	0
+puppet	has a head	0
+speedboat	has a head	0
+helicopter	has a head	0
+geranium	has a head	0
+barrel	has a head	0
+table	has a head	0
+turnip	has a head	0
+bagpipe	has a head	0
+tangerine	has a head	0
+bookcase	has a head	0
+armor	has a head	0
+bikini	has a head	0
+cup	has a head	0
+lips	has a head	0
+dandelion	has a head	0
+gown	has a head	0
+tights	has a head	0
+sandwich	has a head	0
+chair	has a head	0
+bathtub	has a head	0
+apricot	has a head	0
+plow	has a head	0
+currant	has a head	0
+bacon	has a head	0
+trolley	has a head	0
+balloon	has a head	0
+refrigerator	has a head	0
+jar	has a head	0
+apron	has a head	0
+willow	has a head	0
+celery	has a head	0
+banana	has a head	0
+whisk	has a head	0
+gherkin	has a head	0
+rocking_chair	has a head	0
+catapult	has a head	0
+gong	has a head	0
+harpoon	has a head	0
+ship	has a head	0
+bin	has a head	0
+bean	has a head	0
+sugar	has a head	0
+mug	has a head	0
+marigold	has a head	0
+raft	has a head	0
+sultana	has a head	0
+yoyo	has a head	0
+earmuffs	has a head	0
+fork	has a head	0
+clam	has a head	0
+dagger	has a head	0
+sycamore	has a head	0
+watermelon	has a head	0
+truck	has a head	0
+airplane	has a head	0
+jelly	has a head	0
+eye	has a head	0
+brussels_sprout	has a head	0
+sword	has a head	0
+fir	has a head	0
+nose	has a head	0
+submarine	has a head	0
+boat	has a head	0
+heart	has a head	0
+rose	has a head	0
+raspberry	has a head	0
+zucchini	has a head	0
+colander	has a head	0
+oyster	has a head	0
+box	has a head	0
+robe	has a head	0
+ear	has a head	0
+stocking	has a head	0
+pansy	has a head	0
+cherry	has a head	0
+peeler	has a head	0
+strainer	has a head	0
+lily	has a head	0
+birch	has a head	0
+lime	has a head	0
+bomb	has a head	0
+pistol	has a head	0
+crayfish	has a head	0
+kite	has a head	0
+chopping_board	has a head	0
+mushroom	has a head	0
+plate	has a head	0
+corn	has a head	0
+olive	has a head	0
+milk	has a head	0
+carrot	has a head	0
+train	has a head	0
+grape	has a head	0
+spirit_level	has a head	0
+poppy	has a head	0
+currant	is a fruit	1
+peach	is a fruit	1
+plum	is a fruit	1
+cucumber	is a fruit	1
+blueberry	is a fruit	1
+pumpkin	is a fruit	1
+raisin	is a fruit	1
+coconut	is a fruit	1
+cherry	is a fruit	1
+nut	is a fruit	1
+tomato	is a fruit	1
+satsuma	is a fruit	1
+banana	is a fruit	1
+gherkin	is a fruit	1
+orange	is a fruit	1
+date	is a fruit	1
+peanut	is a fruit	1
+lime	is a fruit	1
+lemon	is a fruit	1
+apple	is a fruit	1
+prune	is a fruit	1
+sultana	is a fruit	1
+grapefruit	is a fruit	1
+strawberry	is a fruit	1
+corn	is a fruit	1
+melon	is a fruit	1
+pineapple	is a fruit	1
+olive	is a fruit	1
+kiwi	is a fruit	1
+pear	is a fruit	1
+tangerine	is a fruit	1
+zucchini	is a fruit	1
+grape	is a fruit	1
+watermelon	is a fruit	1
+nectarine	is a fruit	1
+avocado	is a fruit	1
+raspberry	is a fruit	1
+mango	is a fruit	1
+apricot	is a fruit	1
+walrus	is a fruit	0
+dice	is a fruit	0
+hair	is a fruit	0
+worm	is a fruit	0
+box	is a fruit	0
+balloon	is a fruit	0
+lamp	is a fruit	0
+seahorse	is a fruit	0
+cupboard	is a fruit	0
+sink	is a fruit	0
+peeler	is a fruit	0
+moped	is a fruit	0
+catapult	is a fruit	0
+basket	is a fruit	0
+harpoon	is a fruit	0
+ladle	is a fruit	0
+bag	is a fruit	0
+chandelier	is a fruit	0
+bin	is a fruit	0
+puppet	is a fruit	0
+mug	is a fruit	0
+raft	is a fruit	0
+kite	is a fruit	0
+chopping_board	is a fruit	0
+yoyo	is a fruit	0
+earmuffs	is a fruit	0
+chest_of_drawers	is a fruit	0
+caterpillar	is a fruit	0
+flour	is a fruit	0
+spinach	is a fruit	0
+cake	is a fruit	0
+fork	is a fruit	0
+chocolate	is a fruit	0
+armor	is a fruit	0
+rattle	is a fruit	0
+sycamore	is a fruit	0
+chainsaw	is a fruit	0
+tea	is a fruit	0
+doll	is a fruit	0
+peach	has a center	1
+plum	has a center	1
+coconut	has a center	1
+cherry	has a center	1
+satsuma	has a center	1
+banana	has a center	1
+orange	has a center	1
+date	has a center	1
+lime	has a center	1
+lemon	has a center	1
+apple	has a center	1
+grapefruit	has a center	1
+melon	has a center	1
+pineapple	has a center	1
+kiwi	has a center	1
+pear	has a center	1
+tangerine	has a center	1
+watermelon	has a center	1
+nectarine	has a center	1
+avocado	has a center	1
+mango	has a center	1
+apricot	has a center	1
+currant	has a center	0
+raft	has a center	0
+sultana	has a center	0
+prune	has a center	0
+kite	has a center	0
+chopping_board	has a center	0
+strawberry	has a center	0
+yoyo	has a center	0
+hair	has a center	0
+olive	has a center	0
+earmuffs	has a center	0
+balloon	has a center	0
+blueberry	has a center	0
+raisin	has a center	0
+nut	has a center	0
+rattle	has a center	0
+grape	has a center	0
+catapult	has a center	0
+peanut	has a center	0
+doll	has a center	0
+raspberry	has a center	0
+plow	has a center	0
+ball	can come in multiple colors	1
+carnation	can come in multiple colors	1
+clock	can come in multiple colors	1
+desk	can come in multiple colors	1
+cupboard	can come in multiple colors	1
+dresser	can come in multiple colors	1
+knickers	can come in multiple colors	1
+grater	can come in multiple colors	1
+jeans	can come in multiple colors	1
+rabbit	can come in multiple colors	1
+ladle	can come in multiple colors	1
+stool	can come in multiple colors	1
+gloves	can come in multiple colors	1
+skateboard	can come in multiple colors	1
+tulip	can come in multiple colors	1
+swimsuit	can come in multiple colors	1
+dressing_gown	can come in multiple colors	1
+chest_of_drawers	can come in multiple colors	1
+football	can come in multiple colors	1
+bra	can come in multiple colors	1
+hyacinth	can come in multiple colors	1
+sweater	can come in multiple colors	1
+blouse	can come in multiple colors	1
+deckchair	can come in multiple colors	1
+spatula	can come in multiple colors	1
+dress	can come in multiple colors	1
+trouser	can come in multiple colors	1
+pajama	can come in multiple colors	1
+suit	can come in multiple colors	1
+peach	can come in multiple colors	1
+trout	can come in multiple colors	1
+hair	can come in multiple colors	1
+marble	can come in multiple colors	1
+lamp	can come in multiple colors	1
+helmet	can come in multiple colors	1
+belt	can come in multiple colors	1
+onion	can come in multiple colors	1
+sofa	can come in multiple colors	1
+cape	can come in multiple colors	1
+rollerskate	can come in multiple colors	1
+wetsuit	can come in multiple colors	1
+armchair	can come in multiple colors	1
+frisbee	can come in multiple colors	1
+scarf	can come in multiple colors	1
+can_opener	can come in multiple colors	1
+orchid	can come in multiple colors	1
+parka	can come in multiple colors	1
+hamster	can come in multiple colors	1
+apple	can come in multiple colors	1
+table	can come in multiple colors	1
+jacket	can come in multiple colors	1
+bikini	can come in multiple colors	1
+bookcase	can come in multiple colors	1
+gown	can come in multiple colors	1
+rolling_pin	can come in multiple colors	1
+tights	can come in multiple colors	1
+chair	can come in multiple colors	1
+coat	can come in multiple colors	1
+horse	can come in multiple colors	1
+apron	can come in multiple colors	1
+mitten	can come in multiple colors	1
+rocking_chair	can come in multiple colors	1
+tray	can come in multiple colors	1
+spoon	can come in multiple colors	1
+skirt	can come in multiple colors	1
+lizard	can come in multiple colors	1
+bean	can come in multiple colors	1
+cloak	can come in multiple colors	1
+yoyo	can come in multiple colors	1
+earmuffs	can come in multiple colors	1
+pear	can come in multiple colors	1
+cradle	can come in multiple colors	1
+eye	can come in multiple colors	1
+mouse	can come in multiple colors	1
+rose	can come in multiple colors	1
+colander	can come in multiple colors	1
+frog	can come in multiple colors	1
+bed	can come in multiple colors	1
+shawl	can come in multiple colors	1
+robe	can come in multiple colors	1
+sock	can come in multiple colors	1
+stocking	can come in multiple colors	1
+pansy	can come in multiple colors	1
+peeler	can come in multiple colors	1
+strainer	can come in multiple colors	1
+veil	can come in multiple colors	1
+bench	can come in multiple colors	1
+shirt	can come in multiple colors	1
+kite	can come in multiple colors	1
+chopping_board	can come in multiple colors	1
+mushroom	can come in multiple colors	1
+plate	can come in multiple colors	1
+leotard	can come in multiple colors	1
+potato	can come in multiple colors	1
+cap	can come in multiple colors	1
+buttercup	can come in multiple colors	0
+hummingbird	can come in multiple colors	0
+dice	can come in multiple colors	0
+wolf	can come in multiple colors	0
+basin	can come in multiple colors	0
+balloon	can come in multiple colors	0
+chestnut	can come in multiple colors	0
+cucumber	can come in multiple colors	0
+wren	can come in multiple colors	0
+wine	can come in multiple colors	0
+buggy	can come in multiple colors	0
+rocket	can come in multiple colors	0
+bat	can come in multiple colors	0
+scythe	can come in multiple colors	0
+pony	can come in multiple colors	0
+celery	can come in multiple colors	0
+partridge	can come in multiple colors	0
+catapult	can come in multiple colors	0
+basket	can come in multiple colors	0
+millipede	can come in multiple colors	0
+shotgun	can come in multiple colors	0
+sledge	can come in multiple colors	0
+cage	can come in multiple colors	0
+mirror	can come in multiple colors	0
+swan	can come in multiple colors	0
+bin	can come in multiple colors	0
+raft	can come in multiple colors	0
+toad	can come in multiple colors	0
+salmon	can come in multiple colors	0
+herring	can come in multiple colors	0
+bucket	can come in multiple colors	0
+bottle	can come in multiple colors	0
+moose	can come in multiple colors	0
+rattle	can come in multiple colors	0
+throne	can come in multiple colors	0
+sycamore	can come in multiple colors	0
+watermelon	can come in multiple colors	0
+truck	can come in multiple colors	0
+brussels_sprout	can come in multiple colors	0
+avocado	can come in multiple colors	0
+moth	can come in multiple colors	0
+broom	can come in multiple colors	0
+eagle	can come in multiple colors	0
+pliers	can come in multiple colors	0
+sweet_potato	can come in multiple colors	0
+worm	can come in multiple colors	0
+box	can come in multiple colors	0
+hoe	can come in multiple colors	0
+pumpkin	can come in multiple colors	0
+leek	can come in multiple colors	0
+sink	can come in multiple colors	0
+trombone	can come in multiple colors	0
+eucalyptus	can come in multiple colors	0
+nut	can come in multiple colors	0
+moped	can come in multiple colors	0
+arm	can come in multiple colors	0
+bolt	can come in multiple colors	0
+daisy	can come in multiple colors	0
+bag	can come in multiple colors	0
+date	can come in multiple colors	0
+bomb	can come in multiple colors	0
+elm	can come in multiple colors	0
+chandelier	can come in multiple colors	0
+puppet	can come in multiple colors	0
+accordion	can come in multiple colors	0
+crayfish	can come in multiple colors	0
+camera	can come in multiple colors	0
+clamp	can come in multiple colors	0
+elephant	can come in multiple colors	0
+barrel	can come in multiple colors	0
+geranium	can come in multiple colors	0
+donut	can come in multiple colors	0
+porcupine	can come in multiple colors	0
+drill	can come in multiple colors	0
+donkey	can come in multiple colors	0
+flour	can come in multiple colors	0
+cake	can come in multiple colors	0
+coach	can come in multiple colors	0
+chocolate	can come in multiple colors	0
+armor	can come in multiple colors	0
+cup	can come in multiple colors	0
+sparrow	can come in multiple colors	0
+train	can come in multiple colors	0
+lips	can come in multiple colors	0
+shark	can come in multiple colors	0
+spirit_level	can come in multiple colors	0
+wallet	can come in multiple colors	0
+dandelion	can come in multiple colors	0
+rake	can come in multiple colors	0
+spade	can come in multiple colors	0
+bus	can come in multiple colors	0
+doll	can come in multiple colors	0
+hose	can come in multiple colors	0
+bathtub	can come in multiple colors	0
+plow	can come in multiple colors	0
+bread	can be cooked	1
+currant	can be cooked	1
+mackerel	can be cooked	1
+oyster	can be cooked	1
+parsley	can be cooked	1
+bacon	can be cooked	1
+cheese	can be cooked	1
+radish	can be cooked	1
+trout	can be cooked	1
+sweet_potato	can be cooked	1
+garlic	can be cooked	1
+sardine	can be cooked	1
+lobster	can be cooked	1
+scallop	can be cooked	1
+cucumber	can be cooked	1
+leek	can be cooked	1
+onion	can be cooked	1
+pumpkin	can be cooked	1
+raisin	can be cooked	1
+tomato	can be cooked	1
+duck	can be cooked	1
+pea	can be cooked	1
+celery	can be cooked	1
+cod	can be cooked	1
+rice	can be cooked	1
+goose	can be cooked	1
+butter	can be cooked	1
+soup	can be cooked	1
+tuna	can be cooked	1
+bean	can be cooked	1
+turkey	can be cooked	1
+ham	can be cooked	1
+artichoke	can be cooked	1
+sultana	can be cooked	1
+pie	can be cooked	1
+prune	can be cooked	1
+turnip	can be cooked	1
+salmon	can be cooked	1
+mushroom	can be cooked	1
+shrimp	can be cooked	1
+corn	can be cooked	1
+eggplant	can be cooked	1
+squid	can be cooked	1
+olive	can be cooked	1
+asparagus	can be cooked	1
+flour	can be cooked	1
+spinach	can be cooked	1
+octopus	can be cooked	1
+milk	can be cooked	1
+carrot	can be cooked	1
+chicken	can be cooked	1
+cauliflower	can be cooked	1
+broccoli	can be cooked	1
+cabbage	can be cooked	1
+lettuce	can be cooked	1
+brussels_sprout	can be cooked	1
+potato	can be cooked	1
+mussel	can be cooked	1
+prawn	can be cooked	1
+avocado	can be cooked	1
+zucchini	can be cooked	1
+hummingbird	can be cooked	0
+dice	can be cooked	0
+hair	can be cooked	0
+seahorse	can be cooked	0
+box	can be cooked	0
+balloon	can be cooked	0
+flounder	can be cooked	0
+worm	can be cooked	0
+french_horn	can be cooked	0
+ear	can be cooked	0
+cookie	can be cooked	0
+sink	can be cooked	0
+emu	can be cooked	0
+sunflower	can be cooked	0
+peeler	can be cooked	0
+bee	can be cooked	0
+rifle	can be cooked	0
+slug	can be cooked	0
+guitar	can be cooked	0
+leg	can be cooked	0
+grater	can be cooked	0
+yoghurt	can be cooked	0
+catapult	can be cooked	0
+basket	can be cooked	0
+millipede	can be cooked	0
+centipede	can be cooked	0
+bag	can be cooked	0
+swan	can be cooked	0
+mirror	can be cooked	0
+bin	can be cooked	0
+chandelier	can be cooked	0
+puppet	can be cooked	0
+scorpion	can be cooked	0
+raft	can be cooked	0
+herring	can be cooked	0
+kite	can be cooked	0
+jellyfish	can be cooked	0
+chopping_board	can be cooked	0
+carp	can be cooked	0
+yoyo	can be cooked	0
+earmuffs	can be cooked	0
+cake	can be cooked	0
+chocolate	can be cooked	0
+spider	can be cooked	0
+armor	can be cooked	0
+clam	can be cooked	0
+rattle	can be cooked	0
+sparrow	can be cooked	0
+eel	can be cooked	0
+bra	can be cooked	0
+rhubarb	can be cooked	0
+seagull	can be cooked	0
+minnow	can be cooked	0
+mayonnaise	can be cooked	0
+eye	can be cooked	0
+jelly	can be cooked	0
+whale	can be cooked	0
+rhino	can be cooked	0
+heart	can be cooked	0
+doll	can be cooked	0
+hose	can be cooked	0
+foot	has blood vessels	1
+thumb	has blood vessels	1
+leg	has blood vessels	1
+eye	has blood vessels	1
+finger	has blood vessels	1
+nose	has blood vessels	1
+toe	has blood vessels	1
+ear	has blood vessels	1
+tongue	has blood vessels	1
+heart	has blood vessels	1
+lips	has blood vessels	1
+arm	has blood vessels	1
+raft	has blood vessels	0
+kite	has blood vessels	0
+yoyo	has blood vessels	0
+catapult	has blood vessels	0
+earmuffs	has blood vessels	0
+balloon	has blood vessels	0
+flour	has blood vessels	0
+cake	has blood vessels	0
+chocolate	has blood vessels	0
+doll	has blood vessels	0
+rattle	has blood vessels	0
+bone	has blood vessels	0
+frog	can be short in height	1
+skunk	can be short in height	1
+tiger	can be short in height	1
+wolf	can be short in height	1
+bear	can be short in height	1
+cow	can be short in height	1
+hyena	can be short in height	1
+otter	can be short in height	1
+lamb	can be short in height	1
+alligator	can be short in height	1
+horse	can be short in height	1
+calf	can be short in height	1
+buffalo	can be short in height	1
+monkey	can be short in height	1
+iguana	can be short in height	1
+bat	can be short in height	1
+hippo	can be short in height	1
+pony	can be short in height	1
+panther	can be short in height	1
+zebra	can be short in height	1
+lion	can be short in height	1
+llama	can be short in height	1
+rabbit	can be short in height	1
+giraffe	can be short in height	1
+lizard	can be short in height	1
+squirrel	can be short in height	1
+pig	can be short in height	1
+camel	can be short in height	1
+cheetah	can be short in height	1
+leopard	can be short in height	1
+elephant	can be short in height	1
+chipmunk	can be short in height	1
+cat	can be short in height	1
+gorilla	can be short in height	1
+hamster	can be short in height	1
+porcupine	can be short in height	1
+toad	can be short in height	1
+sheep	can be short in height	1
+gerbil	can be short in height	1
+guinea_pig	can be short in height	1
+donkey	can be short in height	1
+goat	can be short in height	1
+fox	can be short in height	1
+rat	can be short in height	1
+moose	can be short in height	1
+kangaroo	can be short in height	1
+platypus	can be short in height	1
+dog	can be short in height	1
+ox	can be short in height	1
+deer	can be short in height	1
+raccoon	can be short in height	1
+seal	can be short in height	1
+tortoise	can be short in height	1
+rhino	can be short in height	1
+mouse	can be short in height	1
+hedgehog	can be short in height	1
+crocodile	can be short in height	1
+beaver	can be short in height	1
+rattlesnake	can be short in height	1
+hummingbird	can be short in height	0
+oyster	can be short in height	0
+lobster	can be short in height	0
+turtle	can be short in height	0
+scallop	can be short in height	0
+worm	can be short in height	0
+cockroach	can be short in height	0
+buzzard	can be short in height	0
+wren	can be short in height	0
+owl	can be short in height	0
+emu	can be short in height	0
+stick_insect	can be short in height	0
+beetle	can be short in height	0
+cricket	can be short in height	0
+crab	can be short in height	0
+bee	can be short in height	0
+ostrich	can be short in height	0
+slug	can be short in height	0
+wasp	can be short in height	0
+flamingo	can be short in height	0
+flea	can be short in height	0
+millipede	can be short in height	0
+grasshopper	can be short in height	0
+centipede	can be short in height	0
+swan	can be short in height	0
+crane	can be short in height	0
+snail	can be short in height	0
+woodpecker	can be short in height	0
+turkey	can be short in height	0
+falcon	can be short in height	0
+scorpion	can be short in height	0
+crayfish	can be short in height	0
+parakeet	can be short in height	0
+jellyfish	can be short in height	0
+shrimp	can be short in height	0
+squid	can be short in height	0
+tarantula	can be short in height	0
+termite	can be short in height	0
+kingfisher	can be short in height	0
+hawk	can be short in height	0
+caterpillar	can be short in height	0
+ladybird	can be short in height	0
+ant	can be short in height	0
+octopus	can be short in height	0
+heron	can be short in height	0
+spider	can be short in height	0
+clam	can be short in height	0
+sparrow	can be short in height	0
+chicken	can be short in height	0
+mussel	can be short in height	0
+housefly	can be short in height	0
+prawn	can be short in height	0
+starling	can be short in height	0
+dragonfly	can be short in height	0
+butterfly	can be short in height	0
+pigeon	can be short in height	0
+mosquito	can be short in height	0
+moth	can be short in height	0
+eagle	can be short in height	0
+squid	has arms	1
+octopus	has arms	1
+turtle	has arms	1
+doll	has arms	1
+puppet	has arms	1
+caterpillar	has arms	0
+kite	has arms	0
+jellyfish	has arms	0
+catapult	has arms	0
+worm	has arms	0
+suit	has slots for arms	1
+sweater	has slots for arms	1
+wetsuit	has slots for arms	1
+gown	has slots for arms	1
+blouse	has slots for arms	1
+swimsuit	has slots for arms	1
+dressing_gown	has slots for arms	1
+coat	has slots for arms	1
+robe	has slots for arms	1
+dress	has slots for arms	1
+jacket	has slots for arms	1
+armor	has slots for arms	1
+apron	has slots for arms	1
+shirt	has slots for arms	1
+raft	has slots for arms	0
+kite	has slots for arms	0
+dice	has slots for arms	0
+chopping_board	has slots for arms	0
+yoyo	has slots for arms	0
+catapult	has slots for arms	0
+basket	has slots for arms	0
+earmuffs	has slots for arms	0
+balloon	has slots for arms	0
+box	has slots for arms	0
+bag	has slots for arms	0
+sink	has slots for arms	0
+doll	has slots for arms	0
+rattle	has slots for arms	0
+peach	is a source of energy	1
+plum	is a source of energy	1
+blueberry	is a source of energy	1
+coconut	is a source of energy	1
+cherry	is a source of energy	1
+nut	is a source of energy	1
+satsuma	is a source of energy	1
+banana	is a source of energy	1
+orange	is a source of energy	1
+date	is a source of energy	1
+peanut	is a source of energy	1
+lime	is a source of energy	1
+lemon	is a source of energy	1
+sugar	is a source of energy	1
+apple	is a source of energy	1
+grapefruit	is a source of energy	1
+strawberry	is a source of energy	1
+melon	is a source of energy	1
+pineapple	is a source of energy	1
+kiwi	is a source of energy	1
+pear	is a source of energy	1
+tangerine	is a source of energy	1
+grape	is a source of energy	1
+watermelon	is a source of energy	1
+nectarine	is a source of energy	1
+raspberry	is a source of energy	1
+mango	is a source of energy	1
+apricot	is a source of energy	1
+currant	is a source of energy	0
+raft	is a source of energy	0
+sultana	is a source of energy	0
+dice	is a source of energy	0
+prune	is a source of energy	0
+kite	is a source of energy	0
+chopping_board	is a source of energy	0
+yoyo	is a source of energy	0
+hair	is a source of energy	0
+garlic	is a source of energy	0
+olive	is a source of energy	0
+box	is a source of energy	0
+balloon	is a source of energy	0
+lamp	is a source of energy	0
+earmuffs	is a source of energy	0
+raisin	is a source of energy	0
+sink	is a source of energy	0
+doll	is a source of energy	0
+armor	is a source of energy	0
+peeler	is a source of energy	0
+rattle	is a source of energy	0
+catapult	is a source of energy	0
+basket	is a source of energy	0
+bag	is a source of energy	0
+chandelier	is a source of energy	0
+avocado	is a source of energy	0
+bin	is a source of energy	0
+puppet	is a source of energy	0
+basin	can get cold	1
+yacht	can get cold	1
+refrigerator	can get cold	1
+sink	can get cold	1
+jar	can get cold	1
+kayak	can get cold	1
+can_opener	can get cold	1
+spoon	can get cold	1
+ship	can get cold	1
+ladle	can get cold	1
+penguin	can get cold	1
+bin	can get cold	1
+mug	can get cold	1
+houseboat	can get cold	1
+bowl	can get cold	1
+bucket	can get cold	1
+plate	can get cold	1
+fork	can get cold	1
+bottle	can get cold	1
+cup	can get cold	1
+spatula	can get cold	1
+washing_machine	can get cold	1
+submarine	can get cold	1
+boat	can get cold	1
+jug	can get cold	1
+bathtub	can get cold	1
+canoe	can get cold	1
+raft	can get cold	0
+tugboat	can get cold	0
+kite	can get cold	0
+yoyo	can get cold	0
+squid	can get cold	0
+earmuffs	can get cold	0
+balloon	can get cold	0
+cockerel	can get cold	0
+dishwasher	can get cold	0
+doll	can get cold	0
+barge	can get cold	0
+rattle	can get cold	0
+dinghy	can get cold	0
+pelican	can get cold	0
+watermelon	can get cold	0
+catapult	can get cold	0
+stove	can get cold	0
+veil	can get cold	0
+ferry	can get cold	0
+bag	can get cold	0
+ashtray	can get cold	0
+oil_tanker	can get cold	0
+hedgehog	can get cold	0
+chandelier	can get cold	0
+puppet	can get cold	0
+speedboat	can get cold	0
+ham	can get cold	0
+willow	has branches	1
+pine	has branches	1
+fir	has branches	1
+chestnut	has branches	1
+birch	has branches	1
+elm	has branches	1
+oak	has branches	1
+eucalyptus	has branches	1
+sycamore	has branches	1
+buttercup	has branches	0
+hyacinth	has branches	0
+geranium	has branches	0
+dandelion	has branches	0
+tulip	has branches	0
+brussels_sprout	has branches	0
+lily	has branches	0
+pansy	has branches	0
+rose	has branches	0
+lorry	can have doors	1
+limousine	can have doors	1
+car	can have doors	1
+refrigerator	can have doors	1
+cupboard	can have doors	1
+oven	can have doors	1
+dishwasher	can have doors	1
+carriage	can have doors	1
+dresser	can have doors	1
+hutch	can have doors	1
+microwave	can have doors	1
+van	can have doors	1
+taxi	can have doors	1
+ship	can have doors	1
+ferry	can have doors	1
+cage	can have doors	1
+helicopter	can have doors	1
+houseboat	can have doors	1
+coach	can have doors	1
+bookcase	can have doors	1
+truck	can have doors	1
+stove	can have doors	1
+washing_machine	can have doors	1
+caravan	can have doors	1
+submarine	can have doors	1
+bus	can have doors	1
+raft	can have doors	0
+kite	can have doors	0
+trolley	can have doors	0
+tricycle	can have doors	0
+yacht	can have doors	0
+bicycle	can have doors	0
+helmet	can have doors	0
+coffee_maker	can have doors	0
+rocket	can have doors	0
+barge	can have doors	0
+unicycle	can have doors	0
+apron	can have doors	0
+train	can have doors	0
+knife	can have doors	0
+leotard	can have doors	0
+blouse	can have doors	0
+catapult	can have doors	0
+ashtray	can have doors	0
+sledge	can have doors	0
+boat	can have doors	0
+poppy	can have doors	0
+date	can have doors	0
+gloves	can have doors	0
+accordion	can have doors	0
+skateboard	can have doors	0
+toaster	can have doors	0
+pumpkin	is popular in winter	1
+sweet_potato	is popular in winter	1
+soup	is popular in winter	1
+brussels_sprout	is popular in winter	1
+raft	is popular in winter	0
+catapult	is popular in winter	0
+sandwich	is popular in winter	0
+chocolate	is popular in winter	0
+bus	is public transport	1
+train	is public transport	1
+taxi	is public transport	1
+coach	is public transport	1
+tricycle	is public transport	0
+skateboard	is public transport	0
+sledge	is public transport	0
+rocket	is public transport	0
+bread	can be inexpensive to buy	1
+ball	can be inexpensive to buy	1
+pliers	can be inexpensive to buy	1
+cheese	can be inexpensive to buy	1
+ketchup	can be inexpensive to buy	1
+penknife	can be inexpensive to buy	1
+marble	can be inexpensive to buy	1
+hoe	can be inexpensive to buy	1
+desk	can be inexpensive to buy	1
+cookie	can be inexpensive to buy	1
+corkscrew	can be inexpensive to buy	1
+peeler	can be inexpensive to buy	1
+frisbee	can be inexpensive to buy	1
+whisk	can be inexpensive to buy	1
+can_opener	can be inexpensive to buy	1
+spoon	can be inexpensive to buy	1
+yoghurt	can be inexpensive to buy	1
+rice	can be inexpensive to buy	1
+bolt	can be inexpensive to buy	1
+scissors	can be inexpensive to buy	1
+screw	can be inexpensive to buy	1
+butter	can be inexpensive to buy	1
+soup	can be inexpensive to buy	1
+stool	can be inexpensive to buy	1
+tuna	can be inexpensive to buy	1
+sugar	can be inexpensive to buy	1
+knife	can be inexpensive to buy	1
+houseboat	can be inexpensive to buy	1
+hammer	can be inexpensive to buy	1
+kite	can be inexpensive to buy	1
+chopping_board	can be inexpensive to buy	1
+yoyo	can be inexpensive to buy	1
+flour	can be inexpensive to buy	1
+fork	can be inexpensive to buy	1
+football	can be inexpensive to buy	1
+milk	can be inexpensive to buy	1
+nail	can be inexpensive to buy	1
+screwdriver	can be inexpensive to buy	1
+mayonnaise	can be inexpensive to buy	1
+goldfish	can be inexpensive to buy	1
+spatula	can be inexpensive to buy	1
+deckchair	can be inexpensive to buy	1
+sandwich	can be inexpensive to buy	1
+boat	can be inexpensive to buy	1
+chair	can be inexpensive to buy	1
+tweezer	can be inexpensive to buy	1
+basin	can be inexpensive to buy	0
+bear	can be inexpensive to buy	0
+spanner	can be inexpensive to buy	0
+hair	can be inexpensive to buy	0
+seahorse	can be inexpensive to buy	0
+box	can be inexpensive to buy	0
+balloon	can be inexpensive to buy	0
+lamp	can be inexpensive to buy	0
+leek	can be inexpensive to buy	0
+sink	can be inexpensive to buy	0
+dresser	can be inexpensive to buy	0
+pea	can be inexpensive to buy	0
+strainer	can be inexpensive to buy	0
+tray	can be inexpensive to buy	0
+daffodil	can be inexpensive to buy	0
+catapult	can be inexpensive to buy	0
+basket	can be inexpensive to buy	0
+harpoon	can be inexpensive to buy	0
+orange	can be inexpensive to buy	0
+goose	can be inexpensive to buy	0
+ferry	can be inexpensive to buy	0
+bag	can be inexpensive to buy	0
+bomb	can be inexpensive to buy	0
+crane	can be inexpensive to buy	0
+bin	can be inexpensive to buy	0
+puppet	can be inexpensive to buy	0
+falcon	can be inexpensive to buy	0
+ham	can be inexpensive to buy	0
+artichoke	can be inexpensive to buy	0
+raft	can be inexpensive to buy	0
+tugboat	can be inexpensive to buy	0
+mushroom	can be inexpensive to buy	0
+earmuffs	can be inexpensive to buy	0
+chest_of_drawers	can be inexpensive to buy	0
+ant	can be inexpensive to buy	0
+cake	can be inexpensive to buy	0
+chocolate	can be inexpensive to buy	0
+bookcase	can be inexpensive to buy	0
+cup	can be inexpensive to buy	0
+barge	can be inexpensive to buy	0
+rattle	can be inexpensive to buy	0
+eel	can be inexpensive to buy	0
+train	can be inexpensive to buy	0
+doll	can be inexpensive to buy	0
+pajama	can be inexpensive to buy	0
+bathtub	can be inexpensive to buy	0
+cider	can be cold	1
+beer	can be cold	1
+whiskey	can be cold	1
+champagne	can be cold	1
+brandy	can be cold	1
+lemonade	can be cold	1
+tea	can be cold	1
+wine	can be cold	1
+gin	can be cold	1
+coffee	can be cold	1
+raft	can be cold	0
+yoyo	can be cold	0
+catapult	can be cold	0
+earmuffs	can be cold	0
+balloon	can be cold	0
+flour	can be cold	0
+cake	can be cold	0
+chocolate	can be cold	0
+milk	can be cold	0
+rattle	can be cold	0
+walrus	is a marine animal	1
+jellyfish	is a marine animal	1
+oyster	is a marine animal	1
+shrimp	is a marine animal	1
+crab	is a marine animal	1
+lobster	is a marine animal	1
+whale	is a marine animal	1
+mussel	is a marine animal	1
+squid	is a marine animal	1
+scallop	is a marine animal	1
+prawn	is a marine animal	1
+octopus	is a marine animal	1
+turtle	is a marine animal	1
+clam	is a marine animal	1
+dolphin	is a marine animal	1
+crayfish	is a marine animal	1
+frog	is a marine animal	0
+toad	is a marine animal	0
+worm	is a marine animal	0
+termite	is a marine animal	0
+lamb	is a marine animal	0
+caterpillar	is a marine animal	0
+calf	is a marine animal	0
+spider	is a marine animal	0
+beetle	is a marine animal	0
+cricket	is a marine animal	0
+slug	is a marine animal	0
+flea	is a marine animal	0
+millipede	is a marine animal	0
+centipede	is a marine animal	0
+snail	is a marine animal	0
+scorpion	is a marine animal	0
+tambourine	is a percussion instrument	1
+cymbal	is a percussion instrument	1
+drum	is a percussion instrument	1
+castanets	is a percussion instrument	1
+gong	is a percussion instrument	1
+guitar	is a percussion instrument	0
+piano	is a percussion instrument	0
+banjo	is a percussion instrument	0
+harmonica	is a percussion instrument	0
+organ	is a percussion instrument	0
+hummingbird	can lick	1
+tiger	can lick	1
+wolf	can lick	1
+bear	can lick	1
+cow	can lick	1
+buzzard	can lick	1
+alligator	can lick	1
+calf	can lick	1
+wren	can lick	1
+emu	can lick	1
+iguana	can lick	1
+hippo	can lick	1
+dove	can lick	1
+partridge	can lick	1
+rabbit	can lick	1
+goose	can lick	1
+pig	can lick	1
+camel	can lick	1
+chipmunk	can lick	1
+toad	can lick	1
+goat	can lick	1
+fox	can lick	1
+chicken	can lick	1
+platypus	can lick	1
+pelican	can lick	1
+seagull	can lick	1
+starling	can lick	1
+tortoise	can lick	1
+rhino	can lick	1
+crocodile	can lick	1
+beaver	can lick	1
+eagle	can lick	1
+skunk	can lick	1
+hyena	can lick	1
+lamb	can lick	1
+zebra	can lick	1
+giraffe	can lick	1
+penguin	can lick	1
+cheetah	can lick	1
+leopard	can lick	1
+elephant	can lick	1
+hamster	can lick	1
+porcupine	can lick	1
+donkey	can lick	1
+hawk	can lick	1
+cockerel	can lick	1
+canary	can lick	1
+magpie	can lick	1
+seal	can lick	1
+pigeon	can lick	1
+hedgehog	can lick	1
+rattlesnake	can lick	1
+otter	can lick	1
+horse	can lick	1
+buffalo	can lick	1
+peacock	can lick	1
+bat	can lick	1
+pony	can lick	1
+ostrich	can lick	1
+lion	can lick	1
+llama	can lick	1
+lizard	can lick	1
+budgie	can lick	1
+swan	can lick	1
+turkey	can lick	1
+woodpecker	can lick	1
+parakeet	can lick	1
+sheep	can lick	1
+heron	can lick	1
+gerbil	can lick	1
+guinea_pig	can lick	1
+rat	can lick	1
+kingfisher	can lick	1
+moose	can lick	1
+dog	can lick	1
+raven	can lick	1
+raccoon	can lick	1
+mouse	can lick	1
+frog	can lick	1
+robin	can lick	1
+owl	can lick	1
+monkey	can lick	1
+duck	can lick	1
+panther	can lick	1
+flamingo	can lick	1
+squirrel	can lick	1
+crane	can lick	1
+falcon	can lick	1
+cat	can lick	1
+gorilla	can lick	1
+kangaroo	can lick	1
+sparrow	can lick	1
+ox	can lick	1
+deer	can lick	1
+nightingale	can lick	1
+tank	can lick	0
+lobster	can lick	0
+whiskey	can lick	0
+sardine	can lick	0
+seahorse	can lick	0
+cockroach	can lick	0
+flounder	can lick	0
+revolver	can lick	0
+stick_insect	can lick	0
+crab	can lick	0
+cod	can lick	0
+pea	can lick	0
+rocking_chair	can lick	0
+hornet	can lick	0
+daffodil	can lick	0
+millipede	can lick	0
+grasshopper	can lick	0
+shotgun	can lick	0
+snail	can lick	0
+mosquito	can lick	0
+dolphin	can lick	0
+herring	can lick	0
+salmon	can lick	0
+tugboat	can lick	0
+prune	can lick	0
+pie	can lick	0
+drum	can lick	0
+squid	can lick	0
+tarantula	can lick	0
+caterpillar	can lick	0
+tractor	can lick	0
+octopus	can lick	0
+spider	can lick	0
+clam	can lick	0
+minnow	can lick	0
+truck	can lick	0
+goldfish	can lick	0
+mussel	can lick	0
+housefly	can lick	0
+brussels_sprout	can lick	0
+butterfly	can lick	0
+deckchair	can lick	0
+washing_machine	can lick	0
+champagne	can lick	0
+boat	can lick	0
+submarine	can lick	0
+moth	can lick	0
+ice_cream	can lick	0
+walrus	can lick	0
+mackerel	can lick	0
+oyster	can lick	0
+parsley	can lick	0
+peach	can lick	0
+trout	can lick	0
+scallop	can lick	0
+worm	can lick	0
+pumpkin	can lick	0
+sunflower	can lick	0
+beetle	can lick	0
+microwave	can lick	0
+cricket	can lick	0
+bee	can lick	0
+cart	can lick	0
+satsuma	can lick	0
+slug	can lick	0
+wasp	can lick	0
+flea	can lick	0
+locust	can lick	0
+centipede	can lick	0
+daisy	can lick	0
+chisel	can lick	0
+date	can lick	0
+tuna	can lick	0
+scorpion	can lick	0
+crayfish	can lick	0
+clamp	can lick	0
+geranium	can lick	0
+jellyfish	can lick	0
+shrimp	can lick	0
+typewriter	can lick	0
+table	can lick	0
+mushroom	can lick	0
+carp	can lick	0
+termite	can lick	0
+ladybird	can lick	0
+ant	can lick	0
+milk	can lick	0
+eel	can lick	0
+shark	can lick	0
+dandelion	can lick	0
+whale	can lick	0
+lettuce	can lick	0
+prawn	can lick	0
+dragonfly	can lick	0
+turtle	can lick	0
+tongue	is used to lick	1
+lips	is used to lick	0
+hummingbird	has two legs	1
+robin	has two legs	1
+buzzard	has two legs	1
+wren	has two legs	1
+emu	has two legs	1
+owl	has two legs	1
+monkey	has two legs	1
+peacock	has two legs	1
+bat	has two legs	1
+duck	has two legs	1
+dove	has two legs	1
+flamingo	has two legs	1
+ostrich	has two legs	1
+partridge	has two legs	1
+goose	has two legs	1
+budgie	has two legs	1
+penguin	has two legs	1
+crane	has two legs	1
+swan	has two legs	1
+turkey	has two legs	1
+woodpecker	has two legs	1
+falcon	has two legs	1
+parakeet	has two legs	1
+gorilla	has two legs	1
+heron	has two legs	1
+kingfisher	has two legs	1
+hawk	has two legs	1
+cockerel	has two legs	1
+canary	has two legs	1
+kangaroo	has two legs	1
+sparrow	has two legs	1
+chicken	has two legs	1
+magpie	has two legs	1
+pelican	has two legs	1
+seagull	has two legs	1
+raven	has two legs	1
+starling	has two legs	1
+nightingale	has two legs	1
+pigeon	has two legs	1
+eagle	has two legs	1
+frog	has two legs	0
+walrus	has two legs	0
+skunk	has two legs	0
+wolf	has two legs	0
+bear	has two legs	0
+hyena	has two legs	0
+otter	has two legs	0
+alligator	has two legs	0
+hippo	has two legs	0
+hutch	has two legs	0
+pea	has two legs	0
+llama	has two legs	0
+rabbit	has two legs	0
+lizard	has two legs	0
+squirrel	has two legs	0
+camel	has two legs	0
+hamster	has two legs	0
+toad	has two legs	0
+elephant	has two legs	0
+porcupine	has two legs	0
+cat	has two legs	0
+chipmunk	has two legs	0
+gerbil	has two legs	0
+guinea_pig	has two legs	0
+rat	has two legs	0
+fox	has two legs	0
+chocolate	has two legs	0
+shark	has two legs	0
+platypus	has two legs	0
+whale	has two legs	0
+raccoon	has two legs	0
+seal	has two legs	0
+tortoise	has two legs	0
+rhino	has two legs	0
+mouse	has two legs	0
+hedgehog	has two legs	0
+turtle	has two legs	0
+crocodile	has two legs	0
+beaver	has two legs	0
+coffee	has two legs	0
+walrus	is aquatic	1
+mackerel	is aquatic	1
+oyster	is aquatic	1
+lobster	is aquatic	1
+trout	is aquatic	1
+sardine	is aquatic	1
+scallop	is aquatic	1
+seahorse	is aquatic	1
+flounder	is aquatic	1
+crab	is aquatic	1
+cod	is aquatic	1
+tuna	is aquatic	1
+dolphin	is aquatic	1
+crayfish	is aquatic	1
+herring	is aquatic	1
+salmon	is aquatic	1
+jellyfish	is aquatic	1
+shrimp	is aquatic	1
+carp	is aquatic	1
+squid	is aquatic	1
+octopus	is aquatic	1
+clam	is aquatic	1
+eel	is aquatic	1
+shark	is aquatic	1
+platypus	is aquatic	1
+minnow	is aquatic	1
+goldfish	is aquatic	1
+whale	is aquatic	1
+mussel	is aquatic	1
+prawn	is aquatic	1
+seal	is aquatic	1
+turtle	is aquatic	1
+frog	is aquatic	0
+hummingbird	is aquatic	0
+parakeet	is aquatic	0
+toad	is aquatic	0
+worm	is aquatic	0
+termite	is aquatic	0
+lamb	is aquatic	0
+ladybird	is aquatic	0
+hawk	is aquatic	0
+calf	is aquatic	0
+wren	is aquatic	0
+caterpillar	is aquatic	0
+emu	is aquatic	0
+owl	is aquatic	0
+monkey	is aquatic	0
+beetle	is aquatic	0
+bat	is aquatic	0
+spider	is aquatic	0
+sparrow	is aquatic	0
+ostrich	is aquatic	0
+slug	is aquatic	0
+raven	is aquatic	0
+flea	is aquatic	0
+millipede	is aquatic	0
+nose	is aquatic	0
+centipede	is aquatic	0
+chisel	is aquatic	0
+swan	is aquatic	0
+snail	is aquatic	0
+woodpecker	is aquatic	0
+eagle	is aquatic	0
+scorpion	is aquatic	0
+monkey	has hands	1
+hamster	has hands	1
+clock	has hands	1
+gorilla	has hands	1
+squirrel	has hands	0
+bat	has hands	0
+gun	has hands	0
+rat	has hands	0
+walrus	can be found underwater	1
+mackerel	can be found underwater	1
+oyster	can be found underwater	1
+lobster	can be found underwater	1
+trout	can be found underwater	1
+sardine	can be found underwater	1
+scallop	can be found underwater	1
+seahorse	can be found underwater	1
+flounder	can be found underwater	1
+crab	can be found underwater	1
+cod	can be found underwater	1
+tuna	can be found underwater	1
+dolphin	can be found underwater	1
+crayfish	can be found underwater	1
+herring	can be found underwater	1
+salmon	can be found underwater	1
+jellyfish	can be found underwater	1
+shrimp	can be found underwater	1
+carp	can be found underwater	1
+squid	can be found underwater	1
+octopus	can be found underwater	1
+clam	can be found underwater	1
+eel	can be found underwater	1
+shark	can be found underwater	1
+minnow	can be found underwater	1
+goldfish	can be found underwater	1
+whale	can be found underwater	1
+mussel	can be found underwater	1
+prawn	can be found underwater	1
+submarine	can be found underwater	1
+turtle	can be found underwater	1
+frog	can be found underwater	0
+hummingbird	can be found underwater	0
+parakeet	can be found underwater	0
+toad	can be found underwater	0
+worm	can be found underwater	0
+termite	can be found underwater	0
+lamb	can be found underwater	0
+hawk	can be found underwater	0
+caterpillar	can be found underwater	0
+calf	can be found underwater	0
+wren	can be found underwater	0
+dressing_gown	can be found underwater	0
+emu	can be found underwater	0
+owl	can be found underwater	0
+spider	can be found underwater	0
+beetle	can be found underwater	0
+bat	can be found underwater	0
+sparrow	can be found underwater	0
+ostrich	can be found underwater	0
+slug	can be found underwater	0
+flea	can be found underwater	0
+millipede	can be found underwater	0
+ship	can be found underwater	0
+centipede	can be found underwater	0
+rhino	can be found underwater	0
+swan	can be found underwater	0
+snail	can be found underwater	0
+woodpecker	can be found underwater	0
+eagle	can be found underwater	0
+scorpion	can be found underwater	0
+gin	can be found underwater	0
+bread	can be filled with jam	1
+donut	can be filled with jam	1
+flour	can be filled with jam	0
+chocolate	can be filled with jam	0
+foot	is an organ	1
+thumb	is an organ	1
+leg	is an organ	1
+eye	is an organ	1
+hair	is an organ	1
+finger	is an organ	1
+nose	is an organ	1
+toe	is an organ	1
+ear	is an organ	1
+tongue	is an organ	1
+heart	is an organ	1
+lips	is an organ	1
+bone	is an organ	1
+arm	is an organ	1
+raft	is an organ	0
+kite	is an organ	0
+yoyo	is an organ	0
+catapult	is an organ	0
+earmuffs	is an organ	0
+balloon	is an organ	0
+flour	is an organ	0
+box	is an organ	0
+cake	is an organ	0
+sink	is an organ	0
+chocolate	is an organ	0
+doll	is an organ	0
+rattle	is an organ	0
+puppet	is an organ	0
+mayonnaise	adds flavor to food	1
+parsley	adds flavor to food	1
+ketchup	adds flavor to food	1
+gherkin	adds flavor to food	1
+garlic	adds flavor to food	1
+onion	adds flavor to food	1
+lime	adds flavor to food	1
+sugar	adds flavor to food	1
+flour	adds flavor to food	0
+butter	adds flavor to food	0
+cake	adds flavor to food	0
+dog	adds flavor to food	0
+chocolate	adds flavor to food	0
+yoghurt	adds flavor to food	0
+rice	adds flavor to food	0
+orange	adds flavor to food	0
+airplane	is airborne	1
+helicopter	is airborne	1
+glider	is airborne	1
+ashtray	is airborne	0
+yacht	is airborne	0
+ship	is airborne	0
+cymbal	requires two hands to play	1
+banjo	requires two hands to play	1
+violin	requires two hands to play	1
+clarinet	requires two hands to play	1
+french_horn	requires two hands to play	1
+piano	requires two hands to play	1
+trombone	requires two hands to play	1
+cello	requires two hands to play	1
+tambourine	requires two hands to play	1
+guitar	requires two hands to play	1
+tuba	requires two hands to play	1
+accordion	requires two hands to play	1
+drum	requires two hands to play	1
+saxophone	requires two hands to play	1
+bagpipe	requires two hands to play	1
+harpsichord	requires two hands to play	1
+flute	requires two hands to play	1
+trumpet	requires two hands to play	1
+organ	requires two hands to play	1
+harp	requires two hands to play	1
+clamp	requires two hands to play	0
+castanets	requires two hands to play	0
+harmonica	requires two hands to play	0
+spear	requires two hands to play	0
+bomb	requires two hands to play	0
+swing	requires two hands to play	0
+dagger	requires two hands to play	0
+peeler	requires two hands to play	0
+nail	requires two hands to play	0
+grenade	requires two hands to play	0
+boomerang	requires two hands to play	0
+spirit_level	requires two hands to play	0
+bow	requires two hands to play	0
+strainer	requires two hands to play	0
+screw	requires two hands to play	0
+gong	requires two hands to play	0
+sword	requires two hands to play	0
+gun	requires two hands to play	0
+mirror	requires two hands to play	0
+colander	requires two hands to play	0
+yoghurt	is frozen	1
+ice_cream	is frozen	1
+flour	is frozen	0
+butter	is frozen	0
+wallet	can fit in the pocket	1
+scalpel	can fit in the pocket	1
+pliers	can fit in the pocket	1
+bolt	can fit in the pocket	1
+penknife	can fit in the pocket	1
+screw	can fit in the pocket	1
+nail	can fit in the pocket	1
+tweezer	can fit in the pocket	1
+bucket	can fit in the pocket	0
+jar	can fit in the pocket	0
+basket	can fit in the pocket	0
+box	can fit in the pocket	0
+satchel	can fit in the pocket	0
+bag	can fit in the pocket	0
+bin	can fit in the pocket	0
+peeler	can fit in the pocket	0
+spider	has several eyes	1
+tarantula	has several eyes	1
+grasshopper	has several eyes	1
+centipede	has several eyes	0
+beetle	has several eyes	0
+millipede	has several eyes	0
+parsley	is leafy	1
+lettuce	is leafy	1
+cabbage	is leafy	1
+brussels_sprout	is leafy	1
+spinach	is leafy	1
+flour	is leafy	0
+raft	is leafy	0
+kite	is leafy	0
+cake	is leafy	0
+chocolate	is leafy	0
+cauliflower	contains chlorophyll	1
+parsley	contains chlorophyll	1
+broccoli	contains chlorophyll	1
+cabbage	contains chlorophyll	1
+lettuce	contains chlorophyll	1
+brussels_sprout	contains chlorophyll	1
+asparagus	contains chlorophyll	1
+leek	contains chlorophyll	1
+spinach	contains chlorophyll	1
+raft	contains chlorophyll	0
+kite	contains chlorophyll	0
+yoyo	contains chlorophyll	0
+catapult	contains chlorophyll	0
+balloon	contains chlorophyll	0
+flour	contains chlorophyll	0
+chocolate	contains chlorophyll	0
+doll	contains chlorophyll	0
+rattle	contains chlorophyll	0
+typewriter	has keys	1
+flute	has keys	1
+trumpet	has keys	1
+saxophone	has keys	1
+organ	has keys	1
+clarinet	has keys	1
+harpsichord	has keys	1
+tuba	has keys	1
+french_horn	has keys	1
+piano	has keys	1
+trombone	has keys	1
+accordion	has keys	1
+tambourine	has keys	0
+cymbal	has keys	0
+guitar	has keys	0
+banjo	has keys	0
+drum	has keys	0
+castanets	has keys	0
+violin	has keys	0
+harmonica	has keys	0
+gong	has keys	0
+bagpipe	has keys	0
+chainsaw	has keys	0
+harp	has keys	0
+cymbal	can make music	1
+banjo	can make music	1
+castanets	can make music	1
+violin	can make music	1
+clarinet	can make music	1
+french_horn	can make music	1
+piano	can make music	1
+trombone	can make music	1
+cello	can make music	1
+tambourine	can make music	1
+guitar	can make music	1
+gong	can make music	1
+tuba	can make music	1
+accordion	can make music	1
+drum	can make music	1
+harmonica	can make music	1
+bagpipe	can make music	1
+saxophone	can make music	1
+harpsichord	can make music	1
+flute	can make music	1
+trumpet	can make music	1
+organ	can make music	1
+harp	can make music	1
+clamp	can make music	0
+typewriter	can make music	0
+clock	can make music	0
+spear	can make music	0
+colander	can make music	0
+arrow	can make music	0
+swing	can make music	0
+machete	can make music	0
+dagger	can make music	0
+peeler	can make music	0
+nail	can make music	0
+grenade	can make music	0
+spirit_level	can make music	0
+bow	can make music	0
+mirror	can make music	0
+strainer	can make music	0
+screw	can make music	0
+sword	can make music	0
+crossbow	can make music	0
+chainsaw	can make music	0
+gun	can make music	0
+bomb	can make music	0
+boomerang	can make music	0
+dice	can be made of metal	1
+tank	can be made of metal	1
+basin	can be made of metal	1
+tricycle	can be made of metal	1
+clock	can be made of metal	1
+desk	can be made of metal	1
+arrow	can be made of metal	1
+cupboard	can be made of metal	1
+revolver	can be made of metal	1
+rocket	can be made of metal	1
+carriage	can be made of metal	1
+motorcycle	can be made of metal	1
+dresser	can be made of metal	1
+scythe	can be made of metal	1
+dishwasher	can be made of metal	1
+kayak	can be made of metal	1
+swing	can be made of metal	1
+cannon	can be made of metal	1
+tambourine	can be made of metal	1
+rifle	can be made of metal	1
+guitar	can be made of metal	1
+taxi	can be made of metal	1
+grater	can be made of metal	1
+screw	can be made of metal	1
+basket	can be made of metal	1
+ladle	can be made of metal	1
+shotgun	can be made of metal	1
+sledge	can be made of metal	1
+cage	can be made of metal	1
+ambulance	can be made of metal	1
+mirror	can be made of metal	1
+stool	can be made of metal	1
+skateboard	can be made of metal	1
+bucket	can be made of metal	1
+harmonica	can be made of metal	1
+kettle	can be made of metal	1
+harpsichord	can be made of metal	1
+chest_of_drawers	can be made of metal	1
+bayonet	can be made of metal	1
+tractor	can be made of metal	1
+screwdriver	can be made of metal	1
+throne	can be made of metal	1
+grenade	can be made of metal	1
+flute	can be made of metal	1
+trumpet	can be made of metal	1
+organ	can be made of metal	1
+crossbow	can be made of metal	1
+deckchair	can be made of metal	1
+ashtray	can be made of metal	1
+spatula	can be made of metal	1
+gun	can be made of metal	1
+scalpel	can be made of metal	1
+banjo	can be made of metal	1
+lorry	can be made of metal	1
+pliers	can be made of metal	1
+yacht	can be made of metal	1
+clarinet	can be made of metal	1
+hoe	can be made of metal	1
+lamp	can be made of metal	1
+oven	can be made of metal	1
+sink	can be made of metal	1
+corkscrew	can be made of metal	1
+trombone	can be made of metal	1
+radio	can be made of metal	1
+microwave	can be made of metal	1
+rollerskate	can be made of metal	1
+armchair	can be made of metal	1
+cart	can be made of metal	1
+bolt	can be made of metal	1
+can_opener	can be made of metal	1
+ferry	can be made of metal	1
+chandelier	can be made of metal	1
+accordion	can be made of metal	1
+knife	can be made of metal	1
+speedboat	can be made of metal	1
+helicopter	can be made of metal	1
+houseboat	can be made of metal	1
+camera	can be made of metal	1
+barrel	can be made of metal	1
+table	can be made of metal	1
+saxophone	can be made of metal	1
+bookcase	can be made of metal	1
+cup	can be made of metal	1
+barge	can be made of metal	1
+nail	can be made of metal	1
+hatchet	can be made of metal	1
+stove	can be made of metal	1
+rake	can be made of metal	1
+oil_tanker	can be made of metal	1
+chair	can be made of metal	1
+spade	can be made of metal	1
+bathtub	can be made of metal	1
+tweezer	can be made of metal	1
+plow	can be made of metal	1
+canoe	can be made of metal	1
+trolley	can be made of metal	1
+wheelchair	can be made of metal	1
+spanner	can be made of metal	1
+trowel	can be made of metal	1
+limousine	can be made of metal	1
+club	can be made of metal	1
+car	can be made of metal	1
+refrigerator	can be made of metal	1
+buggy	can be made of metal	1
+cello	can be made of metal	1
+jar	can be made of metal	1
+unicycle	can be made of metal	1
+van	can be made of metal	1
+rocking_chair	can be made of metal	1
+whisk	can be made of metal	1
+tray	can be made of metal	1
+bullet	can be made of metal	1
+gong	can be made of metal	1
+catapult	can be made of metal	1
+tuba	can be made of metal	1
+harpoon	can be made of metal	1
+shovel	can be made of metal	1
+ship	can be made of metal	1
+spoon	can be made of metal	1
+bin	can be made of metal	1
+television	can be made of metal	1
+mug	can be made of metal	1
+raft	can be made of metal	1
+bowl	can be made of metal	1
+tugboat	can be made of metal	1
+drum	can be made of metal	1
+yoyo	can be made of metal	1
+wheelbarrow	can be made of metal	1
+spear	can be made of metal	1
+machete	can be made of metal	1
+fork	can be made of metal	1
+cradle	can be made of metal	1
+dagger	can be made of metal	1
+rattle	can be made of metal	1
+bow	can be made of metal	1
+truck	can be made of metal	1
+airplane	can be made of metal	1
+sword	can be made of metal	1
+submarine	can be made of metal	1
+washing_machine	can be made of metal	1
+boat	can be made of metal	1
+harp	can be made of metal	1
+jug	can be made of metal	1
+colander	can be made of metal	1
+cymbal	can be made of metal	1
+bed	can be made of metal	1
+castanets	can be made of metal	1
+penknife	can be made of metal	1
+box	can be made of metal	1
+french_horn	can be made of metal	1
+piano	can be made of metal	1
+peeler	can be made of metal	1
+hutch	can be made of metal	1
+moped	can be made of metal	1
+blender	can be made of metal	1
+strainer	can be made of metal	1
+scissors	can be made of metal	1
+bench	can be made of metal	1
+bomb	can be made of metal	1
+pistol	can be made of metal	1
+toaster	can be made of metal	1
+hammer	can be made of metal	1
+clamp	can be made of metal	1
+typewriter	can be made of metal	1
+glider	can be made of metal	1
+drill	can be made of metal	1
+plate	can be made of metal	1
+bicycle	can be made of metal	1
+coffee_maker	can be made of metal	1
+crowbar	can be made of metal	1
+coach	can be made of metal	1
+dinghy	can be made of metal	1
+train	can be made of metal	1
+spirit_level	can be made of metal	1
+saw	can be made of metal	1
+axe	can be made of metal	1
+chainsaw	can be made of metal	1
+caravan	can be made of metal	1
+chisel	can be made of metal	1
+bus	can be made of metal	1
+buttercup	can be made of metal	0
+ball	can be made of metal	0
+whiskey	can be made of metal	0
+bear	can be made of metal	0
+radish	can be made of metal	0
+finger	can be made of metal	0
+seahorse	can be made of metal	0
+alligator	can be made of metal	0
+chestnut	can be made of metal	0
+blueberry	can be made of metal	0
+raisin	can be made of metal	0
+calf	can be made of metal	0
+dove	can be made of metal	0
+cod	can be made of metal	0
+leg	can be made of metal	0
+knickers	can be made of metal	0
+daffodil	can be made of metal	0
+partridge	can be made of metal	0
+rice	can be made of metal	0
+grasshopper	can be made of metal	0
+orange	can be made of metal	0
+camel	can be made of metal	0
+gloves	can be made of metal	0
+ham	can be made of metal	0
+gin	can be made of metal	0
+herring	can be made of metal	0
+chipmunk	can be made of metal	0
+thumb	can be made of metal	0
+toad	can be made of metal	0
+swimsuit	can be made of metal	0
+eggplant	can be made of metal	0
+pineapple	can be made of metal	0
+goat	can be made of metal	0
+caterpillar	can be made of metal	0
+octopus	can be made of metal	0
+football	can be made of metal	0
+platypus	can be made of metal	0
+pelican	can be made of metal	0
+hyacinth	can be made of metal	0
+seagull	can be made of metal	0
+sweater	can be made of metal	0
+beer	can be made of metal	0
+mussel	can be made of metal	0
+dress	can be made of metal	0
+avocado	can be made of metal	0
+trouser	can be made of metal	0
+broom	can be made of metal	0
+pajama	can be made of metal	0
+beaver	can be made of metal	0
+eagle	can be made of metal	0
+walrus	can be made of metal	0
+suit	can be made of metal	0
+peach	can be made of metal	0
+trout	can be made of metal	0
+sweet_potato	can be made of metal	0
+scallop	can be made of metal	0
+worm	can be made of metal	0
+marble	can be made of metal	0
+lamb	can be made of metal	0
+plum	can be made of metal	0
+helmet	can be made of metal	0
+leek	can be made of metal	0
+belt	can be made of metal	0
+coconut	can be made of metal	0
+sofa	can be made of metal	0
+eucalyptus	can be made of metal	0
+sunflower	can be made of metal	0
+nut	can be made of metal	0
+cape	can be made of metal	0
+wetsuit	can be made of metal	0
+cricket	can be made of metal	0
+frisbee	can be made of metal	0
+zebra	can be made of metal	0
+locust	can be made of metal	0
+parka	can be made of metal	0
+bag	can be made of metal	0
+butter	can be made of metal	0
+date	can be made of metal	0
+cheetah	can be made of metal	0
+puppet	can be made of metal	0
+elephant	can be made of metal	0
+geranium	can be made of metal	0
+turnip	can be made of metal	0
+carp	can be made of metal	0
+bagpipe	can be made of metal	0
+termite	can be made of metal	0
+donkey	can be made of metal	0
+cake	can be made of metal	0
+canary	can be made of metal	0
+jacket	can be made of metal	0
+chocolate	can be made of metal	0
+armor	can be made of metal	0
+magpie	can be made of metal	0
+cauliflower	can be made of metal	0
+dandelion	can be made of metal	0
+rolling_pin	can be made of metal	0
+prawn	can be made of metal	0
+seal	can be made of metal	0
+dragonfly	can be made of metal	0
+pigeon	can be made of metal	0
+tights	can be made of metal	0
+sandwich	can be made of metal	0
+mosquito	can be made of metal	0
+doll	can be made of metal	0
+rattlesnake	can be made of metal	0
+boomerang	can be made of metal	0
+bread	can be made of metal	0
+violin	can be made of metal	0
+sardine	can be made of metal	0
+balloon	can be made of metal	0
+satchel	can be made of metal	0
+stick_insect	can be made of metal	0
+peacock	can be made of metal	0
+pea	can be made of metal	0
+celery	can be made of metal	0
+banana	can be made of metal	0
+gherkin	can be made of metal	0
+yoghurt	can be made of metal	0
+skirt	can be made of metal	0
+soup	can be made of metal	0
+budgie	can be made of metal	0
+swan	can be made of metal	0
+snail	can be made of metal	0
+sugar	can be made of metal	0
+turkey	can be made of metal	0
+woodpecker	can be made of metal	0
+bean	can be made of metal	0
+dolphin	can be made of metal	0
+parakeet	can be made of metal	0
+sultana	can be made of metal	0
+cloak	can be made of metal	0
+guinea_pig	can be made of metal	0
+tarantula	can be made of metal	0
+earmuffs	can be made of metal	0
+rat	can be made of metal	0
+pear	can be made of metal	0
+bottle	can be made of metal	0
+spider	can be made of metal	0
+moose	can be made of metal	0
+rhubarb	can be made of metal	0
+mayonnaise	can be made of metal	0
+raven	can be made of metal	0
+jelly	can be made of metal	0
+goldfish	can be made of metal	0
+housefly	can be made of metal	0
+brussels_sprout	can be made of metal	0
+toe	can be made of metal	0
+fir	can be made of metal	0
+butterfly	can be made of metal	0
+lemonade	can be made of metal	0
+moth	can be made of metal	0
+rose	can be made of metal	0
+mackerel	can be made of metal	0
+robin	can be made of metal	0
+robe	can be made of metal	0
+sock	can be made of metal	0
+beetle	can be made of metal	0
+flamingo	can be made of metal	0
+veil	can be made of metal	0
+crayfish	can be made of metal	0
+shirt	can be made of metal	0
+kite	can be made of metal	0
+donut	can be made of metal	0
+chopping_board	can be made of metal	0
+gorilla	can be made of metal	0
+grapefruit	can be made of metal	0
+mushroom	can be made of metal	0
+olive	can be made of metal	0
+flour	can be made of metal	0
+kangaroo	can be made of metal	0
+eel	can be made of metal	0
+sparrow	can be made of metal	0
+carrot	can be made of metal	0
+shark	can be made of metal	0
+wallet	can be made of metal	0
+whale	can be made of metal	0
+nectarine	can be made of metal	0
+cap	can be made of metal	0
+hose	can be made of metal	0
+mango	can be made of metal	0
+bagpipe	has a strange shape	1
+accordion	has a strange shape	1
+harp	has a strange shape	1
+gong	has a strange shape	0
+banjo	has a strange shape	0
+drum	has a strange shape	0
+bra	can have straps	1
+guitar	can have straps	1
+leotard	can have straps	1
+swimsuit	can have straps	1
+helmet	can have straps	1
+bag	can have straps	1
+satchel	can have straps	1
+cap	can have straps	1
+dress	can have straps	1
+buggy	can have straps	1
+bikini	can have straps	1
+accordion	can have straps	1
+apron	can have straps	1
+suit	can have straps	0
+scarf	can have straps	0
+sweater	can have straps	0
+drum	can have straps	0
+gong	can have straps	0
+veil	can have straps	0
+basket	can have straps	0
+skirt	can have straps	0
+box	can have straps	0
+belt	can have straps	0
+carriage	can have straps	0
+wetsuit	can have straps	0
+shirt	can have straps	0
+hummingbird	has wings	1
+robin	has wings	1
+cockroach	has wings	1
+buzzard	has wings	1
+wren	has wings	1
+emu	has wings	1
+owl	has wings	1
+stick_insect	has wings	1
+beetle	has wings	1
+bat	has wings	1
+peacock	has wings	1
+cricket	has wings	1
+duck	has wings	1
+dove	has wings	1
+bee	has wings	1
+flamingo	has wings	1
+ostrich	has wings	1
+wasp	has wings	1
+hornet	has wings	1
+partridge	has wings	1
+locust	has wings	1
+grasshopper	has wings	1
+goose	has wings	1
+budgie	has wings	1
+penguin	has wings	1
+crane	has wings	1
+swan	has wings	1
+turkey	has wings	1
+woodpecker	has wings	1
+falcon	has wings	1
+parakeet	has wings	1
+glider	has wings	1
+heron	has wings	1
+termite	has wings	1
+ladybird	has wings	1
+hawk	has wings	1
+cockerel	has wings	1
+kingfisher	has wings	1
+ant	has wings	1
+canary	has wings	1
+sparrow	has wings	1
+chicken	has wings	1
+magpie	has wings	1
+pelican	has wings	1
+seagull	has wings	1
+raven	has wings	1
+airplane	has wings	1
+housefly	has wings	1
+starling	has wings	1
+nightingale	has wings	1
+butterfly	has wings	1
+dragonfly	has wings	1
+pigeon	has wings	1
+mosquito	has wings	1
+moth	has wings	1
+eagle	has wings	1
+frog	has wings	0
+walrus	has wings	0
+oyster	has wings	0
+skunk	has wings	0
+wolf	has wings	0
+lobster	has wings	0
+bear	has wings	0
+peach	has wings	0
+yacht	has wings	0
+worm	has wings	0
+scallop	has wings	0
+otter	has wings	0
+alligator	has wings	0
+hyena	has wings	0
+monkey	has wings	0
+hippo	has wings	0
+crab	has wings	0
+slug	has wings	0
+flea	has wings	0
+millipede	has wings	0
+rabbit	has wings	0
+centipede	has wings	0
+lizard	has wings	0
+squirrel	has wings	0
+snail	has wings	0
+crayfish	has wings	0
+scorpion	has wings	0
+helicopter	has wings	0
+elephant	has wings	0
+toad	has wings	0
+hamster	has wings	0
+shrimp	has wings	0
+jellyfish	has wings	0
+porcupine	has wings	0
+cat	has wings	0
+chipmunk	has wings	0
+tarantula	has wings	0
+gerbil	has wings	0
+rat	has wings	0
+guinea_pig	has wings	0
+fox	has wings	0
+spider	has wings	0
+kangaroo	has wings	0
+platypus	has wings	0
+dog	has wings	0
+whale	has wings	0
+prawn	has wings	0
+seal	has wings	0
+raccoon	has wings	0
+rhino	has wings	0
+mouse	has wings	0
+tortoise	has wings	0
+hedgehog	has wings	0
+turtle	has wings	0
+crocodile	has wings	0
+beaver	has wings	0
+tank	has wheels	1
+lorry	has wheels	1
+trolley	has wheels	1
+wheelchair	has wheels	1
+tricycle	has wheels	1
+limousine	has wheels	1
+car	has wheels	1
+buggy	has wheels	1
+carriage	has wheels	1
+motorcycle	has wheels	1
+moped	has wheels	1
+unicycle	has wheels	1
+rollerskate	has wheels	1
+cart	has wheels	1
+van	has wheels	1
+taxi	has wheels	1
+ambulance	has wheels	1
+skateboard	has wheels	1
+wheelbarrow	has wheels	1
+bicycle	has wheels	1
+tractor	has wheels	1
+coach	has wheels	1
+train	has wheels	1
+truck	has wheels	1
+airplane	has wheels	1
+caravan	has wheels	1
+bus	has wheels	1
+ball	has wheels	0
+bucket	has wheels	0
+drill	has wheels	0
+basin	has wheels	0
+box	has wheels	0
+hoe	has wheels	0
+chest_of_drawers	has wheels	0
+rocket	has wheels	0
+bookcase	has wheels	0
+dresser	has wheels	0
+peeler	has wheels	0
+spirit_level	has wheels	0
+wallet	has wheels	0
+mirror	has wheels	0
+strainer	has wheels	0
+tray	has wheels	0
+basket	has wheels	0
+ladle	has wheels	0
+butterfly	has wheels	0
+bag	has wheels	0
+sledge	has wheels	0
+elm	has wheels	0
+bomb	has wheels	0
+bin	has wheels	0
+broom	has wheels	0
+bathtub	has wheels	0
+plow	has wheels	0
+airplane	has a luggage area	1
+coach	has a luggage area	1
+sledge	has a luggage area	0
+train	has a luggage area	0
+tiger	eats meat	1
+wolf	eats meat	1
+bear	eats meat	1
+hyena	eats meat	1
+otter	eats meat	1
+buzzard	eats meat	1
+alligator	eats meat	1
+owl	eats meat	1
+panther	eats meat	1
+lion	eats meat	1
+centipede	eats meat	1
+leopard	eats meat	1
+cheetah	eats meat	1
+falcon	eats meat	1
+cat	eats meat	1
+hawk	eats meat	1
+shark	eats meat	1
+dog	eats meat	1
+whale	eats meat	1
+raccoon	eats meat	1
+crocodile	eats meat	1
+rattlesnake	eats meat	1
+frog	eats meat	0
+parakeet	eats meat	0
+toad	eats meat	0
+hummingbird	eats meat	0
+raft	eats meat	0
+chopping_board	eats meat	0
+kingfisher	eats meat	0
+wren	eats meat	0
+eagle	eats meat	0
+emu	eats meat	0
+bat	eats meat	0
+sparrow	eats meat	0
+eel	eats meat	0
+ostrich	eats meat	0
+daffodil	eats meat	0
+millipede	eats meat	0
+squirrel	eats meat	0
+swan	eats meat	0
+tuna	eats meat	0
+woodpecker	eats meat	0
+beaver	eats meat	0
+dolphin	eats meat	0
+alligator	has large jaws	1
+crocodile	has large jaws	1
+lizard	has large jaws	0
+iguana	has large jaws	0
+frog	has four legs	1
+bed	has four legs	1
+skunk	has four legs	1
+tiger	has four legs	1
+wolf	has four legs	1
+bear	has four legs	1
+cow	has four legs	1
+turtle	has four legs	1
+hyena	has four legs	1
+otter	has four legs	1
+lamb	has four legs	1
+alligator	has four legs	1
+horse	has four legs	1
+calf	has four legs	1
+desk	has four legs	1
+piano	has four legs	1
+buffalo	has four legs	1
+iguana	has four legs	1
+hippo	has four legs	1
+armchair	has four legs	1
+pony	has four legs	1
+panther	has four legs	1
+zebra	has four legs	1
+rocking_chair	has four legs	1
+lion	has four legs	1
+llama	has four legs	1
+rabbit	has four legs	1
+bench	has four legs	1
+giraffe	has four legs	1
+lizard	has four legs	1
+pig	has four legs	1
+camel	has four legs	1
+cheetah	has four legs	1
+leopard	has four legs	1
+stool	has four legs	1
+elephant	has four legs	1
+chipmunk	has four legs	1
+cat	has four legs	1
+hamster	has four legs	1
+porcupine	has four legs	1
+toad	has four legs	1
+table	has four legs	1
+sheep	has four legs	1
+gerbil	has four legs	1
+guinea_pig	has four legs	1
+donkey	has four legs	1
+goat	has four legs	1
+fox	has four legs	1
+rat	has four legs	1
+moose	has four legs	1
+throne	has four legs	1
+platypus	has four legs	1
+dog	has four legs	1
+ox	has four legs	1
+deer	has four legs	1
+raccoon	has four legs	1
+tortoise	has four legs	1
+rhino	has four legs	1
+mouse	has four legs	1
+hedgehog	has four legs	1
+chair	has four legs	1
+crocodile	has four legs	1
+hummingbird	has four legs	0
+oyster	has four legs	0
+lobster	has four legs	0
+wheelchair	has four legs	0
+scallop	has four legs	0
+worm	has four legs	0
+cockroach	has four legs	0
+lamp	has four legs	0
+wren	has four legs	0
+emu	has four legs	0
+owl	has four legs	0
+stick_insect	has four legs	0
+beetle	has four legs	0
+bat	has four legs	0
+dresser	has four legs	0
+sofa	has four legs	0
+cricket	has four legs	0
+crab	has four legs	0
+bee	has four legs	0
+ostrich	has four legs	0
+slug	has four legs	0
+wasp	has four legs	0
+flea	has four legs	0
+millipede	has four legs	0
+grasshopper	has four legs	0
+centipede	has four legs	0
+bag	has four legs	0
+swan	has four legs	0
+crane	has four legs	0
+snail	has four legs	0
+woodpecker	has four legs	0
+scorpion	has four legs	0
+crayfish	has four legs	0
+parakeet	has four legs	0
+jellyfish	has four legs	0
+shrimp	has four legs	0
+squid	has four legs	0
+tarantula	has four legs	0
+termite	has four legs	0
+kingfisher	has four legs	0
+ladybird	has four legs	0
+caterpillar	has four legs	0
+hawk	has four legs	0
+ant	has four legs	0
+octopus	has four legs	0
+chest_of_drawers	has four legs	0
+spider	has four legs	0
+bookcase	has four legs	0
+clam	has four legs	0
+cradle	has four legs	0
+sparrow	has four legs	0
+chocolate	has four legs	0
+mussel	has four legs	0
+organ	has four legs	0
+prawn	has four legs	0
+starling	has four legs	0
+dragonfly	has four legs	0
+butterfly	has four legs	0
+deckchair	has four legs	0
+mosquito	has four legs	0
+moth	has four legs	0
+eagle	has four legs	0
+frog	is cold blooded	1
+mackerel	is cold blooded	1
+oyster	is cold blooded	1
+lobster	is cold blooded	1
+trout	is cold blooded	1
+sardine	is cold blooded	1
+scallop	is cold blooded	1
+seahorse	is cold blooded	1
+cockroach	is cold blooded	1
+flounder	is cold blooded	1
+alligator	is cold blooded	1
+worm	is cold blooded	1
+stick_insect	is cold blooded	1
+iguana	is cold blooded	1
+beetle	is cold blooded	1
+cricket	is cold blooded	1
+crab	is cold blooded	1
+bee	is cold blooded	1
+cod	is cold blooded	1
+slug	is cold blooded	1
+wasp	is cold blooded	1
+hornet	is cold blooded	1
+flea	is cold blooded	1
+locust	is cold blooded	1
+millipede	is cold blooded	1
+grasshopper	is cold blooded	1
+lizard	is cold blooded	1
+centipede	is cold blooded	1
+tuna	is cold blooded	1
+snail	is cold blooded	1
+mosquito	is cold blooded	1
+crayfish	is cold blooded	1
+scorpion	is cold blooded	1
+herring	is cold blooded	1
+toad	is cold blooded	1
+salmon	is cold blooded	1
+jellyfish	is cold blooded	1
+shrimp	is cold blooded	1
+carp	is cold blooded	1
+squid	is cold blooded	1
+tarantula	is cold blooded	1
+termite	is cold blooded	1
+ladybird	is cold blooded	1
+caterpillar	is cold blooded	1
+ant	is cold blooded	1
+octopus	is cold blooded	1
+spider	is cold blooded	1
+clam	is cold blooded	1
+eel	is cold blooded	1
+shark	is cold blooded	1
+minnow	is cold blooded	1
+goldfish	is cold blooded	1
+mussel	is cold blooded	1
+housefly	is cold blooded	1
+prawn	is cold blooded	1
+tortoise	is cold blooded	1
+butterfly	is cold blooded	1
+dragonfly	is cold blooded	1
+turtle	is cold blooded	1
+moth	is cold blooded	1
+crocodile	is cold blooded	1
+rattlesnake	is cold blooded	1
+hummingbird	is cold blooded	0
+carnation	is cold blooded	0
+scalpel	is cold blooded	0
+bear	is cold blooded	0
+limousine	is cold blooded	0
+club	is cold blooded	0
+lamb	is cold blooded	0
+buzzard	is cold blooded	0
+sock	is cold blooded	0
+wren	is cold blooded	0
+calf	is cold blooded	0
+cupboard	is cold blooded	0
+wine	is cold blooded	0
+emu	is cold blooded	0
+owl	is cold blooded	0
+monkey	is cold blooded	0
+buggy	is cold blooded	0
+bat	is cold blooded	0
+sofa	is cold blooded	0
+brandy	is cold blooded	0
+ear	is cold blooded	0
+microwave	is cold blooded	0
+ostrich	is cold blooded	0
+flamingo	is cold blooded	0
+knickers	is cold blooded	0
+can_opener	is cold blooded	0
+soup	is cold blooded	0
+budgie	is cold blooded	0
+crane	is cold blooded	0
+swan	is cold blooded	0
+cheetah	is cold blooded	0
+woodpecker	is cold blooded	0
+stool	is cold blooded	0
+falcon	is cold blooded	0
+skateboard	is cold blooded	0
+parakeet	is cold blooded	0
+elephant	is cold blooded	0
+clamp	is cold blooded	0
+geranium	is cold blooded	0
+thumb	is cold blooded	0
+glider	is cold blooded	0
+drill	is cold blooded	0
+corn	is cold blooded	0
+yoyo	is cold blooded	0
+heron	is cold blooded	0
+eggplant	is cold blooded	0
+kingfisher	is cold blooded	0
+hawk	is cold blooded	0
+spinach	is cold blooded	0
+tongue	is cold blooded	0
+tangerine	is cold blooded	0
+sparrow	is cold blooded	0
+zucchini	is cold blooded	0
+pelican	is cold blooded	0
+potato	is cold blooded	0
+starling	is cold blooded	0
+mouse	is cold blooded	0
+ashtray	is cold blooded	0
+hedgehog	is cold blooded	0
+spade	is cold blooded	0
+ice_cream	is cold blooded	0
+eagle	is cold blooded	0
+alligator	can drown its prey	1
+crocodile	can drown its prey	0
+frog	can be found on land	1
+seal	can be found on land	1
+tortoise	can be found on land	1
+alligator	can be found on land	1
+snail	can be found on land	1
+crocodile	can be found on land	1
+crab	can be found on land	1
+hummingbird	can be found on land	0
+sparrow	can be found on land	0
+toad	can be found on land	0
+shrimp	can be found on land	0
+slug	can be found on land	0
+swan	can be found on land	0
+bat	can be found on land	0
+frog	is an amphibian	1
+toad	is an amphibian	1
+alligator	is an amphibian	1
+crocodile	is an amphibian	1
+rattlesnake	is an amphibian	1
+hummingbird	is an amphibian	0
+sparrow	is an amphibian	0
+emu	is an amphibian	0
+swan	is an amphibian	0
+bat	is an amphibian	0
+zebra	can camouflage	1
+tank	can camouflage	1
+grasshopper	can camouflage	1
+flounder	can camouflage	1
+alligator	can camouflage	1
+lizard	can camouflage	1
+caterpillar	can camouflage	1
+octopus	can camouflage	1
+leopard	can camouflage	1
+stick_insect	can camouflage	1
+crocodile	can camouflage	1
+iguana	can camouflage	1
+frog	can camouflage	0
+hummingbird	can camouflage	0
+toad	can camouflage	0
+mackerel	can camouflage	0
+jellyfish	can camouflage	0
+squid	can camouflage	0
+worm	can camouflage	0
+tractor	can camouflage	0
+calf	can camouflage	0
+emu	can camouflage	0
+swan	can camouflage	0
+sparrow	can camouflage	0
+ambulance	has a siren	1
+car	has a siren	0
+ambulance	has flashing lights	1
+car	has flashing lights	0
+ambulance	has equipment	1
+car	has equipment	0
+van	can be driven	1
+motorcycle	can be driven	1
+tank	can be driven	1
+lorry	can be driven	1
+taxi	can be driven	1
+truck	can be driven	1
+speedboat	can be driven	1
+limousine	can be driven	1
+car	can be driven	1
+tractor	can be driven	1
+oil_tanker	can be driven	1
+coach	can be driven	1
+ambulance	can be driven	1
+bus	can be driven	1
+moped	can be driven	1
+train	can be driven	1
+plow	can be driven	1
+cart	can be driven	0
+carriage	can be driven	0
+unicycle	can be driven	0
+trolley	can be driven	0
+banana	can be driven	0
+tricycle	can be driven	0
+yacht	can be driven	0
+ship	can be driven	0
+wheelbarrow	can be driven	0
+bicycle	can be driven	0
+hoe	can be driven	0
+ashtray	can be driven	0
+sledge	can be driven	0
+rocket	can be driven	0
+boat	can be driven	0
+moth	can be driven	0
+skateboard	can be driven	0
+cider	can be strong in taste	1
+beer	can be strong in taste	1
+whiskey	can be strong in taste	1
+wine	can be strong in taste	1
+brandy	can be strong in taste	1
+gin	can be strong in taste	1
+champagne	can be strong in taste	0
+lemonade	can be strong in taste	0
+tea	can be strong in taste	0
+chocolate	can be strong in taste	0
+milk	can be strong in taste	0
+coffee	can be strong in taste	0
+chopping_board	has a tough surface	1
+catapult	has a tough surface	0
+oak	has a touch surface	1
+elm	has a touch surface	1
+chestnut	has a touch surface	0
+willow	has a touch surface	0
+frog	can crawl	1
+lobster	can crawl	1
+worm	can crawl	1
+cockroach	can crawl	1
+stick_insect	can crawl	1
+beetle	can crawl	1
+cricket	can crawl	1
+slug	can crawl	1
+millipede	can crawl	1
+centipede	can crawl	1
+lizard	can crawl	1
+snail	can crawl	1
+chipmunk	can crawl	1
+toad	can crawl	1
+porcupine	can crawl	1
+tarantula	can crawl	1
+termite	can crawl	1
+ladybird	can crawl	1
+gerbil	can crawl	1
+caterpillar	can crawl	1
+ant	can crawl	1
+octopus	can crawl	1
+spider	can crawl	1
+prawn	can crawl	1
+tortoise	can crawl	1
+hedgehog	can crawl	1
+turtle	can crawl	1
+crocodile	can crawl	1
+beaver	can crawl	1
+hummingbird	can crawl	0
+parakeet	can crawl	0
+oyster	can crawl	0
+jellyfish	can crawl	0
+squid	can crawl	0
+scallop	can crawl	0
+olive	can crawl	0
+kingfisher	can crawl	0
+lamb	can crawl	0
+hawk	can crawl	0
+calf	can crawl	0
+wren	can crawl	0
+tongue	can crawl	0
+stocking	can crawl	0
+owl	can crawl	0
+emu	can crawl	0
+clam	can crawl	0
+pansy	can crawl	0
+sparrow	can crawl	0
+hippo	can crawl	0
+crab	can crawl	0
+ostrich	can crawl	0
+flea	can crawl	0
+mussel	can crawl	0
+submarine	can crawl	0
+swan	can crawl	0
+woodpecker	can crawl	0
+eagle	can crawl	0
+scorpion	can crawl	0
+satsuma	has a segmented body	1
+shrimp	has a segmented body	1
+grapefruit	has a segmented body	1
+millipede	has a segmented body	1
+worm	has a segmented body	1
+orange	has a segmented body	1
+caterpillar	has a segmented body	1
+centipede	has a segmented body	1
+ant	has a segmented body	1
+tangerine	has a segmented body	1
+lime	has a segmented body	1
+lemon	has a segmented body	1
+raspberry	has a segmented body	1
+scorpion	has a segmented body	1
+toad	has a segmented body	0
+apple	has a segmented body	0
+jellyfish	has a segmented body	0
+lobster	has a segmented body	0
+mussel	has a segmented body	0
+lamb	has a segmented body	0
+pear	has a segmented body	0
+calf	has a segmented body	0
+kiwi	has a segmented body	0
+nectarine	has a segmented body	0
+avocado	has a segmented body	0
+spider	has a segmented body	0
+date	has a segmented body	0
+apricot	has a segmented body	0
+bee	can sting	1
+jellyfish	can sting	1
+wasp	can sting	1
+hornet	can sting	1
+ant	can sting	1
+scorpion	can sting	1
+centipede	can sting	0
+spider	can sting	0
+beetle	can sting	0
+flea	can sting	0
+millipede	can sting	0
+worm	can sting	0
+centipede	is an arthropod	1
+ant	is an arthropod	1
+millipede	is an arthropod	1
+scorpion	is an arthropod	1
+beetle	is an arthropod	0
+flea	is an arthropod	0
+termite	is an arthropod	0
+spider	is an arthropod	0
+frog	can be poisonous	1
+platypus	can be poisonous	1
+jellyfish	can be poisonous	1
+mushroom	can be poisonous	1
+millipede	can be poisonous	1
+tarantula	can be poisonous	1
+ladybird	can be poisonous	1
+centipede	can be poisonous	1
+ant	can be poisonous	1
+spider	can be poisonous	1
+rattlesnake	can be poisonous	1
+scorpion	can be poisonous	1
+bee	can be poisonous	0
+hummingbird	can be poisonous	0
+toad	can be poisonous	0
+shrimp	can be poisonous	0
+wasp	can be poisonous	0
+flea	can be poisonous	0
+termite	can be poisonous	0
+worm	can be poisonous	0
+leek	can be poisonous	0
+moth	can be poisonous	0
+beetle	can be poisonous	0
+bat	can be poisonous	0
+apple	grows on a stalk	1
+rhubarb	grows on a stalk	1
+strawberry	grows on a stalk	1
+pineapple	grows on a stalk	1
+plum	grows on a stalk	1
+pear	grows on a stalk	1
+nectarine	grows on a stalk	1
+cherry	grows on a stalk	1
+grape	grows on a stalk	1
+raft	grows on a stalk	0
+yoyo	grows on a stalk	0
+catapult	grows on a stalk	0
+earmuffs	grows on a stalk	0
+balloon	grows on a stalk	0
+flour	grows on a stalk	0
+cake	grows on a stalk	0
+chocolate	grows on a stalk	0
+rattle	grows on a stalk	0
+apple	contains vitamins	1
+sultana	contains vitamins	1
+grapefruit	contains vitamins	1
+parsley	contains vitamins	1
+broccoli	contains vitamins	1
+pineapple	contains vitamins	1
+orange	contains vitamins	1
+kiwi	contains vitamins	1
+blueberry	contains vitamins	1
+nectarine	contains vitamins	1
+tangerine	contains vitamins	1
+avocado	contains vitamins	1
+spinach	contains vitamins	1
+lemon	contains vitamins	1
+carrot	contains vitamins	1
+raft	contains vitamins	0
+kite	contains vitamins	0
+banana	contains vitamins	0
+strawberry	contains vitamins	0
+melon	contains vitamins	0
+flour	contains vitamins	0
+pear	contains vitamins	0
+cake	contains vitamins	0
+raisin	contains vitamins	0
+date	contains vitamins	0
+lime	contains vitamins	0
+chocolate	contains vitamins	0
+mango	contains vitamins	0
+apricot	contains vitamins	0
+grape	contains vitamins	0
+prune	has a hard seed	1
+peach	has a hard seed	1
+olive	has a hard seed	1
+plum	has a hard seed	1
+nectarine	has a hard seed	1
+avocado	has a hard seed	1
+date	has a hard seed	1
+cherry	has a hard seed	1
+apricot	has a hard seed	1
+apple	has a hard seed	0
+woodpecker	has a hard seed	0
+kiwi	has a hard seed	0
+pear	has a hard seed	0
+raisin	has a hard seed	0
+swan	has a hard seed	0
+nut	has a hard seed	0
+mango	has a hard seed	0
+grape	has a hard seed	0
+cloak	has a furry texture	1
+peach	has a furry texture	1
+coat	has a furry texture	1
+earmuffs	has a furry texture	1
+parka	has a furry texture	1
+kiwi	has a furry texture	1
+emu	has a furry texture	1
+gloves	has a furry texture	1
+apricot	has a furry texture	1
+raft	has a furry texture	0
+kite	has a furry texture	0
+ostrich	has a furry texture	0
+catapult	has a furry texture	0
+rattle	has a furry texture	0
+balloon	has a furry texture	0
+avocado	has a furry texture	0
+date	has a furry texture	0
+nut	has a furry texture	0
+wallet	can be made of fabric	1
+bed	can be made of fabric	1
+ball	can be made of fabric	1
+kite	can be made of fabric	1
+bow	can be made of fabric	1
+bagpipe	can be made of fabric	1
+deckchair	can be made of fabric	1
+satchel	can be made of fabric	1
+bag	can be made of fabric	1
+sofa	can be made of fabric	1
+cradle	can be made of fabric	1
+doll	can be made of fabric	1
+throne	can be made of fabric	1
+puppet	can be made of fabric	1
+armchair	can be made of fabric	1
+raft	can be made of fabric	0
+table	can be made of fabric	0
+bin	can be made of fabric	0
+harmonica	can be made of fabric	0
+catapult	can be made of fabric	0
+basket	can be made of fabric	0
+chest_of_drawers	can be made of fabric	0
+box	can be made of fabric	0
+lamp	can be made of fabric	0
+balloon	can be made of fabric	0
+desk	can be made of fabric	0
+crossbow	can be made of fabric	0
+bookcase	can be made of fabric	0
+dresser	can be made of fabric	0
+rattle	can be made of fabric	0
+suit	has compartments	1
+wallet	has compartments	1
+jeans	has compartments	1
+dressing_gown	has compartments	1
+coat	has compartments	1
+parka	has compartments	1
+skirt	has compartments	1
+satchel	has compartments	1
+bag	has compartments	1
+refrigerator	has compartments	1
+jacket	has compartments	1
+trouser	has compartments	1
+hutch	has compartments	1
+apron	has compartments	1
+shirt	has compartments	1
+raft	has compartments	0
+scarf	has compartments	0
+sweater	has compartments	0
+kite	has compartments	0
+leotard	has compartments	0
+swimsuit	has compartments	0
+veil	has compartments	0
+catapult	has compartments	0
+balloon	has compartments	0
+belt	has compartments	0
+cap	has compartments	0
+dress	has compartments	0
+dishwasher	has compartments	0
+pajama	has compartments	0
+wetsuit	has compartments	0
+suit	is a type of clothing	1
+shawl	is a type of clothing	1
+coat	is a type of clothing	1
+robe	is a type of clothing	1
+sock	is a type of clothing	1
+belt	is a type of clothing	1
+stocking	is a type of clothing	1
+cape	is a type of clothing	1
+apron	is a type of clothing	1
+wetsuit	is a type of clothing	1
+scarf	is a type of clothing	1
+mitten	is a type of clothing	1
+knickers	is a type of clothing	1
+jeans	is a type of clothing	1
+veil	is a type of clothing	1
+parka	is a type of clothing	1
+skirt	is a type of clothing	1
+gloves	is a type of clothing	1
+shirt	is a type of clothing	1
+cloak	is a type of clothing	1
+swimsuit	is a type of clothing	1
+dressing_gown	is a type of clothing	1
+earmuffs	is a type of clothing	1
+jacket	is a type of clothing	1
+bikini	is a type of clothing	1
+armor	is a type of clothing	1
+bra	is a type of clothing	1
+sweater	is a type of clothing	1
+leotard	is a type of clothing	1
+gown	is a type of clothing	1
+blouse	is a type of clothing	1
+tights	is a type of clothing	1
+cap	is a type of clothing	1
+dress	is a type of clothing	1
+trouser	is a type of clothing	1
+pajama	is a type of clothing	1
+ball	is a type of clothing	0
+dice	is a type of clothing	0
+basin	is a type of clothing	0
+box	is a type of clothing	0
+balloon	is a type of clothing	0
+hoe	is a type of clothing	0
+sink	is a type of clothing	0
+dresser	is a type of clothing	0
+peeler	is a type of clothing	0
+tray	is a type of clothing	0
+catapult	is a type of clothing	0
+basket	is a type of clothing	0
+harpoon	is a type of clothing	0
+bag	is a type of clothing	0
+cage	is a type of clothing	0
+sledge	is a type of clothing	0
+bin	is a type of clothing	0
+chandelier	is a type of clothing	0
+puppet	is a type of clothing	0
+raft	is a type of clothing	0
+bowl	is a type of clothing	0
+kite	is a type of clothing	0
+bucket	is a type of clothing	0
+chopping_board	is a type of clothing	0
+clamp	is a type of clothing	0
+drill	is a type of clothing	0
+yoyo	is a type of clothing	0
+chest_of_drawers	is a type of clothing	0
+bottle	is a type of clothing	0
+bookcase	is a type of clothing	0
+rattle	is a type of clothing	0
+train	is a type of clothing	0
+spirit_level	is a type of clothing	0
+wallet	is a type of clothing	0
+bus	is a type of clothing	0
+doll	is a type of clothing	0
+apron	can be tied around the back	1
+gloves	can be tied around the back	0
+apron	can prevent mess	1
+gloves	can prevent mess	0
+dressing_gown	can be tied around the waist	1
+apron	can be tied around the waist	1
+helmet	can be tied around the waist	0
+gloves	can be tied around the waist	0
+deckchair	can have striped patterns	1
+gloves	can have striped patterns	1
+scarf	can have striped patterns	1
+apron	can have striped patterns	1
+helmet	can have striped patterns	0
+veil	can have striped patterns	0
+leotard	can have striped patterns	0
+chair	can have striped patterns	0
+arm	joins shoulder to hand	1
+leg	joins shoulder to hand	0
+armchair	can contain foam	1
+chair	can contain foam	0
+armor	is worn by knights	1
+earmuffs	is worn by knights	0
+armor	has a helmet	1
+earmuffs	has a helmet	0
+rifle	is used by soldiers	1
+tank	is used by soldiers	1
+bayonet	is used by soldiers	1
+armor	is used by soldiers	1
+grenade	is used by soldiers	1
+spirit_level	is used by soldiers	0
+tractor	is used by soldiers	0
+mirror	is used by soldiers	0
+peeler	is used by soldiers	0
+earmuffs	is used by soldiers	0
+bow	has ancient origins	1
+drum	has ancient origins	1
+hatchet	has ancient origins	1
+catapult	has ancient origins	1
+sword	has ancient origins	1
+armor	has ancient origins	1
+plow	has ancient origins	1
+hoe	has ancient origins	0
+tambourine	has ancient origins	0
+raft	has ancient origins	0
+kite	has ancient origins	0
+rake	has ancient origins	0
+earmuffs	has ancient origins	0
+balloon	has ancient origins	0
+arrow	is used with a bow	1
+bullet	is used with a bow	0
+blender	has a sharp blade	1
+grater	has a sharp blade	1
+can_opener	has a sharp blade	1
+fork	has a sharp blade	1
+corkscrew	has a sharp blade	1
+peeler	has a sharp blade	1
+raft	has a sharp blade	0
+kite	has a sharp blade	0
+whisk	has a sharp blade	0
+rattle	has a sharp blade	0
+catapult	has a sharp blade	0
+balloon	has a sharp blade	0
+porcupine	has sharp blades	1
+hedgehog	has sharp blades	1
+fir	has sharp blades	1
+monkey	has sharp blades	0
+bat	has sharp blades	0
+pine	has sharp blades	0
+club	is a weapon	1
+arrow	is a weapon	1
+revolver	is a weapon	1
+cannon	is a weapon	1
+rifle	is a weapon	1
+bullet	is a weapon	1
+catapult	is a weapon	1
+harpoon	is a weapon	1
+shotgun	is a weapon	1
+bomb	is a weapon	1
+pistol	is a weapon	1
+bayonet	is a weapon	1
+spear	is a weapon	1
+dagger	is a weapon	1
+grenade	is a weapon	1
+bow	is a weapon	1
+sword	is a weapon	1
+crossbow	is a weapon	1
+gun	is a weapon	1
+raft	is a weapon	0
+kite	is a weapon	0
+dice	is a weapon	0
+chopping_board	is a weapon	0
+yoyo	is a weapon	0
+box	is a weapon	0
+balloon	is a weapon	0
+earmuffs	is a weapon	0
+sink	is a weapon	0
+doll	is a weapon	0
+armor	is a weapon	0
+peeler	is a weapon	0
+rattle	is a weapon	0
+basket	is a weapon	0
+bag	is a weapon	0
+chandelier	is a weapon	0
+mirror	is a weapon	0
+bin	is a weapon	0
+puppet	is a weapon	0
+tank	can be used as a weapon	1
+hatchet	can be used as a weapon	1
+penknife	can be used as a weapon	1
+axe	can be used as a weapon	1
+chainsaw	can be used as a weapon	1
+crowbar	can be used as a weapon	1
+machete	can be used as a weapon	1
+rocket	can be used as a weapon	1
+scythe	can be used as a weapon	1
+knife	can be used as a weapon	1
+boomerang	can be used as a weapon	1
+bullet	can be used as a weapon	0
+basket	can be used as a weapon	0
+box	can be used as a weapon	0
+bomb	can be used as a weapon	0
+bag	can be used as a weapon	0
+sledge	can be used as a weapon	0
+mirror	can be used as a weapon	0
+bus	can be used as a weapon	0
+bin	can be used as a weapon	0
+peeler	can be used as a weapon	0
+skateboard	can be used as a weapon	0
+club	can hurt	1
+arrow	can hurt	1
+peeler	can hurt	1
+wasp	can hurt	1
+hornet	can hurt	1
+bullet	can hurt	1
+screw	can hurt	1
+harpoon	can hurt	1
+shotgun	can hurt	1
+bomb	can hurt	1
+pistol	can hurt	1
+hammer	can hurt	1
+bayonet	can hurt	1
+spear	can hurt	1
+dagger	can hurt	1
+nail	can hurt	1
+grenade	can hurt	1
+hatchet	can hurt	1
+sword	can hurt	1
+crossbow	can hurt	1
+gun	can hurt	1
+clamp	can hurt	0
+ball	can hurt	0
+currant	can hurt	0
+drill	can hurt	0
+basin	can hurt	0
+yacht	can hurt	0
+box	can hurt	0
+ant	can hurt	0
+cupboard	can hurt	0
+bee	can hurt	0
+spirit_level	can hurt	0
+wallet	can hurt	0
+strainer	can hurt	0
+gown	can hurt	0
+basket	can hurt	0
+bag	can hurt	0
+sledge	can hurt	0
+mirror	can hurt	0
+bus	can hurt	0
+bin	can hurt	0
+bathtub	can hurt	0
+bow	is aimed at targets	1
+arrow	is aimed at targets	1
+spear	is aimed at targets	0
+gun	is aimed at targets	0
+bullet	can be used to kill animals	1
+arrow	can be used to kill animals	1
+rifle	can be used to kill animals	1
+harpoon	can be used to kill animals	1
+bin	can be used to kill animals	0
+peeler	can be used to kill animals	0
+basket	can be used to kill animals	0
+box	can be used to kill animals	0
+spirit_level	can be straight	1
+arrow	can be straight	1
+hair	can be straight	1
+bullet	can be straight	0
+avocado	can be straight	0
+peeler	can be straight	0
+buttercup	is a flower	1
+marigold	is a flower	1
+carnation	is a flower	1
+geranium	is a flower	1
+hyacinth	is a flower	1
+dandelion	is a flower	1
+daffodil	is a flower	1
+tulip	is a flower	1
+orchid	is a flower	1
+daisy	is a flower	1
+lily	is a flower	1
+poppy	is a flower	1
+pansy	is a flower	1
+sunflower	is a flower	1
+rose	is a flower	1
+willow	is a flower	0
+jellyfish	is a flower	0
+brussels_sprout	is a flower	0
+fir	is a flower	0
+pine	is a flower	0
+chestnut	is a flower	0
+worm	is a flower	0
+caterpillar	is a flower	0
+centipede	is a flower	0
+lamb	is a flower	0
+birch	is a flower	0
+elm	is a flower	0
+oak	is a flower	0
+eucalyptus	is a flower	0
+sycamore	is a flower	0
+coffee_maker	uses water	1
+washing_machine	uses water	1
+dishwasher	uses water	1
+microwave	uses water	0
+toaster	uses water	0
+stove	uses water	0
+artichoke	has petals	1
+buttercup	has petals	1
+carnation	has petals	1
+geranium	has petals	1
+hyacinth	has petals	1
+marigold	has petals	1
+dandelion	has petals	1
+daffodil	has petals	1
+tulip	has petals	1
+orchid	has petals	1
+daisy	has petals	1
+lily	has petals	1
+poppy	has petals	1
+pansy	has petals	1
+sunflower	has petals	1
+rose	has petals	1
+worm	has petals	0
+lamb	has petals	0
+chestnut	has petals	0
+leek	has petals	0
+caterpillar	has petals	0
+calf	has petals	0
+oak	has petals	0
+eucalyptus	has petals	0
+sycamore	has petals	0
+willow	has petals	0
+millipede	has petals	0
+brussels_sprout	has petals	0
+pine	has petals	0
+fir	has petals	0
+birch	has petals	0
+elm	has petals	0
+artichoke	is cooked by boiling	1
+zucchini	is cooked by boiling	1
+pea	is cooked by boiling	1
+cauliflower	is cooked by boiling	1
+rhubarb	is cooked by boiling	1
+turnip	is cooked by boiling	1
+broccoli	is cooked by boiling	1
+potato	is cooked by boiling	1
+sweet_potato	is cooked by boiling	1
+brussels_sprout	is cooked by boiling	1
+mussel	is cooked by boiling	1
+asparagus	is cooked by boiling	1
+rice	is cooked by boiling	1
+bean	is cooked by boiling	1
+carrot	is cooked by boiling	1
+crayfish	is cooked by boiling	1
+raft	is cooked by boiling	0
+kite	is cooked by boiling	0
+jellyfish	is cooked by boiling	0
+corn	is cooked by boiling	0
+yoyo	is cooked by boiling	0
+worm	is cooked by boiling	0
+earmuffs	is cooked by boiling	0
+balloon	is cooked by boiling	0
+flour	is cooked by boiling	0
+leek	is cooked by boiling	0
+cake	is cooked by boiling	0
+doll	is cooked by boiling	0
+chocolate	is cooked by boiling	0
+rattle	is cooked by boiling	0
+catapult	is cooked by boiling	0
+chandelier	is cooked by boiling	0
+axe	can have a stone head	1
+hatchet	can have a stone head	0
+asparagus	can be long and thin in shape	1
+belt	can be long and thin in shape	1
+barge	can be long and thin in shape	1
+bean	can be long and thin in shape	1
+canoe	can be long and thin in shape	1
+tugboat	can be long and thin in shape	0
+leek	can be long and thin in shape	0
+boat	can be long and thin in shape	0
+mushroom	can be long and thin in shape	0
+gloves	can be long and thin in shape	0
+frog	is smooth on the outside	1
+toad	is smooth on the outside	1
+eggplant	is smooth on the outside	1
+plum	is smooth on the outside	1
+nectarine	is smooth on the outside	1
+cherry	is smooth on the outside	1
+tomato	is smooth on the outside	1
+hummingbird	is smooth on the outside	0
+leek	is smooth on the outside	0
+avocado	is smooth on the outside	0
+emu	is smooth on the outside	0
+mushroom	is smooth on the outside	0
+date	is smooth on the outside	0
+nut	is smooth on the outside	0
+eggplant	is chopped	1
+garlic	is chopped	1
+cucumber	is chopped	1
+leek	is chopped	1
+mango	is chopped	1
+avocado	is chopped	1
+zucchini	is chopped	1
+flour	is chopped	0
+raft	is chopped	0
+kite	is chopped	0
+chocolate	is chopped	0
+date	is chopped	0
+catapult	is chopped	0
+balloon	is chopped	0
+nectarine	has a big seed	1
+avocado	has a big seed	1
+iguana	has a big seed	0
+date	has a big seed	0
+avocado	is used to make guacamole	1
+date	is used to make guacamole	0
+pear	is pear shaped	1
+avocado	is pear shaped	1
+dandelion	is pear shaped	0
+date	is pear shaped	0
+axe	can split items	1
+hatchet	can split items	0
+sandwich	can be grilled	1
+bacon	can be grilled	1
+ham	can be grilled	1
+flour	can be grilled	0
+cake	can be grilled	0
+chocolate	can be grilled	0
+plate	is reusable	1
+bag	is reusable	1
+fork	is reusable	0
+box	is reusable	0
+bag	can hold books	1
+bookcase	can hold books	1
+chest_of_drawers	can hold books	0
+box	can hold books	0
+flute	has a mouthpiece	1
+trumpet	has a mouthpiece	1
+harmonica	has a mouthpiece	1
+bagpipe	has a mouthpiece	1
+saxophone	has a mouthpiece	1
+clarinet	has a mouthpiece	1
+tuba	has a mouthpiece	1
+french_horn	has a mouthpiece	1
+trombone	has a mouthpiece	1
+cymbal	has a mouthpiece	0
+guitar	has a mouthpiece	0
+banjo	has a mouthpiece	0
+castanets	has a mouthpiece	0
+drum	has a mouthpiece	0
+gong	has a mouthpiece	0
+organ	has a mouthpiece	0
+piano	has a mouthpiece	0
+accordion	has a mouthpiece	0
+bagpipe	has a sharp sound	1
+harmonica	has a sharp sound	0
+ball	can be bouncy	1
+bed	can be bouncy	1
+football	can be bouncy	1
+balloon	can be bouncy	1
+raft	can be bouncy	0
+catapult	can be bouncy	0
+kite	can be bouncy	0
+chest_of_drawers	can be bouncy	0
+cart	can roll	1
+ball	can roll	1
+barrel	can roll	1
+tank	can roll	1
+wheelchair	can roll	1
+rolling_pin	can roll	1
+melon	can roll	1
+marble	can roll	1
+wheelbarrow	can roll	1
+pig	can roll	1
+buggy	can roll	1
+football	can roll	1
+skateboard	can roll	1
+rollerskate	can roll	1
+wallet	can roll	0
+bucket	can roll	0
+watermelon	can roll	0
+pliers	can roll	0
+grater	can roll	0
+basket	can roll	0
+pineapple	can roll	0
+box	can roll	0
+rattle	can roll	0
+bag	can roll	0
+cookie	can roll	0
+camel	can roll	0
+bin	can roll	0
+peeler	can roll	0
+frisbee	can be caught	1
+ball	can be caught	1
+basket	can be caught	0
+box	can be caught	0
+ball	can be used to play hockey	1
+football	can be used to play hockey	0
+tambourine	is struck	1
+cymbal	is struck	1
+gong	is struck	1
+drum	is struck	1
+organ	is struck	0
+guitar	is struck	0
+banjo	is struck	0
+castanets	is struck	0
+ball	can be used to play squash	1
+football	can be used to play squash	0
+ball	can be used to play table tennis	1
+football	can be used to play table tennis	0
+balloon	can burst	1
+catapult	can burst	0
+marigold	can be decorative	1
+bowl	can be decorative	1
+scarf	can be decorative	1
+shawl	can be decorative	1
+carnation	can be decorative	1
+mirror	can be decorative	1
+castanets	can be decorative	1
+orchid	can be decorative	1
+balloon	can be decorative	1
+belt	can be decorative	1
+pansy	can be decorative	1
+jug	can be decorative	1
+sunflower	can be decorative	1
+chandelier	can be decorative	1
+rattle	can be decorative	1
+buttercup	can be decorative	0
+raft	can be decorative	0
+hyacinth	can be decorative	0
+kite	can be decorative	0
+barrel	can be decorative	0
+bucket	can be decorative	0
+geranium	can be decorative	0
+dandelion	can be decorative	0
+catapult	can be decorative	0
+gong	can be decorative	0
+brussels_sprout	can be decorative	0
+helmet	can be decorative	0
+soup	can be decorative	0
+gloves	can be decorative	0
+apron	can be decorative	0
+cake	is used in birthdays	1
+balloon	is used in birthdays	1
+catapult	is used in birthdays	0
+cookie	is used in birthdays	0
+balloon	can be deflated	1
+catapult	can be deflated	0
+tangerine	has inedible skin	1
+melon	has inedible skin	1
+banana	has inedible skin	1
+apple	has inedible skin	0
+avocado	has inedible skin	0
+date	has inedible skin	0
+banana	is useful for athletics	1
+avocado	is useful for athletics	0
+guitar	is a string instrument	1
+banjo	is a string instrument	1
+violin	is a string instrument	1
+harpsichord	is a string instrument	1
+piano	is a string instrument	1
+harp	is a string instrument	1
+cymbal	is a string instrument	0
+castanets	is a string instrument	0
+harmonica	is a string instrument	0
+gong	is a string instrument	0
+organ	is a string instrument	0
+drum	is a string instrument	0
+bowl	is made of waterproof material	1
+bucket	is made of waterproof material	1
+mug	is made of waterproof material	1
+basin	is made of waterproof material	1
+bikini	is made of waterproof material	1
+swimsuit	is made of waterproof material	1
+coat	is made of waterproof material	1
+parka	is made of waterproof material	1
+submarine	is made of waterproof material	1
+sink	is made of waterproof material	1
+bottle	is made of waterproof material	1
+jug	is made of waterproof material	1
+cup	is made of waterproof material	1
+barge	is made of waterproof material	1
+kayak	is made of waterproof material	1
+wetsuit	is made of waterproof material	1
+canoe	is made of waterproof material	1
+raft	is made of waterproof material	0
+kite	is made of waterproof material	0
+yoyo	is made of waterproof material	0
+yacht	is made of waterproof material	0
+earmuffs	is made of waterproof material	0
+balloon	is made of waterproof material	0
+rattle	is made of waterproof material	0
+scarf	is made of waterproof material	0
+sweater	is made of waterproof material	0
+leotard	is made of waterproof material	0
+catapult	is made of waterproof material	0
+veil	is made of waterproof material	0
+ship	is made of waterproof material	0
+ashtray	is made of waterproof material	0
+boat	is made of waterproof material	0
+trouser	is made of waterproof material	0
+doll	is made of waterproof material	0
+blender	can have a lid	1
+barrel	can have a lid	1
+pie	can have a lid	1
+jam	can have a lid	1
+yoghurt	can have a lid	1
+basket	can have a lid	1
+kettle	can have a lid	1
+box	can have a lid	1
+piano	can have a lid	1
+bottle	can have a lid	1
+bin	can have a lid	1
+jar	can have a lid	1
+wallet	can have a lid	0
+bowl	can have a lid	0
+basin	can have a lid	0
+rolling_pin	can have a lid	0
+grater	can have a lid	0
+organ	can have a lid	0
+ladle	can have a lid	0
+flour	can have a lid	0
+bag	can have a lid	0
+cake	can have a lid	0
+chocolate	can have a lid	0
+bathtub	can have a lid	0
+barrel	can store alcohol	1
+bucket	can store alcohol	0
+basin	can have an attached tap	1
+sink	can have an attached tap	1
+bathtub	can have an attached tap	1
+raft	can have an attached tap	0
+catapult	can have an attached tap	0
+kite	can have an attached tap	0
+blender	has a plug	1
+basin	has a plug	1
+refrigerator	has a plug	1
+coffee_maker	has a plug	1
+lamp	has a plug	1
+sink	has a plug	1
+radio	has a plug	1
+bathtub	has a plug	1
+television	has a plug	1
+toaster	has a plug	1
+raft	has a plug	0
+rifle	has a plug	0
+kite	has a plug	0
+castanets	has a plug	0
+catapult	has a plug	0
+chest_of_drawers	has a plug	0
+balloon	has a plug	0
+doll	has a plug	0
+rattle	has a plug	0
+cricket	has a plug	0
+basin	has a drain	1
+sink	has a drain	1
+bathtub	has a drain	1
+raft	has a drain	0
+catapult	has a drain	0
+kite	has a drain	0
+basin	can have multiple taps	1
+sink	can have multiple taps	1
+raft	can have multiple taps	0
+catapult	can have multiple taps	0
+basket	can be found at picnics	1
+box	can be found at picnics	0
+bat	can hang upside down	1
+monkey	can hang upside down	0
+bat	has good hearing	1
+owl	has good hearing	1
+monkey	has good hearing	0
+eagle	has good hearing	0
+cat	eats rodents and mice	1
+buzzard	eats rodents and mice	1
+hawk	eats rodents and mice	1
+owl	eats rodents and mice	1
+bat	eats rodents and mice	1
+falcon	eats rodents and mice	1
+eagle	eats rodents and mice	1
+hummingbird	eats rodents and mice	0
+squirrel	eats rodents and mice	0
+wren	eats rodents and mice	0
+emu	eats rodents and mice	0
+swan	eats rodents and mice	0
+monkey	eats rodents and mice	0
+sparrow	eats rodents and mice	0
+bathtub	can contain a shower	1
+caravan	can contain a shower	1
+tractor	can contain a shower	0
+bucket	can contain a shower	0
+bear	has cubs	1
+lion	has cubs	1
+cheetah	has cubs	1
+cat	has cubs	0
+raccoon	has cubs	0
+otter	has cubs	0
+bear	can growl	1
+panther	can growl	1
+raccoon	can growl	0
+otter	can growl	0
+bear	can be found in the north pole	1
+otter	can be found in the north pole	0
+chipmunk	can climb	1
+gorilla	can climb	1
+panther	can climb	1
+tiger	can climb	1
+slug	can climb	1
+bear	can climb	1
+goat	can climb	1
+lizard	can climb	1
+stick_insect	can climb	1
+squirrel	can climb	1
+monkey	can climb	1
+iguana	can climb	1
+frog	can climb	0
+parakeet	can climb	0
+toad	can climb	0
+jellyfish	can climb	0
+woodpecker	can climb	0
+worm	can climb	0
+kingfisher	can climb	0
+wren	can climb	0
+emu	can climb	0
+owl	can climb	0
+bat	can climb	0
+eagle	can climb	0
+beaver	can chew through wood	1
+wasp	can chew through wood	1
+squirrel	can chew through wood	0
+hornet	can chew through wood	0
+chipmunk	can gnaw	1
+beaver	can gnaw	1
+rat	can gnaw	1
+hamster	can gnaw	0
+squirrel	can gnaw	0
+gerbil	can gnaw	0
+dog	can chew	1
+cow	can chew	1
+beaver	can chew	1
+squirrel	can chew	0
+bat	can chew	0
+monkey	can chew	0
+beaver	has strong teeth	1
+squirrel	has strong teeth	0
+elephant	is intelligent	1
+gorilla	is intelligent	1
+raven	is intelligent	1
+squid	is intelligent	1
+goat	is intelligent	1
+rat	is intelligent	1
+fox	is intelligent	1
+horse	is intelligent	1
+seal	is intelligent	1
+octopus	is intelligent	1
+pig	is intelligent	1
+monkey	is intelligent	1
+beaver	is intelligent	1
+dolphin	is intelligent	1
+hamster	is intelligent	0
+porcupine	is intelligent	0
+jellyfish	is intelligent	0
+bear	is intelligent	0
+gerbil	is intelligent	0
+raccoon	is intelligent	0
+worm	is intelligent	0
+caterpillar	is intelligent	0
+mouse	is intelligent	0
+squirrel	is intelligent	0
+hedgehog	is intelligent	0
+bat	is intelligent	0
+hippo	is intelligent	0
+magpie	is intelligent	0
+cradle	has a mattress	1
+bed	has a mattress	1
+chest_of_drawers	has a mattress	0
+bookcase	has a mattress	0
+bed	can have a headboard	1
+chest_of_drawers	can have a headboard	0
+bed	is used during sickness	1
+chest_of_drawers	is used during sickness	0
+bee	can pollinate	1
+hummingbird	can pollinate	1
+ladybird	can pollinate	1
+butterfly	can pollinate	1
+beetle	can pollinate	0
+flea	can pollinate	0
+termite	can pollinate	0
+emu	can pollinate	0
+bee	lives in a hive	1
+wasp	lives in a hive	1
+ant	lives in a hive	0
+hornet	lives in a hive	0
+beer	is made of hops	1
+wine	is made of hops	0
+beer	can be served from a tap	1
+wine	can be served from a tap	0
+bench	is found outside	1
+caterpillar	is found outside	1
+deckchair	is found outside	1
+swing	is found outside	1
+beetle	is found outside	1
+hose	is found outside	1
+hutch	is found outside	1
+jellyfish	is found outside	0
+cage	is found outside	0
+sofa	is found outside	0
+stool	is found outside	0
+peeler	is found outside	0
+catapult	is found outside	0
+worm	is found outside	0
+bucket	has holes	1
+shawl	has holes	1
+flute	has holes	1
+strainer	has holes	1
+cheese	has holes	1
+grater	has holes	1
+harmonica	has holes	1
+clarinet	has holes	1
+tights	has holes	1
+belt	has holes	1
+gloves	has holes	1
+colander	has holes	1
+scarf	has holes	0
+barrel	has holes	0
+trumpet	has holes	0
+bagpipe	has holes	0
+veil	has holes	0
+basket	has holes	0
+box	has holes	0
+helmet	has holes	0
+butter	has holes	0
+french_horn	has holes	0
+peeler	has holes	0
+apron	has holes	0
+belt	is worn around the waist	1
+skirt	is worn around the waist	1
+helmet	is worn around the waist	0
+gloves	is worn around the waist	0
+wheelchair	can be uncomfortable	1
+jeans	can be uncomfortable	1
+bench	can be uncomfortable	1
+deckchair	can be uncomfortable	1
+cage	can be uncomfortable	1
+coach	can be uncomfortable	1
+chair	can be uncomfortable	1
+stool	can be uncomfortable	1
+wetsuit	can be uncomfortable	1
+scarf	can be uncomfortable	0
+rocking_chair	can be uncomfortable	0
+basket	can be uncomfortable	0
+veil	can be uncomfortable	0
+box	can be uncomfortable	0
+hutch	can be uncomfortable	0
+sofa	can be uncomfortable	0
+throne	can be uncomfortable	0
+armchair	can be uncomfortable	0
+unicycle	has a pedals	1
+drum	has a pedals	1
+tricycle	has a pedals	1
+organ	has a pedals	1
+harpsichord	has a pedals	1
+bicycle	has a pedals	1
+piano	has a pedals	1
+harp	has a pedals	1
+moped	has a pedals	1
+van	has a pedals	0
+cymbal	has a pedals	0
+guitar	has a pedals	0
+banjo	has a pedals	0
+castanets	has a pedals	0
+gong	has a pedals	0
+tractor	has a pedals	0
+carriage	has a pedals	0
+skateboard	has a pedals	0
+chainsaw	has a chain	1
+unicycle	has a chain	1
+bicycle	has a chain	1
+tricycle	has a chain	0
+peeler	has a chain	0
+skateboard	has a chain	0
+bicycle	requires pedaling	1
+skateboard	requires pedaling	0
+bicycle	can be made of metal and rubber	1
+skateboard	can be made of metal and rubber	0
+clamp	comes in two pieces	1
+yoyo	comes in two pieces	1
+swimsuit	comes in two pieces	1
+bikini	comes in two pieces	1
+lips	comes in two pieces	1
+scarf	comes in two pieces	0
+tongue	comes in two pieces	0
+peeler	comes in two pieces	0
+catapult	comes in two pieces	0
+veil	comes in two pieces	0
+bin	can be found in rooms	1
+box	can be found in rooms	0
+cookie	is consumed with tea	1
+cake	is consumed with tea	0
+peach	is perishable	1
+plum	is perishable	1
+pear	is perishable	1
+cookie	is perishable	1
+milk	is perishable	1
+avocado	is perishable	0
+date	is perishable	0
+chocolate	is perishable	0
+nut	is perishable	0
+catapult	is perishable	0
+blender	can be used to make soup	1
+bread	can be used to make soup	1
+bowl	can be used to make soup	1
+pea	can be used to make soup	1
+mushroom	can be used to make soup	1
+cabbage	can be used to make soup	1
+spoon	can be used to make soup	1
+ladle	can be used to make soup	1
+pumpkin	can be used to make soup	1
+leek	can be used to make soup	1
+clam	can be used to make soup	1
+cup	can be used to make soup	1
+raft	can be used to make soup	0
+rhubarb	can be used to make soup	0
+celery	can be used to make soup	0
+elephant	can be used to make soup	0
+whisk	can be used to make soup	0
+mussel	can be used to make soup	0
+catapult	can be used to make soup	0
+asparagus	can be used to make soup	0
+flour	can be used to make soup	0
+onion	can be used to make soup	0
+cucumber	can be used to make soup	0
+shotgun	can be used to make soup	0
+blender	has a motor	1
+washing_machine	has a motor	1
+raft	has a motor	0
+catapult	has a motor	0
+blender	has rotating blades	1
+helicopter	has rotating blades	1
+airplane	has rotating blades	0
+whisk	has rotating blades	0
+suit	has sleeves	1
+sweater	has sleeves	1
+gown	has sleeves	1
+blouse	has sleeves	1
+dressing_gown	has sleeves	1
+coat	has sleeves	1
+parka	has sleeves	1
+robe	has sleeves	1
+dress	has sleeves	1
+jacket	has sleeves	1
+pajama	has sleeves	1
+wetsuit	has sleeves	1
+shirt	has sleeves	1
+scarf	has sleeves	0
+cloak	has sleeves	0
+leotard	has sleeves	0
+swimsuit	has sleeves	0
+veil	has sleeves	0
+skirt	has sleeves	0
+sock	has sleeves	0
+helmet	has sleeves	0
+belt	has sleeves	0
+cap	has sleeves	0
+trouser	has sleeves	0
+gloves	has sleeves	0
+apron	has sleeves	0
+suit	can be made of polyester	1
+cloak	can be made of polyester	1
+sweater	can be made of polyester	1
+gown	can be made of polyester	1
+blouse	can be made of polyester	1
+parka	can be made of polyester	1
+coat	can be made of polyester	1
+skirt	can be made of polyester	1
+sock	can be made of polyester	1
+tights	can be made of polyester	1
+shirt	can be made of polyester	1
+scarf	can be made of polyester	0
+wetsuit	can be made of polyester	0
+leotard	can be made of polyester	0
+veil	can be made of polyester	0
+robe	can be made of polyester	0
+belt	can be made of polyester	0
+cap	can be made of polyester	0
+dress	can be made of polyester	0
+trouser	can be made of polyester	0
+pajama	can be made of polyester	0
+apron	can be made of polyester	0
+bra	can be made of silk	1
+cloak	can be made of silk	1
+scarf	can be made of silk	1
+shawl	can be made of silk	1
+gown	can be made of silk	1
+knickers	can be made of silk	1
+blouse	can be made of silk	1
+dressing_gown	can be made of silk	1
+skirt	can be made of silk	1
+robe	can be made of silk	1
+tights	can be made of silk	1
+dress	can be made of silk	1
+pajama	can be made of silk	1
+stocking	can be made of silk	1
+cape	can be made of silk	1
+shirt	can be made of silk	1
+suit	can be made of silk	0
+swimsuit	can be made of silk	0
+coat	can be made of silk	0
+helmet	can be made of silk	0
+belt	can be made of silk	0
+bikini	can be made of silk	0
+apron	can be made of silk	0
+wetsuit	can be made of silk	0
+sweater	can be made of silk	0
+leotard	can be made of silk	0
+mitten	can be made of silk	0
+jeans	can be made of silk	0
+veil	can be made of silk	0
+cap	can be made of silk	0
+trouser	can be made of silk	0
+gloves	can be made of silk	0
+blueberry	is blue in color	1
+currant	is blue in color	0
+tugboat	has a captain	1
+ferry	has a captain	1
+ship	has a captain	1
+boat	has a captain	1
+ashtray	has a captain	0
+barge	has a captain	0
+yacht	has a captain	0
+oil_tanker	has a captain	0
+ship	can be operated by pirates	1
+boat	can be operated by pirates	1
+ashtray	can be operated by pirates	0
+yacht	can be operated by pirates	0
+ship	has a mast	1
+boat	has a mast	1
+ashtray	has a mast	0
+yacht	has a mast	0
+bolt	can have hexagonal heads	1
+crowbar	can have hexagonal heads	0
+bolt	is used in locks	1
+crowbar	is used in locks	0
+bolt	can be tightened with a spanner	1
+crowbar	can be tightened with a spanner	0
+catapult	can cause destruction	1
+grenade	can cause destruction	1
+tank	can cause destruction	1
+bomb	can cause destruction	1
+tractor	can cause destruction	0
+raft	can cause destruction	0
+kite	can cause destruction	0
+balloon	can cause destruction	0
+termite	can eat into objects	1
+beetle	can eat into objects	0
+gun	is illegal	1
+bomb	is illegal	1
+peeler	is illegal	0
+mirror	is illegal	0
+bone	is a part of the body	1
+eye	is a part of the body	0
+bookcase	can be found in workspaces	1
+chest_of_drawers	can be found in workspaces	0
+bottle	is usually taller than wide	1
+jug	is usually taller than wide	0
+rocket	is made of materials	1
+lorry	is made of materials	1
+bottle	is made of materials	1
+motorcycle	is made of materials	1
+tricycle	is made of materials	0
+skateboard	is made of materials	0
+sledge	is made of materials	0
+jug	is made of materials	0
+bow	is taut	1
+crossbow	is taut	0
+bowl	can hold fruit	1
+colander	can hold fruit	1
+bucket	can hold fruit	0
+strainer	can hold fruit	0
+bra	has underwire	1
+knickers	has underwire	0
+brandy	is used on Christmas pudding	1
+gin	is used on Christmas pudding	0
+broccoli	is composed of florets	1
+cauliflower	is composed of florets	1
+radish	is composed of florets	0
+turnip	is composed of florets	0
+broccoli	is shaped like a tree	1
+radish	is shaped like a tree	0
+tarantula	has a thick body	1
+spider	has a thick body	0
+spoon	has a long handle	1
+shovel	has a long handle	1
+rake	has a long handle	1
+hoe	has a long handle	1
+ladle	has a long handle	1
+spatula	has a long handle	1
+scythe	has a long handle	1
+spear	has a long handle	1
+broom	has a long handle	1
+raft	has a long handle	0
+kite	has a long handle	0
+drill	has a long handle	0
+bolt	has a long handle	0
+catapult	has a long handle	0
+club	has a long handle	0
+harpoon	has a long handle	0
+gun	has a long handle	0
+plow	has a long handle	0
+broom	can be used to tidy	1
+bolt	can be used to tidy	0
+brussels_sprout	is compact in shape	1
+dandelion	is compact in shape	0
+sparrow	can chirp	1
+wren	can chirp	1
+budgie	can chirp	1
+hummingbird	can chirp	0
+emu	can chirp	0
+swan	can chirp	0
+ox	has horns	1
+cow	has horns	1
+goat	has horns	1
+giraffe	has horns	1
+moose	has horns	1
+buffalo	has horns	1
+pig	has horns	0
+camel	has horns	0
+sheep	has horns	0
+llama	has horns	0
+deer	has horns	0
+hippo	has horns	0
+wallet	can be folded	1
+wheelchair	can be folded	1
+penknife	can be folded	1
+deckchair	can be folded	1
+buggy	can be folded	1
+satchel	can be folded	0
+chair	can be folded	0
+knife	can be folded	0
+basket	can be folded	0
+box	can be folded	0
+bullet	is kept in a magazine	1
+arrow	is kept in a magazine	0
+bus	has a conductor	1
+train	has a conductor	1
+sledge	has a conductor	0
+coach	has a conductor	0
+currant	is used in cakes	1
+sultana	is used in cakes	1
+jam	is used in cakes	1
+flour	is used in cakes	1
+butter	is used in cakes	1
+raisin	is used in cakes	1
+chocolate	is used in cakes	1
+cherry	is used in cakes	1
+sugar	is used in cakes	1
+carrot	is used in cakes	1
+raft	is used in cakes	0
+peach	is used in cakes	0
+yoyo	is used in cakes	0
+catapult	is used in cakes	0
+potato	is used in cakes	0
+earmuffs	is used in cakes	0
+balloon	is used in cakes	0
+cake	is used in cakes	0
+doll	is used in cakes	0
+rattle	is used in cakes	0
+butter	is wrapped	1
+chocolate	is wrapped	1
+flour	is wrapped	0
+cake	is wrapped	0
+butter	can be unsalted	1
+yoghurt	can be unsalted	0
+butter	can be used for frying	1
+yoghurt	can be used for frying	0
+buttercup	has five petals	1
+geranium	has five petals	1
+pansy	has five petals	0
+dandelion	has five petals	0
+seagull	is a scavenger	1
+raven	is a scavenger	1
+hyena	is a scavenger	1
+buzzard	is a scavenger	1
+fox	is a scavenger	1
+pigeon	is a scavenger	1
+magpie	is a scavenger	1
+hummingbird	is a scavenger	0
+dog	is a scavenger	0
+wren	is a scavenger	0
+wolf	is a scavenger	0
+emu	is a scavenger	0
+sparrow	is a scavenger	0
+swan	is a scavenger	0
+tiger	has sharp claws	1
+lion	has sharp claws	1
+hawk	has sharp claws	1
+buzzard	has sharp claws	1
+owl	has sharp claws	1
+hummingbird	has sharp claws	0
+panther	has sharp claws	0
+leopard	has sharp claws	0
+falcon	has sharp claws	0
+eagle	has sharp claws	0
+cabbage	is eaten by slugs	1
+radish	is eaten by slugs	0
+pea	can be bland in taste	1
+celery	can be bland in taste	1
+cauliflower	can be bland in taste	1
+turnip	can be bland in taste	1
+lettuce	can be bland in taste	1
+cabbage	can be bland in taste	1
+potato	can be bland in taste	1
+flour	can be bland in taste	1
+spinach	can be bland in taste	1
+zucchini	can be bland in taste	1
+artichoke	can be bland in taste	0
+rhubarb	can be bland in taste	0
+mushroom	can be bland in taste	0
+sweet_potato	can be bland in taste	0
+rice	can be bland in taste	0
+asparagus	can be bland in taste	0
+pumpkin	can be bland in taste	0
+leek	can be bland in taste	0
+onion	can be bland in taste	0
+cucumber	can be bland in taste	0
+cage	has metal bars	1
+hutch	has metal bars	0
+hutch	can be used to keep pets	1
+cage	can be used to keep pets	1
+raft	can be used to keep pets	0
+cupboard	can be used to keep pets	0
+cage	can contain rodents	1
+hutch	can contain rodents	0
+pie	can contain fruit flavor	1
+cider	can contain fruit flavor	1
+jam	can contain fruit flavor	1
+jelly	can contain fruit flavor	1
+cake	can contain fruit flavor	1
+tea	can contain fruit flavor	1
+flour	can contain fruit flavor	0
+butter	can contain fruit flavor	0
+chocolate	can contain fruit flavor	0
+mushroom	can contain fruit flavor	0
+milk	can contain fruit flavor	0
+coffee	can contain fruit flavor	0
+camel	can have two humps	1
+llama	can have two humps	0
+raft	can take part in races	1
+yacht	can take part in races	1
+car	can take part in races	1
+horse	can take part in races	1
+pigeon	can take part in races	1
+camel	can take part in races	1
+dinghy	can take part in races	1
+catapult	can take part in races	0
+kite	can take part in races	0
+hippo	can take part in races	0
+llama	can take part in races	0
+limousine	can take part in races	0
+dove	can take part in races	0
+balloon	can take part in races	0
+clamp	can open	1
+eye	can open	1
+can_opener	can open	1
+crowbar	can open	1
+corkscrew	can open	1
+clam	can open	1
+lips	can open	1
+ear	can open	0
+heart	can open	0
+trowel	can open	0
+mussel	can open	0
+shovel	can open	0
+basket	can open	0
+box	can open	0
+can_opener	can open cans	1
+corkscrew	can open cans	0
+can_opener	has moving parts	1
+corkscrew	has moving parts	0
+canary	is yellow in color	1
+starling	is yellow in color	0
+dinghy	has paddles	1
+kayak	has paddles	1
+canoe	has paddles	1
+tugboat	has paddles	0
+barge	has paddles	0
+boat	has paddles	0
+swimsuit	can be made of nylon	1
+skirt	can be made of nylon	1
+tights	can be made of nylon	1
+stocking	can be made of nylon	1
+cape	can be made of nylon	1
+helmet	can be made of nylon	0
+scarf	can be made of nylon	0
+gloves	can be made of nylon	0
+veil	can be made of nylon	0
+apron	can be made of nylon	0
+rollerskate	has a boot	1
+car	has a boot	1
+camera	has a boot	0
+limousine	has a boot	0
+lorry	can be found on motorways	1
+car	can be found on motorways	1
+motorcycle	can be found on motorways	0
+truck	can be found on motorways	0
+caravan	is a mobile home	1
+tractor	is a mobile home	0
+caravan	has washing facilities	1
+tractor	has washing facilities	0
+caravan	can be found on caravan sites	1
+tractor	can be found on caravan sites	0
+caravan	can be found on driveways	1
+tractor	can be found on driveways	0
+carnation	is put into bouquets	1
+daisy	is put into bouquets	0
+houseboat	has a roof	1
+hutch	has a roof	1
+carriage	has a roof	1
+barge	has a roof	0
+cage	has a roof	0
+buggy	has a roof	0
+cart	can be driven by horses	1
+skateboard	can be driven by horses	0
+guitar	is played with fingers	1
+trumpet	is played with fingers	1
+castanets	is played with fingers	1
+clarinet	is played with fingers	1
+harp	is played with fingers	1
+piano	is played with fingers	0
+banjo	is played with fingers	0
+drum	is played with fingers	0
+gong	is played with fingers	0
+organ	is played with fingers	0
+cat	can scratch	1
+chicken	can scratch	1
+cockerel	can scratch	0
+panther	can scratch	0
+cat	likes to be independent	1
+panther	likes to be independent	0
+cat	can have kittens	1
+panther	can have kittens	0
+cat	is feline	1
+panther	is feline	1
+tiger	is feline	1
+lion	is feline	1
+cheetah	is feline	1
+hyena	is feline	1
+leopard	is feline	1
+fox	is feline	0
+dog	is feline	0
+skunk	is feline	0
+wolf	is feline	0
+bear	is feline	0
+raccoon	is feline	0
+otter	is feline	0
+wallet	can contain photos	1
+satchel	can contain photos	0
+catapult	can have a rubber band	1
+kite	can have a rubber band	0
+catapult	was used to siege castles	1
+kite	was used to siege castles	0
+caterpillar	can turn into a pupa	1
+worm	can turn into a pupa	0
+jelly	is low in calories	1
+leek	is low in calories	1
+celery	is low in calories	1
+cucumber	is low in calories	0
+soup	is low in calories	0
+mushroom	is low in calories	0
+violin	is played with a bow	1
+cello	is played with a bow	1
+guitar	is played with a bow	0
+banjo	is played with a bow	0
+lamp	has a stand	1
+cello	has a stand	1
+violin	has a stand	0
+chest_of_drawers	has a stand	0
+centipede	lives on the ground	1
+slug	lives on the ground	1
+jellyfish	lives on the ground	0
+worm	lives on the ground	0
+chainsaw	has a moving blade	1
+peeler	has a moving blade	0
+chainsaw	is used by lumberjacks	1
+peeler	is used by lumberjacks	0
+trowel	can be found in the toolshed	1
+shovel	can be found in the toolshed	1
+saw	can be found in the toolshed	1
+rake	can be found in the toolshed	1
+hoe	can be found in the toolshed	1
+chainsaw	can be found in the toolshed	1
+spade	can be found in the toolshed	1
+bag	can be found in the toolshed	0
+bucket	can be found in the toolshed	0
+barrel	can be found in the toolshed	0
+bin	can be found in the toolshed	0
+peeler	can be found in the toolshed	0
+basket	can be found in the toolshed	0
+box	can be found in the toolshed	0
+refrigerator	has drawers	1
+dresser	has drawers	1
+desk	has drawers	1
+chest_of_drawers	has drawers	1
+lamp	has drawers	0
+table	has drawers	0
+dishwasher	has drawers	0
+bookcase	has drawers	0
+dresser	can store clothes	1
+cupboard	can store clothes	1
+chest_of_drawers	can store clothes	1
+raft	can store clothes	0
+catapult	can store clothes	0
+kite	can store clothes	0
+chest_of_drawers	can have objects on top	1
+dresser	can have objects on top	0
+chicken	is bred with roosters	1
+cockerel	is bred with roosters	0
+chicken	has descended from dinosaurs	1
+cockerel	has descended from dinosaurs	0
+goose	is a poultry bird	1
+duck	is a poultry bird	1
+cockerel	is a poultry bird	1
+turkey	is a poultry bird	1
+chicken	is a poultry bird	1
+hummingbird	is a poultry bird	0
+wren	is a poultry bird	0
+emu	is a poultry bird	0
+swan	is a poultry bird	0
+sparrow	is a poultry bird	0
+chipmunk	is brown and white in color	1
+squirrel	is brown and white in color	0
+chisel	can chip	1
+axe	can chip	0
+currant	is chewy	1
+sultana	is chewy	1
+prune	is chewy	1
+squid	is chewy	1
+prawn	is chewy	1
+raisin	is chewy	1
+chocolate	is chewy	1
+ham	is chewy	1
+raft	is chewy	0
+kite	is chewy	0
+jellyfish	is chewy	0
+catapult	is chewy	0
+worm	is chewy	0
+balloon	is chewy	0
+flour	is chewy	0
+cake	is chewy	0
+cider	can be made with pears	1
+tea	can be made with pears	0
+oyster	is a shellfish	1
+lobster	is a shellfish	1
+mussel	is a shellfish	1
+scallop	is a shellfish	1
+prawn	is a shellfish	1
+clam	is a shellfish	1
+crayfish	is a shellfish	1
+centipede	is a shellfish	0
+jellyfish	is a shellfish	0
+slug	is a shellfish	0
+beetle	is a shellfish	0
+flea	is a shellfish	0
+millipede	is a shellfish	0
+worm	is a shellfish	0
+clam	has hinges	1
+penknife	has hinges	1
+cupboard	has hinges	1
+hutch	has hinges	1
+hamster	has hinges	0
+mussel	has hinges	0
+knife	has hinges	0
+cage	has hinges	0
+harmonica	has a reed	1
+saxophone	has a reed	1
+clarinet	has a reed	1
+bagpipe	has a reed	0
+trumpet	has a reed	0
+french_horn	has a reed	0
+guitar	can produce classical music	1
+clarinet	can produce classical music	1
+harpsichord	can produce classical music	1
+harp	can produce classical music	1
+gong	can produce classical music	0
+drum	can produce classical music	0
+banjo	can produce classical music	0
+castanets	can produce classical music	0
+cloak	can be worn by wizards and witches	1
+cape	can be worn by wizards and witches	0
+clock	displays minutes	1
+gun	displays minutes	0
+clock	can attached to walls	1
+cupboard	can attached to walls	1
+mirror	can attached to walls	1
+raft	can attached to walls	0
+catapult	can attached to walls	0
+kite	can attached to walls	0
+pear	has a bulbous end	1
+club	has a bulbous end	1
+bolt	has a bulbous end	0
+avocado	has a bulbous end	0
+coach	can be used for school trips	1
+bus	can be used for school trips	0
+coach	can be used for trips	1
+bus	can be used for trips	0
+van	is a large vehicle	1
+tank	is a large vehicle	1
+lorry	is a large vehicle	1
+truck	is a large vehicle	1
+airplane	is a large vehicle	1
+yacht	is a large vehicle	1
+ship	is a large vehicle	1
+tractor	is a large vehicle	1
+ferry	is a large vehicle	1
+houseboat	is a large vehicle	1
+submarine	is a large vehicle	1
+oil_tanker	is a large vehicle	1
+coach	is a large vehicle	1
+ambulance	is a large vehicle	1
+bus	is a large vehicle	1
+barge	is a large vehicle	1
+train	is a large vehicle	1
+helicopter	is a large vehicle	1
+tugboat	is a large vehicle	0
+trolley	is a large vehicle	0
+tricycle	is a large vehicle	0
+wheelbarrow	is a large vehicle	0
+bicycle	is a large vehicle	0
+brandy	is a large vehicle	0
+rocket	is a large vehicle	0
+carriage	is a large vehicle	0
+dinghy	is a large vehicle	0
+kayak	is a large vehicle	0
+unicycle	is a large vehicle	0
+cart	is a large vehicle	0
+ashtray	is a large vehicle	0
+sledge	is a large vehicle	0
+boat	is a large vehicle	0
+skateboard	is a large vehicle	0
+speedboat	is a large vehicle	0
+canoe	is a large vehicle	0
+coach	can have six wheels	1
+bus	can have six wheels	0
+knickers	has various styles	1
+jeans	has various styles	1
+swimsuit	has various styles	1
+coat	has various styles	1
+dress	has various styles	1
+trouser	has various styles	1
+helmet	has various styles	0
+scarf	has various styles	0
+leotard	has various styles	0
+gloves	has various styles	0
+veil	has various styles	0
+apron	has various styles	0
+cockerel	can wake someone up	1
+coffee	can wake someone up	1
+cider	can wake someone up	0
+chicken	can wake someone up	0
+cockerel	has a call	1
+crane	has a call	1
+hummingbird	has a call	0
+emu	has a call	0
+cockroach	has a bad smell	1
+beetle	has a bad smell	0
+coconut	is harvested from trees	1
+peanut	is harvested from trees	0
+coffee_maker	is used to make a drink	1
+stove	is used to make a drink	0
+tray	can be found in restaurants and cafes	1
+coffee_maker	can be found in restaurants and cafes	1
+corkscrew	can be found in restaurants and cafes	1
+box	can be found in restaurants and cafes	0
+stove	can be found in restaurants and cafes	0
+basket	can be found in restaurants and cafes	0
+coffee_maker	contains nozzles	1
+stove	contains nozzles	0
+cup	is used for coffee	1
+kettle	is used for coffee	1
+mug	is used for coffee	1
+grater	is used for coffee	0
+raft	is used for coffee	0
+catapult	is used for coffee	0
+sink	is used to wash food	1
+colander	is used to wash food	1
+chandelier	is used to wash food	0
+strainer	is used to wash food	0
+strainer	can be used while making pasta	1
+colander	can be used while making pasta	1
+peeler	can be used while making pasta	0
+mirror	can be used while making pasta	0
+strawberry	has edible seeds	1
+cucumber	has edible seeds	1
+pumpkin	has edible seeds	1
+sunflower	has edible seeds	1
+zucchini	has edible seeds	1
+onion	has edible seeds	0
+currant	has edible seeds	0
+leek	has edible seeds	0
+daisy	has edible seeds	0
+mushroom	has edible seeds	0
+ox	can produce milk	1
+sheep	can produce milk	1
+cow	can produce milk	1
+goat	can produce milk	1
+buffalo	can produce milk	1
+giraffe	can produce milk	0
+moose	can produce milk	0
+llama	can produce milk	0
+deer	can produce milk	0
+hippo	can produce milk	0
+cow	can have black spots	1
+hyena	can have black spots	1
+monkey	can have black spots	0
+bat	can have black spots	0
+crayfish	can pinch	1
+shrimp	can pinch	0
+walrus	is a sea creature	1
+mackerel	is a sea creature	1
+oyster	is a sea creature	1
+lobster	is a sea creature	1
+trout	is a sea creature	1
+sardine	is a sea creature	1
+scallop	is a sea creature	1
+seahorse	is a sea creature	1
+flounder	is a sea creature	1
+crab	is a sea creature	1
+cod	is a sea creature	1
+tuna	is a sea creature	1
+dolphin	is a sea creature	1
+crayfish	is a sea creature	1
+herring	is a sea creature	1
+salmon	is a sea creature	1
+jellyfish	is a sea creature	1
+shrimp	is a sea creature	1
+carp	is a sea creature	1
+squid	is a sea creature	1
+octopus	is a sea creature	1
+clam	is a sea creature	1
+eel	is a sea creature	1
+shark	is a sea creature	1
+minnow	is a sea creature	1
+goldfish	is a sea creature	1
+whale	is a sea creature	1
+mussel	is a sea creature	1
+prawn	is a sea creature	1
+turtle	is a sea creature	1
+frog	is a sea creature	0
+hummingbird	is a sea creature	0
+parakeet	is a sea creature	0
+toad	is a sea creature	0
+kettle	is a sea creature	0
+worm	is a sea creature	0
+termite	is a sea creature	0
+lamb	is a sea creature	0
+hawk	is a sea creature	0
+caterpillar	is a sea creature	0
+calf	is a sea creature	0
+wren	is a sea creature	0
+emu	is a sea creature	0
+owl	is a sea creature	0
+spider	is a sea creature	0
+beetle	is a sea creature	0
+bat	is a sea creature	0
+sparrow	is a sea creature	0
+grenade	is a sea creature	0
+ostrich	is a sea creature	0
+slug	is a sea creature	0
+mirror	is a sea creature	0
+flea	is a sea creature	0
+millipede	is a sea creature	0
+centipede	is a sea creature	0
+swan	is a sea creature	0
+snail	is a sea creature	0
+woodpecker	is a sea creature	0
+eagle	is a sea creature	0
+scorpion	is a sea creature	0
+cricket	has bent legs	1
+grasshopper	has bent legs	0
+crossbow	can be made of wood and string	1
+bow	can be made of wood and string	0
+spanner	can have a lever	1
+crowbar	can have a lever	1
+pliers	can have a lever	1
+spade	can have a lever	1
+bolt	can have a lever	0
+broom	can have a lever	0
+harpoon	can have a lever	0
+hoe	can have a lever	0
+crowbar	is used by burglars	1
+pliers	is used by burglars	0
+crowbar	is used for breaking in	1
+pliers	is used for breaking in	0
+cucumber	can have green skin	1
+mango	can have green skin	1
+watermelon	can have green skin	1
+leek	can have green skin	0
+avocado	can have green skin	0
+date	can have green skin	0
+currant	is wrinkly	1
+sultana	is wrinkly	1
+prune	is wrinkly	1
+raisin	is wrinkly	1
+date	is wrinkly	1
+pear	is wrinkly	0
+apple	is wrinkly	0
+avocado	is wrinkly	0
+llama	is wrinkly	0
+apricot	is wrinkly	0
+chopping_board	can have scratches	1
+catapult	can have scratches	0
+cymbal	is played with drumsticks	1
+drum	is played with drumsticks	1
+gong	is played with drumsticks	0
+castanets	is played with drumsticks	0
+buttercup	grows from a bulb	1
+marigold	grows from a bulb	1
+carnation	grows from a bulb	1
+geranium	grows from a bulb	1
+hyacinth	grows from a bulb	1
+dandelion	grows from a bulb	1
+daffodil	grows from a bulb	1
+tulip	grows from a bulb	1
+orchid	grows from a bulb	1
+daisy	grows from a bulb	1
+lily	grows from a bulb	1
+poppy	grows from a bulb	1
+pansy	grows from a bulb	1
+sunflower	grows from a bulb	1
+rose	grows from a bulb	1
+willow	grows from a bulb	0
+jellyfish	grows from a bulb	0
+brussels_sprout	grows from a bulb	0
+fir	grows from a bulb	0
+pine	grows from a bulb	0
+chestnut	grows from a bulb	0
+worm	grows from a bulb	0
+caterpillar	grows from a bulb	0
+centipede	grows from a bulb	0
+lamb	grows from a bulb	0
+birch	grows from a bulb	0
+elm	grows from a bulb	0
+oak	grows from a bulb	0
+eucalyptus	grows from a bulb	0
+sycamore	grows from a bulb	0
+daisy	is a weed	1
+dandelion	is a weed	1
+buttercup	is a weed	0
+geranium	is a weed	0
+buttercup	can attract insects	1
+carnation	can attract insects	1
+peach	can attract insects	1
+plum	can attract insects	1
+blueberry	can attract insects	1
+coconut	can attract insects	1
+pansy	can attract insects	1
+sunflower	can attract insects	1
+cherry	can attract insects	1
+nut	can attract insects	1
+raspberry	can attract insects	1
+satsuma	can attract insects	1
+banana	can attract insects	1
+daffodil	can attract insects	1
+orchid	can attract insects	1
+orange	can attract insects	1
+daisy	can attract insects	1
+lily	can attract insects	1
+date	can attract insects	1
+lime	can attract insects	1
+peanut	can attract insects	1
+lemon	can attract insects	1
+marigold	can attract insects	1
+apple	can attract insects	1
+geranium	can attract insects	1
+grapefruit	can attract insects	1
+tulip	can attract insects	1
+strawberry	can attract insects	1
+melon	can attract insects	1
+pineapple	can attract insects	1
+kiwi	can attract insects	1
+pear	can attract insects	1
+tangerine	can attract insects	1
+grape	can attract insects	1
+hyacinth	can attract insects	1
+rhubarb	can attract insects	1
+dandelion	can attract insects	1
+watermelon	can attract insects	1
+nectarine	can attract insects	1
+poppy	can attract insects	1
+rose	can attract insects	1
+mango	can attract insects	1
+apricot	can attract insects	1
+dice	can attract insects	0
+cheese	can attract insects	0
+hair	can attract insects	0
+worm	can attract insects	0
+box	can attract insects	0
+lamb	can attract insects	0
+chestnut	can attract insects	0
+balloon	can attract insects	0
+pumpkin	can attract insects	0
+ear	can attract insects	0
+cookie	can attract insects	0
+oak	can attract insects	0
+eucalyptus	can attract insects	0
+peeler	can attract insects	0
+willow	can attract insects	0
+yoghurt	can attract insects	0
+catapult	can attract insects	0
+millipede	can attract insects	0
+pine	can attract insects	0
+rice	can attract insects	0
+basket	can attract insects	0
+bag	can attract insects	0
+birch	can attract insects	0
+elm	can attract insects	0
+puppet	can attract insects	0
+raft	can attract insects	0
+kite	can attract insects	0
+jellyfish	can attract insects	0
+chopping_board	can attract insects	0
+yoyo	can attract insects	0
+earmuffs	can attract insects	0
+caterpillar	can attract insects	0
+flour	can attract insects	0
+cake	can attract insects	0
+chocolate	can attract insects	0
+armor	can attract insects	0
+rattle	can attract insects	0
+sycamore	can attract insects	0
+eye	can attract insects	0
+jelly	can attract insects	0
+brussels_sprout	can attract insects	0
+fir	can attract insects	0
+doll	can attract insects	0
+daisy	has thin petals	1
+orchid	has thin petals	0
+daisy	has thin stems	1
+parsley	has thin stems	1
+orchid	has thin stems	0
+garlic	has thin stems	0
+dice	can be rolled	1
+tongue	can be rolled	1
+catapult	can be rolled	0
+lips	can be rolled	0
+dinghy	is a lifeboat	1
+canoe	is a lifeboat	0
+dishwasher	has a sprayer	1
+washing_machine	has a sprayer	0
+kite	can be used to entertain	1
+unicycle	can be used to entertain	1
+yoyo	can be used to entertain	1
+motorcycle	can be used to entertain	1
+skateboard	can be used to entertain	1
+raft	can be used to entertain	0
+balloon	can be used to entertain	0
+tricycle	can be used to entertain	0
+catapult	can be used to entertain	0
+bicycle	can be used to entertain	0
+horse	is used to pull carts	1
+ox	is used to pull carts	1
+donkey	is used to pull carts	1
+llama	is used to pull carts	0
+hippo	is used to pull carts	0
+camel	is used to pull carts	0
+locust	is biblical	1
+ox	is biblical	1
+donkey	is biblical	1
+dove	is biblical	1
+pigeon	is biblical	0
+llama	is biblical	0
+camel	is biblical	0
+grasshopper	is biblical	0
+horse	can kick	1
+foot	can kick	1
+leg	can kick	1
+donkey	can kick	1
+pony	can kick	0
+finger	can kick	0
+zebra	can kick	0
+toe	can kick	0
+donut	is ring shaped	1
+cake	is ring shaped	0
+donut	is made using dough	1
+cake	is made using dough	0
+strawberry	is a symbol of love	1
+rose	is a symbol of love	1
+dove	is a symbol of love	1
+chestnut	is a symbol of love	0
+pigeon	is a symbol of love	0
+currant	is a symbol of love	0
+hummingbird	can hover	1
+helicopter	can hover	1
+dragonfly	can hover	1
+airplane	can hover	0
+beetle	can hover	0
+emu	can hover	0
+dressing_gown	is worn after a shower	1
+robe	is worn after a shower	0
+duck	can quack	1
+goose	can quack	0
+swan	can waddle	1
+duck	can waddle	1
+seal	can waddle	1
+penguin	can waddle	1
+walrus	can waddle	0
+heron	can waddle	0
+flamingo	can waddle	0
+crane	can waddle	0
+duck	has oily glands	1
+goose	has oily glands	0
+eagle	can soar	1
+glider	can soar	1
+airplane	can soar	0
+owl	can soar	0
+ear	can contain piercings	1
+nose	can contain piercings	1
+heart	can contain piercings	0
+eye	can contain piercings	0
+ear	can contain hair	1
+nose	can contain hair	1
+heart	can contain hair	0
+eye	can contain hair	0
+elephant	is killed for ivory	1
+bat	is killed for ivory	0
+eye	has an iris	1
+ear	has an iris	0
+eye	can see	1
+ear	can see	0
+eye	can have contact lenses	1
+ear	can have contact lenses	0
+eye	has rods	1
+ear	has rods	0
+eye	has a screla	1
+ear	has a screla	0
+finger	can poke	1
+thumb	can poke	0
+flamingo	eats shrimp	1
+heron	eats shrimp	0
+flea	can be found on animals	1
+beetle	can be found on animals	0
+flea	is a parasite	1
+mosquito	is a parasite	1
+beetle	is a parasite	0
+termite	is a parasite	0
+flounder	is a flatfish	1
+mackerel	is a flatfish	0
+flour	is dry	1
+wine	is dry	1
+champagne	is dry	0
+rice	is dry	0
+spirit_level	has a tube	1
+flute	has a tube	1
+trombone	has a tube	1
+harmonica	has a tube	0
+peeler	has a tube	0
+trumpet	has a tube	0
+foot	has toes	1
+leg	has toes	1
+finger	has toes	0
+toe	has toes	0
+foot	is used for standing	1
+leg	is used for standing	1
+finger	is used for standing	0
+toe	is used for standing	0
+foot	can be a unit of measurement	1
+leg	can be a unit of measurement	0
+foot	has a padded ball	1
+leg	has a padded ball	0
+football	has hexagons	1
+ball	has hexagons	0
+football	can be struck by the head	1
+ball	can be struck by the head	0
+tractor	can get muddy	1
+spade	can get muddy	1
+football	can get muddy	1
+ball	can get muddy	0
+shovel	can get muddy	0
+trolley	can get muddy	0
+fox	lives in a den	1
+wolf	lives in a den	0
+trumpet	is a brass instrument	1
+saxophone	is a brass instrument	1
+tuba	is a brass instrument	1
+french_horn	is a brass instrument	1
+trombone	is a brass instrument	1
+flute	is a brass instrument	0
+harmonica	is a brass instrument	0
+bagpipe	is a brass instrument	0
+accordion	is a brass instrument	0
+clarinet	is a brass instrument	0
+refrigerator	keeps food fresh	1
+dishwasher	keeps food fresh	0
+frisbee	is used in ultimate frisbee	1
+swing	is used in ultimate frisbee	0
+frog	develops from a tadpole	1
+toad	develops from a tadpole	1
+hummingbird	develops from a tadpole	0
+emu	develops from a tadpole	0
+frog	has slimy skin	1
+toad	has slimy skin	0
+garlic	has flaky skin	1
+parsley	has flaky skin	0
+gherkin	is a pickled cucumber	1
+ketchup	is a pickled cucumber	0
+gin	is made of juniper berries	1
+brandy	is made of juniper berries	0
+jelly	can be made from berries	1
+jam	can be made from berries	1
+gin	can be made from berries	1
+sandwich	can be made from berries	0
+soup	can be made from berries	0
+brandy	can be made from berries	0
+giraffe	has brown spots	1
+deer	has brown spots	0
+glider	uses hot air currents to fly	1
+airplane	uses hot air currents to fly	0
+gloves	is worn by laborers	1
+mitten	is worn by laborers	0
+milk	is used to make cheese	1
+cider	is used to make cheese	0
+goldfish	is known to have short memory	1
+carp	is known to have short memory	0
+goldfish	can be kept in a bowl	1
+carp	can be kept in a bowl	0
+gong	is hit with a stick	1
+drum	is hit with a stick	0
+gong	can be made of bronze	1
+drum	can be made of bronze	0
+hamster	eats vegetables	1
+gorilla	eats vegetables	1
+guinea_pig	eats vegetables	1
+tortoise	eats vegetables	1
+horse	eats vegetables	1
+frog	eats vegetables	0
+hummingbird	eats vegetables	0
+toad	eats vegetables	0
+swan	eats vegetables	0
+bat	eats vegetables	0
+kangaroo	does jump long distances	1
+grasshopper	does jump long distances	1
+bat	does jump long distances	0
+locust	does jump long distances	0
+grenade	is a bomb	1
+bomb	is a bomb	0
+guitar	has six strings	1
+banjo	has six strings	0
+rifle	has a safety catch	1
+pistol	has a safety catch	1
+gun	has a safety catch	1
+revolver	has a safety catch	0
+shotgun	has a safety catch	0
+sword	has a safety catch	0
+hair	is made of dead cells	1
+avocado	is made of dead cells	0
+hair	can have split ends	1
+avocado	can have split ends	0
+ham	is bought from a butchers	1
+bacon	is bought from a butchers	0
+hammer	is used to hit nails	1
+shovel	is used to hit nails	0
+hamster	runs on wheels	1
+squirrel	runs on wheels	0
+harpoon	is a spear	1
+bolt	is a spear	0
+hyena	eats left over carcass	1
+hawk	eats left over carcass	1
+wolf	eats left over carcass	0
+buzzard	eats left over carcass	0
+heart	can beat	1
+eye	can beat	0
+heart	is vital for life	1
+eye	is vital for life	0
+hedgehog	can be infested by fleas	1
+bat	can be infested by fleas	0
+helmet	can be made of polystyrene	1
+cap	can be made of polystyrene	0
+hippo	has small ears	1
+rat	has small ears	1
+monkey	has small ears	0
+bat	has small ears	0
+hose	is attached to a tap	1
+catapult	is attached to a tap	0
+hose	can spray liquid	1
+catapult	can spray liquid	0
+hose	can get knotted	1
+catapult	can get knotted	0
+hose	can be used to wash cars	1
+catapult	can be used to wash cars	0
+houseboat	is steered	1
+barge	is steered	0
+submarine	has port holes	1
+houseboat	has port holes	1
+ashtray	has port holes	0
+yacht	has port holes	0
+hummingbird	makes a humming sound	1
+mosquito	makes a humming sound	1
+housefly	makes a humming sound	0
+emu	makes a humming sound	0
+hummingbird	eats nectar	1
+emu	eats nectar	0
+hummingbird	can fly backwards	1
+emu	can fly backwards	0
+hutch	is for small animals	1
+cage	is for small animals	0
+hutch	keeps pets safe	1
+cage	keeps pets safe	0
+hutch	has a floor	1
+cage	has a floor	0
+hyena	makes a laughing sound	1
+wolf	makes a laughing sound	0
+ice_cream	can be scooped	1
+jelly	can be scooped	0
+ice_cream	can be served in tubs	1
+jelly	can be served in tubs	0
+jelly	can be made with strawberries	1
+ice_cream	can be made with strawberries	1
+jam	can be made with strawberries	1
+flour	can be made with strawberries	0
+soup	can be made with strawberries	0
+sandwich	can be made with strawberries	0
+ice_cream	is made of ice	1
+jelly	is made of ice	0
+iguana	has a sticky tongue	1
+lizard	has a sticky tongue	0
+iguana	has bulbous eyes	1
+lizard	has bulbous eyes	0
+iguana	has rotating eyes	1
+lizard	has rotating eyes	0
+jam	is a preserve	1
+jelly	is a preserve	0
+jam	is fruity	1
+jelly	is fruity	0
+jar	can store jam	1
+bucket	can store jam	0
+jar	can break when dropped	1
+bucket	can break when dropped	0
+trouser	is worn on the legs	1
+jeans	is worn on the legs	1
+stocking	is worn on the legs	1
+helmet	is worn on the legs	0
+scarf	is worn on the legs	0
+gloves	is worn on the legs	0
+jeans	can rip	1
+tights	can rip	1
+helmet	can rip	0
+gloves	can rip	0
+kayak	has a covered deck	1
+canoe	has a covered deck	0
+ketchup	contains vinegar	1
+mayonnaise	contains vinegar	1
+gherkin	contains vinegar	0
+garlic	contains vinegar	0
+ketchup	can squirt	1
+garlic	can squirt	0
+rhubarb	is tangy	1
+ketchup	is tangy	1
+kiwi	is tangy	1
+tangerine	is tangy	1
+lemonade	is tangy	1
+raft	is tangy	0
+cider	is tangy	0
+chocolate	is tangy	0
+catapult	is tangy	0
+garlic	is tangy	0
+kingfisher	can be bright blue in color	1
+hummingbird	can be bright blue in color	0
+kiwi	has black colored seeds	1
+watermelon	has black colored seeds	1
+avocado	has black colored seeds	0
+date	has black colored seeds	0
+stick_insect	can be found on plants	1
+millipede	can be found on plants	1
+ladybird	can be found on plants	1
+centipede	can be found on plants	0
+beetle	can be found on plants	0
+spider	can be found on plants	0
+sheep	has wool	1
+llama	has wool	1
+lamb	has wool	1
+caterpillar	has wool	0
+jellyfish	has wool	0
+worm	has wool	0
+leg	is connected to the hip	1
+arm	is connected to the hip	0
+lemonade	can contain additives	1
+cider	can contain additives	0
+lemonade	is often sold by kids	1
+cider	is often sold by kids	0
+lettuce	is a salad vegetable	1
+spinach	is a salad vegetable	0
+limousine	has dark windows	1
+car	has dark windows	0
+limousine	is a long car	1
+car	is a long car	0
+lips	can get chapped	1
+tongue	can get chapped	0
+lizard	can climb walls	1
+iguana	can climb walls	0
+lobster	has long antenna	1
+shrimp	has long antenna	0
+mackerel	has patterns on its body	1
+tuna	has patterns on its body	0
+milk	is fed to babies	1
+cider	is fed to babies	0
+milk	is added to coffee	1
+sugar	is added to coffee	1
+catapult	is added to coffee	0
+chocolate	is added to coffee	0
+milk	has lactose	1
+yoghurt	has lactose	1
+catapult	has lactose	0
+chocolate	has lactose	0
+mitten	is worn on hands	1
+gloves	is worn on hands	0
+mitten	has a part for thumb	1
+gloves	has a part for thumb	0
+mitten	is made of fur	1
+gloves	is made of fur	0
+motorcycle	can have a sidecar	1
+moped	can have a sidecar	0
+mouse	is chased by cats	1
+rat	is chased by cats	1
+hamster	is chased by cats	0
+squirrel	is chased by cats	0
+mouse	lives in small holes	1
+squirrel	lives in small holes	0
+mouse	has pink feet	1
+squirrel	has pink feet	0
+mug	is used at tea-time	1
+bucket	is used at tea-time	0
+mussel	attaches to rocks	1
+scallop	attaches to rocks	0
+mussel	is made of calcium carbonate	1
+scallop	is made of calcium carbonate	1
+clam	is made of calcium carbonate	0
+oyster	is made of calcium carbonate	0
+nose	is in the centre of the face	1
+eye	is in the centre of the face	0
+nose	has turbinates	1
+eye	has turbinates	0
+nut	is used to make peanut butter	1
+coconut	is used to make peanut butter	0
+oak	grows slowly	1
+chestnut	grows slowly	0
+squid	is a cephalopod	1
+octopus	is a cephalopod	1
+mussel	is a cephalopod	0
+scallop	is a cephalopod	0
+oil_tanker	has a tank	1
+ship	has a tank	0
+stove	can burn	1
+oil_tanker	can burn	1
+toaster	can burn	1
+coffee_maker	can burn	0
+microwave	can burn	0
+ship	can burn	0
+olive	can be served as an appetizer	1
+peach	can be served as an appetizer	0
+organ	is played by an organist	1
+piano	is played by an organist	0
+ostrich	buries head in sand	1
+emu	buries head in sand	0
+owl	can rotate its head	1
+eagle	can rotate its head	0
+owl	can make a hooting sound	1
+eagle	can make a hooting sound	0
+owl	can be found in barns	1
+eagle	can be found in barns	0
+owl	can see in the dark	1
+eagle	can see in the dark	0
+pansy	grows short	1
+dandelion	grows short	0
+parka	is a type of jacket	1
+jacket	is a type of jacket	0
+tomato	is used in sauces	1
+parsley	is used in sauces	1
+flour	is used in sauces	0
+chocolate	is used in sauces	0
+peanut	can choke	1
+coconut	can choke	0
+penknife	has a corkscrew	1
+knife	has a corkscrew	0
+pig	is eaten as bacon	1
+camel	is eaten as bacon	0
+pineapple	has spiky leaves	1
+avocado	has spiky leaves	0
+platypus	has a beaver tail	1
+bat	has a beaver tail	0
+platypus	is a monotreme	1
+bat	is a monotreme	0
+plow	does drag along the ground	1
+hoe	does drag along the ground	0
+plum	has a firm flesh	1
+strawberry	has a firm flesh	1
+nut	has a firm flesh	0
+avocado	has a firm flesh	0
+pony	is a horse	1
+horse	is a horse	0
+pony	is a small horse	1
+horse	is a small horse	0
+potato	is used to make chips	1
+carrot	is used to make chips	0
+prune	is a laxative	1
+raisin	is a laxative	0
+pumpkin	is carved	1
+leek	is carved	0
+pumpkin	has orange flesh	1
+sweet_potato	has orange flesh	1
+leek	has orange flesh	0
+mushroom	has orange flesh	0
+puppet	is controlled	1
+doll	is controlled	0
+rabbit	has a fluffy tail	1
+bat	has a fluffy tail	0
+rabbit	eats carrots	1
+bat	eats carrots	0
+rabbit	has a twitchy nose	1
+bat	has a twitchy nose	0
+rabbit	tends to be quiet	1
+bat	tends to be quiet	0
+rabbit	thumps its feat	1
+bat	thumps its feat	0
+raccoon	has dark ringed eyes	1
+bear	has dark ringed eyes	0
+radio	has radio stations	1
+television	has radio stations	0
+radio	has channels	1
+television	has channels	1
+camera	has channels	0
+rollerskate	has channels	0
+radio	has an amplifier	1
+television	has an amplifier	0
+rake	is used in fall	1
+hoe	is used in fall	0
+strawberry	is red when ripe	1
+raspberry	is red when ripe	1
+tomato	is red when ripe	1
+currant	is red when ripe	0
+blueberry	is red when ripe	0
+eggplant	is red when ripe	0
+rat	can be found in the sewers	1
+squirrel	can be found in the sewers	0
+rattlesnake	slithers	1
+alligator	slithers	0
+raven	is a corvid	1
+magpie	is a corvid	0
+rifle	can be shot	1
+revolver	can be shot	1
+shotgun	can be shot	1
+pistol	can be shot	0
+gun	can be shot	0
+sword	can be shot	0
+rhino	has a big horn	1
+horse	has a big horn	0
+rifle	can cause injuries	1
+tweezer	can cause injuries	1
+shovel	can cause injuries	0
+shotgun	can cause injuries	0
+robin	has a red breast	1
+nightingale	has a red breast	0
+satchel	has a strap	1
+wallet	has a strap	0
+saw	has a jagged edge	1
+shovel	has a jagged edge	0
+screwdriver	can be found in a garage	1
+saw	can be found in a garage	1
+trowel	can be found in a garage	0
+shovel	can be found in a garage	0
+scarf	is put on snowmen	1
+veil	is put on snowmen	0
+spanner	can unscrew	1
+screwdriver	can unscrew	1
+trowel	can unscrew	0
+shovel	can unscrew	0
+screwdriver	can have a star shape at the end	1
+shovel	can have a star shape at the end	0
+scythe	is used to cut crops	1
+axe	is used to cut crops	0
+scythe	is used to cut grass	1
+axe	is used to cut grass	0
+seagull	has a yellow and orange beak	1
+pelican	has a yellow and orange beak	0
+seal	is hunted by Orcas	1
+walrus	is hunted by Orcas	0
+shark	hunts seals	1
+eel	hunts seals	0
+sink	has a basin	1
+chandelier	has a basin	0
+skateboard	is used for skateboarding	1
+tricycle	is used for skateboarding	0
+snail	is killed by salt	1
+slug	is killed by salt	1
+mussel	is killed by salt	0
+scallop	is killed by salt	0
+snail	is a gastropod	1
+slug	is a gastropod	1
+mussel	is a gastropod	0
+scallop	is a gastropod	0
+soup	contains stock	1
+sandwich	contains stock	0
+soup	can contain croutons	1
+sandwich	can contain croutons	0
+spanner	is used to loosen bolts	1
+shovel	is used to loosen bolts	0
+spatula	can be used to flip food	1
+shovel	can be used to flip food	0
+spear	is used to catch fish	1
+gun	is used to catch fish	0
+spear	has an arrow head	1
+gun	has an arrow head	0
+spirit_level	has two lines	1
+peeler	has two lines	0
+spirit_level	has markings	1
+peeler	has markings	0
+spirit_level	is used when putting up shelves	1
+peeler	is used when putting up shelves	0
+squid	has a siphon	1
+octopus	has a siphon	0
+stick_insect	looks like a stick	1
+beetle	looks like a stick	0
+veil	is made of sheer fabric	1
+stocking	is made of sheer fabric	1
+helmet	is made of sheer fabric	0
+gloves	is made of sheer fabric	0
+stocking	is hung over the fireplace	1
+tights	is hung over the fireplace	0
+submarine	submerges under water	1
+ship	submerges under water	0
+submarine	uses radar	1
+ship	uses radar	0
+submarine	is airlocked	1
+ship	is airlocked	0
+submarine	is elliptical in shape	1
+ship	is elliptical in shape	0
+sugar	is grainy	1
+garlic	is grainy	0
+suit	has a jacket	1
+scarf	has a jacket	0
+suit	is worn to interviews	1
+scarf	is worn to interviews	0
+suit	can be pinstriped	1
+scarf	can be pinstriped	0
+sunflower	has a brown center	1
+daisy	has a brown center	0
+swing	can be attached to a tree	1
+peeler	can be attached to a tree	0
+sword	goes into sheaths	1
+gun	goes into sheaths	0
+tambourine	has metal cymbals	1
+drum	has metal cymbals	0
+tambourine	is easy to carry	1
+drum	is easy to carry	0
+tank	has guns	1
+tractor	has guns	0
+tank	has a cannon	1
+tractor	has a cannon	0
+tank	has weapons	1
+tractor	has weapons	0
+tea	can infuse	1
+cider	can infuse	0
+television	has a remote control	1
+radio	has a remote control	0
+television	can be a distraction	1
+radio	can be a distraction	0
+television	emits light	1
+radio	emits light	0
+thumb	is not a finger	1
+finger	is not a finger	0
+toad	has leathery skin	1
+tortoise	has leathery skin	1
+frog	has leathery skin	0
+emu	has leathery skin	0
+toad	has lumpy skin	1
+frog	has lumpy skin	0
+thumb	can have a ring on it	1
+finger	can have a ring on it	1
+toe	can have a ring on it	1
+foot	can have a ring on it	0
+leg	can have a ring on it	0
+arm	can have a ring on it	0
+tongue	can taste	1
+lips	can taste	0
+tortoise	is reclusive	1
+turtle	is reclusive	0
+train	pulls carriages	1
+coach	pulls carriages	0
+train	can serve food on board	1
+coach	can serve food on board	0
+tray	is used in cafeterias	1
+box	is used in cafeterias	0
+trumpet	has three keys	1
+trombone	has three keys	1
+french_horn	has three keys	0
+tuba	has three keys	0
+trowel	can shovel	1
+shovel	can shovel	1
+spade	can shovel	1
+hammer	can shovel	0
+tweezer	can shovel	0
+spatula	can shovel	0
+trowel	is used to pot plants	1
+shovel	is used to pot plants	0
+tugboat	is found in a harbor	1
+boat	is found in a harbor	0
+tugboat	manoevres other boats	1
+boat	manoevres other boats	0
+tugboat	travels short distances	1
+boat	travels short distances	0
+turkey	has a saggy neck	1
+chicken	has a saggy neck	0
+typewriter	makes a tapping sound	1
+chainsaw	makes a tapping sound	0
+typewriter	is clunky	1
+chainsaw	is clunky	0
+unicycle	is difficult to balance on	1
+skateboard	is difficult to balance on	0
+veil	made of net	1
+scarf	made of net	0
+wallet	contains receipts	1
+satchel	contains receipts	0
+washing_machine	washes clothes	1
+dishwasher	washes clothes	0
+washing_machine	is connected to a water supply	1
+dishwasher	is connected to a water supply	0
+wheelchair	is a chair with wheels	1
+chair	is a chair with wheels	0
+wheelchair	is wheeled	1
+chair	is wheeled	0
+whisk	is used to mix eggs	1
+blender	is used to mix eggs	0
+wine	is mulled	1
+champagne	is mulled	0
+worm	can survive if cut in half	1
+millipede	can survive if cut in half	0
+yacht	has ropes	1
+ashtray	has ropes	0
+yoyo	is attached to a finger	1
+catapult	is attached to a finger	0
+yoyo	was popular in the nineties	1
+catapult	was popular in the nineties	0
+zebra	has black and white stripes	1
+horse	has black and white stripes	0
+zebra	is preyed on by lions	1
+horse	is preyed on by lions	0

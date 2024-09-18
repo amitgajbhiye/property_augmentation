@@ -1,0 +1,38 @@
+{
+    "experiment_name": "ps_mcrae_con_prop_roberta_large_mask_id_ctx1_cnetp",
+    "log_dirctory": "mcrae_finetune",
+    "training_params": {
+        "dataset_name": "mcrae_ps",
+        "pretrain": false,
+        "train_file_path": null,
+        "val_file_path": null,
+        "finetune": true,
+        "load_pretrained": true,
+        "pretrained_model_path": "trained_models/je_con_prop_cnetp_pretrained/roberta_large_je_pretrain_mask_id_ctx1_con_prop_cnetp.pt",
+        "cv_type": "property_split",
+        "data_dir": "data/evaluation_data/con_prop/mcrae_prop_split_train_test_files",
+        "batch_size": 32,
+        "lr": 1e-5,
+        "max_epochs": 8,
+        "num_warmup_steps": 0,
+        "patience_early_stopping": 15,
+        "save_dir": "trained_models/mcrae_finetune/",
+        "model_name": "ps_mcrae_con_prop_roberta_large_mask_id_ctx1_cnetp.pt",
+        "lr_policy": null,
+        "lr_decay_iters": null,
+        "weight_decay": 0.01,
+        "hp_tuning": false
+    },
+    "dataset_params": {
+        "hf_tokenizer_name": "roberta-large",
+        "hf_tokenizer_path": "/scratch/c.scmag3/hf_pretrained_models/roberta_large/tokenizer",
+        "max_len": 40,
+        "context_id": 1
+    },
+    "model_params": {
+        "hf_checkpoint_name": "roberta-large",
+        "hf_model_path": "/scratch/c.scmag3/hf_pretrained_models/roberta_large/model",
+        "num_labels": 0,
+        "context_id": 1
+    }
+}

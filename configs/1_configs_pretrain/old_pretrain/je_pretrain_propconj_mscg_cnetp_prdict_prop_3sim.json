@@ -1,0 +1,36 @@
+{
+    "experiment_name": "je_pretrain_propconj_mscg_cnetp_prdict_prop_3sim",
+    "log_dirctory": "pretrain",
+    "training_params": {
+        "dataset_name": "mscg_cnetp_predict_prop_3sim",
+        "pretrain": true,
+        "train_file_path": "data/train_data/je_prop_conj/deberta_nli_predict_prop_similar/sim3_deberta_nli_predict_prop_similar_5_neg_train_mscg_cnetp.tsv",
+        "val_file_path": "data/train_data/je_prop_conj/deberta_nli_predict_prop_similar/sim3_deberta_nli_predict_prop_similar_5_neg_valid_mscg_cnetp.tsv",
+        "finetune": false,
+        "load_pretrained": false,
+        "pretrained_model_path": null,
+        "cv_type": null,
+        "data_dir": null,
+        "batch_size": 32,
+        "lr": 1e-5,
+        "max_epochs": 100,
+        "num_warmup_steps": 0,
+        "patience_early_stopping": 3,
+        "save_dir": "trained_models/mscg_cnetp_pretrained/predict_prop_similar",
+        "model_name": "je_pretrain_propconj_mscg_cnetp_prdict_prop_3sim.pt",
+        "lr_policy": null,
+        "lr_decay_iters": null
+    },
+    "dataset_params": {
+        "hf_tokenizer_name": "bert-base-uncased",
+        "hf_tokenizer_path": "/scratch/c.scmag3/hawk_data/conceptEmbeddingModel/for_seq_classification_bert_base_uncased/tokenizer",
+        "max_len": 128,
+        "context_id": 1
+    },
+    "model_params": {
+        "hf_checkpoint_name": "bert-base-uncased",
+        "hf_model_path": "/scratch/c.scmag3/hawk_data/conceptEmbeddingModel/for_seq_classification_bert_base_uncased/model",
+        "num_labels": 2,
+        "context_id": 1
+    }
+}

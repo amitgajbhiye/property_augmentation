@@ -1,0 +1,37 @@
+{
+    "experiment_name": "cs_mcrae_5negcnetp_con_prop_pretrained_finetune",
+    "log_dirctory": "mcrae_finetune",
+    "training_params": {
+        "dataset_name": "5negcnetp_con_split_pretrained_finetune_on_mcrae_con_split",
+        "pretrain": false,
+        "train_file_path": null,
+        "val_file_path": null,
+        "test_file_path": null,
+        "finetune": true,
+        "load_pretrained": true,
+        "pretrained_model_path": "trained_models/je_con_prop_cnetp_pretrained/je_con_prop_cnet_premium_5negdata_pretrained_model.pt",
+        "pretrained_model_num_neg": 5,
+        "cv_type": "concept_split",
+        "data_dir": "data/evaluation_data/con_prop/mcrae_extended",
+        "batch_size": 32,
+        "lr": 2e-6,
+        "max_epochs": 14,
+        "num_warmup_steps": 0,
+        "patience_early_stopping": 20,
+        "save_dir": "trained_models/mcrae_finetune",
+        "model_name": "cs_mcrae_5negcnetp_con_prop_pretrained_finetune.pt",
+        "lr_policy": null,
+        "lr_decay_iters": null
+    },
+    "dataset_params": {
+        "hf_tokenizer_name": "bert-base-uncased",
+        "hf_tokenizer_path": "/scratch/c.scmag3/conceptEmbeddingModel/for_seq_classification_bert_base_uncased/tokenizer",
+        "max_len": 64,
+        "context_id": null
+    },
+    "model_params": {
+        "hf_checkpoint_name": "bert-base-uncased",
+        "hf_model_path": "/scratch/c.scmag3/conceptEmbeddingModel/for_seq_classification_bert_base_uncased/model",
+        "num_labels": 2
+    }
+}

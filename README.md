@@ -1,0 +1,2 @@
+# biencoder_concept_property
+biencoder_concept_property_model

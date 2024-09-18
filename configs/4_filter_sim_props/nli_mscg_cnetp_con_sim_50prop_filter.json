@@ -1,0 +1,41 @@
+{
+    "experiment_name": "nli_mscg_cnetp_con_sim_50prop_filter",
+    "log_dirctory": "data_sampling",
+    "training_params": {
+        "pretrained_model_to_use": "nli",
+        "nli_tokenizer_path": "/scratch/c.scmag3/hawk_data/hf_models/deverta_v3_large/tokenizer",
+        "nli_model_path": "/scratch/c.scmag3/hawk_data/hf_models/deverta_v3_large/model",
+        "dataset_name": "mscg_cnetp_con_sim_50props",
+        "pretrain": false,
+        "train_file_path": null,
+        "val_file_path": null,
+        "test_file_path": "data/train_data/mscg_cnet_con_50sim_vocab_prop.tsv",
+        "finetune": true,
+        "load_pretrained": false,
+        "pretrained_model_path": null,
+        "pretrained_model_num_neg": "deberta_v3_large",
+        "threshold": null,
+        "cv_type": null,
+        "data_dir": null,
+        "batch_size": 32,
+        "lr": null,
+        "max_epochs": 0,
+        "num_warmup_steps": 0,
+        "patience_early_stopping": 0,
+        "save_dir": "data/train_data",
+        "model_name": null,
+        "lr_policy": null,
+        "lr_decay_iters": null
+    },
+    "dataset_params": {
+        "hf_tokenizer_name": null,
+        "hf_tokenizer_path": null,
+        "max_len": null,
+        "context_id": null
+    },
+    "model_params": {
+        "hf_checkpoint_name": null,
+        "hf_model_path": null,
+        "num_labels": null
+    }
+}

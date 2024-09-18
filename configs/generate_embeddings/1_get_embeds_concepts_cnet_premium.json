@@ -1,0 +1,43 @@
+{
+    "experiment_name": "1_get_embeds_concepts_cnet_premium",
+    "log_dirctory": "get_con_pro_embeddings",
+    "dataset_params": {
+        "dataset_name": "concepts_embed_cnet_premium",
+        "train_file_path": null,
+        "val_file_path": null,
+        "test_file_path": null,
+        "hf_tokenizer_name": "bert-base-uncased",
+        "hf_tokenizer_path": "/scratch/c.scmag3/conceptEmbeddingModel/bertBaseUncasedPreTrained/tokenizer",
+        "concept_max_len": 64,
+        "property_max_len": 64,
+        "add_context": true,
+        "context_num": 6,
+        "loader_params": {
+            "batch_size": 512,
+            "num_workers": 4,
+            "pin_memory": true
+        }
+    },
+    "model_params": {
+        "model_name": null,
+        "hf_checkpoint_name": "bert-base-uncased",
+        "hf_model_path": "/scratch/c.scmag3/conceptEmbeddingModel/bertBaseUncasedPreTrained",
+        "vector_strategy": "mask_token"
+    },
+    "inference_params": {
+        "pretrained_model_path": "trained_models/gkb_source_analysis/bb_gkb_cnet_plus_cnet_has_property.pt",
+        "get_con_prop_embeds": true,
+        "input_data_type": "concept",
+        "concept_file": "data/train_data/joint_encoder_property_conjuction_data/unique_train_valid_concepts_cnet_premium.tsv",
+        "property_file": null,
+        "concept_property_file": null,
+        "save_dir": "trained_models/con_pro_embeddings",
+        "get_concept_similar_properties": false,
+        "concept_embed_pkl": null,
+        "property_embed_pkl": null,
+        "get_predict_prop_similar_vocab_properties": false,
+        "predict_property_embed_pkl_file": null,
+        "vocab_property_embed_pkl_file": null,
+        "concept_similar_prop_file": null
+    }
+}

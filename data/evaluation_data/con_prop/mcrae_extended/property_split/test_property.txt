@@ -1,0 +1,5 @@
+pairs
+shiny
+used by children
+an animal
+cold

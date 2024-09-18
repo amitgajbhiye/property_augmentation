@@ -1,0 +1,41 @@
+{
+    "experiment_name": "ps_mcrae_prop_conj_roberta_large_je_fintune_cnetp_deb_filtered_thresh50",
+    "log_dirctory": "mcrae_clean_vocab_data",
+    "training_params": {
+        "dataset_name": "roberta_large_thresh50",
+        "pretrain": false,
+        "train_file_path": null,
+        "val_file_path": null,
+        "finetune": true,
+        "load_pretrained": false,
+        "pretrained_model_path": null,
+        "cv_type": "property_split",
+        "data_dir": "trained_models/clean_vocab_mcrae_data/cnetp_deberta_v3_large_clean_vocab_thresh50/10_sim_prop_data",
+        "save_prefix": "cnetp_deberta_v3_large_clean_vocab_thresh50",
+        "batch_size": 32,
+        "lr": 1e-5,
+        "max_epochs": 8,
+        "num_warmup_steps": 0,
+        "warmup_ratio": 0,
+        "patience_early_stopping": 20,
+        "save_dir": "trained_models/mcrae_finetune",
+        "model_name": "ps_mcrae_prop_conj_roberta_large_je_fintune_cnetp_deb_filtered_thresh50.pt",
+        "lr_policy": null,
+        "lr_decay_iters": null,
+        "weight_decay": 0.01,
+        "hp_tuning": false
+    },
+    "dataset_params": {
+        "hf_tokenizer_name": "roberta-large",
+        "hf_tokenizer_path": "/scratch/c.scmag3/hf_pretrained_models/roberta_large/tokenizer",
+        "max_len": 45,
+        "context_id": 5
+    },
+    "model_params": {
+        "hf_checkpoint_name": "roberta-large",
+        "hf_model_path": "/scratch/c.scmag3/hf_pretrained_models/roberta_large/model",
+        "num_labels": 0,
+        "context_id": 5,
+        "remove_classifier_layer": false
+    }
+}

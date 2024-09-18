@@ -1,0 +1,39 @@
+{
+    "experiment_name": "deberta_v3_large_wanli_pretrain_mask_id_ctx5_premise_hypothesis",
+    "log_dirctory": "pretrain",
+    "training_params": {
+        "dataset_name": "wanli",
+        "pretrain": true,
+        "train_file_path": "data/train_data/je_con_prop/new_wanli/train.tsv",
+        "val_file_path": "data/train_data/je_con_prop/new_wanli/valid.tsv",
+        "finetune": false,
+        "load_pretrained": false,
+        "pretrained_model_path": null,
+        "cv_type": null,
+        "data_dir": null,
+        "batch_size": 32,
+        "lr": 1e-5,
+        "max_epochs": 100,
+        "warmup_ratio": 0,
+        "patience_early_stopping": 5,
+        "save_dir": "trained_models/je_pre_hypo_wanli_pretrained",
+        "model_name": "deberta_v3_large_wanli_pretrain_mask_id_ctx5_premise_hypothesis.pt",
+        "lr_policy": null,
+        "lr_decay_iters": null,
+        "weight_decay": 0.01,
+        "hp_tuning": false
+    },
+    "dataset_params": {
+        "hf_tokenizer_name": "deberta-v3-large",
+        "hf_tokenizer_path": "/scratch/c.scmag3/hf_pretrained_models/deberta_v3_large/tokenizer",
+        "max_len": 80,
+        "context_id": 5
+    },
+    "model_params": {
+        "hf_checkpoint_name": "deberta-v3-large",
+        "hf_model_path": "/scratch/c.scmag3/hf_pretrained_models/deberta_v3_large/model",
+        "num_labels": 0,
+        "context_id": 5,
+        "remove_classifier_layer": false
+    }
+}

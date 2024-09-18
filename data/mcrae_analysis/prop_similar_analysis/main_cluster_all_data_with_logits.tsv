@@ -1,0 +1,2500 @@
+flea	squishy	0.18143
+carpet	squishy	0.91695
+biscuit	squishy	0.34094
+rat	squishy	0.04009
+worm	squishy	0.87334
+cushion	squishy	0.98708
+mat	squishy	0.07961
+teddy bear	squishy	0.92329
+skunk	squishy	0.00728
+pillow	squishy	0.96826
+socks	squishy	0.07667
+cockroach	squishy	0.38104
+donut	squishy	0.85606
+cat	squishy	0.05340
+housefly	squishy	0.12734
+sack	squishy	0.02035
+shoes	squishy	0.11486
+pickle	squishy	0.70701
+slippers	squishy	0.70718
+cake	squishy	0.90351
+dog	squishy	0.01222
+pajamas	squishy	0.03563
+bed	squishy	0.62777
+spider	squishy	0.36919
+person	squishy	0.01708
+cork	squishy	0.03262
+nylons	squishy	0.00436
+bread	squishy	0.69285
+napkin	squishy	0.00247
+hamster	squishy	0.25086
+beetle	squishy	0.15045
+couch	squishy	0.91466
+potato	squishy	0.13501
+cabbage	squishy	0.21151
+toy	squishy	0.06743
+turnip	squishy	0.07414
+basement	squishy	0.00063
+ant	squishy	0.00603
+hornet	squishy	0.00148
+cheese	squishy	0.91177
+rice	squishy	0.50344
+pie	squishy	0.81201
+ball	squishy	0.01767
+broom	squishy	0.00015
+sofa	squishy	0.90860
+rabbit	squishy	0.36644
+grasshopper	squishy	0.02478
+doll	squishy	0.14494
+yam	squishy	0.59955
+curtains	squishy	0.00125
+pearl	fragile	0.85158
+shell	fragile	0.96003
+marble	fragile	0.24563
+emerald	fragile	0.45587
+cork	fragile	0.60570
+flute	fragile	0.44491
+jar	fragile	0.98551
+medal	fragile	0.08409
+mirror	fragile	0.91810
+coin	fragile	0.03260
+doll	fragile	0.94213
+stone	fragile	0.00308
+wine glass	fragile	0.97462
+trumpet	fragile	0.09301
+clarinet	fragile	0.18775
+bottle	fragile	0.96759
+crown	fragile	0.14119
+chain	fragile	0.00483
+bowl	fragile	0.96055
+cup	fragile	0.97389
+plate	fragile	0.97875
+harp	fragile	0.04350
+trombone	fragile	0.00101
+bracelet	fragile	0.14603
+vase	fragile	0.98406
+rock	fragile	0.00141
+saxophone	fragile	0.10175
+necklace	fragile	0.53227
+wheel	fragile	0.00033
+violin	fragile	0.41359
+harmonica	fragile	0.43531
+piano	fragile	0.00205
+bullet	fragile	0.01136
+spoon	fragile	0.02715
+toy	fragile	0.25010
+grape	fragile	0.62727
+pie	fragile	0.17258
+tuba	fragile	0.00339
+clam	fragile	0.83215
+drum	fragile	0.00071
+certificate	fragile	0.86975
+brick	fragile	0.02233
+cheese	fragile	0.09018
+raisin	fragile	0.44896
+cello	fragile	0.02494
+barrel	fragile	0.00037
+door	fragile	0.00077
+clock	fragile	0.51783
+dish	fragile	0.98256
+harpsichord	fragile	0.01335
+teddy bear	used by children	0.99349
+kite	used by children	0.97399
+toy	used by children	0.99377
+doll	used by children	0.98544
+frisbee	used by children	0.97374
+balloon	used by children	0.97332
+ball	used by children	0.97424
+sports ball	used by children	0.98111
+pony	used by children	0.05446
+basket	used by children	0.70616
+book	used by children	0.96878
+tricycle	used by children	0.97601
+cage	used by children	0.01393
+pencil	used by children	0.92434
+chipmunk	used by children	0.00020
+trolley	used by children	0.86143
+wand	used by children	0.97991
+earmuffs	used by children	0.96126
+rocker	used by children	0.94301
+football	used by children	0.97617
+slingshot	used by children	0.97085
+cart	used by children	0.60030
+box	used by children	0.01122
+rock	used by children	0.00021
+sled	used by children	0.95553
+rope	used by children	0.00401
+rocket	used by children	0.00031
+bike	used by children	0.93484
+mat	used by children	0.92067
+jar	used by children	0.00398
+stick	used by children	0.78984
+crayon	used by children	0.98951
+scissors	used by children	0.72533
+bench	used by children	0.97301
+potted plant	used by children	0.00037
+bucket	used by children	0.05563
+skateboard	used by children	0.97829
+surfboard	used by children	0.11312
+baseball bat	used by children	0.92676
+bicycle	used by children	0.87547
+chair	used by children	0.89819
+bowl	used by children	0.90743
+remote	used by children	0.92947
+mouse	used by children	0.00025
+slippers	used by children	0.94608
+hamster	used by children	0.04385
+sleigh	used by children	0.55559
+shed	used by children	0.00226
+backpack	used by children	0.95989
+cushion	used by children	0.94121
+bullet	used for killing	0.99600
+gun	used for killing	0.99643
+pistol	used for killing	0.99313
+dagger	used for killing	0.99154
+sword	used for killing	0.98834
+revolver	used for killing	0.99361
+cannon	used for killing	0.99365
+bomb	used for killing	0.99526
+rifle	used for killing	0.99453
+grenade	used for killing	0.98914
+shotgun	used for killing	0.98592
+crossbow	used for killing	0.99409
+bazooka	used for killing	0.98782
+missile	used for killing	0.99370
+machete	used for killing	0.76717
+spear	used for killing	0.97733
+bayonet	used for killing	0.98849
+armour	used for killing	0.00556
+slingshot	used for killing	0.68476
+shield	used for killing	0.00050
+hatchet	used for killing	0.00612
+knife	used for killing	0.72933
+baton	used for killing	0.01764
+bolts	used for killing	0.00012
+catapult	used for killing	0.98934
+baseball bat	used for killing	0.28000
+gloves	used for killing	0.00115
+barrel	used for killing	0.00016
+cheetah	used for killing	0.06073
+ambulance	used for killing	0.00034
+whistle	used for killing	0.00018
+axe	used for killing	0.00106
+razor	used for killing	0.00046
+sledgehammer	used for killing	0.00317
+harpoon	used for killing	0.99046
+tomahawk	used for killing	0.54991
+scissors	used for killing	0.00019
+muzzle	used for killing	0.00043
+wand	used for killing	0.00028
+helicopter	used for killing	0.10426
+spider	used for killing	0.00769
+cigarette	used for killing	0.05516
+cape	used for killing	0.00013
+rocket	used for killing	0.85677
+jet	used for killing	0.00044
+airplane	used for killing	0.00064
+panther	used for killing	0.02038
+lion	used for killing	0.00812
+fork	used for killing	0.00025
+bagpipe	used for killing	0.00016
+mirror	found on walls	0.96472
+wall	found on walls	0.22339
+clock	found on walls	0.98261
+carpet	found on walls	0.00025
+mat	found on walls	0.00046
+door	found on walls	0.98897
+doorknob	found on walls	0.00422
+paintbrush	found on walls	0.00081
+stone	found on walls	0.22908
+rock	found on walls	0.03498
+brick	found on walls	0.98594
+spider	found on walls	0.90312
+drapes	found on walls	0.98432
+hook	found on walls	0.86953
+tack	found on walls	0.97993
+fence	found on walls	0.06422
+marble	found on walls	0.15414
+curtains	found on walls	0.98822
+brush	found on walls	0.00034
+peg	found on walls	0.79083
+sandpaper	found on walls	0.04435
+faucet	found on walls	0.00040
+level	found on walls	0.97016
+gate	found on walls	0.00557
+lamp	found on walls	0.09137
+bridge	found on walls	0.00019
+bookcase	found on walls	0.94395
+cabinet	found on walls	0.37943
+flea	found on walls	0.00032
+tray	found on walls	0.00012
+banner	found on walls	0.98893
+chandelier	found on walls	0.00130
+table	found on walls	0.00015
+basement	found on walls	0.00175
+drain	found on walls	0.00021
+shelves	found on walls	0.99243
+beetle	found on walls	0.00368
+escalator	found on walls	0.00275
+dresser	found on walls	0.00030
+worm	found on walls	0.00020
+sink	found on walls	0.00030
+cockroach	found on walls	0.16483
+hammer	found on walls	0.00044
+moth	found on walls	0.07541
+vase	found on walls	0.00012
+medal	found on walls	0.00059
+shell	found on walls	0.00030
+crayon	found on walls	0.00024
+cork	found on walls	0.02048
+ant	found on walls	0.00031
+car	expensive	0.99118
+emerald	expensive	0.98850
+chain	expensive	0.04988
+medal	expensive	0.96491
+pearl	expensive	0.98727
+bomb	expensive	0.90913
+limousine	expensive	0.99633
+jet	expensive	0.99111
+coin	expensive	0.00037
+jeep	expensive	0.99040
+armour	expensive	0.97795
+van	expensive	0.98601
+building	expensive	0.96444
+necklace	expensive	0.97985
+cannon	expensive	0.98876
+garage	expensive	0.93043
+house	expensive	0.98601
+marble	expensive	0.00060
+bracelet	expensive	0.94268
+airplane	expensive	0.98681
+skyscraper	expensive	0.99427
+motorcycle	expensive	0.99236
+crown	expensive	0.98282
+certificate	expensive	0.97667
+apartment	expensive	0.96112
+rocket	expensive	0.98567
+train	expensive	0.98733
+jeans	expensive	0.00558
+helicopter	expensive	0.98843
+toy	expensive	0.00494
+tractor	expensive	0.97757
+wagon	expensive	0.77069
+horse	expensive	0.91720
+clarinet	expensive	0.89892
+tv	expensive	0.98457
+missile	expensive	0.97899
+violin	expensive	0.97395
+curtains	expensive	0.12011
+bullet	expensive	0.20121
+radio	expensive	0.00223
+piano	expensive	0.97927
+truck	expensive	0.98793
+stereo	expensive	0.96356
+cigar	expensive	0.97789
+razor	expensive	0.01128
+handbag	expensive	0.51157
+trumpet	expensive	0.91961
+harpsichord	expensive	0.97698
+ship	expensive	0.96373
+balloon	expensive	0.00281
+car	requires gasoline	0.99591
+ambulance	requires gasoline	0.98392
+van	requires gasoline	0.99348
+truck	requires gasoline	0.99472
+bus	requires gasoline	0.99055
+cigarette	requires gasoline	0.00077
+trailer	requires gasoline	0.65215
+motorcycle	requires gasoline	0.99444
+taxi	requires gasoline	0.99123
+wagon	requires gasoline	0.11594
+garage	requires gasoline	0.01918
+train	requires gasoline	0.12689
+hot dog	requires gasoline	0.00012
+tractor	requires gasoline	0.98768
+jeep	requires gasoline	0.99065
+stop sign	requires gasoline	0.00101
+fire hydrant	requires gasoline	0.00019
+limousine	requires gasoline	0.99134
+bomb	requires gasoline	0.22804
+traffic light	requires gasoline	0.00165
+airplane	requires gasoline	0.99406
+cart	requires gasoline	0.01648
+buggy	requires gasoline	0.00018
+toaster	requires gasoline	0.00017
+jet	requires gasoline	0.99374
+hose	requires gasoline	0.00018
+bicycle	requires gasoline	0.00902
+cigar	requires gasoline	0.00028
+bike	requires gasoline	0.01715
+subway	requires gasoline	0.52401
+trolley	requires gasoline	0.41467
+unicycle	requires gasoline	0.06964
+boat	requires gasoline	0.98712
+pizza	requires gasoline	0.00015
+microwave	requires gasoline	0.00016
+chain	requires gasoline	0.00054
+parking meter	requires gasoline	0.00023
+rocket	requires gasoline	0.98743
+helicopter	requires gasoline	0.97987
+scooter	requires gasoline	0.84650
+bullet	requires gasoline	0.00035
+corn	requires gasoline	0.00017
+sandwich	requires gasoline	0.00012
+gun	requires gasoline	0.00020
+ship	requires gasoline	0.97829
+boots	requires gasoline	0.00017
+shotgun	requires gasoline	0.00017
+bread	requires gasoline	0.00013
+dog	requires gasoline	0.00014
+person	requires gasoline	0.00689
+pearl	shiny	0.89600
+emerald	shiny	0.97513
+marble	shiny	0.81166
+medal	shiny	0.98773
+mirror	shiny	0.99171
+wheel	shiny	0.95573
+car	shiny	0.95874
+coin	shiny	0.98169
+crown	shiny	0.98959
+shell	shiny	0.62781
+chain	shiny	0.93682
+bracelet	shiny	0.95111
+stone	shiny	0.03728
+sword	shiny	0.98777
+armour	shiny	0.98462
+doorknob	shiny	0.91678
+rock	shiny	0.08769
+necklace	shiny	0.87257
+razor	shiny	0.87393
+pin	shiny	0.86487
+spoon	shiny	0.75383
+dagger	shiny	0.94280
+fork	shiny	0.83518
+knife	shiny	0.92653
+plate	shiny	0.97228
+bullet	shiny	0.82710
+key	shiny	0.83982
+jet	shiny	0.93714
+piano	shiny	0.84518
+flute	shiny	0.87773
+trumpet	shiny	0.92553
+wine glass	shiny	0.87451
+door	shiny	0.03446
+certificate	shiny	0.06509
+clock	shiny	0.56120
+trombone	shiny	0.90730
+olive	shiny	0.65762
+clarinet	shiny	0.74546
+cup	shiny	0.90188
+violin	shiny	0.86012
+horse	shiny	0.61904
+bowl	shiny	0.93750
+saxophone	shiny	0.88107
+harp	shiny	0.63825
+limousine	shiny	0.93762
+doll	shiny	0.11207
+pie	shiny	0.02597
+cannon	shiny	0.90822
+apple	shiny	0.96388
+wagon	shiny	0.05180
+apple	has peel	0.93653
+orange	has peel	0.96959
+banana	has peel	0.88152
+pear	has peel	0.88385
+peach	has peel	0.83198
+pineapple	has peel	0.71683
+lime	has peel	0.84982
+honeydew	has peel	0.76790
+grape	has peel	0.81372
+cherry	has peel	0.08467
+tangerine	has peel	0.95663
+grapefruit	has peel	0.96834
+lemon	has peel	0.93827
+strawberry	has peel	0.04069
+cantaloupe	has peel	0.92578
+avocado	has peel	0.62629
+cranberry	has peel	0.94421
+plum	has peel	0.70968
+nectarine	has peel	0.88281
+cucumber	has peel	0.86969
+blueberry	has peel	0.07686
+raspberry	has peel	0.01776
+tomato	has peel	0.89016
+olive	has peel	0.48100
+coconut	has peel	0.00863
+raisin	has peel	0.03264
+cork	has peel	0.00013
+mandarin	has peel	0.91738
+cheese	has peel	0.00215
+radish	has peel	0.77612
+mushroom	has peel	0.01040
+lettuce	has peel	0.01984
+broccoli	has peel	0.16981
+eggplant	has peel	0.88597
+walnut	has peel	0.46937
+pickle	has peel	0.75434
+carrot	has peel	0.93240
+pepper	has peel	0.17606
+zucchini	has peel	0.88022
+cabbage	has peel	0.11402
+onions	has peel	0.97191
+pumpkin	has peel	0.96148
+rhubarb	has peel	0.45676
+turnip	has peel	0.92673
+pie	has peel	0.00528
+tree	has peel	0.00016
+spinach	has peel	0.00769
+donut	has peel	0.00036
+peas	has peel	0.31364
+jeans	has peel	0.00012
+bomb	dangerous	0.99578
+gun	dangerous	0.99537
+grenade	dangerous	0.99559
+bazooka	dangerous	0.99448
+pistol	dangerous	0.99207
+revolver	dangerous	0.99260
+shotgun	dangerous	0.99127
+machete	dangerous	0.99155
+rifle	dangerous	0.99057
+bullet	dangerous	0.99445
+missile	dangerous	0.99562
+slingshot	dangerous	0.98884
+cannon	dangerous	0.99438
+cheetah	dangerous	0.99062
+rattlesnake	dangerous	0.99180
+sword	dangerous	0.98903
+rat	dangerous	0.02883
+bayonet	dangerous	0.99184
+dagger	dangerous	0.99321
+skunk	dangerous	0.95376
+cigarette	dangerous	0.96017
+crossbow	dangerous	0.99509
+spider	dangerous	0.83775
+hose	dangerous	0.29126
+porcupine	dangerous	0.15748
+spear	dangerous	0.98157
+catapult	dangerous	0.99259
+panther	dangerous	0.98863
+tiger	dangerous	0.99390
+python	dangerous	0.97687
+lion	dangerous	0.99135
+cockroach	dangerous	0.50634
+hornet	dangerous	0.97780
+gloves	dangerous	0.00055
+hatchet	dangerous	0.97041
+sledgehammer	dangerous	0.98254
+chain	dangerous	0.01194
+car	dangerous	0.26082
+fire hydrant	dangerous	0.12423
+baseball bat	dangerous	0.97886
+ambulance	dangerous	0.05521
+rope	dangerous	0.68774
+grasshopper	dangerous	0.01819
+traffic light	dangerous	0.01396
+person	dangerous	0.57410
+housefly	dangerous	0.13350
+armour	dangerous	0.01777
+stop sign	dangerous	0.01442
+flea	dangerous	0.06999
+motorcycle	dangerous	0.95262
+banana	eaten in summer	0.98478
+cucumber	eaten in summer	0.99089
+pineapple	eaten in summer	0.99209
+orange	eaten in summer	0.96704
+avocado	eaten in summer	0.98738
+zucchini	eaten in summer	0.99315
+pumpkin	eaten in summer	0.16387
+cantaloupe	eaten in summer	0.99326
+apple	eaten in summer	0.98958
+pickle	eaten in summer	0.96500
+peach	eaten in summer	0.99088
+pear	eaten in summer	0.98793
+lime	eaten in summer	0.96222
+carrot	eaten in summer	0.92609
+honeydew	eaten in summer	0.98365
+broccoli	eaten in summer	0.98634
+grapefruit	eaten in summer	0.97487
+tomato	eaten in summer	0.99134
+grape	eaten in summer	0.98408
+eggplant	eaten in summer	0.98983
+tangerine	eaten in summer	0.98436
+cheese	eaten in summer	0.96158
+strawberry	eaten in summer	0.99240
+mushroom	eaten in summer	0.93628
+corn	eaten in summer	0.98608
+beans	eaten in summer	0.55519
+yam	eaten in summer	0.84294
+coconut	eaten in summer	0.97042
+peas	eaten in summer	0.98718
+spinach	eaten in summer	0.97571
+lettuce	eaten in summer	0.98086
+nectarine	eaten in summer	0.99133
+lemon	eaten in summer	0.96614
+cabbage	eaten in summer	0.97638
+radish	eaten in summer	0.97718
+olive	eaten in summer	0.98742
+shrimp	eaten in summer	0.95940
+seaweed	eaten in summer	0.93176
+raisin	eaten in summer	0.56512
+cauliflower	eaten in summer	0.98637
+cake	eaten in summer	0.96832
+potato	eaten in summer	0.78431
+raspberry	eaten in summer	0.98746
+asparagus	eaten in summer	0.99024
+turnip	eaten in summer	0.96395
+pizza	eaten in summer	0.98647
+plum	eaten in summer	0.98483
+celery	eaten in summer	0.97162
+blueberry	eaten in summer	0.99170
+frisbee	eaten in summer	0.00015
+building	man made	0.99745
+bridge	man made	0.99752
+pier	man made	0.99729
+skyscraper	man made	0.99796
+fence	man made	0.99772
+car	man made	0.99760
+garage	man made	0.99778
+house	man made	0.99788
+stone	man made	0.00025
+rock	man made	0.00025
+basement	man made	0.99717
+drain	man made	0.99387
+brick	man made	0.99572
+wall	man made	0.99717
+elevator	man made	0.99753
+hose	man made	0.99602
+train	man made	0.99779
+shed	man made	0.99752
+beehive	man made	0.52792
+sink	man made	0.99713
+toilet	man made	0.99751
+boat	man made	0.99755
+shack	man made	0.99775
+tree	man made	0.00022
+escalator	man made	0.99752
+bathtub	man made	0.99755
+pyramid	man made	0.99685
+ship	man made	0.99772
+cellar	man made	0.99709
+church	man made	0.99650
+door	man made	0.99749
+cathedral	man made	0.99789
+subway	man made	0.99755
+faucet	man made	0.99690
+pearl	man made	0.00108
+wheel	man made	0.99727
+gate	man made	0.99732
+airplane	man made	0.99763
+marble	man made	0.99302
+apartment	man made	0.99751
+truck	man made	0.99769
+barn	man made	0.99801
+bomb	man made	0.99778
+fire hydrant	man made	0.99690
+sledgehammer	man made	0.99575
+submarine	man made	0.99781
+bungalow	man made	0.99767
+canoe	man made	0.99733
+hut	man made	0.99799
+telephone	man made	0.99731
+fork	used for eating	0.99073
+bowl	used for eating	0.99017
+spoon	used for eating	0.99206
+plate	used for eating	0.99015
+knife	used for eating	0.83378
+dish	used for eating	0.97609
+bread	used for eating	0.99483
+cup	used for eating	0.14673
+beans	used for eating	0.98080
+potato	used for eating	0.98815
+sandwich	used for eating	0.99066
+banana	used for eating	0.97475
+pizza	used for eating	0.98728
+cheese	used for eating	0.99106
+corn	used for eating	0.98414
+grater	used for eating	0.00043
+peas	used for eating	0.98124
+apple	used for eating	0.97372
+dining table	used for eating	0.99721
+pickle	used for eating	0.97331
+orange	used for eating	0.95431
+hot dog	used for eating	0.98620
+mug	used for eating	0.00018
+rice	used for eating	0.98773
+pie	used for eating	0.99124
+tongs	used for eating	0.07766
+lettuce	used for eating	0.97851
+shrimp	used for eating	0.98126
+carrot	used for eating	0.98050
+spatula	used for eating	0.66673
+tomato	used for eating	0.97517
+grape	used for eating	0.94547
+cake	used for eating	0.99181
+menu	used for eating	0.00197
+cucumber	used for eating	0.95887
+pineapple	used for eating	0.96887
+napkin	used for eating	0.86252
+pear	used for eating	0.97288
+peach	used for eating	0.97489
+broccoli	used for eating	0.98155
+chicken	used for eating	0.98989
+mushroom	used for eating	0.96647
+bottle	used for eating	0.00019
+zucchini	used for eating	0.97351
+avocado	used for eating	0.97729
+ladle	used for eating	0.95918
+wine glass	used for eating	0.00033
+lobster	used for eating	0.97438
+donut	used for eating	0.98743
+yam	used for eating	0.97881
+worm	slimy	0.97271
+toad	slimy	0.97991
+rat	slimy	0.00162
+cockroach	slimy	0.06096
+grasshopper	slimy	0.00026
+frog	slimy	0.92148
+beetle	slimy	0.01232
+flea	slimy	0.01500
+spider	slimy	0.01637
+pickle	slimy	0.77766
+salamander	slimy	0.93844
+tortoise	slimy	0.89566
+snail	slimy	0.99305
+housefly	slimy	0.06745
+python	slimy	0.64318
+hornet	slimy	0.00022
+eel	slimy	0.98305
+skunk	slimy	0.00470
+porcupine	slimy	0.00034
+cucumber	slimy	0.00965
+ant	slimy	0.00023
+caterpillar	slimy	0.18558
+turnip	slimy	0.02998
+gopher	slimy	0.00874
+moth	slimy	0.00039
+lettuce	slimy	0.01488
+wasp	slimy	0.00038
+radish	slimy	0.01465
+alligator	slimy	0.82523
+zucchini	slimy	0.02663
+goldfish	slimy	0.85140
+cabbage	slimy	0.06889
+mushroom	slimy	0.94252
+potato	slimy	0.03127
+asparagus	slimy	0.20474
+beaver	slimy	0.01018
+celery	slimy	0.01078
+octopus	slimy	0.97616
+turtle	slimy	0.34044
+spinach	slimy	0.22547
+rattlesnake	slimy	0.04127
+broccoli	slimy	0.04408
+cauliflower	slimy	0.02503
+crocodile	slimy	0.21696
+groundhog	slimy	0.00157
+yam	slimy	0.03381
+chimp	slimy	0.00048
+clam	slimy	0.98680
+iguana	slimy	0.02272
+eggplant	slimy	0.05989
+skyscraper	tall	0.99720
+building	tall	0.99458
+pyramid	tall	0.99383
+person	tall	0.81297
+tree	tall	0.99449
+elephant	tall	0.53074
+giraffe	tall	0.99178
+ostrich	tall	0.96404
+house	tall	0.94069
+barn	tall	0.98627
+bull	tall	0.09264
+cathedral	tall	0.98210
+ox	tall	0.02916
+horse	tall	0.88102
+elevator	tall	0.72585
+platypus	tall	0.00044
+fire hydrant	tall	0.00035
+rattlesnake	tall	0.00019
+zebra	tall	0.00387
+rooster	tall	0.00026
+escalator	tall	0.98332
+camel	tall	0.97722
+bridge	tall	0.97307
+gorilla	tall	0.18176
+vine	tall	0.01372
+moose	tall	0.50373
+basement	tall	0.01931
+eagle	tall	0.00123
+coyote	tall	0.00114
+shed	tall	0.86324
+python	tall	0.00075
+whale	tall	0.08216
+elk	tall	0.11155
+tractor	tall	0.43052
+rock	tall	0.00021
+cat	tall	0.00016
+dog	tall	0.00042
+bison	tall	0.13892
+brick	tall	0.00202
+donkey	tall	0.53733
+skunk	tall	0.00020
+church	tall	0.83878
+bungalow	tall	0.05178
+woodpecker	tall	0.00101
+cheetah	tall	0.00122
+hyena	tall	0.00030
+apartment	tall	0.00324
+desk	tall	0.54630
+shack	tall	0.82607
+porcupine	tall	0.00098
+stone	hard	0.99141
+marble	hard	0.95920
+rock	hard	0.99206
+brick	hard	0.99207
+pearl	hard	0.96452
+emerald	hard	0.95133
+sledgehammer	hard	0.98315
+chisel	hard	0.98999
+hammer	hard	0.99075
+sandpaper	hard	0.01789
+shell	hard	0.99441
+drill	hard	0.98523
+skyscraper	hard	0.99100
+pyramid	hard	0.98007
+level	hard	0.97334
+building	hard	0.98987
+pie	hard	0.06016
+basement	hard	0.02488
+axe	hard	0.98447
+screws	hard	0.99347
+olive	hard	0.30061
+football	hard	0.68518
+bolts	hard	0.99335
+cherry	hard	0.27111
+desk	hard	0.99003
+dining table	hard	0.97479
+wheel	hard	0.98533
+cellar	hard	0.16338
+donut	hard	0.04318
+wall	hard	0.99068
+clamp	hard	0.98868
+screwdriver	hard	0.96887
+bullet	hard	0.99322
+walnut	hard	0.78809
+baseball bat	hard	0.97365
+table	hard	0.98000
+tennis racket	hard	0.25727
+person	hard	0.00479
+stick	hard	0.44145
+knife	hard	0.96294
+raisin	hard	0.08597
+coin	hard	0.99022
+cannon	hard	0.99431
+hatchet	hard	0.97386
+spade	hard	0.96566
+crowbar	hard	0.99125
+ball	hard	0.98369
+shovel	hard	0.96938
+blueberry	hard	0.14282
+skis	hard	0.89535
+rocket	fast	0.99543
+jet	fast	0.99663
+train	fast	0.99354
+car	fast	0.98851
+missile	fast	0.99191
+airplane	fast	0.99298
+bomb	fast	0.00742
+motorcycle	fast	0.99599
+bus	fast	0.37370
+subway	fast	0.97078
+van	fast	0.98999
+cheetah	fast	0.99717
+unicycle	fast	0.87173
+helicopter	fast	0.99426
+jeep	fast	0.98973
+wagon	fast	0.00846
+taxi	fast	0.92608
+truck	fast	0.49418
+horse	fast	0.97791
+scooter	fast	0.96996
+bird	fast	0.94383
+dog	fast	0.93617
+bicycle	fast	0.95121
+cannon	fast	0.03141
+cat	fast	0.91045
+ambulance	fast	0.99107
+bike	fast	0.97218
+toaster	fast	0.05548
+tractor	fast	0.01451
+rat	fast	0.92571
+bazooka	fast	0.04860
+bullet	fast	0.99572
+beetle	fast	0.36758
+ship	fast	0.97988
+grenade	fast	0.02330
+limousine	fast	0.98582
+tricycle	fast	0.04325
+pony	fast	0.43355
+spider	fast	0.30509
+submarine	fast	0.98729
+microwave	fast	0.99020
+tiger	fast	0.99309
+slingshot	fast	0.97347
+buggy	fast	0.00102
+catapult	fast	0.03217
+trailer	fast	0.00111
+panther	fast	0.99450
+moth	fast	0.54879
+balloon	fast	0.12950
+trolley	fast	0.16964
+toy	a toy	0.91454
+doll	a toy	0.99523
+kite	a toy	0.96868
+balloon	a toy	0.96047
+frisbee	a toy	0.97251
+teddy bear	a toy	0.99468
+ball	a toy	0.97518
+tricycle	a toy	0.97273
+pony	a toy	0.00138
+sports ball	a toy	0.95543
+rocket	a toy	0.00086
+cart	a toy	0.00030
+trolley	a toy	0.00060
+wagon	a toy	0.00020
+slingshot	a toy	0.97418
+bicycle	a toy	0.37680
+bike	a toy	0.71105
+car	a toy	0.00183
+football	a toy	0.95255
+scooter	a toy	0.93664
+scissors	a toy	0.00021
+skateboard	a toy	0.97825
+baseball bat	a toy	0.04493
+chipmunk	a toy	0.00786
+dog	a toy	0.00800
+box	a toy	0.00021
+missile	a toy	0.00046
+wand	a toy	0.96137
+stick	a toy	0.01878
+mouse	a toy	0.00255
+bomb	a toy	0.00035
+airplane	a toy	0.00036
+buggy	a toy	0.03103
+trailer	a toy	0.00019
+tractor	a toy	0.00031
+horse	a toy	0.00039
+pencil	a toy	0.00024
+wheel	a toy	0.00104
+basket	a toy	0.00023
+chimp	a toy	0.00101
+sled	a toy	0.72995
+grenade	a toy	0.00169
+unicycle	a toy	0.95398
+boat	a toy	0.00057
+remote	a toy	0.00695
+pin	a toy	0.00023
+donkey	a toy	0.00515
+cage	a toy	0.00029
+cat	a toy	0.09752
+gun	a toy	0.00399
+scarf	worn for warmth	0.97989
+coat	worn for warmth	0.99357
+jacket	worn for warmth	0.99241
+shawl	worn for warmth	0.98110
+sweater	worn for warmth	0.99313
+gloves	worn for warmth	0.98056
+mittens	worn for warmth	0.98843
+parka	worn for warmth	0.99376
+vest	worn for warmth	0.92145
+earmuffs	worn for warmth	0.98722
+cloak	worn for warmth	0.98137
+socks	worn for warmth	0.98628
+boots	worn for warmth	0.96561
+cape	worn for warmth	0.96632
+shirt	worn for warmth	0.91764
+shoes	worn for warmth	0.91198
+gown	worn for warmth	0.28219
+belt	worn for warmth	0.00246
+pajamas	worn for warmth	0.98236
+pants	worn for warmth	0.91214
+robe	worn for warmth	0.97111
+blouse	worn for warmth	0.67489
+dress	worn for warmth	0.17397
+umbrella	worn for warmth	0.00150
+nightgown	worn for warmth	0.97407
+bra	worn for warmth	0.74907
+baseball glove	worn for warmth	0.00049
+tie	worn for warmth	0.01262
+jeans	worn for warmth	0.74241
+apron	worn for warmth	0.10202
+veil	worn for warmth	0.04524
+camisole	worn for warmth	0.94626
+sled	worn for warmth	0.00446
+helmet	worn for warmth	0.01632
+skirt	worn for warmth	0.70840
+teddy bear	worn for warmth	0.40349
+handbag	worn for warmth	0.00414
+sleigh	worn for warmth	0.00411
+sack	worn for warmth	0.12807
+carpet	worn for warmth	0.00021
+freezer	worn for warmth	0.00023
+armour	worn for warmth	0.00630
+shield	worn for warmth	0.00015
+sandals	worn for warmth	0.13231
+buckle	worn for warmth	0.00020
+stove	worn for warmth	0.00031
+slippers	worn for warmth	0.97126
+drapes	worn for warmth	0.00165
+leotards	worn for warmth	0.70454
+porcupine	worn for warmth	0.00018
+skis	swims	0.00058
+swimsuit	swims	0.00830
+seaweed	swims	0.00124
+surfboard	swims	0.02578
+canoe	swims	0.00244
+goldfish	swims	0.99024
+submarine	swims	0.98125
+snowboard	swims	0.00022
+jeans	swims	0.00014
+raft	swims	0.00080
+swan	swims	0.99249
+frog	swims	0.95396
+hose	swims	0.00016
+duck	swims	0.98876
+snail	swims	0.02338
+boat	swims	0.00399
+dolphin	swims	0.99401
+bathtub	swims	0.00089
+lobster	swims	0.95421
+slippers	swims	0.00013
+eel	swims	0.99128
+screws	swims	0.00011
+frisbee	swims	0.00014
+harpoon	swims	0.01261
+socks	swims	0.00013
+penguin	swims	0.97548
+turtle	swims	0.98709
+seagull	swims	0.97668
+trout	swims	0.96511
+crab	swims	0.96538
+bolts	swims	0.00011
+seal	swims	0.99222
+shrimp	swims	0.94960
+pickle	swims	0.00028
+shell	swims	0.00022
+squid	swims	0.98552
+yacht	swims	0.80787
+whale	swims	0.99531
+shoes	swims	0.00014
+otter	swims	0.97941
+clam	swims	0.97267
+tomahawk	swims	0.00012
+spear	swims	0.00031
+sailboat	swims	0.06038
+boots	swims	0.00015
+octopus	swims	0.97466
+toad	swims	0.95940
+kite	swims	0.00013
+salamander	swims	0.98144
+salmon	swims	0.99427
+certificate	words on it	0.89803
+menu	words on it	0.98484
+medal	words on it	0.16489
+traffic light	words on it	0.41058
+bridge	words on it	0.02930
+key	words on it	0.22550
+stop sign	words on it	0.94358
+banner	words on it	0.96277
+pen	words on it	0.94781
+peg	words on it	0.01246
+envelope	words on it	0.98611
+hook	words on it	0.01402
+person	words on it	0.00032
+pin	words on it	0.06436
+bouquet	words on it	0.00184
+chain	words on it	0.01409
+crown	words on it	0.00509
+clock	words on it	0.72813
+tack	words on it	0.06031
+rock	words on it	0.00287
+pyramid	words on it	0.01136
+bull	words on it	0.00028
+coin	words on it	0.97272
+door	words on it	0.00050
+box	words on it	0.98293
+whistle	words on it	0.14890
+wall	words on it	0.63401
+muzzle	words on it	0.01434
+gate	words on it	0.00388
+python	words on it	0.00023
+barrel	words on it	0.02856
+bullet	words on it	0.04858
+book	words on it	0.88469
+dog	words on it	0.00026
+church	words on it	0.63391
+baton	words on it	0.05756
+cat	words on it	0.00023
+cheese	words on it	0.00108
+fence	words on it	0.01707
+wheel	words on it	0.87489
+basement	words on it	0.00022
+shell	words on it	0.00721
+building	words on it	0.37141
+doorknob	words on it	0.05810
+typewriter	words on it	0.98372
+mandarin	words on it	0.01049
+horse	words on it	0.00055
+bird	words on it	0.00027
+cork	words on it	0.01792
+pizza	words on it	0.23639
+rattle	produces noise	0.96846
+whistle	produces noise	0.96922
+drum	produces noise	0.98357
+trombone	produces noise	0.98766
+bagpipe	produces noise	0.98654
+trumpet	produces noise	0.98608
+tuba	produces noise	0.98804
+harmonica	produces noise	0.94422
+clarinet	produces noise	0.97278
+flute	produces noise	0.97576
+saxophone	produces noise	0.98344
+piano	produces noise	0.97091
+baton	produces noise	0.42592
+rock	produces noise	0.11186
+radio	produces noise	0.98443
+accordion	produces noise	0.97021
+crow	produces noise	0.98432
+telephone	produces noise	0.98999
+bird	produces noise	0.98785
+bomb	produces noise	0.98732
+guitar	produces noise	0.96220
+dog	produces noise	0.99052
+harp	produces noise	0.97652
+gun	produces noise	0.99433
+cat	produces noise	0.97875
+keyboard	produces noise	0.97869
+rooster	produces noise	0.97191
+missile	produces noise	0.98986
+bullet	produces noise	0.99400
+clock	produces noise	0.97275
+cannon	produces noise	0.99442
+baseball bat	produces noise	0.06814
+cigarette	produces noise	0.56642
+car	produces noise	0.99246
+traffic light	produces noise	0.11843
+banjo	produces noise	0.93168
+flea	produces noise	0.15368
+stop sign	produces noise	0.16084
+balloon	produces noise	0.17725
+shotgun	produces noise	0.99060
+pistol	produces noise	0.99321
+rat	produces noise	0.97511
+tv	produces noise	0.98833
+harpsichord	produces noise	0.97559
+beetle	produces noise	0.85434
+grenade	produces noise	0.98379
+housefly	produces noise	0.95847
+hose	produces noise	0.83464
+moth	produces noise	0.69199
+mixer	produces noise	0.98911
+bird	an animal	0.98908
+cat	an animal	0.99393
+dog	an animal	0.99075
+horse	an animal	0.99295
+chimp	an animal	0.99316
+rabbit	an animal	0.99243
+rat	an animal	0.99421
+fox	an animal	0.99608
+frog	an animal	0.98112
+squirrel	an animal	0.99292
+tiger	an animal	0.99630
+raccoon	an animal	0.99496
+bear	an animal	0.99454
+panther	an animal	0.99617
+giraffe	an animal	0.99301
+turtle	an animal	0.99116
+elephant	an animal	0.99553
+goldfish	an animal	0.98666
+zebra	an animal	0.99282
+skunk	an animal	0.99351
+cheetah	an animal	0.99625
+deer	an animal	0.99471
+ox	an animal	0.99279
+alligator	an animal	0.99456
+lion	an animal	0.99576
+groundhog	an animal	0.99176
+salamander	an animal	0.98842
+pig	an animal	0.99289
+crow	an animal	0.98155
+tortoise	an animal	0.99260
+beaver	an animal	0.99033
+hamster	an animal	0.99350
+crocodile	an animal	0.99452
+hare	an animal	0.98874
+chipmunk	an animal	0.98878
+leopard	an animal	0.99565
+moose	an animal	0.99468
+gopher	an animal	0.98962
+iguana	an animal	0.99019
+eagle	an animal	0.98320
+toad	an animal	0.97445
+hyena	an animal	0.99624
+coyote	an animal	0.99544
+falcon	an animal	0.98709
+gorilla	an animal	0.99508
+whale	an animal	0.99535
+dolphin	an animal	0.99361
+bull	an animal	0.99267
+beetle	an animal	0.98203
+bison	an animal	0.99544
+kite	fun	0.96469
+skis	fun	0.97187
+football	fun	0.96948
+toy	fun	0.99231
+balloon	fun	0.94933
+frisbee	fun	0.97703
+pony	fun	0.35211
+dog	fun	0.95106
+ball	fun	0.96486
+slingshot	fun	0.94020
+rocket	fun	0.01533
+doll	fun	0.86923
+cat	fun	0.95677
+teddy bear	fun	0.86915
+tricycle	fun	0.92449
+bike	fun	0.94130
+horse	fun	0.85790
+sports ball	fun	0.98578
+python	fun	0.00250
+bomb	fun	0.00101
+skateboard	fun	0.98511
+pie	fun	0.01524
+tv	fun	0.78438
+scooter	fun	0.94153
+cigarette	fun	0.38716
+person	fun	0.80110
+bicycle	fun	0.89597
+tack	fun	0.00029
+cigar	fun	0.94781
+rope	fun	0.10583
+whip	fun	0.01915
+rock	fun	0.00027
+screws	fun	0.00029
+grenade	fun	0.00633
+snowboard	fun	0.98217
+hot dog	fun	0.08749
+gun	fun	0.05868
+baseball bat	fun	0.46949
+sleigh	fun	0.94138
+crossbow	fun	0.22017
+sword	fun	0.85632
+spear	fun	0.01782
+motorcycle	fun	0.97589
+sled	fun	0.96768
+goldfish	fun	0.04625
+chain	fun	0.00018
+machete	fun	0.00167
+bull	fun	0.00810
+pistol	fun	0.15832
+car	fun	0.89071
+oven	hot	0.99682
+stove	hot	0.99657
+microwave	hot	0.97885
+candle	hot	0.99318
+toaster	hot	0.96615
+pan	hot	0.99321
+cigar	hot	0.99161
+cigarette	hot	0.99036
+brick	hot	0.08481
+kettle	hot	0.99447
+pepper	hot	0.04182
+tomato	hot	0.00295
+pot	hot	0.99366
+basement	hot	0.04346
+cellar	hot	0.01900
+tangerine	hot	0.00056
+person	hot	0.13144
+cauliflower	hot	0.01387
+orange	hot	0.02012
+porcupine	hot	0.00036
+hot dog	hot	0.94545
+tongs	hot	0.15506
+pumpkin	hot	0.00513
+yam	hot	0.04511
+radish	hot	0.00106
+grapefruit	hot	0.00060
+rhubarb	hot	0.00056
+parsley	hot	0.00015
+freezer	hot	0.03725
+mushroom	hot	0.00234
+mandarin	hot	0.00230
+crayon	hot	0.00020
+donut	hot	0.97699
+leopard	hot	0.00071
+spatula	hot	0.01005
+fridge	hot	0.02719
+cranberry	hot	0.00085
+garlic	hot	0.00804
+python	hot	0.00269
+cheetah	hot	0.00704
+hose	hot	0.00020
+refrigerator	hot	0.04844
+apron	hot	0.00337
+olive	hot	0.00535
+panther	hot	0.00055
+onions	hot	0.05427
+coyote	hot	0.00056
+lion	hot	0.00098
+eggplant	hot	0.00763
+dog	hot	0.02787
+rock	heavy	0.97963
+stone	heavy	0.97822
+brick	heavy	0.98751
+marble	heavy	0.00695
+sledgehammer	heavy	0.99271
+cannon	heavy	0.99533
+car	heavy	0.96938
+wagon	heavy	0.99017
+truck	heavy	0.99353
+skyscraper	heavy	0.99297
+building	heavy	0.99086
+catapult	heavy	0.99362
+basement	heavy	0.95340
+box	heavy	0.80050
+tractor	heavy	0.99068
+pyramid	heavy	0.96250
+elephant	heavy	0.99147
+drum	heavy	0.99007
+trailer	heavy	0.98898
+bookcase	heavy	0.98948
+trolley	heavy	0.98647
+wheelbarrow	heavy	0.91243
+cart	heavy	0.98621
+bomb	heavy	0.99235
+ox	heavy	0.98793
+train	heavy	0.98951
+van	heavy	0.97875
+desk	heavy	0.98802
+ship	heavy	0.98901
+baseball bat	heavy	0.06040
+elevator	heavy	0.98217
+shelves	heavy	0.98233
+bridge	heavy	0.97653
+shed	heavy	0.97762
+piano	heavy	0.98212
+house	heavy	0.98667
+chain	heavy	0.98631
+bagpipe	heavy	0.72575
+whale	heavy	0.98363
+tuba	heavy	0.98446
+pearl	heavy	0.00993
+barrel	heavy	0.98756
+toaster	heavy	0.00260
+barn	heavy	0.98078
+cellar	heavy	0.94093
+bureau	heavy	0.98410
+cabinet	heavy	0.97975
+person	heavy	0.86822
+bullet	heavy	0.01974
+escalator	heavy	0.97624
+elephant	large	0.99590
+whale	large	0.98831
+building	large	0.99374
+giraffe	large	0.97647
+pyramid	large	0.99310
+ox	large	0.97796
+skyscraper	large	0.99595
+camel	large	0.98074
+bull	large	0.98411
+barn	large	0.99368
+basement	large	0.84724
+house	large	0.99301
+zebra	large	0.58992
+dolphin	large	0.93943
+octopus	large	0.76986
+lion	large	0.97950
+gorilla	large	0.98354
+cannon	large	0.99459
+crocodile	large	0.96029
+tiger	large	0.98839
+tortoise	large	0.11711
+buffalo	large	0.98808
+cheetah	large	0.98294
+horse	large	0.98797
+panther	large	0.93051
+cow	large	0.90343
+alligator	large	0.97222
+bison	large	0.98412
+turtle	large	0.26563
+cellar	large	0.68637
+tractor	large	0.99119
+car	large	0.98273
+shed	large	0.95549
+drum	large	0.98138
+garage	large	0.98279
+broccoli	large	0.02071
+dog	large	0.95272
+seal	large	0.82723
+ship	large	0.99506
+toaster	large	0.00132
+bedroom	large	0.87417
+pearl	large	0.00885
+squid	large	0.72746
+cat	large	0.05474
+person	large	0.65401
+leopard	large	0.96501
+cathedral	large	0.99354
+barrel	large	0.93662
+bear	large	0.97933
+desk	large	0.94677
+freezer	cold	0.99538
+cellar	cold	0.96734
+refrigerator	cold	0.99538
+penguin	cold	0.57241
+basement	cold	0.94251
+sled	cold	0.61786
+fridge	cold	0.99548
+person	cold	0.42933
+marble	cold	0.00912
+boots	cold	0.01266
+sleigh	cold	0.17337
+skis	cold	0.22877
+walrus	cold	0.36702
+cranberry	cold	0.01596
+donut	cold	0.57900
+mittens	cold	0.00480
+coat	cold	0.00245
+stone	cold	0.73406
+blueberry	cold	0.02066
+rock	cold	0.11637
+seal	cold	0.30090
+gloves	cold	0.00237
+jacket	cold	0.00618
+pearl	cold	0.00112
+pie	cold	0.96620
+biscuit	cold	0.38018
+cake	cold	0.74712
+raisin	cold	0.01591
+sweater	cold	0.00280
+parka	cold	0.01536
+raspberry	cold	0.00882
+whale	cold	0.07346
+microwave	cold	0.20315
+strawberry	cold	0.01050
+dog	cold	0.07030
+thermometer	cold	0.86571
+scarf	cold	0.00051
+cherry	cold	0.00469
+swan	cold	0.03066
+cat	cold	0.03049
+grape	cold	0.01413
+cork	cold	0.00079
+oven	cold	0.69374
+toaster	cold	0.05375
+barn	cold	0.61744
+shawl	cold	0.00033
+earmuffs	cold	0.00580
+building	cold	0.79355
+otter	cold	0.11868
+brick	cold	0.02748
+shoes	pairs	0.99049
+chain	pairs	0.01746
+jeans	pairs	0.80387
+socks	pairs	0.96881
+skis	pairs	0.97841
+nylons	pairs	0.66158
+slippers	pairs	0.89351
+leotards	pairs	0.00530
+bolts	pairs	0.22270
+pie	pairs	0.00636
+screws	pairs	0.12492
+boots	pairs	0.97210
+shelves	pairs	0.09216
+sandals	pairs	0.80279
+peg	pairs	0.29456
+bracelet	pairs	0.00224
+hook	pairs	0.00343
+pin	pairs	0.05187
+medal	pairs	0.00236
+hose	pairs	0.00300
+pants	pairs	0.90531
+buckle	pairs	0.00188
+gloves	pairs	0.86783
+sandwich	pairs	0.03087
+rope	pairs	0.00046
+bridge	pairs	0.01007
+spade	pairs	0.00035
+bra	pairs	0.00218
+ball	pairs	0.00177
+coin	pairs	0.00653
+necklace	pairs	0.00092
+peas	pairs	0.28259
+thimble	pairs	0.04838
+dresser	pairs	0.00128
+cigarette	pairs	0.00395
+bed	pairs	0.00664
+tie	pairs	0.00064
+bedroom	pairs	0.00297
+dog	pairs	0.00035
+clamp	pairs	0.02218
+sleigh	pairs	0.00522
+pony	pairs	0.00033
+bench	pairs	0.29694
+trolley	pairs	0.01987
+box	pairs	0.00171
+curtains	pairs	0.97793
+cat	pairs	0.00058
+table	pairs	0.00328
+stick	pairs	0.00037
+chair	pairs	0.90699
+telephone	electrical	0.00158
+microwave	electrical	0.99537
+tv	electrical	0.99497
+radio	electrical	0.98140
+toaster	electrical	0.99315
+traffic light	electrical	0.98716
+chain	electrical	0.00024
+bomb	electrical	0.05538
+stop sign	electrical	0.67815
+dishwasher	electrical	0.99360
+fridge	electrical	0.99598
+remote	electrical	0.98636
+chandelier	electrical	0.99455
+cell phone	electrical	0.81082
+faucet	electrical	0.00016
+mouse	electrical	0.00016
+stereo	electrical	0.99309
+parking meter	electrical	0.98835
+stove	electrical	0.75116
+refrigerator	electrical	0.99558
+elevator	electrical	0.99408
+bolts	electrical	0.00017
+lamp	electrical	0.97970
+missile	electrical	0.07513
+car	electrical	0.98022
+oven	electrical	0.99494
+rat	electrical	0.00015
+hose	electrical	0.00014
+escalator	electrical	0.99064
+freezer	electrical	0.99413
+laptop	electrical	0.99424
+fire hydrant	electrical	0.00080
+drain	electrical	0.00015
+clock	electrical	0.83012
+rope	electrical	0.00014
+projector	electrical	0.98732
+screws	electrical	0.00014
+whistle	electrical	0.00016
+train	electrical	0.99222
+bridge	electrical	0.00191
+garage	electrical	0.96507
+beehive	electrical	0.02558
+ambulance	electrical	0.37588
+housefly	electrical	0.00033
+gun	electrical	0.00018
+spider	electrical	0.00033
+mixer	electrical	0.99323
+tractor	electrical	0.20451
+lantern	electrical	0.00022
+typewriter	electrical	0.00953
+pickle	smelly	0.62564
+rat	smelly	0.42970
+flea	smelly	0.00167
+potato	smelly	0.00822
+cellar	smelly	0.95553
+worm	smelly	0.24771
+onions	smelly	0.82771
+cockroach	smelly	0.00156
+cabbage	smelly	0.02387
+skunk	smelly	0.96812
+cigarette	smelly	0.98592
+hose	smelly	0.01076
+broom	smelly	0.00066
+basement	smelly	0.87600
+person	smelly	0.64467
+housefly	smelly	0.01617
+cigar	smelly	0.98574
+toilet	smelly	0.79619
+beets	smelly	0.01905
+turnip	smelly	0.00733
+shoes	smelly	0.93902
+lettuce	smelly	0.00595
+drain	smelly	0.96501
+sack	smelly	0.06031
+garlic	smelly	0.89049
+cat	smelly	0.77312
+dog	smelly	0.96544
+mushroom	smelly	0.21100
+cork	smelly	0.00164
+cart	smelly	0.01146
+cheese	smelly	0.93405
+boots	smelly	0.88897
+toad	smelly	0.84007
+spider	smelly	0.00030
+garage	smelly	0.37799
+pepper	smelly	0.00749
+radish	smelly	0.00272
+jeans	smelly	0.00608
+trolley	smelly	0.00273
+bread	smelly	0.15313
+beetle	smelly	0.00634
+dishwasher	smelly	0.57254
+cauliflower	smelly	0.03259
+celery	smelly	0.00188
+cucumber	smelly	0.00039
+shelves	smelly	0.00015
+coin	smelly	0.00016
+peas	smelly	0.00250
+carpet	smelly	0.30256
+parsley	smelly	0.01386
+guitar	used for music	0.99375
+piano	used for music	0.99559
+drum	used for music	0.98787
+harmonica	used for music	0.97452
+trumpet	used for music	0.98567
+harp	used for music	0.99221
+saxophone	used for music	0.99238
+tuba	used for music	0.99058
+banjo	used for music	0.98082
+flute	used for music	0.99231
+violin	used for music	0.99466
+trombone	used for music	0.98316
+harpsichord	used for music	0.98970
+clarinet	used for music	0.98816
+cello	used for music	0.99348
+accordion	used for music	0.98379
+keyboard	used for music	0.99309
+rattle	used for music	0.85955
+bagpipe	used for music	0.96726
+mixer	used for music	0.00019
+baton	used for music	0.00018
+radio	used for music	0.98274
+bench	used for music	0.00016
+bridge	used for music	0.00057
+stereo	used for music	0.99010
+whistle	used for music	0.93674
+church	used for music	0.39268
+rock	used for music	0.00017
+chapel	used for music	0.21630
+tv	used for music	0.00048
+cathedral	used for music	0.01022
+tray	used for music	0.00014
+building	used for music	0.00017
+stick	used for music	0.00015
+rocker	used for music	0.00022
+remote	used for music	0.00051
+shell	used for music	0.00013
+projector	used for music	0.00016
+shelves	used for music	0.00015
+skyscraper	used for music	0.00011
+crown	used for music	0.00019
+spear	used for music	0.00011
+shoes	used for music	0.00015
+cellar	used for music	0.00016
+basement	used for music	0.00030
+car	used for music	0.13877
+bowl	used for music	0.00011
+fork	used for music	0.00011
+barn	used for music	0.00014
+telephone	used for music	0.37692
+cupboard	has shelves	0.99668
+cabinet	has shelves	0.99692
+shelves	has shelves	0.98016
+bookcase	has shelves	0.99727
+bureau	has shelves	0.92663
+closet	has shelves	0.99649
+refrigerator	has shelves	0.99580
+dresser	has shelves	0.99588
+fridge	has shelves	0.99654
+basement	has shelves	0.98723
+freezer	has shelves	0.98635
+cellar	has shelves	0.99388
+box	has shelves	0.00235
+desk	has shelves	0.90323
+table	has shelves	0.39513
+bedroom	has shelves	0.95880
+shed	has shelves	0.98329
+dining table	has shelves	0.54787
+jar	has shelves	0.00117
+garage	has shelves	0.99381
+book	has shelves	0.00193
+basket	has shelves	0.00020
+tray	has shelves	0.02587
+lamp	has shelves	0.04523
+hook	has shelves	0.00054
+vase	has shelves	0.00162
+bottle	has shelves	0.00023
+building	has shelves	0.98240
+microwave	has shelves	0.44799
+bag	has shelves	0.00012
+menu	has shelves	0.00020
+wall	has shelves	0.98775
+urn	has shelves	0.00332
+sack	has shelves	0.00012
+door	has shelves	0.00081
+barn	has shelves	0.47291
+house	has shelves	0.94985
+cart	has shelves	0.02847
+chair	has shelves	0.00018
+mirror	has shelves	0.00029
+oven	has shelves	0.99449
+stove	has shelves	0.99581
+dishwasher	has shelves	0.94477
+toaster	has shelves	0.05411
+potted plant	has shelves	0.00013
+dish	has shelves	0.00104
+trolley	has shelves	0.00572
+church	has shelves	0.00362
+barrel	has shelves	0.01254
+tv	has shelves	0.04525
+tray	used for holding things	0.98603
+table	used for holding things	0.97299
+dish	used for holding things	0.98118
+plate	used for holding things	0.95964
+bowl	used for holding things	0.98926
+cup	used for holding things	0.98783
+cabinet	used for holding things	0.98597
+jar	used for holding things	0.97253
+dining table	used for holding things	0.96985
+desk	used for holding things	0.90155
+vase	used for holding things	0.95965
+basket	used for holding things	0.98703
+mug	used for holding things	0.97107
+fork	used for holding things	0.75024
+urn	used for holding things	0.90604
+bottle	used for holding things	0.92677
+chair	used for holding things	0.07232
+spoon	used for holding things	0.92003
+bookcase	used for holding things	0.97752
+cupboard	used for holding things	0.98559
+lamp	used for holding things	0.06802
+box	used for holding things	0.99222
+pot	used for holding things	0.98667
+shelves	used for holding things	0.98813
+wine glass	used for holding things	0.51190
+knife	used for holding things	0.01010
+barrel	used for holding things	0.98734
+tongs	used for holding things	0.86572
+strainer	used for holding things	0.12559
+corkscrew	used for holding things	0.04183
+bench	used for holding things	0.16557
+bucket	used for holding things	0.99009
+napkin	used for holding things	0.05790
+ladle	used for holding things	0.75232
+potted plant	used for holding things	0.06197
+grater	used for holding things	0.05179
+cart	used for holding things	0.99318
+pan	used for holding things	0.97504
+mirror	used for holding things	0.00104
+bureau	used for holding things	0.91519
+ashtray	used for holding things	0.88701
+spatula	used for holding things	0.77073
+bed	used for holding things	0.10386
+dresser	used for holding things	0.97276
+skillet	used for holding things	0.91792
+sack	used for holding things	0.96872
+bag	used for holding things	0.99109
+refrigerator	used for holding things	0.98060
+colander	used for holding things	0.83682
+couch	used for holding things	0.04151
+octopus	lives in water	0.95443
+turtle	lives in water	0.96162
+goldfish	lives in water	0.98785
+eel	lives in water	0.95271
+squid	lives in water	0.94862
+dolphin	lives in water	0.97913
+snail	lives in water	0.75354
+frog	lives in water	0.93931
+crab	lives in water	0.92851
+tortoise	lives in water	0.81174
+whale	lives in water	0.98938
+iguana	lives in water	0.00022
+salamander	lives in water	0.94757
+crocodile	lives in water	0.96402
+alligator	lives in water	0.96522
+otter	lives in water	0.93521
+clam	lives in water	0.94236
+toad	lives in water	0.94851
+lobster	lives in water	0.95353
+seaweed	lives in water	0.96457
+seal	lives in water	0.97753
+shrimp	lives in water	0.96422
+bird	lives in water	0.00027
+tuna	lives in water	0.98727
+shell	lives in water	0.96250
+submarine	lives in water	0.97922
+trout	lives in water	0.98420
+beaver	lives in water	0.94501
+sardine	lives in water	0.97314
+salmon	lives in water	0.98119
+worm	lives in water	0.00087
+penguin	lives in water	0.90720
+python	lives in water	0.00020
+seagull	lives in water	0.00020
+swan	lives in water	0.97637
+walrus	lives in water	0.97056
+rat	lives in water	0.00016
+duck	lives in water	0.95584
+pearl	lives in water	0.02598
+canoe	lives in water	0.98492
+chimp	lives in water	0.00019
+boat	lives in water	0.99538
+flamingo	lives in water	0.87512
+beetle	lives in water	0.00028
+raft	lives in water	0.98579
+spider	lives in water	0.00017
+tomahawk	lives in water	0.00010
+cat	lives in water	0.00026
+ship	lives in water	0.99413
+dog	lives in water	0.00030
+cellar	wet	0.40302
+hose	wet	0.99596
+boots	wet	0.27762
+drain	wet	0.98488
+bathtub	wet	0.99503
+rice	wet	0.69802
+bucket	wet	0.97171
+basement	wet	0.10679
+sink	wet	0.99352
+frog	wet	0.88855
+rock	wet	0.78786
+toad	wet	0.92242
+pickle	wet	0.67004
+lettuce	wet	0.56970
+beaver	wet	0.61420
+cork	wet	0.85569
+garage	wet	0.23837
+umbrella	wet	0.90050
+swan	wet	0.76704
+barrel	wet	0.90749
+faucet	wet	0.99484
+coin	wet	0.04041
+toilet	wet	0.97376
+penguin	wet	0.76185
+shoes	wet	0.11582
+carpet	wet	0.11608
+seaweed	wet	0.99024
+corn	wet	0.07400
+brick	wet	0.78945
+marble	wet	0.38205
+trout	wet	0.96663
+cheese	wet	0.20546
+car	wet	0.57994
+duck	wet	0.71743
+pearl	wet	0.16719
+jeans	wet	0.00926
+shed	wet	0.15750
+buffalo	wet	0.06481
+cat	wet	0.02734
+barn	wet	0.15763
+horse	wet	0.08801
+beans	wet	0.15091
+napkin	wet	0.65863
+canoe	wet	0.98792
+person	wet	0.08773
+rat	wet	0.00843
+beetle	wet	0.02182
+pier	wet	0.95732
+seal	wet	0.97457
+otter	wet	0.82255
+trombone	loud	0.98896
+drum	loud	0.96491
+rattle	loud	0.17719
+bagpipe	loud	0.97617
+whistle	loud	0.91467
+tuba	loud	0.99447
+bomb	loud	0.98773
+trumpet	loud	0.99473
+cannon	loud	0.99164
+saxophone	loud	0.98221
+missile	loud	0.98146
+shotgun	loud	0.99185
+church	loud	0.08098
+clarinet	loud	0.97488
+sledgehammer	loud	0.88846
+radio	loud	0.95191
+piano	loud	0.89249
+accordion	loud	0.85116
+harmonica	loud	0.90622
+bullet	loud	0.99035
+car	loud	0.96176
+building	loud	0.00046
+garage	loud	0.00146
+basement	loud	0.00124
+rock	loud	0.00015
+person	loud	0.81821
+flute	loud	0.98117
+bridge	loud	0.00021
+bull	loud	0.05240
+cathedral	loud	0.00101
+grenade	loud	0.98418
+chapel	loud	0.02116
+bazooka	loud	0.97430
+guitar	loud	0.93713
+skyscraper	loud	0.00058
+gun	loud	0.99458
+baton	loud	0.00049
+stop sign	loud	0.00046
+brick	loud	0.00014
+harp	loud	0.80054
+rattlesnake	loud	0.00038
+revolver	loud	0.99107
+harpsichord	loud	0.89297
+cellar	loud	0.00031
+hot dog	loud	0.00012
+catapult	loud	0.00530
+barn	loud	0.00027
+fire hydrant	loud	0.00124
+traffic light	loud	0.00047
+python	loud	0.00053
+housefly	flies	0.99072
+wasp	flies	0.98901
+moth	flies	0.98434
+flea	flies	0.66977
+hornet	flies	0.97872
+beetle	flies	0.96585
+caterpillar	flies	0.01096
+worm	flies	0.00092
+ant	flies	0.97656
+butterfly	flies	0.99316
+cockroach	flies	0.86697
+crow	flies	0.98633
+spider	flies	0.02924
+grasshopper	flies	0.96711
+bolts	flies	0.00011
+dove	flies	0.97869
+rat	flies	0.00023
+pigeon	flies	0.98548
+beehive	flies	0.00251
+bird	flies	0.99473
+hawk	flies	0.98734
+woodpecker	flies	0.95003
+frog	flies	0.10935
+jet	flies	0.99645
+skis	flies	0.00016
+drapes	flies	0.00011
+owl	flies	0.96898
+toad	flies	0.00132
+balloon	flies	0.98146
+screws	flies	0.00012
+swan	flies	0.96938
+groundhog	flies	0.00017
+bullet	flies	0.00021
+duck	flies	0.97304
+slingshot	flies	0.00600
+curtains	flies	0.00012
+skunk	flies	0.00023
+goose	flies	0.97900
+snail	flies	0.00020
+pickle	flies	0.00011
+rocket	flies	0.99206
+cork	flies	0.00011
+airplane	flies	0.99599
+kite	flies	0.98978
+hose	flies	0.00012
+python	flies	0.00024
+squirrel	flies	0.00018
+peacock	flies	0.92617
+rooster	flies	0.39880
+eagle	flies	0.98220
+pan	used for cooking	0.98487
+skillet	used for cooking	0.99180
+colander	used for cooking	0.93671
+spatula	used for cooking	0.96508
+oven	used for cooking	0.99720
+ladle	used for cooking	0.96657
+grater	used for cooking	0.70465
+knife	used for cooking	0.98548
+pot	used for cooking	0.97891
+tongs	used for cooking	0.94323
+microwave	used for cooking	0.98722
+apron	used for cooking	0.98742
+toaster	used for cooking	0.91256
+spoon	used for cooking	0.87738
+stove	used for cooking	0.99729
+blender	used for cooking	0.88690
+carrot	used for cooking	0.05916
+pepper	used for cooking	0.12856
+pumpkin	used for cooking	0.03124
+tomato	used for cooking	0.34629
+potato	used for cooking	0.03333
+cheese	used for cooking	0.00853
+dish	used for cooking	0.01475
+strainer	used for cooking	0.92271
+rice	used for cooking	0.01380
+mushroom	used for cooking	0.21312
+garlic	used for cooking	0.14673
+mixer	used for cooking	0.93816
+beans	used for cooking	0.01254
+fork	used for cooking	0.91257
+corn	used for cooking	0.03209
+onions	used for cooking	0.09742
+chicken	used for cooking	0.01239
+bowl	used for cooking	0.88083
+bread	used for cooking	0.00527
+avocado	used for cooking	0.02535
+kettle	used for cooking	0.95975
+zucchini	used for cooking	0.03009
+cauliflower	used for cooking	0.01622
+yam	used for cooking	0.00669
+fridge	used for cooking	0.01624
+olive	used for cooking	0.85818
+dining table	used for cooking	0.02510
+broccoli	used for cooking	0.01880
+cucumber	used for cooking	0.05723
+peas	used for cooking	0.02535
+celery	used for cooking	0.03063
+eggplant	used for cooking	0.01847
+coconut	used for cooking	0.06074
+parsley	used for cooking	0.13294
+dagger	sharp	0.99531
+razor	sharp	0.99480
+scissors	sharp	0.98280
+tack	sharp	0.98766
+knife	sharp	0.99513
+spear	sharp	0.99600
+sword	sharp	0.99616
+machete	sharp	0.99493
+bullet	sharp	0.01839
+tomahawk	sharp	0.99392
+bayonet	sharp	0.99556
+clamp	sharp	0.06404
+grater	sharp	0.98836
+hatchet	sharp	0.99381
+fork	sharp	0.69995
+axe	sharp	0.99212
+spoon	sharp	0.02431
+chisel	sharp	0.99191
+sandpaper	sharp	0.00113
+pistol	sharp	0.00491
+gun	sharp	0.01097
+bolts	sharp	0.01946
+pliers	sharp	0.08140
+thimble	sharp	0.17538
+radish	sharp	0.01950
+crossbow	sharp	0.94813
+harpoon	sharp	0.99550
+pin	sharp	0.98582
+emerald	sharp	0.00226
+porcupine	sharp	0.97956
+stick	sharp	0.02346
+tongs	sharp	0.67050
+grasshopper	sharp	0.00044
+parsley	sharp	0.00015
+slingshot	sharp	0.01897
+spider	sharp	0.00176
+revolver	sharp	0.00978
+cucumber	sharp	0.00018
+rock	sharp	0.00146
+grenade	sharp	0.01014
+worm	sharp	0.00023
+rifle	sharp	0.02263
+mushroom	sharp	0.00018
+stone	sharp	0.00092
+coin	sharp	0.00021
+chain	sharp	0.00138
+marble	sharp	0.00016
+screws	sharp	0.93561
+pearl	sharp	0.00021
+rattlesnake	sharp	0.00222
+cigarette	unhealthy	0.95977
+pickle	unhealthy	0.10083
+cigar	unhealthy	0.94626
+pie	unhealthy	0.02022
+bread	unhealthy	0.03898
+cake	unhealthy	0.75689
+potato	unhealthy	0.08131
+biscuit	unhealthy	0.49661
+corn	unhealthy	0.00025
+coin	unhealthy	0.00013
+beans	unhealthy	0.00086
+rat	unhealthy	0.00034
+person	unhealthy	0.57240
+worm	unhealthy	0.00148
+cheese	unhealthy	0.85356
+pizza	unhealthy	0.87091
+bomb	unhealthy	0.00035
+flea	unhealthy	0.00357
+tv	unhealthy	0.00018
+shoes	unhealthy	0.00018
+donut	unhealthy	0.90770
+cockroach	unhealthy	0.00030
+menu	unhealthy	0.00041
+cork	unhealthy	0.00014
+skunk	unhealthy	0.00054
+screws	unhealthy	0.00013
+jeans	unhealthy	0.00014
+beets	unhealthy	0.00063
+peas	unhealthy	0.00033
+sandwich	unhealthy	0.13587
+sack	unhealthy	0.00015
+rice	unhealthy	0.00154
+radio	unhealthy	0.00014
+traffic light	unhealthy	0.00020
+lettuce	unhealthy	0.00032
+nylons	unhealthy	0.00018
+cabbage	unhealthy	0.00039
+socks	unhealthy	0.00013
+chain	unhealthy	0.00088
+stop sign	unhealthy	0.00014
+cart	unhealthy	0.00017
+barrel	unhealthy	0.00017
+bottle	unhealthy	0.00020
+onions	unhealthy	0.00624
+toilet	unhealthy	0.00036
+toothbrush	unhealthy	0.00030
+toy	unhealthy	0.00019
+orange	unhealthy	0.00092
+cellar	unhealthy	0.00062
+trolley	unhealthy	0.00029
+wand	hand held	0.99364
+pen	hand held	0.99070
+thimble	hand held	0.94756
+sword	hand held	0.99508
+knife	hand held	0.99335
+baton	hand held	0.99639
+gun	hand held	0.99685
+scissors	hand held	0.98703
+bag	hand held	0.98846
+basket	hand held	0.99088
+fork	hand held	0.99341
+cart	hand held	0.00191
+pencil	hand held	0.98270
+pistol	hand held	0.99691
+trolley	hand held	0.00575
+spoon	hand held	0.98200
+handbag	hand held	0.99411
+bottle	hand held	0.98474
+dagger	hand held	0.99396
+telephone	hand held	0.99235
+cigarette	hand held	0.99253
+cup	hand held	0.99311
+cell phone	hand held	0.99625
+toy	hand held	0.99439
+revolver	hand held	0.99695
+gloves	hand held	0.99534
+box	hand held	0.98990
+envelope	hand held	0.98649
+balloon	hand held	0.98865
+tongs	hand held	0.99264
+pin	hand held	0.98664
+mug	hand held	0.99489
+machete	hand held	0.99553
+certificate	hand held	0.86673
+broom	hand held	0.94164
+spade	hand held	0.97171
+spear	hand held	0.99458
+bouquet	hand held	0.99525
+baseball bat	hand held	0.99509
+napkin	hand held	0.97521
+bowl	hand held	0.98964
+person	hand held	0.06083
+car	hand held	0.00037
+jar	hand held	0.96860
+piano	hand held	0.00310
+laptop	hand held	0.96627
+harmonica	hand held	0.98990
+bracelet	hand held	0.25278
+vase	hand held	0.97519
+backpack	hand held	0.68228
+broom	used for cleaning	0.99400
+sink	used for cleaning	0.97668
+bucket	used for cleaning	0.12166
+bathtub	used for cleaning	0.97291
+hose	used for cleaning	0.95921
+drain	used for cleaning	0.17497
+toilet	used for cleaning	0.01652
+napkin	used for cleaning	0.96834
+toothbrush	used for cleaning	0.95772
+dishwasher	used for cleaning	0.98889
+faucet	used for cleaning	0.93313
+brush	used for cleaning	0.98337
+slippers	used for cleaning	0.00165
+carpet	used for cleaning	0.01425
+lemon	used for cleaning	0.00844
+basket	used for cleaning	0.00021
+cart	used for cleaning	0.00027
+robe	used for cleaning	0.00197
+hair drier	used for cleaning	0.00138
+trolley	used for cleaning	0.00046
+sack	used for cleaning	0.00316
+shovel	used for cleaning	0.00390
+comb	used for cleaning	0.00017
+apron	used for cleaning	0.86285
+gown	used for cleaning	0.00030
+shoes	used for cleaning	0.00220
+rat	used for cleaning	0.00030
+gloves	used for cleaning	0.65369
+wheelbarrow	used for cleaning	0.00038
+flea	used for cleaning	0.00022
+tray	used for cleaning	0.00130
+cup	used for cleaning	0.00614
+bag	used for cleaning	0.00173
+cork	used for cleaning	0.00024
+toad	used for cleaning	0.00026
+barrel	used for cleaning	0.00066
+prune	used for cleaning	0.00013
+bottle	used for cleaning	0.00045
+lettuce	used for cleaning	0.00014
+mirror	used for cleaning	0.00055
+cellar	used for cleaning	0.00021
+socks	used for cleaning	0.01194
+nylons	used for cleaning	0.00240
+cucumber	used for cleaning	0.00013
+worm	used for cleaning	0.00020
+lime	used for cleaning	0.00220
+jar	used for cleaning	0.00023
+rake	used for cleaning	0.00268
+dish	used for cleaning	0.00374
+ambulance	used for cleaning	0.00025
+truck	used for transportation	0.99457
+train	used for transportation	0.99491
+car	used for transportation	0.99541
+bus	used for transportation	0.99641
+wagon	used for transportation	0.99118
+van	used for transportation	0.99156
+motorcycle	used for transportation	0.98785
+unicycle	used for transportation	0.93849
+bicycle	used for transportation	0.99152
+airplane	used for transportation	0.98417
+bike	used for transportation	0.99066
+taxi	used for transportation	0.99261
+scooter	used for transportation	0.96983
+trailer	used for transportation	0.98985
+tricycle	used for transportation	0.96467
+buggy	used for transportation	0.96724
+skateboard	used for transportation	0.97262
+subway	used for transportation	0.99479
+trolley	used for transportation	0.99136
+limousine	used for transportation	0.98611
+elevator	used for transportation	0.96460
+boat	used for transportation	0.98160
+cart	used for transportation	0.98981
+tractor	used for transportation	0.93888
+ambulance	used for transportation	0.71614
+helicopter	used for transportation	0.94935
+jet	used for transportation	0.98359
+ship	used for transportation	0.99146
+wheel	used for transportation	0.96424
+escalator	used for transportation	0.97739
+rocket	used for transportation	0.96644
+sleigh	used for transportation	0.96345
+jeep	used for transportation	0.98724
+horse	used for transportation	0.96163
+donkey	used for transportation	0.66852
+bridge	used for transportation	0.49157
+helmet	used for transportation	0.89785
+fire hydrant	used for transportation	0.00020
+canoe	used for transportation	0.90917
+pony	used for transportation	0.78707
+chain	used for transportation	0.00671
+wheelbarrow	used for transportation	0.86810
+suitcase	used for transportation	0.94725
+yacht	used for transportation	0.97386
+cannon	used for transportation	0.02254
+stop sign	used for transportation	0.26255
+catapult	used for transportation	0.01575
+garage	used for transportation	0.00091
+balloon	used for transportation	0.00019
+submarine	used for transportation	0.95692
+pliers	a tool	0.99049
+crowbar	a tool	0.97328
+screwdriver	a tool	0.99057
+axe	a tool	0.95702
+drill	a tool	0.98370
+hammer	a tool	0.97876
+chisel	a tool	0.98084
+sandpaper	a tool	0.87250
+wrench	a tool	0.98542
+scissors	a tool	0.90476
+tack	a tool	0.94065
+hatchet	a tool	0.91054
+clamp	a tool	0.93128
+machete	a tool	0.86942
+knife	a tool	0.93684
+screws	a tool	0.93436
+level	a tool	0.81954
+sledgehammer	a tool	0.95762
+spear	a tool	0.87646
+razor	a tool	0.83432
+grater	a tool	0.89577
+peg	a tool	0.69442
+fork	a tool	0.93580
+dagger	a tool	0.49099
+shovel	a tool	0.95426
+sword	a tool	0.56328
+bolts	a tool	0.93357
+wheelbarrow	a tool	0.86758
+spade	a tool	0.96940
+rake	a tool	0.92600
+spoon	a tool	0.84547
+gun	a tool	0.61057
+thimble	a tool	0.78701
+bayonet	a tool	0.64394
+pin	a tool	0.91931
+corkscrew	a tool	0.94525
+cart	a tool	0.83501
+tongs	a tool	0.92687
+ruler	a tool	0.78373
+pistol	a tool	0.60541
+hook	a tool	0.82374
+tractor	a tool	0.96748
+wheel	a tool	0.69170
+catapult	a tool	0.93233
+bucket	a tool	0.77871
+broom	a tool	0.87459
+typewriter	a tool	0.87442
+hoe	a tool	0.97980
+car	a tool	0.61576
+colander	a tool	0.90027
+vase	decorative	0.99033
+potted plant	decorative	0.99091
+urn	decorative	0.99191
+bouquet	decorative	0.99013
+mirror	decorative	0.92452
+banner	decorative	0.98566
+clock	decorative	0.94932
+curtains	decorative	0.98569
+drapes	decorative	0.98822
+tray	decorative	0.08182
+carpet	decorative	0.86231
+medal	decorative	0.99413
+lamp	decorative	0.99170
+basket	decorative	0.97723
+jar	decorative	0.97069
+crown	decorative	0.99486
+balloon	decorative	0.85883
+doll	decorative	0.57579
+pin	decorative	0.41950
+hook	decorative	0.03036
+toy	decorative	0.01707
+candle	decorative	0.92969
+cabinet	decorative	0.85787
+box	decorative	0.71850
+dandelion	decorative	0.75706
+cushion	decorative	0.97280
+plate	decorative	0.97719
+necklace	decorative	0.99413
+chair	decorative	0.05724
+bookcase	decorative	0.86212
+bowl	decorative	0.96489
+pillow	decorative	0.97713
+dish	decorative	0.97267
+mat	decorative	0.97974
+cup	decorative	0.96712
+teddy bear	decorative	0.91812
+bottle	decorative	0.36370
+pot	decorative	0.90697
+wall	decorative	0.01280
+bracelet	decorative	0.99289
+menu	decorative	0.96734
+table	decorative	0.88778
+veil	decorative	0.95904
+thimble	decorative	0.18602
+chandelier	decorative	0.99554
+dining table	decorative	0.98442
+piano	decorative	0.01003
+butterfly	decorative	0.14967
+harp	decorative	0.41781
+napkin	decorative	0.88675
+rock	smooth	0.42393
+carpet	smooth	0.05383
+marble	smooth	0.98643
+bridge	smooth	0.39231
+stone	smooth	0.46682
+wheel	smooth	0.97972
+mirror	smooth	0.99070
+car	smooth	0.98312
+harmonica	smooth	0.82460
+cork	smooth	0.65642
+harp	smooth	0.28535
+piano	smooth	0.92260
+wall	smooth	0.97662
+flute	smooth	0.93432
+jet	smooth	0.97890
+train	smooth	0.97823
+cake	smooth	0.68138
+saxophone	smooth	0.98513
+toothbrush	smooth	0.36483
+brick	smooth	0.09847
+clarinet	smooth	0.95371
+donut	smooth	0.91716
+trumpet	smooth	0.95559
+violin	smooth	0.94864
+accordion	smooth	0.22333
+elevator	smooth	0.96158
+cheese	smooth	0.84573
+rattle	smooth	0.35805
+napkin	smooth	0.86395
+person	smooth	0.59695
+dog	smooth	0.51148
+pearl	smooth	0.97520
+horse	smooth	0.88471
+biscuit	smooth	0.67101
+trombone	smooth	0.94673
+subway	smooth	0.97147
+raisin	smooth	0.23423
+door	smooth	0.96945
+banjo	smooth	0.84369
+curtains	smooth	0.86941
+cat	smooth	0.51297
+escalator	smooth	0.99004
+cello	smooth	0.95280
+basement	smooth	0.00429
+brush	smooth	0.03672
+guitar	smooth	0.95963
+pie	smooth	0.38085
+bread	smooth	0.77117
+pizza	smooth	0.85628
+harpsichord	smooth	0.80438
+socks	worn on feet	0.99029
+sandals	worn on feet	0.97330
+boots	worn on feet	0.98555
+shoes	worn on feet	0.99420
+slippers	worn on feet	0.98551
+pants	worn on feet	0.00786
+leotards	worn on feet	0.00061
+jeans	worn on feet	0.00035
+gloves	worn on feet	0.00040
+camisole	worn on feet	0.00039
+jacket	worn on feet	0.00018
+skirt	worn on feet	0.00437
+mittens	worn on feet	0.00249
+pajamas	worn on feet	0.34821
+coat	worn on feet	0.00028
+robe	worn on feet	0.00267
+parka	worn on feet	0.00032
+dress	worn on feet	0.00581
+bra	worn on feet	0.00019
+skis	worn on feet	0.91489
+sweater	worn on feet	0.00020
+belt	worn on feet	0.00020
+gown	worn on feet	0.00064
+buckle	worn on feet	0.00021
+carpet	worn on feet	0.00038
+shirt	worn on feet	0.00021
+hose	worn on feet	0.00107
+cloak	worn on feet	0.00084
+scarf	worn on feet	0.00028
+earmuffs	worn on feet	0.03872
+mat	worn on feet	0.03245
+tie	worn on feet	0.00019
+handbag	worn on feet	0.00017
+gopher	worn on feet	0.00021
+baseball glove	worn on feet	0.00019
+chipmunk	worn on feet	0.00019
+shawl	worn on feet	0.00077
+bucket	worn on feet	0.00021
+stick	worn on feet	0.00016
+bag	worn on feet	0.00018
+blouse	worn on feet	0.00017
+swimsuit	worn on feet	0.02105
+shovel	worn on feet	0.00014
+vest	worn on feet	0.00019
+bracelet	worn on feet	0.00073
+buggy	worn on feet	0.00030
+trolley	worn on feet	0.00016
+sleigh	worn on feet	0.00016
+nylons	worn on feet	0.90851
+umbrella	worn on feet	0.00021
+nylons	light weight	0.96230
+rock	light weight	0.62205
+pencil	light weight	0.95906
+cork	light weight	0.97968
+stone	light weight	0.26284
+box	light weight	0.88881
+brick	light weight	0.05752
+marble	light weight	0.98036
+doll	light weight	0.96474
+coin	light weight	0.97343
+envelope	light weight	0.97836
+bullet	light weight	0.84220
+stick	light weight	0.96706
+wagon	light weight	0.00048
+cigarette	light weight	0.96635
+car	light weight	0.00058
+baseball bat	light weight	0.92248
+balloon	light weight	0.98048
+pen	light weight	0.96030
+teddy bear	light weight	0.96642
+trolley	light weight	0.00232
+barrel	light weight	0.00475
+crayon	light weight	0.95760
+scissors	light weight	0.83312
+skyscraper	light weight	0.00053
+flute	light weight	0.88841
+jet	light weight	0.00094
+trombone	light weight	0.41841
+cannon	light weight	0.00122
+sports ball	light weight	0.96171
+shell	light weight	0.95256
+backpack	light weight	0.87226
+pearl	light weight	0.96772
+drum	light weight	0.00556
+kite	light weight	0.97270
+building	light weight	0.00079
+frisbee	light weight	0.97242
+sack	light weight	0.93160
+trailer	light weight	0.00066
+bottle	light weight	0.90026
+clarinet	light weight	0.89468
+chain	light weight	0.06307
+toy	light weight	0.96925
+broom	light weight	0.81419
+trumpet	light weight	0.85695
+basket	light weight	0.86705
+cello	light weight	0.37707
+bagpipe	light weight	0.17661
+saxophone	light weight	0.85622
+airplane	light weight	0.00359
+potato	edible	0.99265
+corn	edible	0.99326
+cheese	edible	0.99381
+bread	edible	0.99336
+peas	edible	0.99197
+mushroom	edible	0.99498
+banana	edible	0.98787
+carrot	edible	0.98889
+tree	edible	0.00350
+apple	edible	0.99377
+cucumber	edible	0.98679
+seaweed	edible	0.99085
+beans	edible	0.99217
+broccoli	edible	0.98872
+orange	edible	0.98978
+cabbage	edible	0.99286
+onions	edible	0.99355
+pickle	edible	0.98651
+spinach	edible	0.99485
+zucchini	edible	0.98957
+pumpkin	edible	0.99153
+lettuce	edible	0.99277
+pear	edible	0.98829
+tomato	edible	0.98854
+avocado	edible	0.98912
+rice	edible	0.99415
+pie	edible	0.99011
+grape	edible	0.84971
+eggplant	edible	0.99231
+peach	edible	0.98901
+olive	edible	0.98863
+celery	edible	0.97823
+cauliflower	edible	0.98795
+cake	edible	0.99456
+pineapple	edible	0.98576
+vine	edible	0.00241
+asparagus	edible	0.99098
+shrimp	edible	0.98498
+yam	edible	0.99319
+pepper	edible	0.98487
+lemon	edible	0.94019
+coconut	edible	0.98617
+strawberry	edible	0.99139
+turnip	edible	0.99031
+radish	edible	0.99133
+lime	edible	0.97130
+bird	edible	0.13212
+tangerine	edible	0.99044
+cantaloupe	edible	0.98998
+lobster	edible	0.98490

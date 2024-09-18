@@ -1,0 +1,37 @@
+{
+    "experiment_name": "je_10neg_filter_sim_props_thres50",
+    "log_dirctory": "data_sampling",
+    "training_params": {
+        "pretrain": false,
+        "train_file_path": null,
+        "val_file_path": null,
+        "test_file_path": "data/train_data/je_prop_conj/with_false_label_cnet_con_50sim_vocab_prop.tsv",
+        "finetune": false,
+        "load_pretrained": true,
+        "pretrained_model_path": "trained_models/je_cnetp_pretrained/je_conprop_bb_cnetp_10neg_pretrain.pt",
+        "pretrained_model_num_neg": 10,
+        "threshold": 0.50,
+        "cv_type": null,
+        "data_dir": null,
+        "batch_size": 1024,
+        "lr": 0.0,
+        "max_epochs": 0,
+        "num_warmup_steps": 0,
+        "patience_early_stopping": 0,
+        "save_dir": "data/train_data/je_prop_conj",
+        "model_name": null,
+        "lr_policy": null,
+        "lr_decay_iters": null
+    },
+    "dataset_params": {
+        "hf_tokenizer_name": "bert-base-uncased",
+        "hf_tokenizer_path": "/scratch/c.scmag3/conceptEmbeddingModel/for_seq_classification_bert_base_uncased/tokenizer",
+        "max_len": 64,
+        "dataset_name": "con_similar_50_vocab_propss"
+    },
+    "model_params": {
+        "hf_checkpoint_name": "bert-base-uncased",
+        "hf_model_path": "/scratch/c.scmag3/conceptEmbeddingModel/for_seq_classification_bert_base_uncased/model",
+        "num_labels": 2
+    }
+}

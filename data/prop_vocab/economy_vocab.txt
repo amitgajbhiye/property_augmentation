@@ -1,0 +1,135 @@
+ylang ylang
+wearable item
+food product
+yam tuber
+forest product
+hoofed mammal
+cereal grass
+cooking range
+currency measure
+ornamental fish
+flowering plant
+chemical product
+millet grain
+water buffalo
+senepol cattle
+compound substance
+reproductive body
+lead ore
+fish roe
+flax fiber
+maize grain
+wheat grain
+macademia nut
+shea nut
+precious gemstone
+tea leaf
+barley grain
+fish product
+cereal grain
+british pound
+corn
+german mark
+semiprecious gemstone
+chicken meat
+french franc
+lead product
+black pepper
+wood product
+electric device
+zinc product
+cotton fiber
+capital good
+handicraft product
+japanese yen
+petroleum product
+rice grain
+financial transaction
+balsa wood
+sisal fiber
+pecan nut
+potato tuber
+major appliance
+afghan afghani
+metal product
+iron ore
+cocoa bean
+industrial supply
+dairy product
+tropical fruit
+zinc ore
+hemp fiber
+food egg
+change of possession
+pharmaceutical product
+oilseed
+economic development level
+lead metal
+fruit or vegetable
+sugar cane
+durable good
+rye grain
+almond nut
+italian lire
+cardamom
+industry attribute
+jute fiber
+copper ore
+crop production
+turkey
+mining product
+manufactured product
+cow pea
+tajik somoni
+green pepper
+vegetable oil
+turkey meat
+forage crop
+wool fiber
+beverage product
+okoume
+date fruit
+animal skin
+palm kernel
+sorghum grain
+passion fruit
+natural rubber
+cashew nut
+textile product
+diesel fuel
+soya
+economic sector
+controlled substance
+cut flower
+aluminum metal
+khat
+citrus fruit
+guernsey cattle
+taro tuber
+sweet pepper
+root vegetable
+motor oil
+root starch
+edible tuber
+relational attribute
+perfume essence
+alumina
+phosphoric acid
+product package
+nickel ore
+grocery produce
+organic object
+mulberry leaf
+agricultural product
+oat grain
+spice pepper
+anatomical structure
+paddy rice
+kentia palm seed
+lamb meat
+power generation
+economic attribute
+petroleum lubricant
+euro dollar
+edible nut
+food fish

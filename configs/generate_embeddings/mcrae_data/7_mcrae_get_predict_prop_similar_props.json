@@ -1,0 +1,48 @@
+{
+    "experiment_name": "7_mcrae_get_predict_prop_similar_props",
+    "log_dirctory": "get_con_pro_embeddings/mcrae_logs",
+    "dataset_params": {
+        "dataset_name": "predict_property_embeds_cnet_premium",
+        "train_file_path": null,
+        "val_file_path": null,
+        "test_file_path": null,
+        "hf_tokenizer_name": "bert-base-uncased",
+        "hf_tokenizer_path": "/scratch/c.scmag3/conceptEmbeddingModel/bertBaseUncasedPreTrained/tokenizer",
+        "concept_max_len": 64,
+        "property_max_len": 64,
+        "add_context": true,
+        "context_num": 6,
+        "loader_params": {
+            "batch_size": 1024,
+            "num_workers": 4,
+            "pin_memory": true
+        }
+    },
+    "model_params": {
+        "model_name": null,
+        "hf_checkpoint_name": "bert-base-uncased",
+        "hf_model_path": "/scratch/c.scmag3/conceptEmbeddingModel/bertBaseUncasedPreTrained",
+        "vector_strategy": "mask_token"
+    },
+    "inference_params": {
+        "pretrained_model_path": "trained_models/gkb_source_analysis/bb_gkb_cnet_plus_cnet_has_property.pt",
+        "get_con_prop_embeds": false,
+        "input_data_type": null,
+        "concept_file": null,
+        "property_file": null,
+        "concept_property_file": null,
+        "save_dir": "data/evaluation_data/mcrae_joint_encoder_prop_conjuction_fine_tune/property_split",
+        "get_concept_similar_properties": false,
+        "concept_embed_pkl": null,
+        "property_embed_pkl": null,
+        "get_predict_prop_similar_props": true,
+        "num_prop_conjuct": 5,
+        "pretrain_data": false,
+        "finetune_data": true,
+        "split_type": "property_split",
+        "input_file_base_path": "data/evaluation_data/mcrae_prop_split_train_test_files",
+        "predict_property_embed_pkl": "trained_models/con_pro_embeddings/mcrae_predict_property_embeds_property_embeddings.pkl",
+        "vocab_property_embed_pkl": "trained_models/con_pro_embeddings/prop_vocab_500k_mscg_embeds_property_embeddings.pkl",
+        "concept_similar_prop_file": "data/evaluation_data/mcrae_je_prop_conjuction/je_filtered_mcrae_con_similar_vocab_properties.txt"
+    }
+}

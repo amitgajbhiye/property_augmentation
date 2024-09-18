@@ -1,0 +1,45 @@
+{
+    "experiment_name": "ufet_zero_shot_deberta_v3_large_je_5neg_filter_sim_props_thres50",
+    "log_dirctory": "ufet_exp",
+    "training_params": {
+        "pretrained_model_to_use": "je_con_prop",
+        "nli_tokenizer_path": null,
+        "nli_model_path": null,
+        "dataset_name": "ufet_type_sim_50_cnetp_vocab_props",
+        "pretrain": false,
+        "train_file_path": null,
+        "val_file_path": null,
+        "test_file_path": "data/ufet/ufet_types_and_cnet_props.tsv",
+        "finetune": null,
+        "load_pretrained": false,
+        "pretrained_model_path": null,
+        "pretrained_model_num_neg": "deberta_v3_large_ctx1_filtered",
+        "threshold": 0.50,
+        "cv_type": null,
+        "data_dir": null,
+        "batch_size": 128,
+        "lr": null,
+        "max_epochs": 0,
+        "warmup_ratio": 0,
+        "patience_early_stopping": 0,
+        "save_dir": "data/ufet/zero_shot_deberta_v3_large_files",
+        "model_name": null,
+        "lr_policy": null,
+        "lr_decay_iters": null,
+        "weight_decay": 0.01
+    },
+    "dataset_params": {
+        "hf_tokenizer_name": "deberta-v3-large",
+        "hf_tokenizer_path": "/scratch/c.scmag3/hf_pretrained_models/deberta_v3_large/tokenizer",
+        "max_len": 40,
+        "context_id": 1,
+        "dataset_name": "ufet_con_sim_50_vocab_props"
+    },
+    "model_params": {
+        "hf_checkpoint_name": "deberta-v3-large",
+        "hf_model_path": "/scratch/c.scmag3/hf_pretrained_models/deberta_v3_large/model",
+        "num_labels": 0,
+        "context_id": 1,
+        "remove_classifier_layer": false
+    }
+}

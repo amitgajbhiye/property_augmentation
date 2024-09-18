@@ -1,0 +1,46 @@
+{
+    "experiment_name": "pretrain_bienc_bl_llama3_commonsense_taxo_5inc_con_fac_colon_prop",
+    "log_dirctory": "commonality_eval_taxo",
+    "dataset_params": {
+        "dataset_name": "llama3_commonsense_taxo_5inc_concept_facet_colon_property",
+        "train_file_path": "data/commonality_eval_taxo_bienc/llama3_commonsense_concept_facet_colon_property_train_5inc.txt",
+        "val_file_path": "data/commonality_eval_taxo_bienc/llama3_commonsense_concept_facet_colon_property_val_5inc.txt",
+        "test_file_path": null,
+        "hf_tokenizer_name": "bert-large-uncased",
+        "hf_tokenizer_path": "/scratch/c.scmag3/hf_pretrained_models/bert_large_uncased/tokenizer",
+        "concept_max_len": 64,
+        "property_max_len": 64,
+        "add_context": true,
+        "context_num": 6,
+        "loader_params": {
+            "batch_size": 8,
+            "num_workers": 4,
+            "pin_memory": true
+        }
+    },
+    "model_params": {
+        "model_name": "pretrain_bienc_bl_llama3_commonsense_taxo_5inc_con_fac_colon_prop.pt",
+        "hf_checkpoint_name": "bert-large-uncased",
+        "hf_model_path": "/scratch/c.scmag3/hf_pretrained_models/bert_large_uncased/model",
+        "vector_strategy": "mask_token"
+    },
+    "training_params": {
+        "hp_tuning": false,
+        "lr": 2e-6,
+        "num_warmup_steps": 0,
+        "warmup_ratio": 0.0,
+        "weight_decay": 0.1,
+        "max_epochs": 100,
+        "early_stopping_patience": 10,
+        "export_path": "trained_models/commonality_eval_taxo_bienc_5inc_data",
+        "printout_freq": 100,
+        "checkpoint_path": "",
+        "load_checkpoint": -1,
+        "lr_policy": "warmup",
+        "lr_decay_iters": 15
+    },
+    "visualization_params": {
+        "name": "None"
+    },
+    "model_update_freq": 1
+}

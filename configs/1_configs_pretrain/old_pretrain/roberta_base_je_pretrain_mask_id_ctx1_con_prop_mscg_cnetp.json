@@ -1,0 +1,37 @@
+{
+    "experiment_name": "roberta_base_je_pretrain_mask_id_ctx1_con_prop_mscg_cnetp",
+    "log_dirctory": "pretrain",
+    "training_params": {
+        "dataset_name": "mscg_cnetp_con_prop_5neg",
+        "pretrain": true,
+        "train_file_path": "data/train_data/je_con_prop/5_neg_train_mscg_cnetp.tsv",
+        "val_file_path": "data/train_data/je_con_prop/5_neg_valid_mscg_cnetp.tsv",
+        "finetune": false,
+        "load_pretrained": false,
+        "pretrained_model_path": null,
+        "cv_type": null,
+        "data_dir": null,
+        "batch_size": 32,
+        "lr": 1e-5,
+        "max_epochs": 100,
+        "num_warmup_steps": 0,
+        "patience_early_stopping": 5,
+        "save_dir": "trained_models/mscg_cnetp_pretrained/con_prop",
+        "model_name": "roberta_base_je_pretrain_mask_id_ctx1_con_prop_mscg_cnetp.pt",
+        "lr_policy": null,
+        "lr_decay_iters": null,
+        "weight_decay": 0.01
+    },
+    "dataset_params": {
+        "hf_tokenizer_name": "roberta-base",
+        "hf_tokenizer_path": "/scratch/c.scmag3/hawk_data/roberta_base_pretrained/tokenizer",
+        "max_len": 40,
+        "context_id": 1
+    },
+    "model_params": {
+        "hf_checkpoint_name": "roberta-base",
+        "hf_model_path": "/scratch/c.scmag3/hawk_data/roberta_base_pretrained/model",
+        "num_labels": 0,
+        "context_id": 1
+    }
+}

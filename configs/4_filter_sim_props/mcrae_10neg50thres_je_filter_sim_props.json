@@ -1,0 +1,37 @@
+{
+    "experiment_name": "mcrae_10neg50thres_je_filter_sim_props",
+    "log_dirctory": "data_sampling",
+    "training_params": {
+        "dataset_name": "mcrae",
+        "pretrain": false,
+        "train_file_path": null,
+        "val_file_path": null,
+        "test_file_path": "data/evaluation_data/prop_conjuction/mcrae/with_false_label_mcrae_con_sim_50_vocab_props.tsv",
+        "finetune": false,
+        "load_pretrained": true,
+        "pretrained_model_path": "trained_models/je_con_prop_cnetp_pretrained/je_con_prop_cnet_premium_10negdata_pretrained_model.pt",
+        "pretrained_model_num_neg": 10,
+        "threshold": 0.50,
+        "cv_type": null,
+        "data_dir": null,
+        "batch_size": 512,
+        "lr": 0.0,
+        "max_epochs": 0,
+        "num_warmup_steps": 0,
+        "patience_early_stopping": 0,
+        "save_dir": "data/evaluation_data/prop_conjuction/mcrae/prop_split/10neg50thres",
+        "model_name": null,
+        "lr_policy": null,
+        "lr_decay_iters": null
+    },
+    "dataset_params": {
+        "hf_tokenizer_name": "bert-base-uncased",
+        "hf_tokenizer_path": "/scratch/c.scmag3/conceptEmbeddingModel/for_seq_classification_bert_base_uncased/tokenizer",
+        "max_len": 64
+    },
+    "model_params": {
+        "hf_checkpoint_name": "bert-base-uncased",
+        "hf_model_path": "/scratch/c.scmag3/conceptEmbeddingModel/for_seq_classification_bert_base_uncased/model",
+        "num_labels": 2
+    }
+}

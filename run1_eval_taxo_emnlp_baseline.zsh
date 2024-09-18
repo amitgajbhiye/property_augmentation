@@ -1,0 +1,24 @@
+#!/bin/zsh
+
+# Commonsense
+# python3 get_embeds_and_train_data.py --config_file configs/commonality_evaltaxo_emnlp_baseline_exp/commonsense/1_get_concept_embeds.json
+# python3 get_embeds_and_train_data.py --config_file configs/commonality_evaltaxo_emnlp_baseline_exp/commonsense/2_get_cnet_chatgpt_vocab_embeds.json
+# python3 get_embeds_and_train_data.py --config_file configs/commonality_evaltaxo_emnlp_baseline_exp/commonsense/3_concept_similar_50cnetpprops.json
+# python3 je_filter_similar_props.py --config_file configs/commonality_evaltaxo_emnlp_baseline_exp/commonsense/4_mcrae_cslb_deb3l_filter_con_sim_50props_filterthresh50.json
+
+# python3 get_embeds_and_train_data.py --config_file configs/commonality_evaltaxo_emnlp_baseline_exp/food/1_get_food_concept_embeds.json
+# python3 get_embeds_and_train_data.py --config_file configs/commonality_evaltaxo_emnlp_baseline_exp/food/3_concept_similar_50cnetpprops.json
+# python3 je_filter_similar_props.py --config_file configs/commonality_evaltaxo_emnlp_baseline_exp/food/4_mcrae_cslb_deb3l_filter_con_sim_50props_filterthresh50.json
+
+# python3 get_embeds_and_train_data.py --config_file configs/commonality_evaltaxo_emnlp_baseline_exp/equipment/1_get_equipment_concept_embeds.json
+# python3 get_embeds_and_train_data.py --config_file configs/commonality_evaltaxo_emnlp_baseline_exp/equipment/3_concept_similar_50cnetpprops.json
+# python3 je_filter_similar_props.py --config_file configs/commonality_evaltaxo_emnlp_baseline_exp/equipment/4_mcrae_cslb_deb3l_filter_con_sim_50props_filterthresh50.json
+
+
+# python3 get_embeds_and_train_data.py --config_file configs/commonality_evaltaxo_emnlp_baseline_exp/science/1_get_science_concept_embeds.json
+# python3 get_embeds_and_train_data.py --config_file configs/commonality_evaltaxo_emnlp_baseline_exp/science/3_concept_similar_50cnetpprops.json
+# python3 je_filter_similar_props.py --config_file configs/commonality_evaltaxo_emnlp_baseline_exp/science/4_mcrae_cslb_deb3l_filter_con_sim_50props_filterthresh50.json
+
+python3 get_embeds_and_train_data.py --config_file configs/commonality_evaltaxo_emnlp_baseline_exp/environment/1_get_environment_concept_embeds.json
+python3 get_embeds_and_train_data.py --config_file configs/commonality_evaltaxo_emnlp_baseline_exp/environment/3_concept_similar_50cnetpprops.json
+python3 je_filter_similar_props.py --config_file configs/commonality_evaltaxo_emnlp_baseline_exp/environment/4_mcrae_cslb_deb3l_filter_con_sim_50props_filterthresh50.json

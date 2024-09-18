@@ -1,0 +1,43 @@
+{
+    "experiment_name": "bb_tuple_kb_100k",
+    "log_dirctory": "gkb_source_analysis",
+    "dataset_params": {
+        "dataset_name": "gkb_tuple_kb_100k",
+        "train_file_path": "data/train_data/gkb_source_analysis/train_tuple_kb.tsv",
+        "val_file_path": "data/train_data/gkb_source_analysis/valid_tuple_kb.tsv",
+        "test_file_path": "None",
+        "hf_tokenizer_name": "bert-base-uncased",
+        "hf_tokenizer_path": "/scratch/c.scmag3/conceptEmbeddingModel/bertBaseUncasedPreTrained/tokenizer",
+        "concept_max_len": 256,
+        "property_max_len": 256,
+        "add_context": true,
+        "context_num": 6,
+        "loader_params": {
+            "batch_size": 8,
+            "num_workers": 4,
+            "pin_memory": true
+        }
+    },
+    "model_params": {
+        "model_name": "bb_tuple_kb_100k.pt",
+        "hf_checkpoint_name": "bert-base-uncased",
+        "hf_model_path": "/scratch/c.scmag3/conceptEmbeddingModel/bertBaseUncasedPreTrained",
+        "vector_strategy": "mask_token"
+    },
+    "training_params": {
+        "lr": 2e-6,
+        "num_warmup_steps": 0,
+        "max_epochs": 100,
+        "early_stopping_patience": 20,
+        "export_path": "trained_models/gkb_source_analysis",
+        "printout_freq": 100,
+        "checkpoint_path": "",
+        "load_checkpoint": -1,
+        "lr_policy": "warmup",
+        "lr_decay_iters": 15
+    },
+    "visualization_params": {
+        "name": "None"
+    },
+    "model_update_freq": 1
+}

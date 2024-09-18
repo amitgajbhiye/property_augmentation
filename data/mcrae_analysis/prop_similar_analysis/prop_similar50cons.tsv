@@ -1,0 +1,2500 @@
+flea	squishy
+carpet	squishy
+biscuit	squishy
+rat	squishy
+worm	squishy
+cushion	squishy
+mat	squishy
+teddy bear	squishy
+skunk	squishy
+pillow	squishy
+socks	squishy
+cockroach	squishy
+donut	squishy
+cat	squishy
+housefly	squishy
+sack	squishy
+shoes	squishy
+pickle	squishy
+slippers	squishy
+cake	squishy
+dog	squishy
+pajamas	squishy
+bed	squishy
+spider	squishy
+person	squishy
+cork	squishy
+nylons	squishy
+bread	squishy
+napkin	squishy
+hamster	squishy
+beetle	squishy
+couch	squishy
+potato	squishy
+cabbage	squishy
+toy	squishy
+turnip	squishy
+basement	squishy
+ant	squishy
+hornet	squishy
+cheese	squishy
+rice	squishy
+pie	squishy
+ball	squishy
+broom	squishy
+sofa	squishy
+rabbit	squishy
+grasshopper	squishy
+doll	squishy
+yam	squishy
+curtains	squishy
+pearl	fragile
+shell	fragile
+marble	fragile
+emerald	fragile
+cork	fragile
+flute	fragile
+jar	fragile
+medal	fragile
+mirror	fragile
+coin	fragile
+doll	fragile
+stone	fragile
+wine glass	fragile
+trumpet	fragile
+clarinet	fragile
+bottle	fragile
+crown	fragile
+chain	fragile
+bowl	fragile
+cup	fragile
+plate	fragile
+harp	fragile
+trombone	fragile
+bracelet	fragile
+vase	fragile
+rock	fragile
+saxophone	fragile
+necklace	fragile
+wheel	fragile
+violin	fragile
+harmonica	fragile
+piano	fragile
+bullet	fragile
+spoon	fragile
+toy	fragile
+grape	fragile
+pie	fragile
+tuba	fragile
+clam	fragile
+drum	fragile
+certificate	fragile
+brick	fragile
+cheese	fragile
+raisin	fragile
+cello	fragile
+barrel	fragile
+door	fragile
+clock	fragile
+dish	fragile
+harpsichord	fragile
+teddy bear	used by children
+kite	used by children
+toy	used by children
+doll	used by children
+frisbee	used by children
+balloon	used by children
+ball	used by children
+sports ball	used by children
+pony	used by children
+basket	used by children
+book	used by children
+tricycle	used by children
+cage	used by children
+pencil	used by children
+chipmunk	used by children
+trolley	used by children
+wand	used by children
+earmuffs	used by children
+rocker	used by children
+football	used by children
+slingshot	used by children
+cart	used by children
+box	used by children
+rock	used by children
+sled	used by children
+rope	used by children
+rocket	used by children
+bike	used by children
+mat	used by children
+jar	used by children
+stick	used by children
+crayon	used by children
+scissors	used by children
+bench	used by children
+potted plant	used by children
+bucket	used by children
+skateboard	used by children
+surfboard	used by children
+baseball bat	used by children
+bicycle	used by children
+chair	used by children
+bowl	used by children
+remote	used by children
+mouse	used by children
+slippers	used by children
+hamster	used by children
+sleigh	used by children
+shed	used by children
+backpack	used by children
+cushion	used by children
+bullet	used for killing
+gun	used for killing
+pistol	used for killing
+dagger	used for killing
+sword	used for killing
+revolver	used for killing
+cannon	used for killing
+bomb	used for killing
+rifle	used for killing
+grenade	used for killing
+shotgun	used for killing
+crossbow	used for killing
+bazooka	used for killing
+missile	used for killing
+machete	used for killing
+spear	used for killing
+bayonet	used for killing
+armour	used for killing
+slingshot	used for killing
+shield	used for killing
+hatchet	used for killing
+knife	used for killing
+baton	used for killing
+bolts	used for killing
+catapult	used for killing
+baseball bat	used for killing
+gloves	used for killing
+barrel	used for killing
+cheetah	used for killing
+ambulance	used for killing
+whistle	used for killing
+axe	used for killing
+razor	used for killing
+sledgehammer	used for killing
+harpoon	used for killing
+tomahawk	used for killing
+scissors	used for killing
+muzzle	used for killing
+wand	used for killing
+helicopter	used for killing
+spider	used for killing
+cigarette	used for killing
+cape	used for killing
+rocket	used for killing
+jet	used for killing
+airplane	used for killing
+panther	used for killing
+lion	used for killing
+fork	used for killing
+bagpipe	used for killing
+mirror	found on walls
+wall	found on walls
+clock	found on walls
+carpet	found on walls
+mat	found on walls
+door	found on walls
+doorknob	found on walls
+paintbrush	found on walls
+stone	found on walls
+rock	found on walls
+brick	found on walls
+spider	found on walls
+drapes	found on walls
+hook	found on walls
+tack	found on walls
+fence	found on walls
+marble	found on walls
+curtains	found on walls
+brush	found on walls
+peg	found on walls
+sandpaper	found on walls
+faucet	found on walls
+level	found on walls
+gate	found on walls
+lamp	found on walls
+bridge	found on walls
+bookcase	found on walls
+cabinet	found on walls
+flea	found on walls
+tray	found on walls
+banner	found on walls
+chandelier	found on walls
+table	found on walls
+basement	found on walls
+drain	found on walls
+shelves	found on walls
+beetle	found on walls
+escalator	found on walls
+dresser	found on walls
+worm	found on walls
+sink	found on walls
+cockroach	found on walls
+hammer	found on walls
+moth	found on walls
+vase	found on walls
+medal	found on walls
+shell	found on walls
+crayon	found on walls
+cork	found on walls
+ant	found on walls
+car	expensive
+emerald	expensive
+chain	expensive
+medal	expensive
+pearl	expensive
+bomb	expensive
+limousine	expensive
+jet	expensive
+coin	expensive
+jeep	expensive
+armour	expensive
+van	expensive
+building	expensive
+necklace	expensive
+cannon	expensive
+garage	expensive
+house	expensive
+marble	expensive
+bracelet	expensive
+airplane	expensive
+skyscraper	expensive
+motorcycle	expensive
+crown	expensive
+certificate	expensive
+apartment	expensive
+rocket	expensive
+train	expensive
+jeans	expensive
+helicopter	expensive
+toy	expensive
+tractor	expensive
+wagon	expensive
+horse	expensive
+clarinet	expensive
+tv	expensive
+missile	expensive
+violin	expensive
+curtains	expensive
+bullet	expensive
+radio	expensive
+piano	expensive
+truck	expensive
+stereo	expensive
+cigar	expensive
+razor	expensive
+handbag	expensive
+trumpet	expensive
+harpsichord	expensive
+ship	expensive
+balloon	expensive
+car	requires gasoline
+ambulance	requires gasoline
+van	requires gasoline
+truck	requires gasoline
+bus	requires gasoline
+cigarette	requires gasoline
+trailer	requires gasoline
+motorcycle	requires gasoline
+taxi	requires gasoline
+wagon	requires gasoline
+garage	requires gasoline
+train	requires gasoline
+hot dog	requires gasoline
+tractor	requires gasoline
+jeep	requires gasoline
+stop sign	requires gasoline
+fire hydrant	requires gasoline
+limousine	requires gasoline
+bomb	requires gasoline
+traffic light	requires gasoline
+airplane	requires gasoline
+cart	requires gasoline
+buggy	requires gasoline
+toaster	requires gasoline
+jet	requires gasoline
+hose	requires gasoline
+bicycle	requires gasoline
+cigar	requires gasoline
+bike	requires gasoline
+subway	requires gasoline
+trolley	requires gasoline
+unicycle	requires gasoline
+boat	requires gasoline
+pizza	requires gasoline
+microwave	requires gasoline
+chain	requires gasoline
+parking meter	requires gasoline
+rocket	requires gasoline
+helicopter	requires gasoline
+scooter	requires gasoline
+bullet	requires gasoline
+corn	requires gasoline
+sandwich	requires gasoline
+gun	requires gasoline
+ship	requires gasoline
+boots	requires gasoline
+shotgun	requires gasoline
+bread	requires gasoline
+dog	requires gasoline
+person	requires gasoline
+pearl	shiny
+emerald	shiny
+marble	shiny
+medal	shiny
+mirror	shiny
+wheel	shiny
+car	shiny
+coin	shiny
+crown	shiny
+shell	shiny
+chain	shiny
+bracelet	shiny
+stone	shiny
+sword	shiny
+armour	shiny
+doorknob	shiny
+rock	shiny
+necklace	shiny
+razor	shiny
+pin	shiny
+spoon	shiny
+dagger	shiny
+fork	shiny
+knife	shiny
+plate	shiny
+bullet	shiny
+key	shiny
+jet	shiny
+piano	shiny
+flute	shiny
+trumpet	shiny
+wine glass	shiny
+door	shiny
+certificate	shiny
+clock	shiny
+trombone	shiny
+olive	shiny
+clarinet	shiny
+cup	shiny
+violin	shiny
+horse	shiny
+bowl	shiny
+saxophone	shiny
+harp	shiny
+limousine	shiny
+doll	shiny
+pie	shiny
+cannon	shiny
+apple	shiny
+wagon	shiny
+apple	has peel
+orange	has peel
+banana	has peel
+pear	has peel
+peach	has peel
+pineapple	has peel
+lime	has peel
+honeydew	has peel
+grape	has peel
+cherry	has peel
+tangerine	has peel
+grapefruit	has peel
+lemon	has peel
+strawberry	has peel
+cantaloupe	has peel
+avocado	has peel
+cranberry	has peel
+plum	has peel
+nectarine	has peel
+cucumber	has peel
+blueberry	has peel
+raspberry	has peel
+tomato	has peel
+olive	has peel
+coconut	has peel
+raisin	has peel
+cork	has peel
+mandarin	has peel
+cheese	has peel
+radish	has peel
+mushroom	has peel
+lettuce	has peel
+broccoli	has peel
+eggplant	has peel
+walnut	has peel
+pickle	has peel
+carrot	has peel
+pepper	has peel
+zucchini	has peel
+cabbage	has peel
+onions	has peel
+pumpkin	has peel
+rhubarb	has peel
+turnip	has peel
+pie	has peel
+tree	has peel
+spinach	has peel
+donut	has peel
+peas	has peel
+jeans	has peel
+bomb	dangerous
+gun	dangerous
+grenade	dangerous
+bazooka	dangerous
+pistol	dangerous
+revolver	dangerous
+shotgun	dangerous
+machete	dangerous
+rifle	dangerous
+bullet	dangerous
+missile	dangerous
+slingshot	dangerous
+cannon	dangerous
+cheetah	dangerous
+rattlesnake	dangerous
+sword	dangerous
+rat	dangerous
+bayonet	dangerous
+dagger	dangerous
+skunk	dangerous
+cigarette	dangerous
+crossbow	dangerous
+spider	dangerous
+hose	dangerous
+porcupine	dangerous
+spear	dangerous
+catapult	dangerous
+panther	dangerous
+tiger	dangerous
+python	dangerous
+lion	dangerous
+cockroach	dangerous
+hornet	dangerous
+gloves	dangerous
+hatchet	dangerous
+sledgehammer	dangerous
+chain	dangerous
+car	dangerous
+fire hydrant	dangerous
+baseball bat	dangerous
+ambulance	dangerous
+rope	dangerous
+grasshopper	dangerous
+traffic light	dangerous
+person	dangerous
+housefly	dangerous
+armour	dangerous
+stop sign	dangerous
+flea	dangerous
+motorcycle	dangerous
+banana	eaten in summer
+cucumber	eaten in summer
+pineapple	eaten in summer
+orange	eaten in summer
+avocado	eaten in summer
+zucchini	eaten in summer
+pumpkin	eaten in summer
+cantaloupe	eaten in summer
+apple	eaten in summer
+pickle	eaten in summer
+peach	eaten in summer
+pear	eaten in summer
+lime	eaten in summer
+carrot	eaten in summer
+honeydew	eaten in summer
+broccoli	eaten in summer
+grapefruit	eaten in summer
+tomato	eaten in summer
+grape	eaten in summer
+eggplant	eaten in summer
+tangerine	eaten in summer
+cheese	eaten in summer
+strawberry	eaten in summer
+mushroom	eaten in summer
+corn	eaten in summer
+beans	eaten in summer
+yam	eaten in summer
+coconut	eaten in summer
+peas	eaten in summer
+spinach	eaten in summer
+lettuce	eaten in summer
+nectarine	eaten in summer
+lemon	eaten in summer
+cabbage	eaten in summer
+radish	eaten in summer
+olive	eaten in summer
+shrimp	eaten in summer
+seaweed	eaten in summer
+raisin	eaten in summer
+cauliflower	eaten in summer
+cake	eaten in summer
+potato	eaten in summer
+raspberry	eaten in summer
+asparagus	eaten in summer
+turnip	eaten in summer
+pizza	eaten in summer
+plum	eaten in summer
+celery	eaten in summer
+blueberry	eaten in summer
+frisbee	eaten in summer
+building	man made
+bridge	man made
+pier	man made
+skyscraper	man made
+fence	man made
+car	man made
+garage	man made
+house	man made
+stone	man made
+rock	man made
+basement	man made
+drain	man made
+brick	man made
+wall	man made
+elevator	man made
+hose	man made
+train	man made
+shed	man made
+beehive	man made
+sink	man made
+toilet	man made
+boat	man made
+shack	man made
+tree	man made
+escalator	man made
+bathtub	man made
+pyramid	man made
+ship	man made
+cellar	man made
+church	man made
+door	man made
+cathedral	man made
+subway	man made
+faucet	man made
+pearl	man made
+wheel	man made
+gate	man made
+airplane	man made
+marble	man made
+apartment	man made
+truck	man made
+barn	man made
+bomb	man made
+fire hydrant	man made
+sledgehammer	man made
+submarine	man made
+bungalow	man made
+canoe	man made
+hut	man made
+telephone	man made
+fork	used for eating
+bowl	used for eating
+spoon	used for eating
+plate	used for eating
+knife	used for eating
+dish	used for eating
+bread	used for eating
+cup	used for eating
+beans	used for eating
+potato	used for eating
+sandwich	used for eating
+banana	used for eating
+pizza	used for eating
+cheese	used for eating
+corn	used for eating
+grater	used for eating
+peas	used for eating
+apple	used for eating
+dining table	used for eating
+pickle	used for eating
+orange	used for eating
+hot dog	used for eating
+mug	used for eating
+rice	used for eating
+pie	used for eating
+tongs	used for eating
+lettuce	used for eating
+shrimp	used for eating
+carrot	used for eating
+spatula	used for eating
+tomato	used for eating
+grape	used for eating
+cake	used for eating
+menu	used for eating
+cucumber	used for eating
+pineapple	used for eating
+napkin	used for eating
+pear	used for eating
+peach	used for eating
+broccoli	used for eating
+chicken	used for eating
+mushroom	used for eating
+bottle	used for eating
+zucchini	used for eating
+avocado	used for eating
+ladle	used for eating
+wine glass	used for eating
+lobster	used for eating
+donut	used for eating
+yam	used for eating
+worm	slimy
+toad	slimy
+rat	slimy
+cockroach	slimy
+grasshopper	slimy
+frog	slimy
+beetle	slimy
+flea	slimy
+spider	slimy
+pickle	slimy
+salamander	slimy
+tortoise	slimy
+snail	slimy
+housefly	slimy
+python	slimy
+hornet	slimy
+eel	slimy
+skunk	slimy
+porcupine	slimy
+cucumber	slimy
+ant	slimy
+caterpillar	slimy
+turnip	slimy
+gopher	slimy
+moth	slimy
+lettuce	slimy
+wasp	slimy
+radish	slimy
+alligator	slimy
+zucchini	slimy
+goldfish	slimy
+cabbage	slimy
+mushroom	slimy
+potato	slimy
+asparagus	slimy
+beaver	slimy
+celery	slimy
+octopus	slimy
+turtle	slimy
+spinach	slimy
+rattlesnake	slimy
+broccoli	slimy
+cauliflower	slimy
+crocodile	slimy
+groundhog	slimy
+yam	slimy
+chimp	slimy
+clam	slimy
+iguana	slimy
+eggplant	slimy
+skyscraper	tall
+building	tall
+pyramid	tall
+person	tall
+tree	tall
+elephant	tall
+giraffe	tall
+ostrich	tall
+house	tall
+barn	tall
+bull	tall
+cathedral	tall
+ox	tall
+horse	tall
+elevator	tall
+platypus	tall
+fire hydrant	tall
+rattlesnake	tall
+zebra	tall
+rooster	tall
+escalator	tall
+camel	tall
+bridge	tall
+gorilla	tall
+vine	tall
+moose	tall
+basement	tall
+eagle	tall
+coyote	tall
+shed	tall
+python	tall
+whale	tall
+elk	tall
+tractor	tall
+rock	tall
+cat	tall
+dog	tall
+bison	tall
+brick	tall
+donkey	tall
+skunk	tall
+church	tall
+bungalow	tall
+woodpecker	tall
+cheetah	tall
+hyena	tall
+apartment	tall
+desk	tall
+shack	tall
+porcupine	tall
+stone	hard
+marble	hard
+rock	hard
+brick	hard
+pearl	hard
+emerald	hard
+sledgehammer	hard
+chisel	hard
+hammer	hard
+sandpaper	hard
+shell	hard
+drill	hard
+skyscraper	hard
+pyramid	hard
+level	hard
+building	hard
+pie	hard
+basement	hard
+axe	hard
+screws	hard
+olive	hard
+football	hard
+bolts	hard
+cherry	hard
+desk	hard
+dining table	hard
+wheel	hard
+cellar	hard
+donut	hard
+wall	hard
+clamp	hard
+screwdriver	hard
+bullet	hard
+walnut	hard
+baseball bat	hard
+table	hard
+tennis racket	hard
+person	hard
+stick	hard
+knife	hard
+raisin	hard
+coin	hard
+cannon	hard
+hatchet	hard
+spade	hard
+crowbar	hard
+ball	hard
+shovel	hard
+blueberry	hard
+skis	hard
+rocket	fast
+jet	fast
+train	fast
+car	fast
+missile	fast
+airplane	fast
+bomb	fast
+motorcycle	fast
+bus	fast
+subway	fast
+van	fast
+cheetah	fast
+unicycle	fast
+helicopter	fast
+jeep	fast
+wagon	fast
+taxi	fast
+truck	fast
+horse	fast
+scooter	fast
+bird	fast
+dog	fast
+bicycle	fast
+cannon	fast
+cat	fast
+ambulance	fast
+bike	fast
+toaster	fast
+tractor	fast
+rat	fast
+bazooka	fast
+bullet	fast
+beetle	fast
+ship	fast
+grenade	fast
+limousine	fast
+tricycle	fast
+pony	fast
+spider	fast
+submarine	fast
+microwave	fast
+tiger	fast
+slingshot	fast
+buggy	fast
+catapult	fast
+trailer	fast
+panther	fast
+moth	fast
+balloon	fast
+trolley	fast
+toy	a toy
+doll	a toy
+kite	a toy
+balloon	a toy
+frisbee	a toy
+teddy bear	a toy
+ball	a toy
+tricycle	a toy
+pony	a toy
+sports ball	a toy
+rocket	a toy
+cart	a toy
+trolley	a toy
+wagon	a toy
+slingshot	a toy
+bicycle	a toy
+bike	a toy
+car	a toy
+football	a toy
+scooter	a toy
+scissors	a toy
+skateboard	a toy
+baseball bat	a toy
+chipmunk	a toy
+dog	a toy
+box	a toy
+missile	a toy
+wand	a toy
+stick	a toy
+mouse	a toy
+bomb	a toy
+airplane	a toy
+buggy	a toy
+trailer	a toy
+tractor	a toy
+horse	a toy
+pencil	a toy
+wheel	a toy
+basket	a toy
+chimp	a toy
+sled	a toy
+grenade	a toy
+unicycle	a toy
+boat	a toy
+remote	a toy
+pin	a toy
+donkey	a toy
+cage	a toy
+cat	a toy
+gun	a toy
+scarf	worn for warmth
+coat	worn for warmth
+jacket	worn for warmth
+shawl	worn for warmth
+sweater	worn for warmth
+gloves	worn for warmth
+mittens	worn for warmth
+parka	worn for warmth
+vest	worn for warmth
+earmuffs	worn for warmth
+cloak	worn for warmth
+socks	worn for warmth
+boots	worn for warmth
+cape	worn for warmth
+shirt	worn for warmth
+shoes	worn for warmth
+gown	worn for warmth
+belt	worn for warmth
+pajamas	worn for warmth
+pants	worn for warmth
+robe	worn for warmth
+blouse	worn for warmth
+dress	worn for warmth
+umbrella	worn for warmth
+nightgown	worn for warmth
+bra	worn for warmth
+baseball glove	worn for warmth
+tie	worn for warmth
+jeans	worn for warmth
+apron	worn for warmth
+veil	worn for warmth
+camisole	worn for warmth
+sled	worn for warmth
+helmet	worn for warmth
+skirt	worn for warmth
+teddy bear	worn for warmth
+handbag	worn for warmth
+sleigh	worn for warmth
+sack	worn for warmth
+carpet	worn for warmth
+freezer	worn for warmth
+armour	worn for warmth
+shield	worn for warmth
+sandals	worn for warmth
+buckle	worn for warmth
+stove	worn for warmth
+slippers	worn for warmth
+drapes	worn for warmth
+leotards	worn for warmth
+porcupine	worn for warmth
+skis	swims
+swimsuit	swims
+seaweed	swims
+surfboard	swims
+canoe	swims
+goldfish	swims
+submarine	swims
+snowboard	swims
+jeans	swims
+raft	swims
+swan	swims
+frog	swims
+hose	swims
+duck	swims
+snail	swims
+boat	swims
+dolphin	swims
+bathtub	swims
+lobster	swims
+slippers	swims
+eel	swims
+screws	swims
+frisbee	swims
+harpoon	swims
+socks	swims
+penguin	swims
+turtle	swims
+seagull	swims
+trout	swims
+crab	swims
+bolts	swims
+seal	swims
+shrimp	swims
+pickle	swims
+shell	swims
+squid	swims
+yacht	swims
+whale	swims
+shoes	swims
+otter	swims
+clam	swims
+tomahawk	swims
+spear	swims
+sailboat	swims
+boots	swims
+octopus	swims
+toad	swims
+kite	swims
+salamander	swims
+salmon	swims
+certificate	words on it
+menu	words on it
+medal	words on it
+traffic light	words on it
+bridge	words on it
+key	words on it
+stop sign	words on it
+banner	words on it
+pen	words on it
+peg	words on it
+envelope	words on it
+hook	words on it
+person	words on it
+pin	words on it
+bouquet	words on it
+chain	words on it
+crown	words on it
+clock	words on it
+tack	words on it
+rock	words on it
+pyramid	words on it
+bull	words on it
+coin	words on it
+door	words on it
+box	words on it
+whistle	words on it
+wall	words on it
+muzzle	words on it
+gate	words on it
+python	words on it
+barrel	words on it
+bullet	words on it
+book	words on it
+dog	words on it
+church	words on it
+baton	words on it
+cat	words on it
+cheese	words on it
+fence	words on it
+wheel	words on it
+basement	words on it
+shell	words on it
+building	words on it
+doorknob	words on it
+typewriter	words on it
+mandarin	words on it
+horse	words on it
+bird	words on it
+cork	words on it
+pizza	words on it
+rattle	produces noise
+whistle	produces noise
+drum	produces noise
+trombone	produces noise
+bagpipe	produces noise
+trumpet	produces noise
+tuba	produces noise
+harmonica	produces noise
+clarinet	produces noise
+flute	produces noise
+saxophone	produces noise
+piano	produces noise
+baton	produces noise
+rock	produces noise
+radio	produces noise
+accordion	produces noise
+crow	produces noise
+telephone	produces noise
+bird	produces noise
+bomb	produces noise
+guitar	produces noise
+dog	produces noise
+harp	produces noise
+gun	produces noise
+cat	produces noise
+keyboard	produces noise
+rooster	produces noise
+missile	produces noise
+bullet	produces noise
+clock	produces noise
+cannon	produces noise
+baseball bat	produces noise
+cigarette	produces noise
+car	produces noise
+traffic light	produces noise
+banjo	produces noise
+flea	produces noise
+stop sign	produces noise
+balloon	produces noise
+shotgun	produces noise
+pistol	produces noise
+rat	produces noise
+tv	produces noise
+harpsichord	produces noise
+beetle	produces noise
+grenade	produces noise
+housefly	produces noise
+hose	produces noise
+moth	produces noise
+mixer	produces noise
+bird	an animal
+cat	an animal
+dog	an animal
+horse	an animal
+chimp	an animal
+rabbit	an animal
+rat	an animal
+fox	an animal
+frog	an animal
+squirrel	an animal
+tiger	an animal
+raccoon	an animal
+bear	an animal
+panther	an animal
+giraffe	an animal
+turtle	an animal
+elephant	an animal
+goldfish	an animal
+zebra	an animal
+skunk	an animal
+cheetah	an animal
+deer	an animal
+ox	an animal
+alligator	an animal
+lion	an animal
+groundhog	an animal
+salamander	an animal
+pig	an animal
+crow	an animal
+tortoise	an animal
+beaver	an animal
+hamster	an animal
+crocodile	an animal
+hare	an animal
+chipmunk	an animal
+leopard	an animal
+moose	an animal
+gopher	an animal
+iguana	an animal
+eagle	an animal
+toad	an animal
+hyena	an animal
+coyote	an animal
+falcon	an animal
+gorilla	an animal
+whale	an animal
+dolphin	an animal
+bull	an animal
+beetle	an animal
+bison	an animal
+kite	fun
+skis	fun
+football	fun
+toy	fun
+balloon	fun
+frisbee	fun
+pony	fun
+dog	fun
+ball	fun
+slingshot	fun
+rocket	fun
+doll	fun
+cat	fun
+teddy bear	fun
+tricycle	fun
+bike	fun
+horse	fun
+sports ball	fun
+python	fun
+bomb	fun
+skateboard	fun
+pie	fun
+tv	fun
+scooter	fun
+cigarette	fun
+person	fun
+bicycle	fun
+tack	fun
+cigar	fun
+rope	fun
+whip	fun
+rock	fun
+screws	fun
+grenade	fun
+snowboard	fun
+hot dog	fun
+gun	fun
+baseball bat	fun
+sleigh	fun
+crossbow	fun
+sword	fun
+spear	fun
+motorcycle	fun
+sled	fun
+goldfish	fun
+chain	fun
+machete	fun
+bull	fun
+pistol	fun
+car	fun
+oven	hot
+stove	hot
+microwave	hot
+candle	hot
+toaster	hot
+pan	hot
+cigar	hot
+cigarette	hot
+brick	hot
+kettle	hot
+pepper	hot
+tomato	hot
+pot	hot
+basement	hot
+cellar	hot
+tangerine	hot
+person	hot
+cauliflower	hot
+orange	hot
+porcupine	hot
+hot dog	hot
+tongs	hot
+pumpkin	hot
+yam	hot
+radish	hot
+grapefruit	hot
+rhubarb	hot
+parsley	hot
+freezer	hot
+mushroom	hot
+mandarin	hot
+crayon	hot
+donut	hot
+leopard	hot
+spatula	hot
+fridge	hot
+cranberry	hot
+garlic	hot
+python	hot
+cheetah	hot
+hose	hot
+refrigerator	hot
+apron	hot
+olive	hot
+panther	hot
+onions	hot
+coyote	hot
+lion	hot
+eggplant	hot
+dog	hot
+rock	heavy
+stone	heavy
+brick	heavy
+marble	heavy
+sledgehammer	heavy
+cannon	heavy
+car	heavy
+wagon	heavy
+truck	heavy
+skyscraper	heavy
+building	heavy
+catapult	heavy
+basement	heavy
+box	heavy
+tractor	heavy
+pyramid	heavy
+elephant	heavy
+drum	heavy
+trailer	heavy
+bookcase	heavy
+trolley	heavy
+wheelbarrow	heavy
+cart	heavy
+bomb	heavy
+ox	heavy
+train	heavy
+van	heavy
+desk	heavy
+ship	heavy
+baseball bat	heavy
+elevator	heavy
+shelves	heavy
+bridge	heavy
+shed	heavy
+piano	heavy
+house	heavy
+chain	heavy
+bagpipe	heavy
+whale	heavy
+tuba	heavy
+pearl	heavy
+barrel	heavy
+toaster	heavy
+barn	heavy
+cellar	heavy
+bureau	heavy
+cabinet	heavy
+person	heavy
+bullet	heavy
+escalator	heavy
+elephant	large
+whale	large
+building	large
+giraffe	large
+pyramid	large
+ox	large
+skyscraper	large
+camel	large
+bull	large
+barn	large
+basement	large
+house	large
+zebra	large
+dolphin	large
+octopus	large
+lion	large
+gorilla	large
+cannon	large
+crocodile	large
+tiger	large
+tortoise	large
+buffalo	large
+cheetah	large
+horse	large
+panther	large
+cow	large
+alligator	large
+bison	large
+turtle	large
+cellar	large
+tractor	large
+car	large
+shed	large
+drum	large
+garage	large
+broccoli	large
+dog	large
+seal	large
+ship	large
+toaster	large
+bedroom	large
+pearl	large
+squid	large
+cat	large
+person	large
+leopard	large
+cathedral	large
+barrel	large
+bear	large
+desk	large
+freezer	cold
+cellar	cold
+refrigerator	cold
+penguin	cold
+basement	cold
+sled	cold
+fridge	cold
+person	cold
+marble	cold
+boots	cold
+sleigh	cold
+skis	cold
+walrus	cold
+cranberry	cold
+donut	cold
+mittens	cold
+coat	cold
+stone	cold
+blueberry	cold
+rock	cold
+seal	cold
+gloves	cold
+jacket	cold
+pearl	cold
+pie	cold
+biscuit	cold
+cake	cold
+raisin	cold
+sweater	cold
+parka	cold
+raspberry	cold
+whale	cold
+microwave	cold
+strawberry	cold
+dog	cold
+thermometer	cold
+scarf	cold
+cherry	cold
+swan	cold
+cat	cold
+grape	cold
+cork	cold
+oven	cold
+toaster	cold
+barn	cold
+shawl	cold
+earmuffs	cold
+building	cold
+otter	cold
+brick	cold
+shoes	pairs
+chain	pairs
+jeans	pairs
+socks	pairs
+skis	pairs
+nylons	pairs
+slippers	pairs
+leotards	pairs
+bolts	pairs
+pie	pairs
+screws	pairs
+boots	pairs
+shelves	pairs
+sandals	pairs
+peg	pairs
+bracelet	pairs
+hook	pairs
+pin	pairs
+medal	pairs
+hose	pairs
+pants	pairs
+buckle	pairs
+gloves	pairs
+sandwich	pairs
+rope	pairs
+bridge	pairs
+spade	pairs
+bra	pairs
+ball	pairs
+coin	pairs
+necklace	pairs
+peas	pairs
+thimble	pairs
+dresser	pairs
+cigarette	pairs
+bed	pairs
+tie	pairs
+bedroom	pairs
+dog	pairs
+clamp	pairs
+sleigh	pairs
+pony	pairs
+bench	pairs
+trolley	pairs
+box	pairs
+curtains	pairs
+cat	pairs
+table	pairs
+stick	pairs
+chair	pairs
+telephone	electrical
+microwave	electrical
+tv	electrical
+radio	electrical
+toaster	electrical
+traffic light	electrical
+chain	electrical
+bomb	electrical
+stop sign	electrical
+dishwasher	electrical
+fridge	electrical
+remote	electrical
+chandelier	electrical
+cell phone	electrical
+faucet	electrical
+mouse	electrical
+stereo	electrical
+parking meter	electrical
+stove	electrical
+refrigerator	electrical
+elevator	electrical
+bolts	electrical
+lamp	electrical
+missile	electrical
+car	electrical
+oven	electrical
+rat	electrical
+hose	electrical
+escalator	electrical
+freezer	electrical
+laptop	electrical
+fire hydrant	electrical
+drain	electrical
+clock	electrical
+rope	electrical
+projector	electrical
+screws	electrical
+whistle	electrical
+train	electrical
+bridge	electrical
+garage	electrical
+beehive	electrical
+ambulance	electrical
+housefly	electrical
+gun	electrical
+spider	electrical
+mixer	electrical
+tractor	electrical
+lantern	electrical
+typewriter	electrical
+pickle	smelly
+rat	smelly
+flea	smelly
+potato	smelly
+cellar	smelly
+worm	smelly
+onions	smelly
+cockroach	smelly
+cabbage	smelly
+skunk	smelly
+cigarette	smelly
+hose	smelly
+broom	smelly
+basement	smelly
+person	smelly
+housefly	smelly
+cigar	smelly
+toilet	smelly
+beets	smelly
+turnip	smelly
+shoes	smelly
+lettuce	smelly
+drain	smelly
+sack	smelly
+garlic	smelly
+cat	smelly
+dog	smelly
+mushroom	smelly
+cork	smelly
+cart	smelly
+cheese	smelly
+boots	smelly
+toad	smelly
+spider	smelly
+garage	smelly
+pepper	smelly
+radish	smelly
+jeans	smelly
+trolley	smelly
+bread	smelly
+beetle	smelly
+dishwasher	smelly
+cauliflower	smelly
+celery	smelly
+cucumber	smelly
+shelves	smelly
+coin	smelly
+peas	smelly
+carpet	smelly
+parsley	smelly
+guitar	used for music
+piano	used for music
+drum	used for music
+harmonica	used for music
+trumpet	used for music
+harp	used for music
+saxophone	used for music
+tuba	used for music
+banjo	used for music
+flute	used for music
+violin	used for music
+trombone	used for music
+harpsichord	used for music
+clarinet	used for music
+cello	used for music
+accordion	used for music
+keyboard	used for music
+rattle	used for music
+bagpipe	used for music
+mixer	used for music
+baton	used for music
+radio	used for music
+bench	used for music
+bridge	used for music
+stereo	used for music
+whistle	used for music
+church	used for music
+rock	used for music
+chapel	used for music
+tv	used for music
+cathedral	used for music
+tray	used for music
+building	used for music
+stick	used for music
+rocker	used for music
+remote	used for music
+shell	used for music
+projector	used for music
+shelves	used for music
+skyscraper	used for music
+crown	used for music
+spear	used for music
+shoes	used for music
+cellar	used for music
+basement	used for music
+car	used for music
+bowl	used for music
+fork	used for music
+barn	used for music
+telephone	used for music
+cupboard	has shelves
+cabinet	has shelves
+shelves	has shelves
+bookcase	has shelves
+bureau	has shelves
+closet	has shelves
+refrigerator	has shelves
+dresser	has shelves
+fridge	has shelves
+basement	has shelves
+freezer	has shelves
+cellar	has shelves
+box	has shelves
+desk	has shelves
+table	has shelves
+bedroom	has shelves
+shed	has shelves
+dining table	has shelves
+jar	has shelves
+garage	has shelves
+book	has shelves
+basket	has shelves
+tray	has shelves
+lamp	has shelves
+hook	has shelves
+vase	has shelves
+bottle	has shelves
+building	has shelves
+microwave	has shelves
+bag	has shelves
+menu	has shelves
+wall	has shelves
+urn	has shelves
+sack	has shelves
+door	has shelves
+barn	has shelves
+house	has shelves
+cart	has shelves
+chair	has shelves
+mirror	has shelves
+oven	has shelves
+stove	has shelves
+dishwasher	has shelves
+toaster	has shelves
+potted plant	has shelves
+dish	has shelves
+trolley	has shelves
+church	has shelves
+barrel	has shelves
+tv	has shelves
+tray	used for holding things
+table	used for holding things
+dish	used for holding things
+plate	used for holding things
+bowl	used for holding things
+cup	used for holding things
+cabinet	used for holding things
+jar	used for holding things
+dining table	used for holding things
+desk	used for holding things
+vase	used for holding things
+basket	used for holding things
+mug	used for holding things
+fork	used for holding things
+urn	used for holding things
+bottle	used for holding things
+chair	used for holding things
+spoon	used for holding things
+bookcase	used for holding things
+cupboard	used for holding things
+lamp	used for holding things
+box	used for holding things
+pot	used for holding things
+shelves	used for holding things
+wine glass	used for holding things
+knife	used for holding things
+barrel	used for holding things
+tongs	used for holding things
+strainer	used for holding things
+corkscrew	used for holding things
+bench	used for holding things
+bucket	used for holding things
+napkin	used for holding things
+ladle	used for holding things
+potted plant	used for holding things
+grater	used for holding things
+cart	used for holding things
+pan	used for holding things
+mirror	used for holding things
+bureau	used for holding things
+ashtray	used for holding things
+spatula	used for holding things
+bed	used for holding things
+dresser	used for holding things
+skillet	used for holding things
+sack	used for holding things
+bag	used for holding things
+refrigerator	used for holding things
+colander	used for holding things
+couch	used for holding things
+octopus	lives in water
+turtle	lives in water
+goldfish	lives in water
+eel	lives in water
+squid	lives in water
+dolphin	lives in water
+snail	lives in water
+frog	lives in water
+crab	lives in water
+tortoise	lives in water
+whale	lives in water
+iguana	lives in water
+salamander	lives in water
+crocodile	lives in water
+alligator	lives in water
+otter	lives in water
+clam	lives in water
+toad	lives in water
+lobster	lives in water
+seaweed	lives in water
+seal	lives in water
+shrimp	lives in water
+bird	lives in water
+tuna	lives in water
+shell	lives in water
+submarine	lives in water
+trout	lives in water
+beaver	lives in water
+sardine	lives in water
+salmon	lives in water
+worm	lives in water
+penguin	lives in water
+python	lives in water
+seagull	lives in water
+swan	lives in water
+walrus	lives in water
+rat	lives in water
+duck	lives in water
+pearl	lives in water
+canoe	lives in water
+chimp	lives in water
+boat	lives in water
+flamingo	lives in water
+beetle	lives in water
+raft	lives in water
+spider	lives in water
+tomahawk	lives in water
+cat	lives in water
+ship	lives in water
+dog	lives in water
+cellar	wet
+hose	wet
+boots	wet
+drain	wet
+bathtub	wet
+rice	wet
+bucket	wet
+basement	wet
+sink	wet
+frog	wet
+rock	wet
+toad	wet
+pickle	wet
+lettuce	wet
+beaver	wet
+cork	wet
+garage	wet
+umbrella	wet
+swan	wet
+barrel	wet
+faucet	wet
+coin	wet
+toilet	wet
+penguin	wet
+shoes	wet
+carpet	wet
+seaweed	wet
+corn	wet
+brick	wet
+marble	wet
+trout	wet
+cheese	wet
+car	wet
+duck	wet
+pearl	wet
+jeans	wet
+shed	wet
+buffalo	wet
+cat	wet
+barn	wet
+horse	wet
+beans	wet
+napkin	wet
+canoe	wet
+person	wet
+rat	wet
+beetle	wet
+pier	wet
+seal	wet
+otter	wet
+trombone	loud
+drum	loud
+rattle	loud
+bagpipe	loud
+whistle	loud
+tuba	loud
+bomb	loud
+trumpet	loud
+cannon	loud
+saxophone	loud
+missile	loud
+shotgun	loud
+church	loud
+clarinet	loud
+sledgehammer	loud
+radio	loud
+piano	loud
+accordion	loud
+harmonica	loud
+bullet	loud
+car	loud
+building	loud
+garage	loud
+basement	loud
+rock	loud
+person	loud
+flute	loud
+bridge	loud
+bull	loud
+cathedral	loud
+grenade	loud
+chapel	loud
+bazooka	loud
+guitar	loud
+skyscraper	loud
+gun	loud
+baton	loud
+stop sign	loud
+brick	loud
+harp	loud
+rattlesnake	loud
+revolver	loud
+harpsichord	loud
+cellar	loud
+hot dog	loud
+catapult	loud
+barn	loud
+fire hydrant	loud
+traffic light	loud
+python	loud
+housefly	flies
+wasp	flies
+moth	flies
+flea	flies
+hornet	flies
+beetle	flies
+caterpillar	flies
+worm	flies
+ant	flies
+butterfly	flies
+cockroach	flies
+crow	flies
+spider	flies
+grasshopper	flies
+bolts	flies
+dove	flies
+rat	flies
+pigeon	flies
+beehive	flies
+bird	flies
+hawk	flies
+woodpecker	flies
+frog	flies
+jet	flies
+skis	flies
+drapes	flies
+owl	flies
+toad	flies
+balloon	flies
+screws	flies
+swan	flies
+groundhog	flies
+bullet	flies
+duck	flies
+slingshot	flies
+curtains	flies
+skunk	flies
+goose	flies
+snail	flies
+pickle	flies
+rocket	flies
+cork	flies
+airplane	flies
+kite	flies
+hose	flies
+python	flies
+squirrel	flies
+peacock	flies
+rooster	flies
+eagle	flies
+pan	used for cooking
+skillet	used for cooking
+colander	used for cooking
+spatula	used for cooking
+oven	used for cooking
+ladle	used for cooking
+grater	used for cooking
+knife	used for cooking
+pot	used for cooking
+tongs	used for cooking
+microwave	used for cooking
+apron	used for cooking
+toaster	used for cooking
+spoon	used for cooking
+stove	used for cooking
+blender	used for cooking
+carrot	used for cooking
+pepper	used for cooking
+pumpkin	used for cooking
+tomato	used for cooking
+potato	used for cooking
+cheese	used for cooking
+dish	used for cooking
+strainer	used for cooking
+rice	used for cooking
+mushroom	used for cooking
+garlic	used for cooking
+mixer	used for cooking
+beans	used for cooking
+fork	used for cooking
+corn	used for cooking
+onions	used for cooking
+chicken	used for cooking
+bowl	used for cooking
+bread	used for cooking
+avocado	used for cooking
+kettle	used for cooking
+zucchini	used for cooking
+cauliflower	used for cooking
+yam	used for cooking
+fridge	used for cooking
+olive	used for cooking
+dining table	used for cooking
+broccoli	used for cooking
+cucumber	used for cooking
+peas	used for cooking
+celery	used for cooking
+eggplant	used for cooking
+coconut	used for cooking
+parsley	used for cooking
+dagger	sharp
+razor	sharp
+scissors	sharp
+tack	sharp
+knife	sharp
+spear	sharp
+sword	sharp
+machete	sharp
+bullet	sharp
+tomahawk	sharp
+bayonet	sharp
+clamp	sharp
+grater	sharp
+hatchet	sharp
+fork	sharp
+axe	sharp
+spoon	sharp
+chisel	sharp
+sandpaper	sharp
+pistol	sharp
+gun	sharp
+bolts	sharp
+pliers	sharp
+thimble	sharp
+radish	sharp
+crossbow	sharp
+harpoon	sharp
+pin	sharp
+emerald	sharp
+porcupine	sharp
+stick	sharp
+tongs	sharp
+grasshopper	sharp
+parsley	sharp
+slingshot	sharp
+spider	sharp
+revolver	sharp
+cucumber	sharp
+rock	sharp
+grenade	sharp
+worm	sharp
+rifle	sharp
+mushroom	sharp
+stone	sharp
+coin	sharp
+chain	sharp
+marble	sharp
+screws	sharp
+pearl	sharp
+rattlesnake	sharp
+cigarette	unhealthy
+pickle	unhealthy
+cigar	unhealthy
+pie	unhealthy
+bread	unhealthy
+cake	unhealthy
+potato	unhealthy
+biscuit	unhealthy
+corn	unhealthy
+coin	unhealthy
+beans	unhealthy
+rat	unhealthy
+person	unhealthy
+worm	unhealthy
+cheese	unhealthy
+pizza	unhealthy
+bomb	unhealthy
+flea	unhealthy
+tv	unhealthy
+shoes	unhealthy
+donut	unhealthy
+cockroach	unhealthy
+menu	unhealthy
+cork	unhealthy
+skunk	unhealthy
+screws	unhealthy
+jeans	unhealthy
+beets	unhealthy
+peas	unhealthy
+sandwich	unhealthy
+sack	unhealthy
+rice	unhealthy
+radio	unhealthy
+traffic light	unhealthy
+lettuce	unhealthy
+nylons	unhealthy
+cabbage	unhealthy
+socks	unhealthy
+chain	unhealthy
+stop sign	unhealthy
+cart	unhealthy
+barrel	unhealthy
+bottle	unhealthy
+onions	unhealthy
+toilet	unhealthy
+toothbrush	unhealthy
+toy	unhealthy
+orange	unhealthy
+cellar	unhealthy
+trolley	unhealthy
+wand	hand held
+pen	hand held
+thimble	hand held
+sword	hand held
+knife	hand held
+baton	hand held
+gun	hand held
+scissors	hand held
+bag	hand held
+basket	hand held
+fork	hand held
+cart	hand held
+pencil	hand held
+pistol	hand held
+trolley	hand held
+spoon	hand held
+handbag	hand held
+bottle	hand held
+dagger	hand held
+telephone	hand held
+cigarette	hand held
+cup	hand held
+cell phone	hand held
+toy	hand held
+revolver	hand held
+gloves	hand held
+box	hand held
+envelope	hand held
+balloon	hand held
+tongs	hand held
+pin	hand held
+mug	hand held
+machete	hand held
+certificate	hand held
+broom	hand held
+spade	hand held
+spear	hand held
+bouquet	hand held
+baseball bat	hand held
+napkin	hand held
+bowl	hand held
+person	hand held
+car	hand held
+jar	hand held
+piano	hand held
+laptop	hand held
+harmonica	hand held
+bracelet	hand held
+vase	hand held
+backpack	hand held
+broom	used for cleaning
+sink	used for cleaning
+bucket	used for cleaning
+bathtub	used for cleaning
+hose	used for cleaning
+drain	used for cleaning
+toilet	used for cleaning
+napkin	used for cleaning
+toothbrush	used for cleaning
+dishwasher	used for cleaning
+faucet	used for cleaning
+brush	used for cleaning
+slippers	used for cleaning
+carpet	used for cleaning
+lemon	used for cleaning
+basket	used for cleaning
+cart	used for cleaning
+robe	used for cleaning
+hair drier	used for cleaning
+trolley	used for cleaning
+sack	used for cleaning
+shovel	used for cleaning
+comb	used for cleaning
+apron	used for cleaning
+gown	used for cleaning
+shoes	used for cleaning
+rat	used for cleaning
+gloves	used for cleaning
+wheelbarrow	used for cleaning
+flea	used for cleaning
+tray	used for cleaning
+cup	used for cleaning
+bag	used for cleaning
+cork	used for cleaning
+toad	used for cleaning
+barrel	used for cleaning
+prune	used for cleaning
+bottle	used for cleaning
+lettuce	used for cleaning
+mirror	used for cleaning
+cellar	used for cleaning
+socks	used for cleaning
+nylons	used for cleaning
+cucumber	used for cleaning
+worm	used for cleaning
+lime	used for cleaning
+jar	used for cleaning
+rake	used for cleaning
+dish	used for cleaning
+ambulance	used for cleaning
+truck	used for transportation
+train	used for transportation
+car	used for transportation
+bus	used for transportation
+wagon	used for transportation
+van	used for transportation
+motorcycle	used for transportation
+unicycle	used for transportation
+bicycle	used for transportation
+airplane	used for transportation
+bike	used for transportation
+taxi	used for transportation
+scooter	used for transportation
+trailer	used for transportation
+tricycle	used for transportation
+buggy	used for transportation
+skateboard	used for transportation
+subway	used for transportation
+trolley	used for transportation
+limousine	used for transportation
+elevator	used for transportation
+boat	used for transportation
+cart	used for transportation
+tractor	used for transportation
+ambulance	used for transportation
+helicopter	used for transportation
+jet	used for transportation
+ship	used for transportation
+wheel	used for transportation
+escalator	used for transportation
+rocket	used for transportation
+sleigh	used for transportation
+jeep	used for transportation
+horse	used for transportation
+donkey	used for transportation
+bridge	used for transportation
+helmet	used for transportation
+fire hydrant	used for transportation
+canoe	used for transportation
+pony	used for transportation
+chain	used for transportation
+wheelbarrow	used for transportation
+suitcase	used for transportation
+yacht	used for transportation
+cannon	used for transportation
+stop sign	used for transportation
+catapult	used for transportation
+garage	used for transportation
+balloon	used for transportation
+submarine	used for transportation
+pliers	a tool
+crowbar	a tool
+screwdriver	a tool
+axe	a tool
+drill	a tool
+hammer	a tool
+chisel	a tool
+sandpaper	a tool
+wrench	a tool
+scissors	a tool
+tack	a tool
+hatchet	a tool
+clamp	a tool
+machete	a tool
+knife	a tool
+screws	a tool
+level	a tool
+sledgehammer	a tool
+spear	a tool
+razor	a tool
+grater	a tool
+peg	a tool
+fork	a tool
+dagger	a tool
+shovel	a tool
+sword	a tool
+bolts	a tool
+wheelbarrow	a tool
+spade	a tool
+rake	a tool
+spoon	a tool
+gun	a tool
+thimble	a tool
+bayonet	a tool
+pin	a tool
+corkscrew	a tool
+cart	a tool
+tongs	a tool
+ruler	a tool
+pistol	a tool
+hook	a tool
+tractor	a tool
+wheel	a tool
+catapult	a tool
+bucket	a tool
+broom	a tool
+typewriter	a tool
+hoe	a tool
+car	a tool
+colander	a tool
+vase	decorative
+potted plant	decorative
+urn	decorative
+bouquet	decorative
+mirror	decorative
+banner	decorative
+clock	decorative
+curtains	decorative
+drapes	decorative
+tray	decorative
+carpet	decorative
+medal	decorative
+lamp	decorative
+basket	decorative
+jar	decorative
+crown	decorative
+balloon	decorative
+doll	decorative
+pin	decorative
+hook	decorative
+toy	decorative
+candle	decorative
+cabinet	decorative
+box	decorative
+dandelion	decorative
+cushion	decorative
+plate	decorative
+necklace	decorative
+chair	decorative
+bookcase	decorative
+bowl	decorative
+pillow	decorative
+dish	decorative
+mat	decorative
+cup	decorative
+teddy bear	decorative
+bottle	decorative
+pot	decorative
+wall	decorative
+bracelet	decorative
+menu	decorative
+table	decorative
+veil	decorative
+thimble	decorative
+chandelier	decorative
+dining table	decorative
+piano	decorative
+butterfly	decorative
+harp	decorative
+napkin	decorative
+rock	smooth
+carpet	smooth
+marble	smooth
+bridge	smooth
+stone	smooth
+wheel	smooth
+mirror	smooth
+car	smooth
+harmonica	smooth
+cork	smooth
+harp	smooth
+piano	smooth
+wall	smooth
+flute	smooth
+jet	smooth
+train	smooth
+cake	smooth
+saxophone	smooth
+toothbrush	smooth
+brick	smooth
+clarinet	smooth
+donut	smooth
+trumpet	smooth
+violin	smooth
+accordion	smooth
+elevator	smooth
+cheese	smooth
+rattle	smooth
+napkin	smooth
+person	smooth
+dog	smooth
+pearl	smooth
+horse	smooth
+biscuit	smooth
+trombone	smooth
+subway	smooth
+raisin	smooth
+door	smooth
+banjo	smooth
+curtains	smooth
+cat	smooth
+escalator	smooth
+cello	smooth
+basement	smooth
+brush	smooth
+guitar	smooth
+pie	smooth
+bread	smooth
+pizza	smooth
+harpsichord	smooth
+socks	worn on feet
+sandals	worn on feet
+boots	worn on feet
+shoes	worn on feet
+slippers	worn on feet
+pants	worn on feet
+leotards	worn on feet
+jeans	worn on feet
+gloves	worn on feet
+camisole	worn on feet
+jacket	worn on feet
+skirt	worn on feet
+mittens	worn on feet
+pajamas	worn on feet
+coat	worn on feet
+robe	worn on feet
+parka	worn on feet
+dress	worn on feet
+bra	worn on feet
+skis	worn on feet
+sweater	worn on feet
+belt	worn on feet
+gown	worn on feet
+buckle	worn on feet
+carpet	worn on feet
+shirt	worn on feet
+hose	worn on feet
+cloak	worn on feet
+scarf	worn on feet
+earmuffs	worn on feet
+mat	worn on feet
+tie	worn on feet
+handbag	worn on feet
+gopher	worn on feet
+baseball glove	worn on feet
+chipmunk	worn on feet
+shawl	worn on feet
+bucket	worn on feet
+stick	worn on feet
+bag	worn on feet
+blouse	worn on feet
+swimsuit	worn on feet
+shovel	worn on feet
+vest	worn on feet
+bracelet	worn on feet
+buggy	worn on feet
+trolley	worn on feet
+sleigh	worn on feet
+nylons	worn on feet
+umbrella	worn on feet
+nylons	light weight
+rock	light weight
+pencil	light weight
+cork	light weight
+stone	light weight
+box	light weight
+brick	light weight
+marble	light weight
+doll	light weight
+coin	light weight
+envelope	light weight
+bullet	light weight
+stick	light weight
+wagon	light weight
+cigarette	light weight
+car	light weight
+baseball bat	light weight
+balloon	light weight
+pen	light weight
+teddy bear	light weight
+trolley	light weight
+barrel	light weight
+crayon	light weight
+scissors	light weight
+skyscraper	light weight
+flute	light weight
+jet	light weight
+trombone	light weight
+cannon	light weight
+sports ball	light weight
+shell	light weight
+backpack	light weight
+pearl	light weight
+drum	light weight
+kite	light weight
+building	light weight
+frisbee	light weight
+sack	light weight
+trailer	light weight
+bottle	light weight
+clarinet	light weight
+chain	light weight
+toy	light weight
+broom	light weight
+trumpet	light weight
+basket	light weight
+cello	light weight
+bagpipe	light weight
+saxophone	light weight
+airplane	light weight
+potato	edible
+corn	edible
+cheese	edible
+bread	edible
+peas	edible
+mushroom	edible
+banana	edible
+carrot	edible
+tree	edible
+apple	edible
+cucumber	edible
+seaweed	edible
+beans	edible
+broccoli	edible
+orange	edible
+cabbage	edible
+onions	edible
+pickle	edible
+spinach	edible
+zucchini	edible
+pumpkin	edible
+lettuce	edible
+pear	edible
+tomato	edible
+avocado	edible
+rice	edible
+pie	edible
+grape	edible
+eggplant	edible
+peach	edible
+olive	edible
+celery	edible
+cauliflower	edible
+cake	edible
+pineapple	edible
+vine	edible
+asparagus	edible
+shrimp	edible
+yam	edible
+pepper	edible
+lemon	edible
+coconut	edible
+strawberry	edible
+turnip	edible
+radish	edible
+lime	edible
+bird	edible
+tangerine	edible
+cantaloupe	edible
+lobster	edible

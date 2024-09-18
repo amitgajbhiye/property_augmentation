@@ -1,0 +1,41 @@
+{
+    "experiment_name": "ctx5_prop_conj_roberta_base_je_cnetp_pretrain_thresh42",
+    "log_dirctory": "pretrain",
+    "training_params": {
+        "dataset_name": "prop_conj_thresh42",
+        "pretrain": true,
+        "train_file_path": "data/train_data/je_prop_conj/deberta_mask_prompt/sim5_predict_prop_deberta_v3_large_ctx1_5_neg_train_cnet_premium.tsv",
+        "val_file_path": "data/train_data/je_prop_conj/deberta_mask_prompt/sim5_predict_prop_deberta_v3_large_ctx1_5_neg_valid_cnet_premium.tsv",
+        "finetune": false,
+        "load_pretrained": false,
+        "pretrained_model_path": null,
+        "cv_type": null,
+        "data_dir": null,
+        "save_prefix": null,
+        "batch_size": 32,
+        "lr": 1e-5,
+        "max_epochs": 100,
+        "num_warmup_steps": 0,
+        "warmup_ratio": 0,
+        "patience_early_stopping": 5,
+        "save_dir": "trained_models/je_prop_conj_cnetp_pretrained",
+        "model_name": "ctx5_prop_conj_roberta_base_je_cnetp_pretrain_thresh42.pt",
+        "lr_policy": null,
+        "lr_decay_iters": null,
+        "weight_decay": 0.01,
+        "hp_tuning": false
+    },
+    "dataset_params": {
+        "hf_tokenizer_name": "roberta-base",
+        "hf_tokenizer_path": "/scratch/c.scmag3/hf_pretrained_models/roberta_base/tokenizer",
+        "max_len": 60,
+        "context_id": 5
+    },
+    "model_params": {
+        "hf_checkpoint_name": "roberta-base",
+        "hf_model_path": "/scratch/c.scmag3/hf_pretrained_models/roberta_base/model",
+        "num_labels": 0,
+        "context_id": 5,
+        "remove_classifier_layer": false
+    }
+}

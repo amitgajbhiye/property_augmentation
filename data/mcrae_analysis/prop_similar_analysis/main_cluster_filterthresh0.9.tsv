@@ -1,0 +1,1174 @@
+screwdriver	a tool	0.99057	27
+hammer	a tool	0.97876	27
+chisel	a tool	0.98084	27
+wrench	a tool	0.98542	27
+scissors	a tool	0.90476	27
+tack	a tool	0.94065	27
+hatchet	a tool	0.91054	27
+clamp	a tool	0.93128	27
+knife	a tool	0.93684	27
+screws	a tool	0.93436	27
+sledgehammer	a tool	0.95762	27
+fork	a tool	0.93580	27
+shovel	a tool	0.95426	27
+axe	a tool	0.95702	27
+bolts	a tool	0.93357	27
+spade	a tool	0.96940	27
+rake	a tool	0.92600	27
+pin	a tool	0.91931	27
+corkscrew	a tool	0.94525	27
+pliers	a tool	0.99049	27
+crowbar	a tool	0.97328	27
+tongs	a tool	0.92687	27
+tractor	a tool	0.96748	27
+catapult	a tool	0.93233	27
+drill	a tool	0.98370	27
+hoe	a tool	0.97980	27
+colander	a tool	0.90027	27
+unicycle	a toy	0.95398	15
+wand	a toy	0.96137	15
+skateboard	a toy	0.97825	15
+scooter	a toy	0.93664	15
+football	a toy	0.95255	15
+sports ball	a toy	0.95543	15
+tricycle	a toy	0.97273	15
+slingshot	a toy	0.97418	15
+teddy bear	a toy	0.99468	15
+frisbee	a toy	0.97251	15
+balloon	a toy	0.96047	15
+kite	a toy	0.96868	15
+doll	a toy	0.99523	15
+toy	a toy	0.91454	15
+ball	a toy	0.97518	15
+hyena	an animal	0.99624	50
+horse	an animal	0.99295	50
+dog	an animal	0.99075	50
+cat	an animal	0.99393	50
+bird	an animal	0.98908	50
+toad	an animal	0.97445	50
+coyote	an animal	0.99544	50
+raccoon	an animal	0.99496	50
+gorilla	an animal	0.99508	50
+whale	an animal	0.99535	50
+dolphin	an animal	0.99361	50
+bull	an animal	0.99267	50
+beetle	an animal	0.98203	50
+bison	an animal	0.99544	50
+chimp	an animal	0.99316	50
+falcon	an animal	0.98709	50
+tiger	an animal	0.99630	50
+rabbit	an animal	0.99243	50
+fox	an animal	0.99608	50
+bear	an animal	0.99454	50
+panther	an animal	0.99617	50
+giraffe	an animal	0.99301	50
+turtle	an animal	0.99116	50
+elephant	an animal	0.99553	50
+goldfish	an animal	0.98666	50
+zebra	an animal	0.99282	50
+skunk	an animal	0.99351	50
+cheetah	an animal	0.99625	50
+deer	an animal	0.99471	50
+ox	an animal	0.99279	50
+alligator	an animal	0.99456	50
+lion	an animal	0.99576	50
+groundhog	an animal	0.99176	50
+salamander	an animal	0.98842	50
+pig	an animal	0.99289	50
+crow	an animal	0.98155	50
+squirrel	an animal	0.99292	50
+beaver	an animal	0.99033	50
+hamster	an animal	0.99350	50
+crocodile	an animal	0.99452	50
+hare	an animal	0.98874	50
+chipmunk	an animal	0.98878	50
+leopard	an animal	0.99565	50
+moose	an animal	0.99468	50
+gopher	an animal	0.98962	50
+iguana	an animal	0.99019	50
+eagle	an animal	0.98320	50
+frog	an animal	0.98112	50
+rat	an animal	0.99421	50
+tortoise	an animal	0.99260	50
+basement	cold	0.94251	6
+freezer	cold	0.99538	6
+cellar	cold	0.96734	6
+refrigerator	cold	0.99538	6
+fridge	cold	0.99548	6
+pie	cold	0.96620	6
+python	dangerous	0.97687	32
+lion	dangerous	0.99135	32
+hornet	dangerous	0.97780	32
+hatchet	dangerous	0.97041	32
+sledgehammer	dangerous	0.98254	32
+baseball bat	dangerous	0.97886	32
+bomb	dangerous	0.99578	32
+pistol	dangerous	0.99207	32
+revolver	dangerous	0.99260	32
+bazooka	dangerous	0.99448	32
+grenade	dangerous	0.99559	32
+motorcycle	dangerous	0.95262	32
+shotgun	dangerous	0.99127	32
+gun	dangerous	0.99537	32
+rifle	dangerous	0.99057	32
+tiger	dangerous	0.99390	32
+panther	dangerous	0.98863	32
+catapult	dangerous	0.99259	32
+spear	dangerous	0.98157	32
+crossbow	dangerous	0.99509	32
+cigarette	dangerous	0.96017	32
+skunk	dangerous	0.95376	32
+dagger	dangerous	0.99321	32
+bayonet	dangerous	0.99184	32
+sword	dangerous	0.98903	32
+rattlesnake	dangerous	0.99180	32
+cheetah	dangerous	0.99062	32
+cannon	dangerous	0.99438	32
+machete	dangerous	0.99155	32
+slingshot	dangerous	0.98884	32
+missile	dangerous	0.99562	32
+bullet	dangerous	0.99445	32
+clock	decorative	0.94932	30
+dining table	decorative	0.98442	30
+chandelier	decorative	0.99554	30
+veil	decorative	0.95904	30
+menu	decorative	0.96734	30
+bracelet	decorative	0.99289	30
+pot	decorative	0.90697	30
+teddy bear	decorative	0.91812	30
+cup	decorative	0.96712	30
+mat	decorative	0.97974	30
+dish	decorative	0.97267	30
+pillow	decorative	0.97713	30
+bowl	decorative	0.96489	30
+necklace	decorative	0.99413	30
+plate	decorative	0.97719	30
+cushion	decorative	0.97280	30
+candle	decorative	0.92969	30
+crown	decorative	0.99486	30
+jar	decorative	0.97069	30
+basket	decorative	0.97723	30
+lamp	decorative	0.99170	30
+medal	decorative	0.99413	30
+vase	decorative	0.99033	30
+potted plant	decorative	0.99091	30
+urn	decorative	0.99191	30
+bouquet	decorative	0.99013	30
+mirror	decorative	0.92452	30
+banner	decorative	0.98566	30
+curtains	decorative	0.98569	30
+drapes	decorative	0.98822	30
+cantaloupe	eaten in summer	0.99326	44
+cucumber	eaten in summer	0.99089	44
+pineapple	eaten in summer	0.99209	44
+avocado	eaten in summer	0.98738	44
+zucchini	eaten in summer	0.99315	44
+banana	eaten in summer	0.98478	44
+orange	eaten in summer	0.96704	44
+corn	eaten in summer	0.98608	44
+pear	eaten in summer	0.98793	44
+cabbage	eaten in summer	0.97638	44
+radish	eaten in summer	0.97718	44
+olive	eaten in summer	0.98742	44
+shrimp	eaten in summer	0.95940	44
+seaweed	eaten in summer	0.93176	44
+cauliflower	eaten in summer	0.98637	44
+lemon	eaten in summer	0.96614	44
+cake	eaten in summer	0.96832	44
+asparagus	eaten in summer	0.99024	44
+turnip	eaten in summer	0.96395	44
+pizza	eaten in summer	0.98647	44
+plum	eaten in summer	0.98483	44
+celery	eaten in summer	0.97162	44
+blueberry	eaten in summer	0.99170	44
+raspberry	eaten in summer	0.98746	44
+peach	eaten in summer	0.99088	44
+nectarine	eaten in summer	0.99133	44
+spinach	eaten in summer	0.97571	44
+lime	eaten in summer	0.96222	44
+carrot	eaten in summer	0.92609	44
+honeydew	eaten in summer	0.98365	44
+broccoli	eaten in summer	0.98634	44
+grapefruit	eaten in summer	0.97487	44
+tomato	eaten in summer	0.99134	44
+lettuce	eaten in summer	0.98086	44
+grape	eaten in summer	0.98408	44
+tangerine	eaten in summer	0.98436	44
+cheese	eaten in summer	0.96158	44
+strawberry	eaten in summer	0.99240	44
+mushroom	eaten in summer	0.93628	44
+pickle	eaten in summer	0.96500	44
+coconut	eaten in summer	0.97042	44
+peas	eaten in summer	0.98718	44
+eggplant	eaten in summer	0.98983	44
+apple	eaten in summer	0.98958	44
+cantaloupe	edible	0.98998	46
+lobster	edible	0.98490	46
+spinach	edible	0.99485	46
+pie	edible	0.99011	46
+eggplant	edible	0.99231	46
+peach	edible	0.98901	46
+olive	edible	0.98863	46
+celery	edible	0.97823	46
+cauliflower	edible	0.98795	46
+pineapple	edible	0.98576	46
+asparagus	edible	0.99098	46
+shrimp	edible	0.98498	46
+yam	edible	0.99319	46
+pepper	edible	0.98487	46
+lemon	edible	0.94019	46
+coconut	edible	0.98617	46
+strawberry	edible	0.99139	46
+turnip	edible	0.99031	46
+radish	edible	0.99133	46
+lime	edible	0.97130	46
+tangerine	edible	0.99044	46
+pickle	edible	0.98651	46
+rice	edible	0.99415	46
+avocado	edible	0.98912	46
+cake	edible	0.99456	46
+pear	edible	0.98829	46
+onions	edible	0.99355	46
+cabbage	edible	0.99286	46
+tomato	edible	0.98854	46
+broccoli	edible	0.98872	46
+beans	edible	0.99217	46
+seaweed	edible	0.99085	46
+cucumber	edible	0.98679	46
+apple	edible	0.99377	46
+carrot	edible	0.98889	46
+banana	edible	0.98787	46
+orange	edible	0.98978	46
+peas	edible	0.99197	46
+bread	edible	0.99336	46
+cheese	edible	0.99381	46
+corn	edible	0.99326	46
+potato	edible	0.99265	46
+zucchini	edible	0.98957	46
+pumpkin	edible	0.99153	46
+lettuce	edible	0.99277	46
+mushroom	edible	0.99498	46
+oven	electrical	0.99494	23
+car	electrical	0.98022	23
+elevator	electrical	0.99408	23
+refrigerator	electrical	0.99558	23
+parking meter	electrical	0.98835	23
+stereo	electrical	0.99309	23
+chandelier	electrical	0.99455	23
+traffic light	electrical	0.98716	23
+fridge	electrical	0.99598	23
+dishwasher	electrical	0.99360	23
+toaster	electrical	0.99315	23
+radio	electrical	0.98140	23
+tv	electrical	0.99497	23
+microwave	electrical	0.99537	23
+escalator	electrical	0.99064	23
+remote	electrical	0.98636	23
+freezer	electrical	0.99413	23
+lamp	electrical	0.97970	23
+projector	electrical	0.98732	23
+mixer	electrical	0.99323	23
+laptop	electrical	0.99424	23
+train	electrical	0.99222	23
+garage	electrical	0.96507	23
+jeep	expensive	0.99040	37
+armour	expensive	0.97795	37
+van	expensive	0.98601	37
+building	expensive	0.96444	37
+necklace	expensive	0.97985	37
+cannon	expensive	0.98876	37
+garage	expensive	0.93043	37
+house	expensive	0.98601	37
+bracelet	expensive	0.94268	37
+airplane	expensive	0.98681	37
+skyscraper	expensive	0.99427	37
+motorcycle	expensive	0.99236	37
+crown	expensive	0.98282	37
+certificate	expensive	0.97667	37
+apartment	expensive	0.96112	37
+jet	expensive	0.99111	37
+helicopter	expensive	0.98843	37
+tractor	expensive	0.97757	37
+horse	expensive	0.91720	37
+tv	expensive	0.98457	37
+missile	expensive	0.97899	37
+violin	expensive	0.97395	37
+piano	expensive	0.97927	37
+truck	expensive	0.98793	37
+stereo	expensive	0.96356	37
+cigar	expensive	0.97789	37
+trumpet	expensive	0.91961	37
+harpsichord	expensive	0.97698	37
+ship	expensive	0.96373	37
+rocket	expensive	0.98567	37
+train	expensive	0.98733	37
+limousine	expensive	0.99633	37
+bomb	expensive	0.90913	37
+pearl	expensive	0.98727	37
+medal	expensive	0.96491	37
+emerald	expensive	0.98850	37
+car	expensive	0.99118	37
+ambulance	fast	0.99107	30
+subway	fast	0.97078	30
+motorcycle	fast	0.99599	30
+van	fast	0.98999	30
+airplane	fast	0.99298	30
+car	fast	0.98851	30
+train	fast	0.99354	30
+jet	fast	0.99663	30
+rocket	fast	0.99543	30
+submarine	fast	0.98729	30
+rat	fast	0.92571	30
+bullet	fast	0.99572	30
+missile	fast	0.99191	30
+cheetah	fast	0.99717	30
+taxi	fast	0.92608	30
+jeep	fast	0.98973	30
+bike	fast	0.97218	30
+microwave	fast	0.99020	30
+tiger	fast	0.99309	30
+slingshot	fast	0.97347	30
+panther	fast	0.99450	30
+horse	fast	0.97791	30
+scooter	fast	0.96996	30
+bird	fast	0.94383	30
+dog	fast	0.93617	30
+bicycle	fast	0.95121	30
+cat	fast	0.91045	30
+ship	fast	0.97988	30
+helicopter	fast	0.99426	30
+limousine	fast	0.98582	30
+kite	flies	0.98978	25
+butterfly	flies	0.99316	25
+hawk	flies	0.98734	25
+ant	flies	0.97656	25
+bird	flies	0.99473	25
+pigeon	flies	0.98548	25
+dove	flies	0.97869	25
+owl	flies	0.96898	25
+balloon	flies	0.98146	25
+swan	flies	0.96938	25
+duck	flies	0.97304	25
+woodpecker	flies	0.95003	25
+rocket	flies	0.99206	25
+goose	flies	0.97900	25
+eagle	flies	0.98220	25
+peacock	flies	0.92617	25
+grasshopper	flies	0.96711	25
+crow	flies	0.98633	25
+housefly	flies	0.99072	25
+wasp	flies	0.98901	25
+moth	flies	0.98434	25
+hornet	flies	0.97872	25
+beetle	flies	0.96585	25
+airplane	flies	0.99599	25
+jet	flies	0.99645	25
+shelves	found on walls	0.99243	12
+banner	found on walls	0.98893	12
+mirror	found on walls	0.96472	12
+clock	found on walls	0.98261	12
+bookcase	found on walls	0.94395	12
+door	found on walls	0.98897	12
+brick	found on walls	0.98594	12
+spider	found on walls	0.90312	12
+drapes	found on walls	0.98432	12
+tack	found on walls	0.97993	12
+curtains	found on walls	0.98822	12
+level	found on walls	0.97016	12
+jar	fragile	0.98551	11
+shell	fragile	0.96003	11
+vase	fragile	0.98406	11
+plate	fragile	0.97875	11
+cup	fragile	0.97389	11
+bowl	fragile	0.96055	11
+wine glass	fragile	0.97462	11
+doll	fragile	0.94213	11
+mirror	fragile	0.91810	11
+dish	fragile	0.98256	11
+bottle	fragile	0.96759	11
+skateboard	fun	0.98511	20
+motorcycle	fun	0.97589	20
+kite	fun	0.96469	20
+skis	fun	0.97187	20
+football	fun	0.96948	20
+toy	fun	0.99231	20
+balloon	fun	0.94933	20
+dog	fun	0.95106	20
+ball	fun	0.96486	20
+slingshot	fun	0.94020	20
+cat	fun	0.95677	20
+tricycle	fun	0.92449	20
+bike	fun	0.94130	20
+sports ball	fun	0.98578	20
+scooter	fun	0.94153	20
+cigar	fun	0.94781	20
+snowboard	fun	0.98217	20
+sled	fun	0.96768	20
+frisbee	fun	0.97703	20
+sleigh	fun	0.94138	20
+balloon	hand held	0.98865	42
+scissors	hand held	0.98703	42
+bag	hand held	0.98846	42
+basket	hand held	0.99088	42
+fork	hand held	0.99341	42
+pencil	hand held	0.98270	42
+pistol	hand held	0.99691	42
+spoon	hand held	0.98200	42
+handbag	hand held	0.99411	42
+bouquet	hand held	0.99525	42
+spear	hand held	0.99458	42
+spade	hand held	0.97171	42
+broom	hand held	0.94164	42
+machete	hand held	0.99553	42
+mug	hand held	0.99489	42
+pin	hand held	0.98664	42
+tongs	hand held	0.99264	42
+envelope	hand held	0.98649	42
+box	hand held	0.98990	42
+gloves	hand held	0.99534	42
+revolver	hand held	0.99695	42
+toy	hand held	0.99439	42
+cell phone	hand held	0.99625	42
+cup	hand held	0.99311	42
+cigarette	hand held	0.99253	42
+telephone	hand held	0.99235	42
+gun	hand held	0.99685	42
+dagger	hand held	0.99396	42
+baton	hand held	0.99639	42
+sword	hand held	0.99508	42
+knife	hand held	0.99335	42
+vase	hand held	0.97519	42
+harmonica	hand held	0.98990	42
+laptop	hand held	0.96627	42
+jar	hand held	0.96860	42
+bottle	hand held	0.98474	42
+napkin	hand held	0.97521	42
+baseball bat	hand held	0.99509	42
+wand	hand held	0.99364	42
+pen	hand held	0.99070	42
+thimble	hand held	0.94756	42
+bowl	hand held	0.98964	42
+stone	hard	0.99141	35
+marble	hard	0.95920	35
+rock	hard	0.99206	35
+brick	hard	0.99207	35
+pearl	hard	0.96452	35
+emerald	hard	0.95133	35
+hammer	hard	0.99075	35
+chisel	hard	0.98999	35
+shell	hard	0.99441	35
+drill	hard	0.98523	35
+skyscraper	hard	0.99100	35
+level	hard	0.97334	35
+building	hard	0.98987	35
+sledgehammer	hard	0.98315	35
+pyramid	hard	0.98007	35
+ball	hard	0.98369	35
+desk	hard	0.99003	35
+axe	hard	0.98447	35
+screws	hard	0.99347	35
+bolts	hard	0.99335	35
+dining table	hard	0.97479	35
+wheel	hard	0.98533	35
+wall	hard	0.99068	35
+screwdriver	hard	0.96887	35
+bullet	hard	0.99322	35
+clamp	hard	0.98868	35
+table	hard	0.98000	35
+knife	hard	0.96294	35
+coin	hard	0.99022	35
+cannon	hard	0.99431	35
+hatchet	hard	0.97386	35
+spade	hard	0.96566	35
+crowbar	hard	0.99125	35
+baseball bat	hard	0.97365	35
+shovel	hard	0.96938	35
+onions	has peel	0.97191	12
+cranberry	has peel	0.94421	12
+turnip	has peel	0.92673	12
+pumpkin	has peel	0.96148	12
+apple	has peel	0.93653	12
+lemon	has peel	0.93827	12
+grapefruit	has peel	0.96834	12
+tangerine	has peel	0.95663	12
+orange	has peel	0.96959	12
+mandarin	has peel	0.91738	12
+cantaloupe	has peel	0.92578	12
+carrot	has peel	0.93240	12
+shelves	has shelves	0.98016	22
+cabinet	has shelves	0.99692	22
+freezer	has shelves	0.98635	22
+bureau	has shelves	0.92663	22
+closet	has shelves	0.99649	22
+refrigerator	has shelves	0.99580	22
+dresser	has shelves	0.99588	22
+fridge	has shelves	0.99654	22
+basement	has shelves	0.98723	22
+cellar	has shelves	0.99388	22
+desk	has shelves	0.90323	22
+bedroom	has shelves	0.95880	22
+shed	has shelves	0.98329	22
+garage	has shelves	0.99381	22
+bookcase	has shelves	0.99727	22
+cupboard	has shelves	0.99668	22
+wall	has shelves	0.98775	22
+dishwasher	has shelves	0.94477	22
+stove	has shelves	0.99581	22
+oven	has shelves	0.99449	22
+house	has shelves	0.94985	22
+building	has shelves	0.98240	22
+house	heavy	0.98667	42
+piano	heavy	0.98212	42
+shed	heavy	0.97762	42
+trolley	heavy	0.98647	42
+desk	heavy	0.98802	42
+wheelbarrow	heavy	0.91243	42
+bridge	heavy	0.97653	42
+shelves	heavy	0.98233	42
+cart	heavy	0.98621	42
+bomb	heavy	0.99235	42
+elevator	heavy	0.98217	42
+train	heavy	0.98951	42
+van	heavy	0.97875	42
+ship	heavy	0.98901	42
+ox	heavy	0.98793	42
+rock	heavy	0.97963	42
+stone	heavy	0.97822	42
+brick	heavy	0.98751	42
+sledgehammer	heavy	0.99271	42
+cannon	heavy	0.99533	42
+truck	heavy	0.99353	42
+skyscraper	heavy	0.99297	42
+building	heavy	0.99086	42
+bookcase	heavy	0.98948	42
+catapult	heavy	0.99362	42
+tractor	heavy	0.99068	42
+pyramid	heavy	0.96250	42
+elephant	heavy	0.99147	42
+drum	heavy	0.99007	42
+trailer	heavy	0.98898	42
+chain	heavy	0.98631	42
+basement	heavy	0.95340	42
+whale	heavy	0.98363	42
+wagon	heavy	0.99017	42
+barrel	heavy	0.98756	42
+barn	heavy	0.98078	42
+cellar	heavy	0.94093	42
+bureau	heavy	0.98410	42
+cabinet	heavy	0.97975	42
+escalator	heavy	0.97624	42
+tuba	heavy	0.98446	42
+car	heavy	0.96938	42
+oven	hot	0.99682	12
+stove	hot	0.99657	12
+microwave	hot	0.97885	12
+candle	hot	0.99318	12
+toaster	hot	0.96615	12
+pan	hot	0.99321	12
+cigar	hot	0.99161	12
+kettle	hot	0.99447	12
+pot	hot	0.99366	12
+hot dog	hot	0.94545	12
+donut	hot	0.97699	12
+cigarette	hot	0.99036	12
+leopard	large	0.96501	36
+cathedral	large	0.99354	36
+barrel	large	0.93662	36
+bear	large	0.97933	36
+ship	large	0.99506	36
+dog	large	0.95272	36
+garage	large	0.98279	36
+drum	large	0.98138	36
+desk	large	0.94677	36
+shed	large	0.95549	36
+alligator	large	0.97222	36
+tractor	large	0.99119	36
+elephant	large	0.99590	36
+building	large	0.99374	36
+giraffe	large	0.97647	36
+pyramid	large	0.99310	36
+ox	large	0.97796	36
+skyscraper	large	0.99595	36
+camel	large	0.98074	36
+bull	large	0.98411	36
+barn	large	0.99368	36
+house	large	0.99301	36
+dolphin	large	0.93943	36
+lion	large	0.97950	36
+gorilla	large	0.98354	36
+cannon	large	0.99459	36
+crocodile	large	0.96029	36
+tiger	large	0.98839	36
+buffalo	large	0.98808	36
+cheetah	large	0.98294	36
+horse	large	0.98797	36
+panther	large	0.93051	36
+cow	large	0.90343	36
+car	large	0.98273	36
+bison	large	0.98412	36
+whale	large	0.98831	36
+pen	light weight	0.96030	22
+doll	light weight	0.96474	22
+coin	light weight	0.97343	22
+envelope	light weight	0.97836	22
+stick	light weight	0.96706	22
+cigarette	light weight	0.96635	22
+baseball bat	light weight	0.92248	22
+balloon	light weight	0.98048	22
+teddy bear	light weight	0.96642	22
+crayon	light weight	0.95760	22
+sports ball	light weight	0.96171	22
+shell	light weight	0.95256	22
+pearl	light weight	0.96772	22
+kite	light weight	0.97270	22
+frisbee	light weight	0.97242	22
+sack	light weight	0.93160	22
+marble	light weight	0.98036	22
+bottle	light weight	0.90026	22
+cork	light weight	0.97968	22
+nylons	light weight	0.96230	22
+pencil	light weight	0.95906	22
+toy	light weight	0.96925	22
+trout	lives in water	0.98420	34
+beaver	lives in water	0.94501	34
+sardine	lives in water	0.97314	34
+salmon	lives in water	0.98119	34
+penguin	lives in water	0.90720	34
+shell	lives in water	0.96250	34
+walrus	lives in water	0.97056	34
+duck	lives in water	0.95584	34
+canoe	lives in water	0.98492	34
+boat	lives in water	0.99538	34
+raft	lives in water	0.98579	34
+ship	lives in water	0.99413	34
+toad	lives in water	0.94851	34
+submarine	lives in water	0.97922	34
+swan	lives in water	0.97637	34
+lobster	lives in water	0.95353	34
+shrimp	lives in water	0.96422	34
+clam	lives in water	0.94236	34
+otter	lives in water	0.93521	34
+alligator	lives in water	0.96522	34
+crocodile	lives in water	0.96402	34
+salamander	lives in water	0.94757	34
+whale	lives in water	0.98938	34
+crab	lives in water	0.92851	34
+tuna	lives in water	0.98727	34
+dolphin	lives in water	0.97913	34
+squid	lives in water	0.94862	34
+eel	lives in water	0.95271	34
+goldfish	lives in water	0.98785	34
+turtle	lives in water	0.96162	34
+frog	lives in water	0.93931	34
+seal	lives in water	0.97753	34
+octopus	lives in water	0.95443	34
+seaweed	lives in water	0.96457	34
+harmonica	loud	0.90622	22
+drum	loud	0.96491	22
+trombone	loud	0.98896	22
+tuba	loud	0.99447	22
+bomb	loud	0.98773	22
+trumpet	loud	0.99473	22
+bagpipe	loud	0.97617	22
+saxophone	loud	0.98221	22
+missile	loud	0.98146	22
+cannon	loud	0.99164	22
+shotgun	loud	0.99185	22
+bullet	loud	0.99035	22
+car	loud	0.96176	22
+flute	loud	0.98117	22
+grenade	loud	0.98418	22
+bazooka	loud	0.97430	22
+whistle	loud	0.91467	22
+gun	loud	0.99458	22
+revolver	loud	0.99107	22
+radio	loud	0.95191	22
+clarinet	loud	0.97488	22
+guitar	loud	0.93713	22
+subway	man made	0.99755	45
+faucet	man made	0.99690	45
+church	man made	0.99650	45
+cellar	man made	0.99709	45
+ship	man made	0.99772	45
+pyramid	man made	0.99685	45
+cathedral	man made	0.99789	45
+building	man made	0.99745	45
+garage	man made	0.99778	45
+car	man made	0.99760	45
+fence	man made	0.99772	45
+skyscraper	man made	0.99796	45
+pier	man made	0.99729	45
+bridge	man made	0.99752	45
+wheel	man made	0.99727	45
+house	man made	0.99788	45
+gate	man made	0.99732	45
+basement	man made	0.99717	45
+marble	man made	0.99302	45
+brick	man made	0.99572	45
+wall	man made	0.99717	45
+elevator	man made	0.99753	45
+hose	man made	0.99602	45
+train	man made	0.99779	45
+shed	man made	0.99752	45
+sink	man made	0.99713	45
+toilet	man made	0.99751	45
+boat	man made	0.99755	45
+shack	man made	0.99775	45
+escalator	man made	0.99752	45
+bathtub	man made	0.99755	45
+drain	man made	0.99387	45
+airplane	man made	0.99763	45
+door	man made	0.99749	45
+apartment	man made	0.99751	45
+truck	man made	0.99769	45
+barn	man made	0.99801	45
+bomb	man made	0.99778	45
+fire hydrant	man made	0.99690	45
+sledgehammer	man made	0.99575	45
+submarine	man made	0.99781	45
+bungalow	man made	0.99767	45
+canoe	man made	0.99733	45
+hut	man made	0.99799	45
+telephone	man made	0.99731	45
+skis	pairs	0.97841	7
+pants	pairs	0.90531	7
+boots	pairs	0.97210	7
+curtains	pairs	0.97793	7
+shoes	pairs	0.99049	7
+socks	pairs	0.96881	7
+chair	pairs	0.90699	7
+rooster	produces noise	0.97191	39
+missile	produces noise	0.98986	39
+bullet	produces noise	0.99400	39
+clock	produces noise	0.97275	39
+car	produces noise	0.99246	39
+banjo	produces noise	0.93168	39
+shotgun	produces noise	0.99060	39
+rat	produces noise	0.97511	39
+tv	produces noise	0.98833	39
+harpsichord	produces noise	0.97559	39
+housefly	produces noise	0.95847	39
+mixer	produces noise	0.98911	39
+pistol	produces noise	0.99321	39
+keyboard	produces noise	0.97869	39
+grenade	produces noise	0.98379	39
+gun	produces noise	0.99433	39
+clarinet	produces noise	0.97278	39
+harmonica	produces noise	0.94422	39
+tuba	produces noise	0.98804	39
+trumpet	produces noise	0.98608	39
+bagpipe	produces noise	0.98654	39
+trombone	produces noise	0.98766	39
+drum	produces noise	0.98357	39
+whistle	produces noise	0.96922	39
+rattle	produces noise	0.96846	39
+flute	produces noise	0.97576	39
+cat	produces noise	0.97875	39
+saxophone	produces noise	0.98344	39
+piano	produces noise	0.97091	39
+cannon	produces noise	0.99442	39
+harp	produces noise	0.97652	39
+dog	produces noise	0.99052	39
+guitar	produces noise	0.96220	39
+bomb	produces noise	0.98732	39
+bird	produces noise	0.98785	39
+telephone	produces noise	0.98999	39
+crow	produces noise	0.98432	39
+accordion	produces noise	0.97021	39
+radio	produces noise	0.98443	39
+van	requires gasoline	0.99348	16
+ambulance	requires gasoline	0.98392	16
+car	requires gasoline	0.99591	16
+ship	requires gasoline	0.97829	16
+helicopter	requires gasoline	0.97987	16
+rocket	requires gasoline	0.98743	16
+truck	requires gasoline	0.99472	16
+bus	requires gasoline	0.99055	16
+motorcycle	requires gasoline	0.99444	16
+taxi	requires gasoline	0.99123	16
+tractor	requires gasoline	0.98768	16
+jeep	requires gasoline	0.99065	16
+limousine	requires gasoline	0.99134	16
+airplane	requires gasoline	0.99406	16
+jet	requires gasoline	0.99374	16
+boat	requires gasoline	0.98712	16
+harpoon	sharp	0.99550	19
+razor	sharp	0.99480	19
+tack	sharp	0.98766	19
+scissors	sharp	0.98280	19
+screws	sharp	0.93561	19
+knife	sharp	0.99513	19
+spear	sharp	0.99600	19
+sword	sharp	0.99616	19
+machete	sharp	0.99493	19
+tomahawk	sharp	0.99392	19
+bayonet	sharp	0.99556	19
+dagger	sharp	0.99531	19
+grater	sharp	0.98836	19
+hatchet	sharp	0.99381	19
+axe	sharp	0.99212	19
+chisel	sharp	0.99191	19
+crossbow	sharp	0.94813	19
+porcupine	sharp	0.97956	19
+pin	sharp	0.98582	19
+cannon	shiny	0.90822	23
+wheel	shiny	0.95573	23
+emerald	shiny	0.97513	23
+medal	shiny	0.98773	23
+mirror	shiny	0.99171	23
+car	shiny	0.95874	23
+coin	shiny	0.98169	23
+crown	shiny	0.98959	23
+chain	shiny	0.93682	23
+bracelet	shiny	0.95111	23
+apple	shiny	0.96388	23
+armour	shiny	0.98462	23
+sword	shiny	0.98777	23
+dagger	shiny	0.94280	23
+knife	shiny	0.92653	23
+plate	shiny	0.97228	23
+jet	shiny	0.93714	23
+trumpet	shiny	0.92553	23
+trombone	shiny	0.90730	23
+cup	shiny	0.90188	23
+bowl	shiny	0.93750	23
+limousine	shiny	0.93762	23
+doorknob	shiny	0.91678	23
+snail	slimy	0.99305	9
+clam	slimy	0.98680	9
+eel	slimy	0.98305	9
+salamander	slimy	0.93844	9
+mushroom	slimy	0.94252	9
+toad	slimy	0.97991	9
+worm	slimy	0.97271	9
+octopus	slimy	0.97616	9
+frog	slimy	0.92148	9
+cheese	smelly	0.93405	8
+dog	smelly	0.96544	8
+drain	smelly	0.96501	8
+shoes	smelly	0.93902	8
+cigar	smelly	0.98574	8
+skunk	smelly	0.96812	8
+cellar	smelly	0.95553	8
+cigarette	smelly	0.98592	8
+donut	smooth	0.91716	22
+marble	smooth	0.98643	22
+guitar	smooth	0.95963	22
+cello	smooth	0.95280	22
+escalator	smooth	0.99004	22
+door	smooth	0.96945	22
+subway	smooth	0.97147	22
+trombone	smooth	0.94673	22
+pearl	smooth	0.97520	22
+elevator	smooth	0.96158	22
+violin	smooth	0.94864	22
+trumpet	smooth	0.95559	22
+saxophone	smooth	0.98513	22
+clarinet	smooth	0.95371	22
+jet	smooth	0.97890	22
+flute	smooth	0.93432	22
+wall	smooth	0.97662	22
+piano	smooth	0.92260	22
+car	smooth	0.98312	22
+mirror	smooth	0.99070	22
+wheel	smooth	0.97972	22
+train	smooth	0.97823	22
+cake	squishy	0.90351	8
+pillow	squishy	0.96826	8
+teddy bear	squishy	0.92329	8
+cushion	squishy	0.98708	8
+sofa	squishy	0.90860	8
+cheese	squishy	0.91177	8
+couch	squishy	0.91466	8
+carpet	squishy	0.91695	8
+whale	swims	0.99531	23
+swan	swims	0.99249	23
+frog	swims	0.95396	23
+duck	swims	0.98876	23
+dolphin	swims	0.99401	23
+eel	swims	0.99128	23
+penguin	swims	0.97548	23
+turtle	swims	0.98709	23
+seagull	swims	0.97668	23
+trout	swims	0.96511	23
+crab	swims	0.96538	23
+seal	swims	0.99222	23
+shrimp	swims	0.94960	23
+squid	swims	0.98552	23
+otter	swims	0.97941	23
+clam	swims	0.97267	23
+octopus	swims	0.97466	23
+toad	swims	0.95940	23
+salamander	swims	0.98144	23
+salmon	swims	0.99427	23
+submarine	swims	0.98125	23
+goldfish	swims	0.99024	23
+lobster	swims	0.95421	23
+escalator	tall	0.98332	12
+bridge	tall	0.97307	12
+cathedral	tall	0.98210	12
+barn	tall	0.98627	12
+house	tall	0.94069	12
+ostrich	tall	0.96404	12
+giraffe	tall	0.99178	12
+tree	tall	0.99449	12
+pyramid	tall	0.99383	12
+building	tall	0.99458	12
+skyscraper	tall	0.99720	12
+camel	tall	0.97722	12
+cigar	unhealthy	0.94626	3
+cigarette	unhealthy	0.95977	3
+donut	unhealthy	0.90770	3
+bench	used by children	0.97301	28
+teddy bear	used by children	0.99349	28
+kite	used by children	0.97399	28
+toy	used by children	0.99377	28
+doll	used by children	0.98544	28
+frisbee	used by children	0.97374	28
+ball	used by children	0.97424	28
+sports ball	used by children	0.98111	28
+book	used by children	0.96878	28
+tricycle	used by children	0.97601	28
+pencil	used by children	0.92434	28
+wand	used by children	0.97991	28
+earmuffs	used by children	0.96126	28
+rocker	used by children	0.94301	28
+crayon	used by children	0.98951	28
+slingshot	used by children	0.97085	28
+football	used by children	0.97617	28
+backpack	used by children	0.95989	28
+skateboard	used by children	0.97829	28
+baseball bat	used by children	0.92676	28
+bowl	used by children	0.90743	28
+remote	used by children	0.92947	28
+slippers	used by children	0.94608	28
+cushion	used by children	0.94121	28
+balloon	used by children	0.97332	28
+bike	used by children	0.93484	28
+sled	used by children	0.95553	28
+mat	used by children	0.92067	28
+broom	used for cleaning	0.99400	9
+dishwasher	used for cleaning	0.98889	9
+faucet	used for cleaning	0.93313	9
+toothbrush	used for cleaning	0.95772	9
+napkin	used for cleaning	0.96834	9
+hose	used for cleaning	0.95921	9
+bathtub	used for cleaning	0.97291	9
+brush	used for cleaning	0.98337	9
+sink	used for cleaning	0.97668	9
+strainer	used for cooking	0.92271	17
+tongs	used for cooking	0.94323	17
+kettle	used for cooking	0.95975	17
+toaster	used for cooking	0.91256	17
+apron	used for cooking	0.98742	17
+microwave	used for cooking	0.98722	17
+stove	used for cooking	0.99729	17
+pot	used for cooking	0.97891	17
+knife	used for cooking	0.98548	17
+fork	used for cooking	0.91257	17
+mixer	used for cooking	0.93816	17
+ladle	used for cooking	0.96657	17
+oven	used for cooking	0.99720	17
+spatula	used for cooking	0.96508	17
+colander	used for cooking	0.93671	17
+skillet	used for cooking	0.99180	17
+pan	used for cooking	0.98487	17
+shrimp	used for eating	0.98126	40
+tomato	used for eating	0.97517	40
+pie	used for eating	0.99124	40
+rice	used for eating	0.98773	40
+hot dog	used for eating	0.98620	40
+grape	used for eating	0.94547	40
+carrot	used for eating	0.98050	40
+lettuce	used for eating	0.97851	40
+sandwich	used for eating	0.99066	40
+pickle	used for eating	0.97331	40
+dining table	used for eating	0.99721	40
+peas	used for eating	0.98124	40
+corn	used for eating	0.98414	40
+cheese	used for eating	0.99106	40
+pizza	used for eating	0.98728	40
+banana	used for eating	0.97475	40
+cake	used for eating	0.99181	40
+orange	used for eating	0.95431	40
+cucumber	used for eating	0.95887	40
+apple	used for eating	0.97372	40
+pear	used for eating	0.97288	40
+potato	used for eating	0.98815	40
+yam	used for eating	0.97881	40
+fork	used for eating	0.99073	40
+bowl	used for eating	0.99017	40
+spoon	used for eating	0.99206	40
+plate	used for eating	0.99015	40
+dish	used for eating	0.97609	40
+bread	used for eating	0.99483	40
+donut	used for eating	0.98743	40
+lobster	used for eating	0.97438	40
+ladle	used for eating	0.95918	40
+avocado	used for eating	0.97729	40
+zucchini	used for eating	0.97351	40
+mushroom	used for eating	0.96647	40
+chicken	used for eating	0.98989	40
+broccoli	used for eating	0.98155	40
+peach	used for eating	0.97489	40
+pineapple	used for eating	0.96887	40
+beans	used for eating	0.98080	40
+pan	used for holding things	0.97504	31
+plate	used for holding things	0.95964	31
+tray	used for holding things	0.98603	31
+table	used for holding things	0.97299	31
+dish	used for holding things	0.98118	31
+bowl	used for holding things	0.98926	31
+cabinet	used for holding things	0.98597	31
+jar	used for holding things	0.97253	31
+dining table	used for holding things	0.96985	31
+desk	used for holding things	0.90155	31
+vase	used for holding things	0.95965	31
+basket	used for holding things	0.98703	31
+mug	used for holding things	0.97107	31
+urn	used for holding things	0.90604	31
+bottle	used for holding things	0.92677	31
+spoon	used for holding things	0.92003	31
+cup	used for holding things	0.98783	31
+box	used for holding things	0.99222	31
+skillet	used for holding things	0.91792	31
+dresser	used for holding things	0.97276	31
+bureau	used for holding things	0.91519	31
+cart	used for holding things	0.99318	31
+bucket	used for holding things	0.99009	31
+barrel	used for holding things	0.98734	31
+shelves	used for holding things	0.98813	31
+pot	used for holding things	0.98667	31
+bookcase	used for holding things	0.97752	31
+refrigerator	used for holding things	0.98060	31
+sack	used for holding things	0.96872	31
+bag	used for holding things	0.99109	31
+cupboard	used for holding things	0.98559	31
+shotgun	used for killing	0.98592	18
+crossbow	used for killing	0.99409	18
+bazooka	used for killing	0.98782	18
+missile	used for killing	0.99370	18
+spear	used for killing	0.97733	18
+bayonet	used for killing	0.98849	18
+grenade	used for killing	0.98914	18
+bullet	used for killing	0.99600	18
+catapult	used for killing	0.98934	18
+harpoon	used for killing	0.99046	18
+rifle	used for killing	0.99453	18
+bomb	used for killing	0.99526	18
+cannon	used for killing	0.99365	18
+revolver	used for killing	0.99361	18
+sword	used for killing	0.98834	18
+dagger	used for killing	0.99154	18
+pistol	used for killing	0.99313	18
+gun	used for killing	0.99643	18
+stereo	used for music	0.99010	21
+whistle	used for music	0.93674	21
+bagpipe	used for music	0.96726	21
+keyboard	used for music	0.99309	21
+radio	used for music	0.98274	21
+clarinet	used for music	0.98816	21
+harp	used for music	0.99221	21
+trombone	used for music	0.98316	21
+violin	used for music	0.99466	21
+flute	used for music	0.99231	21
+banjo	used for music	0.98082	21
+tuba	used for music	0.99058	21
+saxophone	used for music	0.99238	21
+trumpet	used for music	0.98567	21
+harmonica	used for music	0.97452	21
+drum	used for music	0.98787	21
+piano	used for music	0.99559	21
+guitar	used for music	0.99375	21
+cello	used for music	0.99348	21
+harpsichord	used for music	0.98970	21
+accordion	used for music	0.98379	21
+horse	used for transportation	0.96163	37
+canoe	used for transportation	0.90917	37
+tricycle	used for transportation	0.96467	37
+suitcase	used for transportation	0.94725	37
+yacht	used for transportation	0.97386	37
+submarine	used for transportation	0.95692	37
+jeep	used for transportation	0.98724	37
+sleigh	used for transportation	0.96345	37
+rocket	used for transportation	0.96644	37
+escalator	used for transportation	0.97739	37
+wheel	used for transportation	0.96424	37
+ship	used for transportation	0.99146	37
+taxi	used for transportation	0.99261	37
+jet	used for transportation	0.98359	37
+tractor	used for transportation	0.93888	37
+cart	used for transportation	0.98981	37
+boat	used for transportation	0.98160	37
+scooter	used for transportation	0.96983	37
+trailer	used for transportation	0.98985	37
+elevator	used for transportation	0.96460	37
+buggy	used for transportation	0.96724	37
+skateboard	used for transportation	0.97262	37
+subway	used for transportation	0.99479	37
+helicopter	used for transportation	0.94935	37
+trolley	used for transportation	0.99136	37
+bike	used for transportation	0.99066	37
+bicycle	used for transportation	0.99152	37
+truck	used for transportation	0.99457	37
+train	used for transportation	0.99491	37
+car	used for transportation	0.99541	37
+airplane	used for transportation	0.98417	37
+wagon	used for transportation	0.99118	37
+bus	used for transportation	0.99641	37
+motorcycle	used for transportation	0.98785	37
+unicycle	used for transportation	0.93849	37
+van	used for transportation	0.99156	37
+limousine	used for transportation	0.98611	37
+drain	wet	0.98488	15
+hose	wet	0.99596	15
+seal	wet	0.97457	15
+toad	wet	0.92242	15
+bathtub	wet	0.99503	15
+sink	wet	0.99352	15
+barrel	wet	0.90749	15
+faucet	wet	0.99484	15
+toilet	wet	0.97376	15
+seaweed	wet	0.99024	15
+trout	wet	0.96663	15
+canoe	wet	0.98792	15
+umbrella	wet	0.90050	15
+bucket	wet	0.97171	15
+pier	wet	0.95732	15
+stop sign	words on it	0.94358	8
+banner	words on it	0.96277	8
+pen	words on it	0.94781	8
+envelope	words on it	0.98611	8
+coin	words on it	0.97272	8
+box	words on it	0.98293	8
+typewriter	words on it	0.98372	8
+menu	words on it	0.98484	8
+scarf	worn for warmth	0.97989	22
+coat	worn for warmth	0.99357	22
+jacket	worn for warmth	0.99241	22
+shawl	worn for warmth	0.98110	22
+sweater	worn for warmth	0.99313	22
+gloves	worn for warmth	0.98056	22
+mittens	worn for warmth	0.98843	22
+parka	worn for warmth	0.99376	22
+pajamas	worn for warmth	0.98236	22
+vest	worn for warmth	0.92145	22
+slippers	worn for warmth	0.97126	22
+earmuffs	worn for warmth	0.98722	22
+cloak	worn for warmth	0.98137	22
+socks	worn for warmth	0.98628	22
+camisole	worn for warmth	0.94626	22
+nightgown	worn for warmth	0.97407	22
+robe	worn for warmth	0.97111	22
+pants	worn for warmth	0.91214	22
+boots	worn for warmth	0.96561	22
+shoes	worn for warmth	0.91198	22
+shirt	worn for warmth	0.91764	22
+cape	worn for warmth	0.96632	22
+skis	worn on feet	0.91489	7
+socks	worn on feet	0.99029	7
+sandals	worn on feet	0.97330	7
+boots	worn on feet	0.98555	7
+slippers	worn on feet	0.98551	7
+nylons	worn on feet	0.90851	7
+shoes	worn on feet	0.99420	7

@@ -1,0 +1,38 @@
+{
+    "experiment_name": "ctx2_roberta_base_je_pretrain_mask_id_con_prop_cnetp_default_hyperparam",
+    "log_dirctory": "pretrain",
+    "training_params": {
+        "dataset_name": "cnetp_con_prop_5neg",
+        "pretrain": true,
+        "train_file_path": "data/train_data/je_con_prop/5_neg_train_cnet_premium.tsv",
+        "val_file_path": "data/train_data/je_con_prop/5_neg_valid_cnet_premium.tsv",
+        "finetune": false,
+        "load_pretrained": false,
+        "pretrained_model_path": null,
+        "cv_type": null,
+        "data_dir": null,
+        "batch_size": 32,
+        "lr": 1e-5,
+        "max_epochs": 100,
+        "warmup_ratio": 0,
+        "patience_early_stopping": 5,
+        "save_dir": "trained_models/je_con_prop_cnetp_pretrained",
+        "model_name": "ctx2_roberta_base_je_pretrain_mask_id_con_prop_cnetp_default_hyperparam.pt",
+        "lr_policy": null,
+        "lr_decay_iters": null,
+        "weight_decay": 0.01,
+        "hp_tuning": false
+    },
+    "dataset_params": {
+        "hf_tokenizer_name": "roberta-base",
+        "hf_tokenizer_path": "/scratch/c.scmag3/hf_pretrained_models/for_seq_classification_roberta_base/tokenizer",
+        "max_len": 40,
+        "context_id": 2
+    },
+    "model_params": {
+        "hf_checkpoint_name": "roberta-base",
+        "hf_model_path": "/scratch/c.scmag3/hf_pretrained_models/for_seq_classification_roberta_base/model",
+        "num_labels": 2,
+        "context_id": 2
+    }
+}

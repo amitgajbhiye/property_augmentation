@@ -1,0 +1,35 @@
+{
+    "experiment_name": "je_pre_hypo_wanli_bb_pretrain",
+    "log_dirctory": "pretrain",
+    "training_params": {
+        "dataset_name": "wanli",
+        "pretrain": true,
+        "train_file_path": "data/train_data/je_con_prop/wanli/train_df.pkl",
+        "val_file_path": "data/train_data/je_con_prop/wanli/valid_df.pkl",
+        "test_file_path": "data/train_data/je_con_prop/wanli/test_df.pkl",
+        "finetune": false,
+        "load_pretrained": false,
+        "pretrained_model_path": null,
+        "cv_type": null,
+        "data_dir": null,
+        "batch_size": 32,
+        "lr": 2e-6,
+        "max_epochs": 100,
+        "num_warmup_steps": 0,
+        "patience_early_stopping": 10,
+        "save_dir": "trained_models/je_pre_hypo_wanli_pretrained",
+        "model_name": "je_pre_hypo_wanli_bb_pretrain.pt",
+        "lr_policy": null,
+        "lr_decay_iters": null
+    },
+    "dataset_params": {
+        "hf_tokenizer_name": "bert-base-uncased",
+        "hf_tokenizer_path": "/scratch/c.scmag3/conceptEmbeddingModel/for_seq_classification_bert_base_uncased/tokenizer",
+        "max_len": 300
+    },
+    "model_params": {
+        "hf_checkpoint_name": "bert-base-uncased",
+        "hf_model_path": "/scratch/c.scmag3/conceptEmbeddingModel/for_seq_classification_bert_base_uncased/model",
+        "num_labels": 2
+    }
+}

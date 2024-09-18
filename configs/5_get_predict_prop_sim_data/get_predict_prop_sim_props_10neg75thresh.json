@@ -1,0 +1,51 @@
+{
+    "experiment_name": "pretrain_cnetp_get_predict_prop_sim_props_10neg75thresh",
+    "log_dirctory": "data_sampling",
+    "dataset_params": {
+        "dataset_name": "cnetp_predict_property_similiar_props_10neg75threshold",
+        "train_file_path": null,
+        "val_file_path": null,
+        "test_file_path": null,
+        "hf_tokenizer_name": "bert-base-uncased",
+        "hf_tokenizer_path": "/scratch/c.scmag3/conceptEmbeddingModel/bertBaseUncasedPreTrained/tokenizer",
+        "concept_max_len": 64,
+        "property_max_len": 64,
+        "add_context": true,
+        "context_num": 6,
+        "loader_params": {
+            "batch_size": 1024,
+            "num_workers": 4,
+            "pin_memory": true
+        }
+    },
+    "model_params": {
+        "model_name": null,
+        "hf_checkpoint_name": "bert-base-uncased",
+        "hf_model_path": "/scratch/c.scmag3/conceptEmbeddingModel/bertBaseUncasedPreTrained",
+        "vector_strategy": "mask_token"
+    },
+    "inference_params": {
+        "pretrained_model_path": null,
+        "get_con_prop_embeds": false,
+        "input_data_type": null,
+        "concept_file": null,
+        "property_file": null,
+        "concept_property_file": null,
+        "save_dir": "data/train_data/je_prop_conj",
+        "get_con_sim_vocab_properties": false,
+        "concept_embed_pkl": null,
+        "property_embed_pkl": null,
+        "get_predict_prop_similar_props": true,
+        "num_prop_conjuct": 5,
+        "pretrain_data": true,
+        "pretrain_train_file": "data/train_data/je_con_prop/10_neg_train_cnet_premium.tsv",
+        "pretrain_valid_file": "data/train_data/je_con_prop/10_neg_valid_cnet_premium.tsv",
+        "save_prefix": "10neg75thres",
+        "finetune_data": false,
+        "split_type": null,
+        "fold_file_base_path": null,
+        "concept_similar_prop_file": "data/train_data/10neg75thres_je_filtered_cnetp_con_similar_vocab_properties.tsv",
+        "vocab_property_embed_pkl": "trained_models/redo_prop_conj_exp/prop_vocab_embed_cnetp_property_embeddings.pkl",
+        "predict_property_embed_pkl": "trained_models/redo_prop_conj_exp/predict_property_embeds_cnet_premium_property_embeddings.pkl"
+    }
+}

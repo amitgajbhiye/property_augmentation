@@ -1,0 +1,222 @@
+railroad company
+railway vehicle
+body motion
+pier
+chemical tanker ship
+dining car
+railway junction
+flight deck
+spine car
+tractor trailer
+crew list
+ship hold
+radar or sonar
+air traffic control tower
+fishing boat
+contract carrier
+airport classification
+crane ship
+arriving
+multiple track railway
+water transportation system
+common carrier
+containerization
+flatcar
+electric device
+container terminal
+petroleum product
+ore carrier ship
+set or class
+ship berthing
+transportation authority
+cargo handling
+general cargo ship
+volume measure
+glider airplane
+intentional process
+train assembly
+partial container ship
+regulatory process
+emergency vehicle
+traffic signal
+ship deck
+propeller airplane
+watercraft
+land area
+emergency road vehicle
+taking off
+navigation
+minivan
+ship cabin
+offshore support ship
+vehicle wheel
+traffic control process
+major air carrier
+air route
+deepwater port
+railcar carrier ship
+freight car
+cubic foot
+rolling stock
+ship berth
+land vehicle
+navigation buoy
+tank car
+railroad bridge
+radio navigation beacon
+merchant marine
+cabotage
+aid to navigation
+portable bridge
+canal structure
+cable ship
+transit shelter
+hangar bay
+cab car
+fire engine
+fishing vessel
+rocket engine
+refrigerated compartment
+attaching
+standard gauge railway
+diesel fuel
+research ship
+hopper dredger
+vehicle registration
+ship hull
+animal powered vehicle
+etiologic agent
+track gauge
+registry ton
+commercial shipping
+road vehicle
+petroleum pipeline
+cargo manifest
+government organization
+personal watercraft
+bill of lading
+ship agent
+commercial airport
+long ton
+bulk cargo
+tugboat
+cargo container
+unpaved runway
+ocean liner
+port city
+transit route
+pusher tug
+port facility
+dual gauge railway
+commercial agent
+canal system
+private railcar
+head end car
+electrified railway
+mass measure
+paved runway
+petroleum product pipeline
+flight schedule
+fixed bridge
+turbojet engine
+whaling ship
+guiding
+bulkhead
+deck crane
+electronic signalling
+sea lane
+canal lock gate
+signalling
+port crane
+river port
+military watercraft
+vehicle crew
+moving violation
+radar facility
+electric motor
+broad gauge railway
+lighter
+material handling equipment
+gallery car
+light fixture
+water area
+fish factory ship
+canal lock
+transit stop
+road transportation system
+dangerous goods
+ship compartment
+transit terminal
+waterway junction
+organizational process
+truck tractor
+traffic light
+rail transportation system
+railroad track
+passenger ship
+deck cargo
+jet engine
+freighter
+hoisting device
+scale test car
+outfit car
+mode of transit
+single traffic lane
+light truck
+port embargo
+container ship
+train station
+electrical signalling
+cargo ship
+intermodal transportation
+coach railcar
+terminal building
+commercial carrier
+department of transportation
+vehicle carrier ship
+transportation system
+transitway
+petroleum tanker ship
+local transit system
+drilling ship
+full size van
+maritime blockade
+dry bulk cargo
+shipping channel
+transportation device
+motor scooter
+fishing trawler
+navigation light
+transportation schedule
+managing
+turboprop airplane
+jet airplane
+organic compound
+atmospheric region
+road junction
+passenger car
+air traffic control procedure
+keeping
+air traffic control center
+ship hatch
+ship register
+shipping lane
+parking garage
+sport utility vehicle
+relational attribute
+international airport
+organic object
+truck trailer
+legal charge
+electronic device
+liner service
+fuel tank
+fire boat
+trade embargo
+offshore anchorage
+surfaced roadway
+internal attribute
+diesel engine
+transportation company
+offshore supply ship
+passenger railway car
